@@ -1,0 +1,226 @@
+[
+    {
+        "movie_name_alt": "Sky Force",
+        "movie_name": "Sky Force",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS8xMCAgMjIuMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00371539-sgpsxzcesz-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/sky-force/ET00371539"
+    },
+    {
+        "movie_name_alt": "Fussclass Dabhade",
+        "movie_name": "Fussclass Dabhade",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICAxLjNLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00412618-vpxnbzrbxt-portrait.jpg",
+        "age_rating": "UA16+",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/fussclass-dabhade/ET00412618"
+    },
+    {
+        "movie_name_alt": "Ramayana: The Legend of Prince Rama",
+        "movie_name": "Ramayana: The Legend of Prince Rama",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICAxLjlLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00413205-xaxuvqlljt-portrait.jpg",
+        "age_rating": "U",
+        "language": "Hindi, English, Tamil, Telugu",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/ramayana-the-legend-of-prince-rama/ET00413205"
+    },
+    {
+        "movie_name_alt": "Emergency",
+        "movie_name": "Emergency",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4xLzEwICAxMi42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00334219-xjddtyvfbk-portrait.jpg",
+        "age_rating": "UA",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/emergency/ET00334219"
+    },
+    {
+        "movie_name_alt": "Mufasa: The Lion King",
+        "movie_name": "Mufasa: The Lion King",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICA3NS45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00396541-hhkrpankjb-portrait.jpg",
+        "age_rating": "U",
+        "language": "English, Hindi, Tamil, Telugu",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/mufasa-the-lion-king/ET00396541"
+    },
+    {
+        "movie_name_alt": "Pushpa 2: The Rule",
+        "movie_name": "Pushpa 2: The Rule",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICA0NTguOEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00356724-dynwtezcja-portrait.jpg",
+        "age_rating": "UA16+",
+        "language": "Telugu, Hindi, Tamil, Malayalam, Kannada, Bengali",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/pushpa-2-the-rule/ET00356724"
+    },
+    {
+        "movie_name_alt": "Marco",
+        "movie_name": "Marco",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAxMDYuNEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00416394-yanscdkmwe-portrait.jpg",
+        "age_rating": "A",
+        "language": "Malayalam, Tamil, Kannada, Telugu, Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/marco/ET00416394"
+    },
+    {
+        "movie_name_alt": "Sangeet Manapmaan",
+        "movie_name": "Sangeet Manapmaan",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICAyLjNLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00419490-kfjpjksexp-portrait.jpg",
+        "age_rating": "UA",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/sangeet-manapmaan/ET00419490"
+    },
+    {
+        "movie_name_alt": "Nosferatu",
+        "movie_name": "Nosferatu",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny40LzEwICA0LjRLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00421894-hhgygwamna-portrait.jpg",
+        "age_rating": "A",
+        "language": "English",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/nosferatu/ET00421894"
+    },
+    {
+        "movie_name_alt": "Sankranthiki Vasthunam",
+        "movie_name": "Sankranthiki Vasthunam",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS8xMCAgNzYuOUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00418119-urxwxzudkv-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Telugu",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/sankranthiki-vasthunam/ET00418119"
+    },
+    {
+        "movie_name_alt": "Fateh",
+        "movie_name": "Fateh",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4xLzEwICAxMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00391731-jngatzefjy-portrait.jpg",
+        "age_rating": "A",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/fateh/ET00391731"
+    },
+    {
+        "movie_name_alt": "Daaku Maharaaj (Hindi)",
+        "movie_name": "Daaku Maharaaj (Hindi)",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICA5NCBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00430011-hkuzdjfumq-portrait.jpg",
+        "age_rating": "UA16+",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/daaku-maharaaj-hindi/ET00430011"
+    },
+    {
+        "movie_name_alt": "Dominic and the Ladies Purse",
+        "movie_name": "Dominic and the Ladies Purse",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICA4LjJLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00429560-vpmsywumhj-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Malayalam",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/dominic-and-the-ladies-purse/ET00429560"
+    },
+    {
+        "movie_name_alt": "Sonic the Hedgehog 3",
+        "movie_name": "Sonic the Hedgehog 3",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC45LzEwICAzLjFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00399670-anuprbkagm-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "English",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/sonic-the-hedgehog-3/ET00399670"
+    },
+    {
+        "movie_name_alt": "Mission Ayodhya",
+        "movie_name": "Mission Ayodhya",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Mi41LzEwICAxMTggVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00428345-jdjwycppzm-portrait.jpg",
+        "age_rating": "A",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/mission-ayodhya/ET00428345"
+    },
+    {
+        "movie_name_alt": "Flight Risk",
+        "movie_name": "Flight Risk",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni43LzEwICAxMDAgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00410880-yaxkwujhrn-portrait.jpg",
+        "age_rating": "A",
+        "language": "English",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/flight-risk/ET00410880"
+    },
+    {
+        "movie_name_alt": "Azaad",
+        "movie_name": "Azaad",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni45LzEwICAzLjRLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00418422-ljtpwzpjxq-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/azaad/ET00418422"
+    },
+    {
+        "movie_name_alt": "Jilabi",
+        "movie_name": "Jilabi",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny40LzEwICAzNjkgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00420885-sxxrbxcxtn-portrait.jpg",
+        "age_rating": "UA",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/jilabi/ET00420885"
+    },
+    {
+        "movie_name_alt": "Moana 2",
+        "movie_name": "Moana 2",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICAyMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00387901-pewnajqmxd-portrait.jpg",
+        "age_rating": "U",
+        "language": "English, Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/moana-2/ET00387901"
+    },
+    {
+        "movie_name_alt": "Umbarro",
+        "movie_name": "Umbarro",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4xLzEwICA3NDQgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00420660-klqhuapgqz-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Gujarati",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/umbarro/ET00420660"
+    },
+    {
+        "movie_name_alt": "Interstellar ",
+        "movie_name": "Interstellar ",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS41LzEwICAxMUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00019066-ndsyelfgrt-portrait.jpg",
+        "age_rating": "13+",
+        "language": "English",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/interstellar/ET00019066"
+    },
+    {
+        "movie_name_alt": "Game Changer",
+        "movie_name": "Game Changer",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny40LzEwICA4OS44SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00311772-dyqxbymvgu-portrait.jpg",
+        "age_rating": "UA13+",
+        "language": "Telugu, Tamil, Hindi, Kannada, Malayalam",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/game-changer/ET00311772"
+    },
+    {
+        "movie_name_alt": "Satya (Hindi)",
+        "movie_name": "Satya (Hindi)",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS42LzEwICA4MDEgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00003709-mkasjkagzk-portrait.jpg",
+        "age_rating": "A",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/satya-hindi/ET00003709"
+    },
+    {
+        "movie_name_alt": "Yeh Jawaani Hai Deewani",
+        "movie_name": "Yeh Jawaani Hai Deewani",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICAzMC4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00012104-dlbbxmwbtr-portrait.jpg",
+        "age_rating": "UA",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/yeh-jawaani-hai-deewani/ET00012104"
+    },
+    {
+        "movie_name_alt": "Dharmarakshak Mahaveer Chhatrapati Sambhaji Maharaj",
+        "movie_name": "Dharmarakshak Mahaveer Chhatrapati Sambhaji Maharaj",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4yLzEwICAxMC4ySyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00417142-wacpkhjazv-portrait.jpg",
+        "age_rating": "UA",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/dharmarakshak-mahaveer-chhatrapati-sambhaji-maharaj/ET00417142"
+    },
+    {
+        "movie_name_alt": "Kaho Naa Pyaar Hai",
+        "movie_name": "Kaho Naa Pyaar Hai",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS42LzEwICAyLjZLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00000720-cpnzkahlwc-portrait.jpg",
+        "age_rating": "U",
+        "language": "Hindi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/kaho-naa-pyaar-hai/ET00000720"
+    },
+    {
+        "movie_name_alt": "Hashtag Tadev Lagnam",
+        "movie_name": "Hashtag Tadev Lagnam",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICAxLjFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00405637-tlcjgztutq-portrait.jpg",
+        "age_rating": "U",
+        "language": "Marathi",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/hashtag-tadev-lagnam/ET00405637"
+    },
+    {
+        "movie_name_alt": "Daaku Maharaaj",
+        "movie_name": "Daaku Maharaaj",
+        "photo_url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC44LzEwICA2My4xSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00419964-lkjnsvyufh-portrait.jpg",
+        "age_rating": "UA16+",
+        "language": "Telugu",
+        "movie_url": "https://in.bookmyshow.com/pune/movies/daaku-maharaaj/ET00419964"
+    }
+]
