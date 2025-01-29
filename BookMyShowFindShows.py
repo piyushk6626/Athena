@@ -21,4 +21,7 @@ driver.maximize_window()
 url = "https://in.bookmyshow.com/buytickets/ramayana-the-legend-of-prince-rama-ice-pune/movie-pune-ET00430357-MT/20250128"
 driver.get(url)
 
+#//li[@class="list"]
+
+
 time.sleep(20)

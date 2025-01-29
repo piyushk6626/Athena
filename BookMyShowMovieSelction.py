@@ -74,8 +74,9 @@ def get_movie_details(movie_element):
         print(f"Error extracting movie details: {str(e)}")
         return None
 
-def scrape_movies(url):
+def scrape_movies(city):
     """Main function to scrape all movie cards from the page"""
+    url="https://in.bookmyshow.com/explore/movies-"+city
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
     
@@ -118,8 +119,8 @@ def scrape_movies(url):
 # Example usage
 if __name__ == "__main__":
     # Replace with your target URL
-    target_url = "https://in.bookmyshow.com/explore/movies-pune"
-    movies = scrape_movies(target_url)
+    city = "pune"
+    movies = scrape_movies(city)
     
     # Save results to a JSON file
     with open('movies_data.json', 'w', encoding='utf-8') as f:
