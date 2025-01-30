@@ -1,0 +1,1292 @@
+[
+    {
+        "theater": "INOX Megaplex Phoenix Mall of the Millennium, Wakad, Pune",
+        "shows": [
+            {
+                "time": "08:30 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "11:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "01:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "04:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "05:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "08:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "11:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Cinepolis Seasons Mall, Hadapsar, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 AM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "12:20 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "01:20 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "02:00 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "03:40 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "04:40 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "07:00 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "08:00 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "08:20 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:20 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:40 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:15 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:25 PM",
+                "special": "QSC 7.1",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "PVR Phoenix Market City, Nagar Road, Pune",
+        "shows": [
+            {
+                "time": "08:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 AM",
+                "special": "HSBC GOLD",
+                "format": "2D"
+            },
+            {
+                "time": "10:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:30 PM",
+                "special": "HSBC GOLD",
+                "format": "2D"
+            },
+            {
+                "time": "03:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "05:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "06:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "08:00 PM",
+                "special": "HSBC GOLD",
+                "format": "2D"
+            },
+            {
+                "time": "08:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:15 PM",
+                "special": "HSBC GOLD",
+                "format": "2D"
+            },
+            {
+                "time": "11:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Cinepolis Nexus Westend, Aundh, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 AM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:20 AM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "12:25 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "12:50 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "12:55 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "03:50 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "04:15 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "04:20 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "07:40 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "09:40 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:10 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:40 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "11:10 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 AM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 AM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "12:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "01:30 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "02:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "03:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "08:30 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:30 PM",
+                "special": "DOLBY 7.1",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "PVR Directors Cut KOPA, KOPA Mall, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 AM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "11:30 AM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "12:45 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "02:15 PM",
+                "special": "ICE",
+                "format": "ICE 2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "04:00 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "05:30 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "ICE",
+                "format": "ICE 2D"
+            },
+            {
+                "time": "08:45 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "ICE",
+                "format": "ICE 2D"
+            },
+            {
+                "time": "11:55 PM",
+                "special": "DIRECTOR'S CUT",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "PVR ICON Pavillion Mall, Shivajinagar, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "08:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:55 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "INOX Royal Heritage Mall, NIBM Ext., Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "02:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "05:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "INOX Bund Garden, Bund Garden Road, Pune",
+        "shows": [
+            {
+                "time": "09:15 AM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "11:30 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "12:30 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "01:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "02:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:45 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "04:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "07:00 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "08:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 PM",
+                "special": "INSIGNIA",
+                "format": "2D"
+            },
+            {
+                "time": "11:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "11:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+        "shows": [
+            {
+                "time": "08:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 AM",
+                "special": "PXL",
+                "format": "2D"
+            },
+            {
+                "time": "10:45 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:00 PM",
+                "special": "PXL",
+                "format": "2D"
+            },
+            {
+                "time": "02:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:15 PM",
+                "special": "PXL",
+                "format": "2D"
+            },
+            {
+                "time": "05:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "06:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:30 PM",
+                "special": "PXL",
+                "format": "2D"
+            },
+            {
+                "time": "08:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:45 PM",
+                "special": "PXL",
+                "format": "2D"
+            },
+            {
+                "time": "11:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+        "shows": [
+            {
+                "time": "09:15 AM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 AM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "02:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "04:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "09:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 PM",
+                "special": "ATMOS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 AM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "05:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "08:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Miraj Cinemas Spine City Mall, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "INOX Elpro City Square, Chinchwad, Pune",
+        "shows": [
+            {
+                "time": "09:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "12:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "04:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "05:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "07:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "08:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "MovieMax Gold, Mariplex Mall, Kalyani Nagar, Pune",
+        "shows": [
+            {
+                "time": "10:15 AM",
+                "special": "RENOVATED",
+                "format": "2D"
+            },
+            {
+                "time": "01:15 PM",
+                "special": "RENOVATED",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "RENOVATED",
+                "format": "2D"
+            },
+            {
+                "time": "10:15 PM",
+                "special": "RENOVATED",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "RENOVATED",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "INOX Jai Ganesh Vision Mall, Akurdi, Pune",
+        "shows": [
+            {
+                "time": "09:30 AM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "12:45 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "04:00 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "07:15 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "10:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Cinepolis VIP Seasons Mall, Hadapsar, Pune",
+        "shows": [
+            {
+                "time": "09:20 AM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "10:45 AM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "12:45 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "04:10 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "07:35 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            },
+            {
+                "time": "11:00 PM",
+                "special": "QSC 5.1",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Ashok Theatre, Pimpri, Pune",
+        "shows": [
+            {
+                "time": "12:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Vilux Talkies, Khadki Bazar, Pune",
+        "shows": [
+            {
+                "time": "12:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Gunjan Cinema Nhavare, Gunjan Complex, Pune",
+        "shows": [
+            {
+                "time": "12:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            },
+            {
+                "time": "09:00 PM",
+                "special": "RECLINERS",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Shevanta Cinema, Near Old Bus Stop, Junnar",
+        "shows": [
+            {
+                "time": "12:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    },
+    {
+        "theater": "Funsquare Cinema, Ghotawade Phata, Pirangut",
+        "shows": [
+            {
+                "time": "03:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "06:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            },
+            {
+                "time": "09:30 PM",
+                "special": "N/A",
+                "format": "2D"
+            }
+        ]
+    }
+]
