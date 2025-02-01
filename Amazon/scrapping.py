@@ -41,22 +41,10 @@ def get_product_details(container):
             product_data['key_features'] = bullet_points
             
         return product_data
-    except:
-        try:
-            product_data = {
-            'title': container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text ,
-            'price': container.find_element(By.CSS_SELECTOR, 'span.a-color-base').text,
-            'rating': container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML'),
-            'review_count': container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text,
-            'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
-            'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
-            'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
-            'additional_offers': container.find_element(By.CSS_SELECTOR, 'div.a-section.a-spacing-none.a-spacing-top-mini').text,
-            'all_text': container.text  # Get all text content in the container
-            }   
-        except NoSuchElementException as e:
-            print(f"Missing element: {str(e)}")
-            return None
+    
+    except NoSuchElementException as e:
+        print(f"Missing element: {str(e)}")
+        return None
 
 def scrape_products(product):
     url = "https://www.amazon.com/s?k="+product
