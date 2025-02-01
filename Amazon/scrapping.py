@@ -1,0 +1,103 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+import json
+import time
+
+def scroll_page(driver):
+    last_height = driver.execute_script("return document.body.scrollHeight")
+    current_position = 0
+    
+    while True:
+        current_position += 1000
+        driver.execute_script(f"window.scrollTo(0, {current_position});")
+        time.sleep(2) 
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if current_position >= new_height:
+            break
+        last_height = new_height
+
+def get_product_details(container):
+    try:
+        product_data = {
+            'title': container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium').text if container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium') else container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text ,
+            'price': container.find_element(By.CSS_SELECTOR, 'span.a-color-base').text,
+            'rating': container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML'),
+            'review_count': container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text,
+            'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
+            'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
+            'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
+            'additional_offers': container.find_element(By.CSS_SELECTOR, 'div.a-section.a-spacing-none.a-spacing-top-mini').text,
+            'all_text': container.text  # Get all text content in the container
+        }
+        
+        # Extract bullet points if available
+        bullet_points = []
+        for bullet in container.find_elements(By.CSS_SELECTOR, 'ul.a-unordered-list li'):
+            bullet_points.append(bullet.text)
+        if bullet_points:
+            product_data['key_features'] = bullet_points
+            
+        return product_data
+    except:
+        try:
+            product_data = {
+            'title': container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text ,
+            'price': container.find_element(By.CSS_SELECTOR, 'span.a-color-base').text,
+            'rating': container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML'),
+            'review_count': container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text,
+            'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
+            'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
+            'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
+            'additional_offers': container.find_element(By.CSS_SELECTOR, 'div.a-section.a-spacing-none.a-spacing-top-mini').text,
+            'all_text': container.text  # Get all text content in the container
+            }   
+        except NoSuchElementException as e:
+            print(f"Missing element: {str(e)}")
+            return None
+
+def scrape_products(product):
+    url = "https://www.amazon.com/s?k="+product
+    options = webdriver.ChromeOptions()
+    options.add_argument("--window-size=1920,1080")
+    
+    driver = webdriver.Chrome(options=options)
+    products_data = []
+    
+    try:
+        driver.get(url)
+        scroll_page(driver)
+        
+        wait = WebDriverWait(driver, 20)
+        containers = wait.until(EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, 'div.puis-card-container.s-card-container')
+        ))
+        
+        print(f"Found {len(containers)} product containers")
+        
+        for container in containers:
+            product_data = get_product_details(container)
+            if product_data:
+                products_data.append(product_data)
+            
+        
+        return products_data
+    
+    except TimeoutException:
+        print("Timeout while waiting for elements to load")
+        return []
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+        return []
+    finally:
+        driver.quit()
+
+if __name__ == "__main__":
+    product = "laptop"
+    products = scrape_products(product)
+    
+    with open('products_data.json', 'w', encoding='utf-8') as f:
+        json.dump(products, f, ensure_ascii=False, indent=4)
+    print(f"Scraped {len(products)} products successfully!")
