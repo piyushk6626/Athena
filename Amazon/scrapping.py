@@ -47,7 +47,7 @@ def get_product_details(container):
         return None
 
 def scrape_products(product):
-    url = "https://www.amazon.com/s?k="+product
+    url = "https://www.amazon.in/s?k="+product
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
     
