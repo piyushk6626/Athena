@@ -140,19 +140,23 @@ def select_language(driver, language):
 
 
 def Extract_movie_shows(url,city,laguage):
-    try:
-        options = webdriver.ChromeOptions()
-        options.add_argument("--start-maximized")  # Optional: start maximized
-        driver = webdriver.Chrome(options=options)
-        # Call the function
-        input_city_and_select_first(driver=driver, city_name=city, url=url)        
-        select_language(driver=driver, language=laguage)
-        scroll_page(driver=driver)
-        data=extract_movie_shows(driver=driver)
-        return data
-    finally:
-        # Ensure the browser is closed after completion
-        driver.quit()    
+    """
+    Extracts movie show details from the Paytm page after selecting the specified city and language.
+
+    :param url: URL of the webpage containing the city selector (string)
+    :param city: Name of the city to select (string)
+    :param language: Language code to select (string)
+    :return: List of dictionaries containing movie show details (list of dict)
+    """
+    options = webdriver.ChromeOptions()
+    options.add_argument("--start-maximized")  # Optional: start maximized
+    driver = webdriver.Chrome(options=options)
+    # Call the function
+    input_city_and_select_first(driver=driver, city_name=city, url=url)        
+    select_language(driver=driver, language=laguage)
+    scroll_page(driver=driver)
+    data=extract_movie_shows(driver=driver)
+    return data
 
 
 if __name__ == "__main__":

@@ -24,8 +24,8 @@ def scroll_page(driver):
         
         last_height = new_height
 
-def scrape_movies():
-    url = "https://paytm.com/movies/pune"
+def scrape_movies(city):
+    url = f"https://paytm.com/movies/{city}"
     driver = webdriver.Chrome()
     driver.get(url)
     time.sleep(5)  # Wait for the page to load

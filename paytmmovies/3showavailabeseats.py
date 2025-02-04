@@ -5,6 +5,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
 
 class SeatScraper:
     def __init__(self, url):
@@ -109,13 +116,6 @@ class SeatScraper:
         finally:
             self.driver.quit()
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
 
 def scroll_page(driver):
     """Scrolls down the page to load dynamic content."""
@@ -291,8 +291,10 @@ def Extract_seat_Details(url,city,laguage,theater_name,show_time):
 
 # Example usage
 if __name__ == "__main__":
-    url ="https://paytm.com/movies/seat-layout/pune/agja3bfpb?encsessionid=1019929-75540-ob22dg-1019929&freeseating=false&fromsessions=true    "  # Replace with actual URL"  # Replace with actual URL
-    
+    url ="https://paytm.com/movies/seat-layout/pune/zrwlluqk8?encsessionid=127-124018-o9wf5j-127&freeseating=&fromsessions="  # Replace with actual URL"  # Replace with actual URL
+    scraper = SeatScraper(url)
+    seat_data = scraper.scrape_seats()
+    print(seat_data)
     # # Print results
     # for section, section_data in seat_data.items():
     #     print(f"\n{section}:")
