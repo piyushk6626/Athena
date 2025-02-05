@@ -1,0 +1,53 @@
+{
+    "id": "20250206003037_333",
+    "name": "Radha Shack",
+    "star": "4.1",
+    "number": "190",
+    "score": "779.0",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Radha+Shack/@15.5139876,73.7639474,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc190e083eb77:0xdfbe33e5c01dbba8!8m2!3d15.5139876!4d73.7639474!16s%2Fg%2F11gfbp8flx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMBFpfyR9gIxeFjnIhgVZ5KtRnwbW4NRbicwHDx=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "9"
+        },
+        {
+            "tag": "service",
+            "count": "8"
+        },
+        {
+            "tag": "drinks",
+            "count": "6"
+        },
+        {
+            "tag": "curry",
+            "count": "2"
+        },
+        {
+            "tag": "atmosphere",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Had good experience and the owners of this shack Lakshman and Chandru are really friendly..\n\nCheers bros.🫡",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlTtkdPOy3svvutaYGVPsSKzuDk4uVKIEUBIR_hSqTYm43EHZEXB_LhYjORaxg1OMBp2RXgYbSSReWKpG5LHPq8o7_gre1eKR8aEVsx2OT1byicjcygT18R98-Q1HKIq-iYtRRGEg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmMCEW9LMXbHbVYuWPlYChO3x0oWUWRhmIntxPJiK6-_asMPTKq4fs6OeF-bxYRqjeEV1JJe9Nv0Il-FogRzsAyxg2fpCQjBa4iWBT1p1J8ZUz_A8OE4jEpNfFWGQzr3_WzcmiV=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk795G0i48xcdoXVhTUq2uNONk7MG2Irs3HbQQMDTx3HOjamrI9UOx7OJ6zNvP2Ccr-LMg8muuYpeqkzGJeqXq7tJuOnXK5wJKpyujGEyQg21Zd-9hGHRDxVQUbMC4OJr-R-QQZ8A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdldunX40CsXeBIfM1gbr13NdzbspEXGpxfcCn-MO_HOli__zFhzQKFOvJ108DfnsK76LmUXX0qkSN0lMGVkV0uboHdzsj3aehBBZZf_3zbyc3TeBp1djQqwcQ5qwRZKNcTglRs0=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Atmosphere is great.\nFood was okay. Had great prawn noodles but the fish fingers were disappointing. No dip either.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmresr-neoKjM-tzCUhP2c2ReTUHXEursrmcDJNXkgkktoBQnqHh8GM4jlCcZK_vw2zgjkNU0X5ao0_sBN8x8c0MXrdZV787zYMQ9nOvlmPGUpEk0X2dBn-X3aM8MxH1K51EBo=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Food was terrible - ordered the Thai curry for 470 rupees, and got a sloppy Indian paneer curry with frozen veg and lots of bark - Very disappointing and inedible.  Beers were cold though, and sitting right by the sea listening to the waves was especially nice.  Just don’t eat there! Won’t be going back in hurry.",
+            "photos": []
+        }
+    ]
+}

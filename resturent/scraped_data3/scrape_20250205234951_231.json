@@ -1,0 +1,58 @@
+{
+    "id": "20250205234951_231",
+    "name": "Krishna Veg Restaurant",
+    "star": "3.8",
+    "number": "443",
+    "score": "1683.4",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Krishna+Veg+Restaurant/data=!4m7!3m6!1s0x3bbfe98655555555:0x201dea062f78c1db!8m2!3d15.5845852!4d73.7383039!16s%2Fg%2F12hsn9_ft!19sChIJVVVVVYbpvzsR28F4LwbqHSA?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPDXVURS4hlBr_VUvsFPflMHrhjX7U4BwhdhZ65=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "15"
+        },
+        {
+            "tag": "beach",
+            "count": "6"
+        },
+        {
+            "tag": "dhaba",
+            "count": "3"
+        },
+        {
+            "tag": "value",
+            "count": "3"
+        },
+        {
+            "tag": "dosas",
+            "count": "2"
+        },
+        {
+            "tag": "south indian food",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Good Place to hangout with friends,near by beach, close to road.Food served is tasty. Sitting arrangements are only in one general room (Dhaba Style), and no air-conditioned.\n\nIndian Delacies specially North Indian, South Indian are available in varities.\n\nRestaurant Staff if very cooperative and service is quick.\n\nDo visit and try Veg dining as it is 100% Veg Restaurant.\n\nKeep Goa Green and Clean.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnrY9nm4qM-Ex8o8v7CFk3VXpIWFoc7karx4blgoTetXLGMABJZBq5sUlDT1prH0C-0tx0EoilhqP4oHte9ZuachRqIPF9Vs-5fxQRBk_VjCfcn-Liqh_4BWk47wnKYVWWTM4xp9Q=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkbng3qiPjI57OHbcJ8Q81qYJQxOmMuVN-HlU3skbHYYEX_RTHf33Sk6VkrvfVvV9ikaa-_bQ91VaBTjwzaZ4mVqKSRBA-9NiNGes5A9eUjo3QMXem7sskYXsfCugEd9Olb2j21aA=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great veg curry! We went here a few times and loved it.\nReally friendly staff too, accommodating for vegans 🌱",
+            "photos": []
+        },
+        {
+            "review_text": "Really liked the restaurant. The food is freshly prepared and very tasty. Staff super friendly and attentive. One of better places to eat near Anjuna beach.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlwcQvC5Ek4Ze3S-6TnLdGBIir-TRi4NJB7ogjM3aYn8H9umaLTSwiQsO7f08zOyvh8lS_0DMDVHKPjKJEGSkdJjpMVWV8-y9qI7IR5nQuLrKv8gdpYT-gWOgaFgk-oRm7bzAb3-g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdln5FMJbtx4EbgDR_h74zgbS9QMybpRfLG-Ys9JKdSEoHgZh4uFPh2Ijg_iO2fntkhRV6WsP3Exlaw9SrNaJKRi8O_r5cLf2EiAqe4H-pVKj6KrNwuZjBTDuv6taeETornVxnnW=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBu07VdwKrW-SH02tiWmVjBY53VIoD1fG4qLlvdSTebkuxeo_FncAcadsrFR-MO1IilTBlHrG5-xd2rk8PfdJ121e_udnq4tvK5BBClwcC8709_PcvaNNUdjviPRKvGaEma6lebg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkWVSqhJ1Hy0gY_WrM38JxdFjCyRFYlO6QNmQtkC0nDW3_eHenPxKt-tbjirQz5cID33jj9wZmwYGzymv10PIIUqBws_Bu_2fRPKfTTmwAMKkagz-20tTbmDn4kiTnlw6Tj0qVO=w375-h281-p"
+            ]
+        }
+    ]
+}

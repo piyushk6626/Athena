@@ -1,0 +1,47 @@
+{
+    "id": "20250206003231_339",
+    "name": "Sahil Bar & Restaurant",
+    "star": "4.4",
+    "number": "172",
+    "score": "756.8",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Sahil+Bar+%26+Restaurant/@15.573649,73.7447749,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe9897576787d:0x85d0e47f3fc4b3d!8m2!3d15.573649!4d73.7447749!16s%2Fg%2F11b6ggnh09?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMLoNJdr9mBqjGlxIk9aFvd2mZciALjM7vP90np=w408-h407-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "14"
+        },
+        {
+            "tag": "fish",
+            "count": "8"
+        },
+        {
+            "tag": "thali",
+            "count": "8"
+        },
+        {
+            "tag": "service",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Excellent food and service and place. Must recommended. Quantity is the bigger issue in Goa for any food item. But this place serves in great quantity with good quality. Chicken 65, Chonak Thali and Prawns thali are must try.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlM1KxF92A74_RzxT98xh7fR96wDidEGB6pKCpXKP84Lh6BldaXh629SSfOZq58PZdBWQYSj54O76Lkj8sjOxQosduzZ8fJ94fio4R7ctO2qiLkcsDudZgoXQ5WL3CSgDpKMaOB=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "A nice airy space with fresh seafood. Fish thali was good but needed more items. King fish was very fresh and tasty - maybe the price of it can be slightly reduced considering that its very close to the beach. Fried Chicken/crunchy chicken dish that the waiter suggested was not tasty at all. Otherwise it’s a nice place with a screen for customers to view any live matches.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn7gOH0GKDmAjeGFEBiX-bPNSZfdKLu8Q1jyVD3ov0ll7q1PkcpYwwOMQh6g-lF4T_nPu9XFzGxtsROjDAIALAbNdRyG5MdU-S3kTBB-o5AMKcSgeV420OCjhsnGGxxGeViVHcB=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkkBgGUsOa3nj36S2RqG0P-djgyJQzfQqd43IEk0b4wHGwoGKxHPXJZF1jChqDHlw1I4LzlAzEdyBMn7-bCgcsBZqJNub5hpUmuEQ2ws1fbHisoH7Mzd8S5VQxxMRtxG8uq7VEhrg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great little place! Really good food and they have sports if you are into that . Very friendly staff!",
+            "photos": []
+        }
+    ]
+}

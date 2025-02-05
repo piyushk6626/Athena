@@ -1,0 +1,50 @@
+{
+    "id": "20250205232857_178",
+    "name": "Dana paani Pure Veg Restaurant",
+    "star": "4.3",
+    "number": "629",
+    "score": "2704.7",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Dana+paani+Pure+Veg+Restaurant/@15.5162975,73.7681838,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc161e9a56099:0x6980a9441b0f79fe!8m2!3d15.5162975!4d73.7681838!16s%2Fg%2F11r_vcc8kl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOTas5Atk1ijZqGLwtJfunqbnB4wrg9BugyQSUl=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "veg food",
+            "count": "28"
+        },
+        {
+            "tag": "thali",
+            "count": "23"
+        },
+        {
+            "tag": "experience",
+            "count": "22"
+        },
+        {
+            "tag": "behaviour",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Stayed in Candolim for the last 2 weeks (Nov 2024) & been here every morning for breakfast. Great Indian food, fantastic service, extremely clean couldn't wish for more..... thank you for making our mornings start in such a wonderful way",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnrZ1ELAsqeIbV7LckgKDU0YCgLw-LRM1PoPKPLtUckdoGi_FO2yW9pShyDppPuSHW5AgiSGO2UkYYue_TMpyveKEjLGzzyWdGcPYQJUz6FU4bu64mjUEybFvvg6mpmne0UpqsM=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmd7yyPzEj8t3W7oFTRXYOzIE1ycwFuIeyisj686gds7GV6RGnQXiU--z19mCRLwVrX889aOaT4ujX_1dxKy3gA5bo4l6nO0ABXFetSy0FmzluydNme6ZXCxSuXzrsHN-qF0p0F=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best vegetarian resturant in Candolim, near Delfinos supermarket. Tasty and delicious South indian and North indian food available at reasonable price.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmbNeHLsVqzs5oXQtU4GcmcZsjm03fnnO4-1Bl7zl1BYFBC1_LotWUXE-GTbDUHZ1yGKPPdQslggRtM93ttVWyhFks2TNfyIOG_-w3BTc63JRGz2d-_wbchK0irdmBCdH2cig6XLg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHFk9rNUk8e0Izt4LUfbTlugIJKQApSZjtsjKsw2J0r6OLrDLiPxYcbye_ftM8FwSEd2w0uzUkXsIMAT2I1lVXdBJpQitV-5__RFvwpNzZ9I5KNmIWpfSICgp2eTZKHt5jW4xc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnl8Vl_83eD6GgOoLM0MC5neSwbNwmCxCGCXhga35qgqPo_yYhP2WzkSRdO_Wd25ya4T2hfU8f3T6aFsEB0hHqlpfoVraieksWVtYFcjA-V3aFBqJsFLpGErG-WHvgoqpBpWTFng=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn-fn3ad_m8TkEPopt7Awvi2xJPQOQ-z_MEyknOC5wfsrRuelm1q7BoIQcUxvu9C6AzEY4E5qeLJXGjGfLdWT0i75RX0vLUQxp8p2lNG1AKoH8GY4NpajzTancf25ANZ1jhCSAa=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I loved this place, Taste is amazing. I usually go for breakfast because it's just in-front of my hotel and it's pure veg.\nOne major thing is they allowed pet to tied up in the corner in-front of your sitting. Which helped us alot. Unless our dog will bark alot.\n\nThey also offered Idli to my dog.",
+            "photos": []
+        }
+    ]
+}

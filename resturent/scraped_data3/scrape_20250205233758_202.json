@@ -1,0 +1,54 @@
+{
+    "id": "20250205233758_202",
+    "name": "Casa Moderna",
+    "star": "4.6",
+    "number": "479",
+    "score": "2203.4",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Casa+Moderna/@15.499495,73.827459,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc08e645c34e5:0x6cedc6ab0663dc35!8m2!3d15.499495!4d73.827459!16s%2Fg%2F1tczyzfp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPINWm4w-McbF5XsDp7LlSI4DMBiEHkG0YLVEYZ=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "sea food",
+            "count": "43"
+        },
+        {
+            "tag": "price",
+            "count": "21"
+        },
+        {
+            "tag": "chicken ghee roast",
+            "count": "14"
+        },
+        {
+            "tag": "thali",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Best service but I didn't liked the taste of fish as it was not fresh. I liked chicken dishes specially chicken bhatkal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdny0a6vIy0MPLxlJPiZHWGZZtgHvBQufarz1CSmDZzCdN2TP3UveEJKAVXHA-yQAyddufE0BCHxc3LVzP1cUuwVnCp7iEnxkUivWHrs9uULerGiWrU_TBtuDWcn8f-5GHCxsw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlMErVag6zR7Spyhkb_4FdjiPjhPrERyVa71fPemyQLcDM_ik1koHhIB_tx_XlcMC7YZmC-0LUMeowcC-e2XdWsSokzpbYRsZcmKSVJ_5Zk6gbHMNpiRWMTFzTa81CKrXT7lB8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmb8cvD3msDgXr92UZZA_7Jhk4c1pnYLhIwkD-eo2Osh1IFKqGwY75BP9Km-KO45Yte3w14nWDdgcg0oZ74xMuDzlcugAMXNBDniX7G-DwVA6xJ1T3minnQ-oZRYGeKKwV58sYTOw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkZUy7Y6jimShjsEntnVqXeMD1xNWDZquTn4tdu0PJ6lAeZNNzpJSNnDnKWv7z2kDjqdbmVDwqvQtYgJuCk4AemN0_6wTH1KnVCPdEk8XFQ6STxC0xYGIo0Xff_tvIQ8Hwm9M9s=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Good Food and Good Service! Reasonably priced and service is nice with staff being polite and friendly.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlugAebihPBIayRXBfuzfqOV0QhXVdioEc-oEaDm2w3AGNb07O7x35zqIVh2h4pmMloREVxylNlWhrtBFmC1H-EWsPPZXjsDujQa9hPEXt_RBzDU3bDwg5i-s9xzRdAbdK1hFvZ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdndPr6FvOZdFjPLLMwvc2uGN6vaFTcdsBgWUoAjj3cGHLSiNYIkJefm_DOl7vvG9njveaBKdpKQ518gjdBKwqavpNRs0atjBAFLl9tmLZYUYUAXiQx-Q0cHEr-yrCYcqEiCufYK=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmh-SiABQKsmdzq1A55RE73LIqvy-4CgGaaUDeUlt33NHGp8B5kg1jZjIw9tcTmmCnIrVvEKzghe2EhNEKsHXSqXZyfXH47W0RmTSsfSKp7X8E313YVq2UY129500Hl688rC1aQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlTDCd0nTtEbuuUVa_fzRaQT0IFzVItYW2Qij1LwOrY1vP_R4XoUVGnC2CgV3k7bZQ5vv3TECL4O1F4-FMp_yO-FbSeEtgYRomtsHabTnn7pmiJU5rXIzU91V6HLjsNpAZHr0AU=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "King Fish thali doesn't have mussels.\nPrawn curry contain 1 prawn only, as per policy.\nQuantity isn't sufficient.\nI felt it's overpriced at 250.\nOne can get better deal in 180.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkRHKDgX20rNHYAuT8TJjo8wPwA11UwM-QfxSZze0dZQ1bP123pjDOqE3EjYdeFU69WOVvT-HpcGxwksUlc-yrxyz9WTJhC_h4tLxm3wbWl6PDB6wtsLqXLOTai88gddUwg6fJQ=w750-h563-p"
+            ]
+        }
+    ]
+}

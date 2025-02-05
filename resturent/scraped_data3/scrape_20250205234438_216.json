@@ -1,0 +1,50 @@
+{
+    "id": "20250205234438_216",
+    "name": "Sanofe Goa",
+    "star": "4.5",
+    "number": "438",
+    "score": "1971.0",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Sanofe+Goa/@15.4627796,73.8484141,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbfddb330acb9:0x8a29f419ec2f7d99!8m2!3d15.4627796!4d73.8484141!16s%2Fg%2F11mxdfhrv5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipP_AeC4flU0xoGE3Orz89t9SgNSFu4zrh87BD9K=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "eclairs",
+            "count": "41"
+        },
+        {
+            "tag": "desserts",
+            "count": "18"
+        },
+        {
+            "tag": "cupcakes",
+            "count": "13"
+        },
+        {
+            "tag": "bakery",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Ordered 1 dish - Classic Chicken boneless sizzler.\n\n1. Sizzler didn't sizzle.\n2. Chicken and veggies were not even hot.\n3. The chicken was barely cooked.\n4. The order took almost 25 minutes (we were okay, until realization dawned that the it wasn't worth the wait.\n5. Same person asked us twice, if we had placed the order.\n\nOur fault was that we didn't complain when we got the food (as pointed out by the staff, who did agree that the plate wasn't hot enough), only realized they know what a sizzler is when we saw another order being taken to customers.\n\nUnfortunately the last restaurant meal of 2024 was here.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmR-7K9RtFF866wntdTtfFiM1dtjVXjmfZFUju8bDj9dkhP_gd3-oIa9JS7S4_-faWj7QcPkPYkorQg0fmSb8MWzUlZjQ7LQdyakZ_qB9B0-DF3DF4MYvaUdjkH13Bw5NgVGQepJQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnW1Wc6Rcadr9CJB3Pjgf8LDS3CeZdEkBawysWLAWC9ueC2cMoBGXkU7wnKOJojtdUitgy5ON40-TPxlopJJQ2zzumCmRqD4Fv0aJXXBgYxzSUReuQq6NtaeZyADGI692SYt2IM=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Sanofe is an absolute gem for anyone looking to enjoy great food in a cozy and clean setting. From the moment you walk in, the warm and inviting atmosphere makes you feel right at home, whether you’re hanging out with friends or enjoying some quiet time alone.\n\nThe highlight for me was the prawns biryani, which is truly to die for perfectly spiced, flavorful, and just melts in your mouth. It’s clear that a lot of care goes into preparing their dishes, as every bite felt like perfection. I also couldn’t resist indulging in their desserts, and let me tell you, the red velvet and chocolate muffins are heavenly! Moist and just the right amount of sweetness.\n\nWhat stands out about Sanofe is not just the food but the overall experience. The place is impeccably clean, which adds to the comfort of dining there. The staff is attentive and always ensuring you have everything you need without being intrusive. It’s the kind of spot where you can unwind, take your time, and truly enjoy your day.\n\nWhether you’re a foodie or just looking for a pleasant hangout, Sanofe is a must-visit. Delicious food, a welcoming vibe, and top-notch service,what more could you ask for? Highly recommended!",
+            "photos": []
+        },
+        {
+            "review_text": "Had an incredible experience! The food was top-notch, with each dish bursting with flavor and cooked to perfection. But what really stole the show were the desserts. The eclairs were absolutely divine, and the salted caramel cupcake was to die for—rich, moist, and perfectly balanced in sweetness. Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmwAS7RxFLY-JSKNgXYCdKKBd-24Xp-jNSF5TElhj0b-3V1YPC0EQ7AW1fcum2RNbaGxm2_yG-bQR4eGlUvfiFgOTsNELnie-XepXa_ncqHzG6ZFlFfRDYvISeCilJRRn97X2RI=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn7OAL4u-MgucNpVDjAdEHpWrGs0Tke9m8OhR0475z8Smvszkb7mKh3tcUMpWkr-8Z-s_gvqLkTZW_7Sf_g86Dkuo5cbYM_ccbd_BOBujeiw56S3Cg_NtEAs6EQSoANoFRQ8U3U=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlrOhVx1uPB3zB4znejdP0-J2OSJ7UxopVf4VJUaSnT2qposZxDIm0T9WyltWmCuWh8sE2xjmR5kPz671bFut7NL_BpUoXx6VKlyhNO_aWBUd918aw7riSfvBtP0v9gJMwC2Ow=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnbf63mTHrHR0970fzVliNQ6iUwyEL3qvIElRsxu3kkUDQslY8L385nnsUB7NZ5ON1Lwgp4AD9cj2QVtvhjGXN5IFUYZ6ic5dnYd15R2mbwc_ef45fc3BoDl2DN-T22Ca_9FKxq3g=w375-h281-p"
+            ]
+        }
+    ]
+}

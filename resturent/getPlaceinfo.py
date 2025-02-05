@@ -31,6 +31,9 @@ import csv
 import json
 import re
 import time
+import os
+import hashlib
+import concurrent.futures
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -38,38 +41,49 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# Define a global constant for the output folder.
+OUTPUT_FOLDER = "scraped_data4"
+
 
 def get_driver():
     """
     Create a new instance of the Chrome webdriver.
-    Adjust the path to your chromedriver executable.
+    Adjust options and the path to your chromedriver executable as needed.
     """
     options = webdriver.ChromeOptions()
-    # Uncomment the next line if you want to run headless
+    # Uncomment the next line if you want to run headless.
     options.add_argument("--headless")
+    # You might need to specify the executable path if it's not in your PATH.
     driver = webdriver.Chrome(options=options)
     return driver
 
 
-def scrape_place(row, counter):
+def scrape_place(row, scrape_id):
     """
     Scrapes one Google Maps place page.
-    For each page, it:
-      1. Generates a unique ID (based on the current time and counter).
-      2. Opens a new browser, navigates to the URL, refreshes the page,
+    
+    Parameters:
+      - row: A dictionary representing one CSV row.
+      - scrape_id: A unique identifier (in our case, a hash string) for this place.
+      
+    The function:
+      1. Uses the provided scrape_id.
+      2. Opens a new browser instance, navigates to the URL, refreshes the page,
          and updates the URL from the browser.
       3. Extracts the restaurant image.
       4. Clicks the review button and extracts tags and up to 10 reviews.
          For each review, if a "Read more" button exists it clicks it,
          and then it extracts the review text and any photo URLs.
+         
+    Returns a dictionary of scraped data.
     """
     # Prepare the data dictionary with initial info from CSV.
     data = {
-        "id": None,
+        "id": scrape_id,
         "name": row["Name"],
         "star": row["Star"],
         "number": row["Number"],
-        "score" : row['Score'],
+        "score": row.get("Score", ""),  # Use .get in case Score is missing.
         "area": row["AREA"],
         "url": row["URL"],  # Will be updated after refresh.
         "restaurant_image": None,
@@ -77,11 +91,6 @@ def scrape_place(row, counter):
         "reviews": []
     }
     
-    # Generate a unique ID based on the current time and counter.
-    timestamp = time.strftime("%Y%m%d%H%M%S")
-    scrape_id = f"{timestamp}_{counter}"
-    data["id"] = scrape_id
-
     # Create a new driver instance for this URL.
     driver = get_driver()
     wait = WebDriverWait(driver, 15)
@@ -104,7 +113,6 @@ def scrape_place(row, counter):
     
     # --- SCRAPE THE RESTAURANT IMAGE ---
     try:
-        # Wait for the restaurant image element and extract its "src" attribute.
         img_elem = wait.until(EC.presence_of_element_located(
             (By.XPATH, '//div[@class="RZ66Rb FgCUCc"]/button/img')
         ))
@@ -133,7 +141,7 @@ def scrape_place(row, counter):
                 tag_count = container.find_element(By.XPATH, './/span[@class="bC3Nkc fontBodySmall"]').text
                 if tag_name and tag_count:
                     data["tags"].append({"tag": tag_name, "count": tag_count})
-            except Exception as inner_e:
+            except Exception:
                 continue
     except Exception as e:
         print(f"Tags not found for {row['Name']}: {e}")
@@ -172,7 +180,7 @@ def scrape_place(row, counter):
                 photo_buttons = photo_container.find_elements(By.XPATH, './/button[contains(@class, "Tya61d")]')
                 for button in photo_buttons:
                     style = button.get_attribute("style")
-                    # Use regex to extract URL from background-image; works with or without quotes.
+                    # Use regex to extract URL from background-image.
                     m = re.search(r'url\(["\']?(.*?)["\']?\)', style)
                     if m:
                         photos.append(m.group(1))
@@ -185,58 +193,82 @@ def scrape_place(row, counter):
     except Exception as e:
         print(f"Error extracting reviews for {row['Name']}: {e}")
 
-    # Close the browser for this link.
     driver.quit()
     return data
+
+
+def process_row(row):
+    """
+    Processes one CSV row:
+      - Computes a unique hash from the URL.
+      - Checks if the corresponding JSON file exists.
+        - If it does, load its data and update the row.
+        - Otherwise, scrape the page and save the data.
+      - Returns the updated CSV row (with the scraped "ID").
+    """
+    # Compute a unique hash from the URL.
+    row_hash = hashlib.md5(row["URL"].encode("utf-8")).hexdigest()
+    json_filename = os.path.join(OUTPUT_FOLDER, f"scrape_{row_hash}.json")
+    
+    if os.path.exists(json_filename):
+        print(f"Skipping already scraped: {row['Name']}")
+        try:
+            with open(json_filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            row["ID"] = data["id"]
+        except Exception as e:
+            print(f"Error reading existing JSON for {row['Name']}: {e}")
+        return row
+    else:
+        print(f"Scraping: {row['Name']}")
+        data = scrape_place(row, scrape_id=row_hash)
+        try:
+            with open(json_filename, "w", encoding="utf-8") as jsonfile:
+                json.dump(data, jsonfile, indent=4, ensure_ascii=False)
+        except Exception as e:
+            print(f"Error writing JSON for {row['Name']}: {e}")
+        row["ID"] = data["id"]
+        return row
 
 
 def main():
     """
     Main function:
       - Reads the CSV file.
-      - Processes each row: opens a new browser, scrapes data, generates a unique ID.
+      - Processes each row in parallel:
+          - If a row is already scraped (JSON exists), skip scraping.
+          - Otherwise, scrape the page.
       - Saves each page’s scraped data into its own JSON file.
       - Writes an updated CSV with a new "ID" column.
     """
-    input_csv = "piyushkabir.csv"          # Your input CSV file.
+    input_csv = "svnsdnt.csv"          # Your input CSV file.
     output_csv = "updated_input_piyushkabir.csv"  # CSV file with an added ID column.
-    updated_rows = []
-    counter = 1
 
-    import os  # Add this import at the top of your file
-
-    # Define the output folder where you want to save the JSON files
-    output_folder = "scraped_data3"  # You can change this to your desired folder name
-
-    # Create the output folder if it doesn't exist
-    os.makedirs(output_folder, exist_ok=True)
-
+    # Create the output folder if it doesn't exist.
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+    
+    # Read all CSV rows into a list.
     with open(input_csv, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
-        for row in reader:
-            print(f"Scraping: {row['Name']}")
-            data = scrape_place(row, counter)
-            
-            # Create the full path for the JSON file
-            json_filename = os.path.join(output_folder, f"scrape_{data['id']}.json")
-            
-            # Save the scraped data to an individual JSON file
-            with open(json_filename, "w", encoding="utf-8") as jsonfile:
-                json.dump(data, jsonfile, indent=4, ensure_ascii=False)
-            
-            # Add the generated ID to the CSV row
-            row["ID"] = data["id"]
-            updated_rows.append(row)
-            counter += 1
-            time.sleep(2)  # Pause between scrapes
-    # Write the updated CSV with the new "ID" column.
-    fieldnames = list(updated_rows[0].keys())
-    with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(updated_rows)
+        rows = list(reader)
     
-    print("Scraping complete. Individual JSON files created and updated CSV saved.")
+    # Process rows concurrently.
+    updated_rows = []
+    # Adjust max_workers as needed (e.g., os.cpu_count() or a fixed number).
+    with concurrent.futures.ProcessPoolExecutor(max_workers=8) as executor:
+        # Map process_row across all rows.
+        results = list(executor.map(process_row, rows))
+        updated_rows.extend(results)
+    
+    # Write the updated CSV with the new "ID" column.
+    if updated_rows:
+        fieldnames = list(updated_rows[0].keys())
+        with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(updated_rows)
+    
+    print("Scraping complete. Individual JSON files created (or reused) and updated CSV saved.")
 
 
 if __name__ == "__main__":

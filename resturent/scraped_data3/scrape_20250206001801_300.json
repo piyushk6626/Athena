@@ -1,0 +1,56 @@
+{
+    "id": "20250206001801_300",
+    "name": "Sneha Hotel",
+    "star": "3.7",
+    "number": "262",
+    "score": "969.4",
+    "area": "Valpoi",
+    "url": "https://www.google.com/maps/place/Sneha+Hotel/data=!4m7!3m6!1s0x3bbfa182c6b2c225:0xe146bb08737c85f0!8m2!3d15.5293094!4d74.1345526!16s%2Fg%2F11ckqmy4gs!19sChIJJcKyxoKhvzsR8IV8cwi7RuE?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPtCrXBQKw-NQAgmWROsPCZulo0ywmqiXizSnEk=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "13"
+        },
+        {
+            "tag": "breakfast",
+            "count": "12"
+        },
+        {
+            "tag": "bhaji",
+            "count": "5"
+        },
+        {
+            "tag": "price",
+            "count": "5"
+        },
+        {
+            "tag": "goan",
+            "count": "3"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Typical goan local hotel where you can get Salad, pav, dosa, tea, coffee, Bhaji etc. Service is very good. Very friendly.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmkTG85tkkp8SwmwCzxvdZu0vrGpRRm4b01v3YDXCGbe4oy_bGvgPDBzCcfxJeSFDcFwFw2gm-_-XiAPuP-tY-CM2sMl0mCOa-Y4HilhABPUrKLZ5R9EWDBx7CfNsritbECq4vn8w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk4zk_Y8OC6Q67ysWFJVYyXZOyAqk4GNXzZFtozxH2_wyVkqnjMPP4ZiOjiLN5pjvS5LbfA6tkXp5ru2Id7Iru1leqoQ3-vUz1kmj2v0Q3zRByveuIylgCtTfyS8zqeiDnLHXpy=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl6gBabFvlS37gwdbLS4i0SA47hkb4ZQgG-Ynk1edGO8KMQUPl1Pn6NfSJjHgQgiiZDWWPj8cQ8IbxxuCgzijyvhriztBQGbaKv4MULvD3k9dsCff6g4GfxfIkMjWKCIhCZl5Tg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnuoN0w4VDejCCqvkdkTKmtfKo8840V8SvtayeH-EK89AHlqKmhax_Bpyc3nuTaBy2fLrT8t6MF3FjlSai8JnDoNvjPJ8d_ZbCnYnGyiBuHqUFrPu3p7iq6QXIl8BA9fWZ7zzo=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "My fav place for breakfast while going for treks in Valpoi.  I loved the bhaaji pav, Mirchi Bhaji and Buns here. The food is really tasty and the owner is very friendly",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmsV2cM2kdf8yzXJp1XJ0EBrmaSpt2NvaL5zxThykxz1njj72XoWRYz1rJtIVAr373Y5uN2T3ygxJaeAw1Jka7OIOQRbabid1UpyqqWmkG0ixnXEE1-I60bZYSbKLFpd5jFosaM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm5ic1J-us9nc0npFxJwNyKJtZLrwTIoAqrJgyETED4MQ8BsTSCrn5cKWHjjbLbpr2jeGgosMfwHbBJebUdTSwIB6sMYrlK9UHZ4WEASqaVxkYdbStKg7du9EQcW9BicfDPbr_avg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlQzJB57uz2XwFvEOJyk_RHdIiIWZYw9M3XgJV1F1QBkNdGa6ksyYz9uaV7s6ReOnOM1rfmhLOPrjK8Ss0V66JWZ_rpomBYoSTeY9w5qfspahR4CUUIyGL9C9PT0w53Fg8hsyrV=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkqowC7JgRIIePwhq8lKRE5k3tWNUPa54ZyFHgTBxIf3lUwavCkqVuprwEMXOAZLVZo5onjyFdxervjNMIqJpugOb-XGDZ5nmCjcqU0uojtygeDljIS-5-b28MWnT159o97y1i2uA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Good breakfast options available here. The goan breakfast options are especially delicious.",
+            "photos": []
+        }
+    ]
+}

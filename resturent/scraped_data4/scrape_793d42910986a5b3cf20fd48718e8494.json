@@ -1,0 +1,53 @@
+{
+    "id": "20250205234207_117",
+    "name": "Eater's Den",
+    "star": "4.4",
+    "number": "2242",
+    "score": "9864.8",
+    "area": "Goa Velha",
+    "url": "https://www.google.com/maps/place/Eater's+Den/@15.3966373,73.8115326,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc7a58c9976b5:0x7d705ca6967ca153!8m2!3d15.3966373!4d73.8115326!16s%2Fg%2F11mqxfz4fb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOesDpGno9Ub0ygVX9EM6q4Pv1JWOYrL6jlhzVL=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "35"
+        },
+        {
+            "tag": "railway station",
+            "count": "27"
+        },
+        {
+            "tag": "behaviour",
+            "count": "27"
+        },
+        {
+            "tag": "prawns",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Visited Eaters Den in Vasco during our Vasco Saptah visit. The restaurant was packed with the Saptah crowd, and we had to wait about 15 minutes for a table. Despite the wait, it was worth it. The dishes were incredibly tasty, although the portions were on the smaller side – but the quality made up for it. The restaurant itself is a nice and cozy AC spot, perfect for escaping the heat.\n\nOne downside is the lack of dedicated parking, but you can manage to find a spot near Temptation. The staff was really nice and friendly, and considering the weekend rush, they kept their calm and provided great service. Overall, it was a satisfying experience!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk1NEReL84Qx8N0LZRp-Qn6SPq0kY9LmdnOUxZOnQZf00l0Zi_J3_X47dH91Hu6UVXAJco1eiLrkH5RrVn9XGYJhcWpmh26Q_F5NR2uM5Jgt2UwMGFIX-zaQSPsP9uIoCu4LXvAyw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHguxT-KJdkQCO2YTCSnTwEnUjA4W9cirbNGEj2QBwgiaNoUiwaGqmo6glW906qOE-LErz9u0p6Bi1MEBeb8NHwBOgpAeiOKNfBeVKSWbmszMPLqXmnIOlclxQ5EZ3gzxw7mY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnRoWi8ArK58Gjl488rxU0uYdGC5VF1C8JEr6KdqcdM1l8-G_UztKenzVolmsqAvOUnRWDnPtdwvc2uTBiV8F1mldEn9-RXG1_SAhVN_qyFIK7DJSEgrXEfqMs5ycU4yyXgXOBfeA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkGVsU9CRPQQiu3W75wdhxgExStK7KPV8smBMAZseTXBphzHMA6Ed241NycKgPcf3A3un_-s7te3zlTMI712kOzON2BF5Lpk-cqXX3G4A8bA89umiudtV_4vxG5-LPSlApHjMDz=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Such a great place to dine and hangout. The food and ambience is spectacular and the service is of high standards, we love that they paid attention to detail. Such a vibrant addition to Vasco!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdndqlb4W8KGuJ453KS57qwU7ZikdSZhEPhJRzQASbubUFFCS2CNCY4EXyaNFfMjZT_Qf_YMF5tp5OuzF341OSKGoYNkGLDHvXeTAlFV2a5ypY9Nt4bu_b7EmR7T5RQ2fVsk05QcBg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdntbd-STz4OyjVJRz6oI_wIddgiLJA26odbiM9HYq_49d3UInN_FbCfE4B1EnB50g8lTtN0MtG57jK3KDzkc0pOiTYrQicl5n256m3m59Ur88CpnZ0yZHcHXsfKeJO5h2HKCUs=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkwCwhw9B3yulNogN8eHlR6qKCkWUAdfWI4KESF38cx1r3S2t3miRO7ZSfa_a3sG2u04oOK6dH3BD_BEskYBsDloBAiEqmKUJ6JgAAa-a48t8WIaoqzr5u2Sz-TCm3_MVSus1X_YA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We have been visiting this place since years now, for every small occasion. The food is absolutely the best in Vasco. Every dish never fails to satisfy our taste buds! Love the crumb fried chicken, chicken tandoori and mushroom dishes. The service is also very good. Tried gajar ka halwa recently which was so tasty. Love this place!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlDdfawz73wq1vPs3AN_iuvG4kNJ97dtE9kj1CRZ-yYeWno69PJ7Roq9ccXle3arBYrI2eZhezMTn4XE-zvv4tPMRas-FYJTt_g1QHTC_w1ZLNIXkPKk5IM1niY0St6t7J0lZMPFA=w750-h563-p"
+            ]
+        }
+    ]
+}

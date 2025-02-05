@@ -1,0 +1,53 @@
+{
+    "id": "20250205225626_107",
+    "name": "Spicy Bella Restaurant",
+    "star": "4.3",
+    "number": "1236",
+    "score": "5314.8",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Spicy+Bella+Restaurant/@15.5314497,73.7638951,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe45511859d009:0x858b3d2faa248e46!8m2!3d15.5314497!4d73.7638951!16s%2Fg%2F1tvyk64c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPb4VjmpsZU4Kn5tuaBUzSbxPVCC8EA1F3vtwyB=w427-h240-k-no",
+    "tags": [
+        {
+            "tag": "chef",
+            "count": "91"
+        },
+        {
+            "tag": "hospitality",
+            "count": "41"
+        },
+        {
+            "tag": "goan",
+            "count": "20"
+        },
+        {
+            "tag": "thai",
+            "count": "19"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "wanted to express our heartfelt appreciation for the incredible experience we had at Spicy Bella last week. The dishes were nothing short of perfection—each bite was a testament to the artistry, creativity, and dedication that go into your craft.\n\nMr. Kamal, your warm welcome set the tone for an unforgettable evening. The presentation of each dish, along with the impeccable balance of flavors, truly elevated the dining experience. The restaurant’s atmosphere was both warm and inviting, and the professionalism and kindness of the staff made it even more special.\n\nThank you, for sharing your passion and talent with your guests. We are already looking forward to our next visit to savor more of your culinary masterpieces!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlW2ptGXCz1nmM2KV2yBX4kvnmnmOjRzv5lSBAG9QvGWawIteIFyR9wwKBPPM3fEekJiT0fpSDNkR8chM73OZIp4qRGXSaRPhl3r7bHREFo4SWzBDDUD-hXbZN8m3gVxug9SnLr=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkwvXXWNBdKCjceoHuGdoYjw53stOYKQ1wQeIntkc3mE-4jnZpQkqn29h70oPq55qFJDqOp_aW7Xl_CYtxq7bLuU4XHcA090ythKWlgx4hL9XLG3GOVmjlFoT7fcDyhp7j8Qhqo3A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmu-lsCetjFfaK_N6cxwO-rfUeOuZHHGNpKzFQLbNyhMNjej_dZDS01j90UEpSKqoi93JAb77N5ih8TldYwRUOViB3aW88T5uET0jD56xT9RSyd6RrAoRRqB98kS-flYZH8oKUU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk3f2A_ywjdHlYdxjIKSMs6B719MuTrHaJqtlKvI2QbtBgshE2rt128Z4y_SU0M5ggJPnQ9HslklM6KEeOhLwXenUFB-QBAqhqHo0v9RTBhIY0sa9rs1b_EsmpqugmgfOOskbRa3w=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The food was full of flavor, made with fresh ingredients. The atmosphere is serene and gives off a cozy, homey vibe. While the prices are on the higher side, the quality and freshness of the food make it worth it. Definitely a must-visit.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkicP98ZXJY4iEFid2ib4dLCbmW5-WQnHzTGLPumQOhErsDZFkDYJNYcpH5cEA3Kzw8tU2e8J2uebmnsxGfSlEqsbMcMy7VsxxjqPcsvrUbEBI_4fi7rPLM-vi7xGZMKO_KbY=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlY-XvIDdmKP6-CH4ItDmnIRr8WJ9O5DwicCcBsn7lXmwdEVsoHWZTopwvpSOF23OrvhV3DkYAQrv5dc0RQ8OgF16Oy8_qBTdOCxiVSF5MXsfDNcGdwTm9UiQ-OjgRKbifPrFKa=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmoErXMowcijfmHrxNlyomoBk333r-_yu-DwRLLyPZX7VDJcT-XibeKfg9jqkejJvTKXBwHRNO37tKO2Wl2TCpUb2V2_-OCPdCSWm9wbA7wloQwXlIyQ7mMHQaiCtRnjrOxbSI4=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Perfect diner at Spicy Bella !\nNice staff, outstanding food, all homemade!\nThey are adapting the spiciness for you to enjoy your meal.\nThe perfect spot if you’re staying in the Meridian hotel, 200 m away.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkVneA0vrGndkonEUtHQno0qaNuwA88LHaQue7zZpJ6zL2JTJnRueN9SJqJyM446HRUsCETHG-h8UvM6XKVN2gTQ8e5aXUV5NOnd_UuA7KBnwSijcv2K4wcZlj9foN6Y3780azO=w750-h563-p"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20250205235736_249",
+    "name": "Andre Family Restaurant",
+    "star": "4.6",
+    "number": "308",
+    "score": "1416.8",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/Andre+Family+Restaurant/data=!4m7!3m6!1s0x3bbfb6e97006becd:0xe22dd6f05f630a02!8m2!3d15.3129298!4d73.9091237!16s%2Fg%2F11f3nk__mk!19sChIJzb4GcOm2vzsRAgpjX_DWLeI?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPS66hZNDevexTQ_AWU34Jjb1tinK9sIS3WDDGw=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "uncle",
+            "count": "22"
+        },
+        {
+            "tag": "goan food",
+            "count": "21"
+        },
+        {
+            "tag": "hospitality",
+            "count": "12"
+        },
+        {
+            "tag": "curry",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Had one of the amazing food here. We tried chonak fish in two flavours and it was prepared so well almost licked our fingers🤌.\n\nBusiness is handled by a small family and they are always ready to serve you well. Must visit place when in south Goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4CZq6zgafNvccw1yoj7YFJhNMjIm4Is0876mLMAPEZx-mKpxtvT58bgy7U9efdtFQqkBG6A6IJ_MQMQaGnruDrc8TFN83shkrt7RVg1U1TBKvU9nH0wFx9qJVDY8gi64NOZQX=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnPGDvq9h3PqFxAlg2QGtgnO4abstsrV-O8l75bVzmOHFFx2BM5f1d1yLmLEC8agCamIxPsU3r2C5ODFnwsP21kVAJTolM-cP_mdMG3FFXDqWo-ofhUwF7O8APlEda7aVgWtYm_Zg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Found this really amazing place yesterday. Was walking around looking for breakfast and wanted to try Andre. The food, the ambience, everything about this place is outstanding. Had breakfast and dinner. The beef green curry was really good. The food does take some time but it's well worth it. Francis the gentleman who runs the place is a wonderful person too. The rice when u order is good for two so please ask for half portions if you don't want to waste food.",
+            "photos": []
+        },
+        {
+            "review_text": "Really a wonderful place for breakfast.\n\nGood spread of various types of paratha which is served with curds and pickle. The Paratha is made really great and yummy.\n\nFrench toast was amazing. A must eat.\n\nMasala omelette was just too good. Yummy.\n\nLovely place to spend time with family and friends.\n\nGood collection of mocktails and alcohol.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmB30H7yTgYNZO2v9ktg5XMGUhWf0xIefa0o5ifR96HJfCskkxU5IRP5UIalnBPqhr7GRm9LGH0f9E8E1PgBw0tUQxxb2cfQhkyFdOiYzIzIBq1UQ_y4klJsmSt5OjdwfS6yo19=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkm29MzivuQjfyBKmzNz7KJFXXQyXmPPa6hGFL4OOsFIFRm3v9wuTih3KW9Kncbu8hy87ElZnO6RpNSlabXbD05XEyW04GSYtftuEnTORlqg3u5JejtM2mjJF0Of8RL-8ufVuJWOA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlS682z4j16QiYmAHOU2mrz7OGlG1ON846kREnx46nuYlticij6g7c-9N7r0S5k-8dl6H3sZkHXiuQGY2k9B1xbDTfaen4UuZeTK1H5gtGdeOwmcy-Kt-P9f3xznwBfphckuxYl=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmUqz_yINCAAmn1RVLVABiKmmCehIPvG6jiWLpGHMJibqYZOhA0Vd6uT3Nr6MgQBAXpRCW4tDqV7-Vmd5olnFzLt2b_7m9vII4hsU7ZcFf64xSeS84SVFMKpWPgd-nbPVWWOnNexQ=w375-h281-p"
+            ]
+        }
+    ]
+}

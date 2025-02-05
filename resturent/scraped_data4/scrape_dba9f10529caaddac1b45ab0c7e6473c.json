@@ -1,0 +1,50 @@
+{
+    "id": "20250206000533_181",
+    "name": "Field Top Bar & Restaurant",
+    "star": "3.4",
+    "number": "1672",
+    "score": "5684.8",
+    "area": "Arpora",
+    "url": "https://www.google.com/maps/place/Field+Top+Bar+%26+Restaurant/data=!4m7!3m6!1s0x3bbfea0e5f8ecb5b:0x9e4831789253aac0!8m2!3d15.5538684!4d73.7638898!16s%2Fg%2F11b6glz072!19sChIJW8uOXw7qvzsRwKpTkngxSJ4?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh3.googleusercontent.com/p/AF1QipMwhKyWfVRRh-NIMYe2pjIRjORURHY5nbKoy6Eo=w408-h240-k-no-pi-10-ya86.954544-ro-0-fo100",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "18"
+        },
+        {
+            "tag": "fish curry",
+            "count": "13"
+        },
+        {
+            "tag": "tourist",
+            "count": "11"
+        },
+        {
+            "tag": "fish fry",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Staff was nice but the food and the atmosphere were bad. The dosa was expired and the sambar tasted like leftover fish curry and the hand wash didn’t have light and it was very stinky. The only good thing is that they remained calm and they did not charge us.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnE5nRnXGLyaBL7wTZKFdTxj9HtaV0MU3FLdbAaibt8Uk5wselPF6f9QFbgaKdKEH-Zmn31g5ZddWw9pMKT5pzutTs2o8polZu2o8sYNt0NikmpmsGx6As70lABvzB9857mu20=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmaFJqrHgUaOXA_2PAi2U1M0b_pcHOdrpbq8GlCF8YKVrMzLexU8wDjdYJg4P6PNWejZ9cGXbtBM5pRqVPR7fh3cByLycwFS_NA5Dqvd0mcSALhwmyyUSszRqkIMple1WyxIBek0w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmarL_5tZU8wfLykzU2LkCZRYhowNTkOqECCN3jA_eA12jXxSMfg-a2QA3TsVxM9cvOfP4zbzwTApfuTkyaonZ6Wvr2YHl9B0nvRPA-TQu-vdWtTLbMyWEMFiVW1-uK-33MaA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "My recent visit to this restaurant was a seriously disappointing and frankly,upsetting experience.intending to order from the menu which featured standard items like biryani and fried rice.The serving person told us to try the fish curry. We were, however, immediately presented with three plates of fish curry and white rice, a dish which, notably, was not listed on the menu at all.When the bill arrived, we were shocked to find that the total cost of the fish curry was 3 plates (7500), while the white rice was (1260).When I brought this to the attention of the management, they justified the exorbitant prices by saying that similar restaurants in Goa charge similarly. However, a quick visit to another restaurant the next day revealed that I could get a similar dish - fish curry with rice and fish fry - for a mere 180  This stark contrast in pricing only added to my disappointment and frustration.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmBEWBDFGPBrY970xLjTjmCjscwMtbFFqRPW0P7W6UHcDszbcVxnsAUYLXLedUrgUgHwc-knPnHZDvIoUk0vaBJIP_-Th9d1sMQx3HFIYwym_yMbeY77NNQ2jUJfK7pXh_AWyiy=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "We had a very disappointing experience at Field Top Bar and Restaurant. The attitude of the staff was extremely careless, and the service was appalling. It took around 20 minutes to get our food, which was just vada, chai, and dosa. If they had informed us upfront that it would take time, we would have been fine with it. Instead, they assured us it would be delivered quickly, which is why we placed the order. Even worse, we didn’t get our chai until we stood up to leave out of frustration. When it finally arrived, it was the worst tea we’ve ever had—more like sugar mixed with tea powder.\n\nWe also ordered a ghee roast, and to our shock, the ghee was spoiled, making it taste terrible. The washroom area was filthy, which added to the unpleasant experience.\n\nTo top it all off, the prices were exorbitant. For just 4 vadas, 1 ghee roast, 2 teas, and 2 coffees, the bill was over ₹500. Had the food been good, we wouldn’t have minded the cost, but with such poor quality and service, it felt like a complete waste of money.\n\nDefinitely not a place we’d recommend or return to.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm4CMhcCL6vtsIKJlC1HA-IXY1aPPIVas2R3QI9nZwFkt2nQ7E9OTFArCkkcWZYx3BD7GXL2F-KFO3FfnTtE32tHncbRP55DUME1i_YjCRC_Q2uAD0NDoBMbBKknbPsE8jkSzyz=w750-h563-p"
+            ]
+        }
+    ]
+}

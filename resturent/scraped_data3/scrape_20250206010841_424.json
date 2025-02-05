@@ -1,0 +1,44 @@
+{
+    "id": "20250206010841_424",
+    "name": "Boby Bar & family restaurant",
+    "star": "3.6",
+    "number": "121",
+    "score": "435.6",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Boby+Bar+%26+family+restaurant/@15.5809248,73.7448436,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe98655555557:0xb0397e952213bae0!8m2!3d15.5809248!4d73.7448436!16s%2Fg%2F11f39znmrq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNa4uUeZ_IH21OCoI2b_ubAUgrD-EU9gsESz23i=w408-h407-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "6"
+        },
+        {
+            "tag": "goan",
+            "count": "3"
+        },
+        {
+            "tag": "sea food",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Food is awsm.. u will get real Goan style prawns curry.. but service is littl bit slow... calamari fry is so yummy n must have dish",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlSGu9FC-TEgALox_etblw1AFo7uJoSA9_XSaji41M2MjmwI8KVko_CQW-sea2V8dnSXUW3hV9ip1tSFFvViCZ-9fmyXofs-LxXimGXtGNXCqagrgjnCMCmFEfuO6vvqvp0Rwdt=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Very less quantity.\nOverall good food.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdly9kxYbL0XgH2pxpg2g9cE4pjV5ywC6JvIim1VlTTz52ZXYvLPbsriwkwg7-j14eXg_B5UBehEYo1eT7IcUBQp05Ze7Am3smXZ7umaFtWDoqPgkCuaLT3r7XWRo3GMsDhB5wg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnG1jqS7NM6-1JeGsQTscN1PSgM_14sZ9ofUCsRS4ibnvzwkOeJESdFOlaFZdfrm-eui4ALi0HH5p5w3OmtUyNMFiQYbw2b76uEy22LRpVU8RnQSAWeFlfMVGibGfSp4G7sCQJg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlKaMq81W3pyJW7DfjInBeYh1cLfCvOkiumkP604iS-9Lw32fRudodcaRNW58qqP0U_ScV2WcwvZR0FpTR1eGze11R7JWO2x0roRnn8HyonoupHsnMfIgg0i21-phoQRxMipJ7G2g=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "It's a good restaurant nice fresh sea food is served.. chilled beers and good quality service at reasonable rates",
+            "photos": []
+        }
+    ]
+}

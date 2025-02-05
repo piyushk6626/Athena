@@ -1,0 +1,51 @@
+{
+    "id": "20250205235928_167",
+    "name": "Sai Krupa Family Restaurant & Bar",
+    "star": "4.3",
+    "number": "1444",
+    "score": "6209.2",
+    "area": "Corlim Ind. Estate",
+    "url": "https://www.google.com/maps/place/Sai+Krupa+Family+Restaurant+%26+Bar/@15.5352173,73.8189696,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc01628fc1601:0xea5df102c8bd5f76!8m2!3d15.5352173!4d73.8189696!16s%2Fg%2F11fylstqxg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPyLv1-Q-LOUY-TKdJ4cGeLQAwnv5egWfgOvfYu=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "96"
+        },
+        {
+            "tag": "goan",
+            "count": "73"
+        },
+        {
+            "tag": "goan fish",
+            "count": "13"
+        },
+        {
+            "tag": "fish curry",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Sai Krupa has become our new favorite when in Goa. There fish thali is really well priced and tastes amazing. The food prices and the quality as well as the quantity is worth it. We also had the Mussels rava fry and the squids in butter garlic which was delicious. For desserts, we had the seradura which is lovely and is served in a cute glass jar. Its a great place for a family outing. The service is also quite prompt. Must visit",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdloJSPIumyln7-_CmHjBbi2HM8vDcadnRwn40NoWrHb9A8I9fCSbALw6TsJLiKNV5CMPNH9GRanXyHyXb1MHIpopWI4uLLOh1X_b4x7sV1NyOLQZU9UxBKk4k1AmZXwlGdp3OI-=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlUnt-s6x4DmCuCUQpktom52a9dSmH9gEFSzONVQc6YQsPkiQvPb-b1ZbgvXfpXXFJ_xs8lKH2bPdTXztt1K2Xa7MNrKqF7hQ6t0I4lQxe_lCsD1l5CqKDIxm3DAWBg3OI1AeJx=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnn6tESSvxT1M1ZSoao3cIF4DSuCyQIN8EhLA0f1A-bomq-hhQ2FlHL4qa3ve7XXoFyBpGhj-C7qzwS-ImpICDTjYs_3aEXDTDj9roLuI0m_bJLhJfGHQt7kItYk52LTpvCkiQh=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The prawns butter garlic was exceptional, it’s a must try. Also loved their chicken seekh kebabs, very moist and delicious with proper amount of spices in it. All the food items we ordered were good. Reasonable rates of the dishes offered by them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmoZBIsxwJ9V36sR87M1TmitpUtLqO5X404pIqAc02yt1dawVPzgUlVpU6rWS3QY5vSBMZ_pfCW4-rtnE5fRuT2FQsqGMd00cHfEt0yaGG9K9x8YlBFbtu1CLwHHm7vQM7ztJQg=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great place for seafood. Ambience is good. Service is quick. Most of all food tastes fantastic",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkQcY54pv-p96in6EeDZdnWFnvK4Zzu04Lz1PqfqibA_UnQyYvhq7iR3RAP4eZ1oeufG7YToZxpig7tJI8fWvQRNlHwJyC9T_EZuUK4_NWfFs3eaWtPNmZdU94pug9rJ7rVoZf5=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl1jKYYhDq6ZF4w4S7l3bafkw3FdTIsksokfK5DjPUI4X3-i1baB5X4pElmEo4g-Jym2DLEhncctR9eDyyegs_2JHZkwGHze7JOyYWLqVq_iSvlBN4lKScaKIqHIv4JcyQaDje9gQ=w375-h563-p"
+            ]
+        }
+    ]
+}

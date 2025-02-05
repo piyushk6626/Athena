@@ -1,0 +1,66 @@
+{
+    "id": "20250206005801_405",
+    "name": "BLUE BANANA RESTAURANT",
+    "star": "4.2",
+    "number": "115",
+    "score": "483.0",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/BLUE+BANANA+RESTAURANT/data=!4m7!3m6!1s0x3bbfc10aac8c2d13:0x949b91ff04241624!8m2!3d15.5001984!4d73.7715973!16s%2Fg%2F11b6dp5c60!19sChIJEy2MrArBvzsRJBYkBP-Rm5Q?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMSQPZy3sQ1kJgNhk6bS5ioeFL3zqK7-Pm1aNA0=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "6"
+        },
+        {
+            "tag": "food and service",
+            "count": "4"
+        },
+        {
+            "tag": "book",
+            "count": "3"
+        },
+        {
+            "tag": "honey",
+            "count": "2"
+        },
+        {
+            "tag": "home",
+            "count": "2"
+        },
+        {
+            "tag": "fort",
+            "count": "2"
+        },
+        {
+            "tag": "cocktails",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "It was very very nice, I had fish curry and it was delicious, It was really worth having food here, on the way to Agoda fort.\n\nOnly, car parking is the major concern.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkBf86BdRyvlbivF94ODmYjaIjj4rKBsR9N02umr3_ZqFvQSdo1nhLbFi5dX00PRew9b1kgvmgY8wUK4-63nAgYGk1vsizbRt7tRAAzapwF0tVCwkygZOcMhKcVkJA777hoKth=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn_Z0Z0cD45HfpdIqJOljhxaHy3SoosRTqXQOOKyapCj9Fav1gjFV6Ph25P_qa913dZuOrOHc7gU6esyq0I2ZqKezufV0LZ5qPMULWiTS2NoBofdirK2-LZtayCuZMOheB2ugH_=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmlrqrv63I2SBJEHAw77hspRwStntNuiEhx6Hecj2_EBAEgIiwbZ4kP8I4SQTXRyfVkjBlSI005CJ2j39EnWeufk7709UaCqD-uAS3SMrM8Jqz_OBTIlZcf90-5XjuEZZLQGt9bkQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmT3r0_EpZFSkKBiBofqh5MvjHiqbDdFyMJxeYnXPOA_k4ZZh1YTT29M1xW2UxFph2BQ3EYhEO4R2u7jVXWLYmhEeBX2RRF_kpUXHFQN1g7ROtXHrBXqMyaP0wQ-7v8XyouTjs=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Cozy, comfortable and warm. The reception guy was very welcoming and even suggested best of things . Its a must go. Very affordable",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnMJ-lVKzzO4MMTR3xDEc6dSgyoh9hr4QYMdPg8oFMtOTV301qIUaKGyDBXXkvSSHZtzYMs_cnyaug2Lqp20GPzBIezI9uQw6MqoWFlriWEZFo8ll7zpLj5lzaQ4fd_EqzQcLtc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkmuhvPsO19aiOnldz8cF_sRTlNwbvnXfsQ4_-LQajjAyd1EWIn-nX9NJB5qt5xlzXrg430tjm2_KrdJuKD4K8UWQIiowt_3vMf6bklPhoN-VLpK1zSNJ2d33yWa2CM7q0j2KQ3Fw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlPlZuemMQPR--ntexyT64CnH3dRivXS3JLmgpfFalaZzJrrYb9XRW0ecZGgznZjUb2xL-R0tXCmkA8y7VkEx3YSIR1iR-99R_lTuZg8QDcApdr4KIleWUCanJMHS-4P9YOrZJE=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdldNlYl6QuJ2EdrebKrH7ip79f1AnGZ5jI6l7lQRcLBKRi8kNKqzSARuNpf1siEuuezaPwfard95c1LTxSSfzHRbmfi21gSQW6Bls2_OrLZblec2e1tQywsEpe6JAtHB1PvwHJupg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Great and very filling food.  As with most places in Goa it's very cheap to eat.  We ate cautiously but what we did have was very good. 4 people was around £25",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqVdP-vaqpO1-VYuav-CATMTgQCq__EDqvjbZtxO-JARTvPfVPLYYIZVrA4EKzfrcc83h74Ee2LuLtNuo-dt_7KerSvCWjZTdBGfoZg2ex6TSfpDzitwvxTf_GUFnWQg9gjtoT=w750-h563-p"
+            ]
+        }
+    ]
+}

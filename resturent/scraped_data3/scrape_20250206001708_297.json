@@ -1,0 +1,45 @@
+{
+    "id": "20250206001708_297",
+    "name": "Trupthi Delight",
+    "star": "3.8",
+    "number": "258",
+    "score": "980.4",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Trupthi+Delight/data=!4m7!3m6!1s0x3bbfc0846ca6ba19:0x7d0dfe6536cbec37!8m2!3d15.4981!4d73.835012!16s%2Fg%2F11c6f051tk!19sChIJGbqmbITAvzsRN-zLNmX-DX0?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNBITl3nWWEyLSD1i7GTXnKCcccw-fT9C-ZK5rK=w533-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "10"
+        },
+        {
+            "tag": "price",
+            "count": "9"
+        },
+        {
+            "tag": "fish",
+            "count": "8"
+        },
+        {
+            "tag": "veg food",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Trupthi Delight is a hidden gem for food lovers! 🍽️ The menu offers a delicious variety of dishes that are sure to satisfy your cravings. The ambiance is warm and welcoming, making it a great place to enjoy a meal with friends or family. The staff is attentive and friendly, adding to the overall delightful experience.\n\nI especially loved the freshness of the ingredients and the flavors in every bite. If you’re in the area, don’t miss out on this amazing spot!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm3UdRBt1EbvfRg0FuCE-ZBpwTVjjwb7bfcspfCSjsLwR84Tlj4Nhifm67LHvijiK6lIpsBO8G2HlNvqLIutsJIV1FTvWLvb03lFFicXh36nu_rcAYOb4R7YTT4SkJm1fRsukjM=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkXy3tg6SeZVgCB2w3OpQnWPFIgqn2HozZ8OjoRp3nGQIAZE9k2FSdJWqHbWM2WxaIS9_cWhmMudCM4XlJT5oH5pFkXH8MjL87nYM2Ho30ysxJPEllIl02RgLSrygK2gMOIz-46ew=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "I have been to Trupthi delight restaurant more than 4 times.\nI will highly recommend this restaurant for sea food and veg. food as well.\nVeg. And non veg. Food is available here.\nI love the sea food here.\nTasty, hygiene food and a very clean place to sit and dine in.\nTry fish thali. We ordered Mackerel fish thali which was yummy and tasty.\n\nServe: They also serve liquor and beers.\n\nFree parking is available in the complex.\nThe washroom is clean.\nThe seating area is very clean and nice. They have an upper side AC seating arrangement also.\nLocated on the main road near panaji/ Kadamba bus stand. Panjim Patto.\nCost wise reasonable food.\nRecommended for breakfast, lunch and dinner. 🙌👍❤️",
+            "photos": []
+        },
+        {
+            "review_text": "Incredibly friendly owner and staff, delicious food, a bang for money. Ate almost daily, always looked forward to meal times. Good vegetarian thali too. A must place to visit, very economical. Give it a big thumbs up.",
+            "photos": []
+        }
+    ]
+}

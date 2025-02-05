@@ -1,0 +1,52 @@
+{
+    "id": "20250205231035_136",
+    "name": "The Rooster",
+    "star": "4.2",
+    "number": "891",
+    "score": "3742.2",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/The+Rooster/@15.397915,73.8326314,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc771ae02f8dd:0x7e1a982ea56e79b0!8m2!3d15.397915!4d73.8326314!16s%2Fg%2F11c6cj5n3b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipODwF6aizEit40-N0qXXh09G_YAFKjkzU6vDmoJ=w521-h240-k-no",
+    "tags": [
+        {
+            "tag": "shawarma",
+            "count": "49"
+        },
+        {
+            "tag": "snack",
+            "count": "12"
+        },
+        {
+            "tag": "chicken burger",
+            "count": "8"
+        },
+        {
+            "tag": "grilled chicken",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Food is fantastic. Best shawarma in India and their garlic paste is finger licking good. It is customary to land in Goa and grab some food. Place isn't the best to eat at so I suggest packing the food.",
+            "photos": []
+        },
+        {
+            "review_text": "love the foood here\nthe chicken shwarma is a must try\nbetter than most of the places in vasco\nchicken popcorn is really crispy and delicious\nprices are good\noverall food experience is really good\nservice is good\ngood place for hangouts in the evening",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkhwvMwg6KKliu1WCexWskeDsBm08qv6nAUoHHOVlEl9hvalNuUC0YlB1n_kIhYq3WIctA5dXqv9wvpugb6zwKVA57ZJhY7SCY_LXrNpGc2RreRYUsSCNJDK0tzBmzmNyh8V79K=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn11nsbOelbD3ktXos7rEJoOn6YGKG86em9TrQYgJW8GzCIHUy3EiYCVG2hoC-nHfzYsXG5HD5G-grw8NypJlQXsORt7M7lzYrWoKTRYMN432n02XD4FEeqRD8TfElZmdyY4ilIvg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnOMO9Ry4_RLt6Pfq4NztqHV8uUeE8aTDmCrWZ3JWUxkY_3Nzqb68zhd_B6guxKAh3aDGE8De-DCi7XeIQ-kAzT_NYg1Y_LWbJOhTcrA7-cQNWy2ZQIysT6OSaw0O6BPlrQkdEN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmaIqNYnCgZC3U-61BeECSVTIJ2xaiCVZpUGCQgbCoByQo446THEu79LPzPxVshgvuPJPGA85sjZ5zyPg9OjP5ohpEtxeXP4uUZK4UJMfLZAOMhXDCSjWNsbou4ehA7TWJ9ynu8Ww=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Rooster rooster all about yummy succulent reasonable and mindblowing chicken menu served here😋🐤. Chicken lover i will recommend this place for you ultimate hoggers challenge you to try this place😍. I personally love al fam chicken ,grill chicken ,dinner delite and alfam burger🍔😍😋juzz yummy . Kam paiso mein pet bhar chicken😍. Try and let me know your experience 😍👍",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmhtPvG4aJWcW7rZgxP0tSJpSQfKysTrA6sa4S0Tz90_y4wBoH4wcBC5m86nCePfOQo11-gSwRuMLAvSF10lYzfJjwYx3LkyxUVtPIuE2mlMiUhinPolzgzBV_ap12kOqWW8pBz=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnL8caXk_6APzvufBrYEiOSbnhhlDXH0ZAsJ4_IQfgqlwPB9tcYUlqCX2W_LjHZJHuZxUcMI56IHA_CuNshqzajrSX0yZtE0hD07ljfUhQCht2Yjcr5XvrDN8OK0dgbQjMezOb-dw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4ppTjl1dYs0f6UibVJtGM7I6Kh73ynFxcMrsIV67-JwNikJ5I_arBYJSYLS7BNAo37usdQS-_ShpU4KwQGJgMeZ_8Ir73-odNmno8YsN7CuVlCOPa1zVER0JIKeIIvNVrtgxg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm-X121A4JZtIMZBKXAubO2PGhfUD95dmMSoSqg6uw1_oqTHLCqBI4DVLnqlFnylChH1lQh-H8AftmFqihfgCCPiDI57Hy1_I4r9n1Zz0ze4VVPsdWi6RyHh0J8QuqFCEQHDJqo=w375-h281-p"
+            ]
+        }
+    ]
+}

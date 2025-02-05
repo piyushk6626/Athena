@@ -1,0 +1,51 @@
+{
+    "id": "20250206001547_208",
+    "name": "Kesarval Gardens",
+    "star": "3.9",
+    "number": "1240",
+    "score": "4836.0",
+    "area": "Cortalim",
+    "url": "https://www.google.com/maps/place/Kesarval+Gardens/data=!4m7!3m6!1s0x3bbfb9fc85b6a37d:0xbbcaaa0a83f546a7!8m2!3d15.3809899!4d73.9260669!16s%2Fg%2F1tf6f28c!19sChIJfaO2hfy5vzsRp0b1gwqqyrs?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMVQlHx-YiehRfRemJABTib0kbAWLmYcGbGdw8f=w408-h267-k-no",
+    "tags": [
+        {
+            "tag": "hotel",
+            "count": "38"
+        },
+        {
+            "tag": "service",
+            "count": "32"
+        },
+        {
+            "tag": "lawn",
+            "count": "11"
+        },
+        {
+            "tag": "conference",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Best place for weeding love the venue amazing place lot place for parking and thr hall is amazing must book",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnPGR3kgPDHEFhlvTBEgJaACR_rqRodfMEXlL5WshGNSNd0T6ggLEcV1CArgbapCYOnW1pHkg_axhCY1-Vn0YEgRoe2KoCyyiCX4rhI2wYQkph1Z1YNHVyjN44KSFbH3gWeXwFt-Q=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Nice spacious lawn with good landscaping , multiple large and small shades and one air conditioned banquet hall for smaller gatherings",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlI76esk6jsfFF17s4KHbPHxfDC1If9O0BwlNsiY_KFUbKDZTKmqOAz8A8uWxNf3PpJPfnxrkZIPbIPbEs2HIVlGtyACeDXHloqCiqSuMTpelwdEssMBAFszG3MZQS53M--8sWMNA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl3_ZF4dyKJr-icrtS1phiWbW-v2wh9xn85k4x0DUQQcSpvXxDvQo1SEq1jIxLYiXMqri7vMQukaEORVxLyUgoFyyoubdZ6GVVYrRpHGaF05mvhkKHvceOJfi31_SITkgYZcUYc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlM0QCYGZ7wl2deC3Imyq8a1IKnU1525mx3uQOaOUrGOp_R8mIBdxzXcfejpP4AC4ZhgH39LaAiSMiDwG9U48RPxBdyQdlUvz6rK4EntFqeVfLC58-fdKLCV0LYbTjvSb4v-QMprg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Having about 20 years experience in the food industry I personally would say Kudos to the chef and the manager Pratik who went out if thier way to give us the food as per our individual tastes...\nPlease try out this place it's full value for money\nGood ambience, good music and humble and everfriendly staff + awesome food..",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkwThF3WSzYXxi0z9F3yFU0zjxzAKCywjOoYeL8zvBSFVLmP47QpKElq6W4fbcLEfGBdru3lhsNJYgPtWng2ijjSqIUh3NfU4NDyzWdtD4FKR_uHCLH2NlclwC4CMMW6953mIMJpw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmGlSw-kxkUA8R2NXAMPhFOFyiQm2QeGiakjQT6j4KoJkwu_OpZB0WNoIJWjxwJNJS3zLI4Hx2sWNpHHAZLVx7OeQKxWUXpWYfEgc7fADh4SSk4ZdB4LlYsCmFbo7Hw0MlQ-Nc=w375-h563-p"
+            ]
+        }
+    ]
+}

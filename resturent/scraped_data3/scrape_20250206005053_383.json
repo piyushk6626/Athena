@@ -1,0 +1,54 @@
+{
+    "id": "20250206005053_383",
+    "name": "Alex Place Beach Shack",
+    "star": "4.1",
+    "number": "144",
+    "score": "590.4",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/Alex+Place+Beach+Shack/@15.3068428,73.903254,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb6ed242c6c77:0xa4dbc103f731be3e!8m2!3d15.3068428!4d73.903254!16s%2Fg%2F11c6hlgt96?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPzyVuqDrLYr0vSPzC4PWMtAjtp3-e2N8EGRAsN=w428-h240-k-no",
+    "tags": [
+        {
+            "tag": "shacks",
+            "count": "6"
+        },
+        {
+            "tag": "beaches",
+            "count": "6"
+        },
+        {
+            "tag": "sunset",
+            "count": "6"
+        },
+        {
+            "tag": "service",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Relaxed place on the beach with very friendly staff and great food! You can pick what you like from the days catch and have it cooked or select dishes from the large menu. Easy to spend all day here!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBybZDXg7V6YlW2N68bHVpmtH8JUPbhKlgnltwYWqa90ire3dxNvSb6cWmJRZjmpCymrS9bgi-6B5ftG4eP-_g1xVWo3U75kiO56gBHqDYExhcmtK99mJAc2SHC0noh-C-DMk=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best shack on the beach - just see Sanjay or any of the guys working there for a warm welcome",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlFtFbyHo8CIwKDk2sLuwu1BsnkUUxZx7LbYBIgOwTNldcMhprdc-Wnb7M3cgV47Ydk7H_lfVTiMmrM2o65GxEBupMqrZdIA8HCkhoorMU7r7CzS_xssvoiG95OcdOP9An8twIX=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkPBYG_Ik9nBQb1SBkf442JtOfB_K25eKdatf-D0hYYZRmKIDWyeJ8Jjq2jrFzWPq5JhHWSlSPwu-0KljBWqMORGpJBh0aoZAh2I6ohMMP7BRe3cQ0dvCWdT6S_9a_btLXQ97U7vw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm2l8hpg5YICGUYHPHI0z62hepBRMKY0ByDMqGc2133WAU8m8A5aBCbQELJW-oPC3czA3HzwSM4vsuXUtIkLML8m3A_41ui9QDDHlzcma0Edp-_9ZiKsjX11PQpYfEUuvsOBPJt=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm63QBcx-D5xLegk1LUciZ_ZF5G7DVnd0qhzUTWotGfdZQK_G7FccpmNOl16eeOA0pXYtB7AxvzIjQrsNzSn5XjfvsB8jewfo13mILS7Fc_hqbbU55vlRCXbtKArxro9CtAUzcs=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "“ Turned Out Nice Again “  @ Alex’s Place Beach Shack 👌🏽",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmI4QakWXjmprnVIyZBmUnLrNyJwKXd1SEoQVbQGalxBIlgOBuqmEpGNVLAbc2GRj2h15LxPPkuzUVAb4kug_EsOK4iwZqpzDtss6H0i5AmsnaF9Gv9BI1gsF_DY6zCXwBCZBKXSw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl5nUsKRDFfJCkidSYS1dJoyy7ZIDefoveFkzVGJtQp5H7wc1myx4Fkg9CZ3xgFBHV3LXVd3Y7x9UOfMzZPjJw0XfPds6acbcSp-xrVu-sPfzwlHvYrpk0uX03k3H4eqXz5giFy4Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm7xBzlnAOtg5awBzYb3YwSyR-OTf85xO12vqHA2kJWL8um0Ctezzm0Fx135Bp3NYT_F4YDz2cXGYofz5haoAOmv0Mn7R84cOjkr-a2Bm2oyaN5FKRrjIsKtp4kazyqHL_TK0g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4ODYf1xUBtwJcCx0BwqOXkTQyMN6C86GQ4VdmR1twWrc4ZwkHo6riSNommjzQQMm-8hipsnNK4iK93BxadiXhF0Mv_HkmajD9AKIk1-PFpYNO5GVgR0OEJx6cas0IKzC-T5dT=w375-h281-p"
+            ]
+        }
+    ]
+}

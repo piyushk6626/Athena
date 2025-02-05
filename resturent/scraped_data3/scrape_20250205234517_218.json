@@ -1,0 +1,47 @@
+{
+    "id": "20250205234517_218",
+    "name": "Annapurna Pure Veg Family Restaurant",
+    "star": "4.1",
+    "number": "477",
+    "score": "1955.7",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Annapurna+Pure+Veg+Family+Restaurant/@15.4971992,73.824126,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1000119b845:0x614fe28af770ec5b!8m2!3d15.4971992!4d73.824126!16s%2Fg%2F11vyhd8h5k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOpdh0dcY0fSAejDHLUrY_FnnjQP_WhKFXFx6I=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "38"
+        },
+        {
+            "tag": "service",
+            "count": "27"
+        },
+        {
+            "tag": "veg",
+            "count": "21"
+        },
+        {
+            "tag": "hotel",
+            "count": "16"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I recently visited Annapoorna and absolutely loved the experience! The ambiance is vibrant and inviting, adorned with beautiful traditional South Indian decor. The food was outstanding – the dosas were perfectly crispy, the idlis were soft and fluffy.The service was quick and efficient, with friendly staff who offered excellent recommendations.  The cleanliness of the restaurant is also commendable. Annapoorna is now my go-to spot for authentic South Indian cuisine. Highly recommend!",
+            "photos": []
+        },
+        {
+            "review_text": "Visited this place yesterday and trust me we had an amazing breakfast at Annapoorna Cafe🤌 Their Masala Dosa was delicious. Tea was the best part about our breakfast ❤️ The service provided by staff was good. Lastly I want to mention very important thing : This place is worth for breakfast as well as for lunch 🤌❤️ …",
+            "photos": []
+        },
+        {
+            "review_text": "Awesome taste,  prise is ok\nOptions are limited and fair enough\nFruit jush and ice cream also available",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnLpIMMR1iEcWZlMUOKNb-4fMqThEqfxxBMU3NgBEPA9GdHZSurjC2ko8aFt1Ix8Uk298QXBLDsspnvgGTVcnsbeqpQ2j4Pbub8v5w_G2UzMIN3c0kB4s2CZijlecdZ0kPSig3n=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn3x8WtOp1N80xpihs5pdQGCzn7uVCv2xD2nEvGwsDU2VtHTnucSJs5Er1MGuQY7Mvip7VK5UAnkoKYCXGzzeVFnTCM3Len-tbYAot26FX6ViVkAUFrEHumNLXf5gLblL2RZcS_FQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmiUfLNMXlyMbkrMz-Yllq1mDs7lPioAdljYLjDo61rhB5nfEIHBcS1bTsXz_QGmT8OWtR5cNc3ILnBSJbDDI8dyQgASNncryJoEuXdxFOZZigH2VufPmZV6fMXddh--b3q_6ORLQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlZwswDTRDBBp0oPs1akK6kXWILdVmzc1C9PFL1OnRgNUuP8VVKf-cTXZh_qxDqswp_2P8NB6tc7LifKxpk4oI23BAQwPIewPT3atI75pHPeI0FNa0KaDAz0nhZ7nh8xiWwGmWalQ=w375-h281-p"
+            ]
+        }
+    ]
+}

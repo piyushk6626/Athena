@@ -1,0 +1,52 @@
+{
+    "id": "20250206003351_343",
+    "name": "Aryan's Restaurant",
+    "star": "4.8",
+    "number": "154",
+    "score": "739.2",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Aryan's+Restaurant/@15.5115899,73.7700302,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1981f033f5b:0x8d3e71257ee41a1b!8m2!3d15.5115899!4d73.7700302!16s%2Fg%2F11b6dzc395?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN7X7A4--fKbj50Kke5ghZUjKAJY5kCZowbg4b6=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "home",
+            "count": "12"
+        },
+        {
+            "tag": "fry",
+            "count": "10"
+        },
+        {
+            "tag": "prices",
+            "count": "8"
+        },
+        {
+            "tag": "local",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Homemade Goan food. This is simple, calm place with homely touch.\nWe had taken kingfish (surmai) thali and prompret rava fry.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnt_PBl8N9bgWOMFHrIU-8gyTNDU_VLYBczkS5PzuUtsw5x8gmOqLXmMykZ2Jn66eBdoXdn5DBvtfW4yxgm4Zvv6iWe5m48D-OmESCxp0nyoZv9sZWCXIM0yUUlvdhVOydAeO5L=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlDQ_eqp-y7jDXejoqxweHw-jinA86EtLokRCcQ3dmdih2MSVLnvhYjgKAi8nJ_Gs-TAcuLbGTb_3Ttj0-7CBvmuM9AFH4p0nfZ9owNwV9cmcaKq7PjoFv1L8_meWJPe9qHkRvZ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmFbkWLKa8CqMDt0oBbOX1Y4pAMytSwKOS7PhbhVqjQlt7U4YomumvNds4-gWqtZYO_7O4rs-RJ8guYfVAZQl_gXNguuzAkmwutPcEnzUS1ZvGrQ7ifcOgbXpnrWJz1nV17v52s=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlLgHVyYQ0O4y-4YSEEuvA0EW2StrTFzJyiGQJnRuL5EC6RLWBufyY1JM1OoH9yrRv0TflBXxOA6UkFPzHAMNacMNWOeaCW56N5sqP14snG9aZU4fLgBsH71KdZIQxlJbjuDQab=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food at this Aryan's Restaurant is next level,so delicious, local goan food is so tasty and uncle, aunty behaviour is friendly and welcoming. I do recommend  every one must try food here on your goa trip .",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNeAtIw2SWhrDTypne3HXtZLVpP19YEn15kQM-c2amO8IBNftRxmwMvOS6bh9PHCjQ1iAX5cDjaQL5rHkegKiMGb6M3DfdJ-lhBRM8ftI_Rg8hRKlPW88RBIP0qfmG4GOQ23A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnAjVQ3BmxejNsnRDObmy6uQUOQRt9uMln7dgszwwIdPHrTsxJdDOmfxOTsFJ5LtJRUNv4UDSG0cfk03uvDvSGF67D-0Imqae6M_iysmk8S1LOWFO3Q8CQeQeQwlBdx8iq1dhMHBg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnc0gwSCuwMYgwGElTNvfQwUAncmf2vNqi1hG2qREbX4G4udPxTleNnxw0-iheAh7V8LI57xTF6rB02qcnMwhgqucD7ecvRpPh-Fxzf2usxMftQ4Fgs832GUDmYjQMrgiTD3c8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdli6YmYk2USZCfcQ9sdm3ZnwSv5_B9BFqXsWG-t0OyhNiZzNFBOzW1ZfJ6kp4FxwMIvqxYDTQUeSN5uzyK5vNJq-Lt5CT94dxwvbUYLKGlHdzkYwFuiBBHNSDLB2KbMjM9BNGKPLw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I strolled into this \"fabulous\" diner craving some calamari and chicken xacuti to-go. The dude at the front cheerfully informed me that takeout is a delightful 1-2 hour wait. I mean, the place was practically empty. what a fantastic experience! Just the worst!",
+            "photos": []
+        }
+    ]
+}

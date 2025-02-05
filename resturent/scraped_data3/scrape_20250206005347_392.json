@@ -1,0 +1,54 @@
+{
+    "id": "20250206005347_392",
+    "name": "Aradhya Restaurant",
+    "star": "4.2",
+    "number": "128",
+    "score": "537.6",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/Aradhya+Restaurant/@15.3140021,73.9143097,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb7218d39a237:0x559718a16085f5d1!8m2!3d15.3140021!4d73.9143097!16s%2Fg%2F11n5p8nfc1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNV9gltDomrZwLTfILByIp3FSIWVspp0NYuwMJg=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "breakfast",
+            "count": "12"
+        },
+        {
+            "tag": "price",
+            "count": "11"
+        },
+        {
+            "tag": "thali",
+            "count": "10"
+        },
+        {
+            "tag": "goan",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the best restaurant in this area. We had ordered for Veg thali , Chicken Biriyani and Chonak fish thali.  All dishes were awesome and tasty.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlwmiTFw9_82cDdZ2b7iFBN83oLJn99xSB4fzcALZgJvSB943TeeGPXOIaJeMWmmh_OBAQa8DusC3_2ViPhxnN1jZKfOONTI83ilMbiqPvqgznWIkPagm5lnIWNywC5IpgjnOCm=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmq_6MWX4-XgL6lmimP2FQSMoBCSmSgSGK0JkS76IuE6_5SL3O_Ru2eTciQJjnmMZ5LCRksRMEbaty_eAfhCxj7p91XG5U-sXXALHW_J1yLbWizqDfXnitl5a8wG8RIPsXURAJa0g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl-Pk1PKmg1dIzu0BrjK8p1_vy91JRoCrs2YPpBhRtdxdAQN0WS2KIaEwEFc1_1SiPAWr-Dk3CMqIKdKr53wVrA5BDTaxYoVj3PKUSeh9kxZMyYrWTLQCakF_TWubmeoN6IwRpo=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkm3oh6N1YKU6m2jFD9jrgI5EE0wx1BRIVuYdaq0qGL0X4YeByv0BzMyteOuRnO35PXorxkmQ245S6uQB8xFphkYWPWSX2KSms96YDdVdcgF7ifG0dT0H5oWAbWN23PJFRr9jFpKA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Really good and fresh food. We got real palm sized fresh Surmai fish....almost twice the size offered in any restaurants in goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJBuFgxo2DkFHMLFwWqhH6b225krsVet1xZmD7lP9fP_5HEiulQu2qgLkAOMRK0-qEl1OmOf8niAxf_H2hKE0oECHhcjaYYgnpwFFD2Wt6bZaikkGsIs4Nksan1NY0jMiYuiNE2Q=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "This was our go to place for breakfast during our stay at Majorda. They had pooris and pav bhaji which had almost everyday. We loved the chai that was given in the morning as well. The mirchi fry compliments the chai. There is always a local crowd present for breakfast.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnvudGpyQwrRX3TJM8sM-OIe1gKRgcEm5A_-jjDivRYi7TAiAg0ixxeagfbpFH57k144khhZQAe1BGQPVc_uvVaqTO3oIoFOYkPj5TdFFqWbEcxl1iUrSeYBi4PYFXFSKEutrw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk2TflV9hn9-fj2KPtz_4AFy4XBnL25qwAFB2zCjju_IxXzuFhptxGXxsq_05txEMKOI5yALYt859HbqbmPxC1Tq4tXsEt3Dsaz9VwU9Cl9Gm9j6KfX6WTnH09f8NuAmHXlFZx6Pg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnwsUzECP95kAN-QZGSkfzSgQCfCkEnkt1zUQKr2If1V1fq2vyWEIChfZNeUZRMonPOCRo9tbQ_O6wT9Nw1LgiORA8K9JeDCDvVxZoR6ZmwWy3FAs8WExwUWYp4o6bTwKht2A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm9Qp5XPavmgikK65QDJnBxv_EgXCxVZxwSDIQgyHNOeYusIeT1WTCrpdzzh3O7MMwCxRrDIuOiWt-YEExeHNJHgYVSo0AspS0yn_LNx8yvDQr69fH_ijKSZF5R4FQ5fWj3kT4WWw=w375-h281-p"
+            ]
+        }
+    ]
+}

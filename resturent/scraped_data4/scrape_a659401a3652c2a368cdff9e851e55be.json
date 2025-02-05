@@ -1,0 +1,52 @@
+{
+    "id": "20250205235945_168",
+    "name": "Dunes Restaurant And Huts",
+    "star": "4.4",
+    "number": "1405",
+    "score": "6182.0",
+    "area": "Mandrem",
+    "url": "https://www.google.com/maps/place/Dunes+Restaurant+And+Huts/@15.665933,73.7123119,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeef08e2404d9:0x1300adc19b22ec70!8m2!3d15.665933!4d73.7123119!16s%2Fg%2F1tdfrlfh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNZPN3xVbN2fTWldP0RiFgseu3Yqxo8pNFrS9Rc=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "135"
+        },
+        {
+            "tag": "sunset",
+            "count": "27"
+        },
+        {
+            "tag": "wifi",
+            "count": "19"
+        },
+        {
+            "tag": "music",
+            "count": "18"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "We visited this place twice and enjoyed the great food and excellent coffee. The fritters and Nutella pancakes were absolutely amazing! However, the garlic toast was a bit disappointing, with the garlic simply spread on the toast—it could definitely be improved. Despite that, it’s a spot we’d love to visit again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlFIJY9k27v00vYIj37R5Q9AjijfNqoG1kLSNpv0bmGTNamAYLq5klvR1Onqa9wSnd0ipCoaNRtkTinoK5TW3LCtBMA0TIT9gA4UfFVKFivPAJRVlqrCkmDtVHdQ0QZYWWbUi8=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn6Q37uiXaIceqkF4nLfdY1-24NuXmmmDHNTBNRh6ARO98tf6q7gwRw5XtqrzdkfXE8YzxFswidaYgvuKJV2AGr39gL5bWwCQO2dF7LMR54KZmgm3kONguRd5cfhzjKbnNBpRJ0=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnD2UGguS1Gmjf6w0n6I9jJYzUXHKHPxBdFOHUZrddAx-ASBZC5grAOvYznytdXkylgBs7wyQwjgIPaUXTKkDZTHYWU1UtG6T42ruYzwQU7dDoSlJbqWYq-LObopWz0ZSD4DTM=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Nice English breakfast with bacon (not that common in Goa). Due to proximity to the beach prices are reasonably higher than average. The place offers a good view to the beach. Visitors can enjoy nice refreshing breeze in the morning.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkHU5fE1XbnAo7olAAvKPd8iUPm6HaRANWBQVyNUmZMUP7CXtw2gp_zTAI_T-GD0JCUIovT3ZlGvDsiPKAPEgOdoxNMsWeqVwDQcXrwa-xF8AVX2mQu3DRxONhL9aCHXck1TNm_=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great atmosphere and food to spend time with family. The dessert variations are great,being a fan of cheese cake the same were mouth watering.\n\nHad a fabulous dinner time with my family. Staf was courteous even during peak hour. Food was yum apart from the ambience.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkyKEDpHmD-jraXPLXLQT6AdfTFkRz_WnHbSnFX8XWZEY5sIyFSMyrsgdNMPuRMfrtii-oJc4XULYCZJeQLzTL5AKJlk-CjoZ5MPL9y0dsTDIen7ZAoDA1IfU5GJoDxf0TjETWq=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdks0TZbP4AhIVdw5ESgbihPCnXRLyURyvCZdCoWI8Pe69kk9jCN7H-OT_f7MbA72IAdbfwlc3DTTL_7DxWx6e-0JfZr4pRzz8srJJAohPlLxPL88nxuygka8pJY8KiQXsLIyMA0QA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlyfcKfQtwZxbJf_sdD8TvA4uksY8ujeit4s-oL-9Tc17ItcVk9nwbml5p8f9MKXNDnMRYjmJCBeGQp_b57l0oRaQxGmj53cDh6DrRlfrR2iiJ02ZXw9elbR4U9wX5Oaa7rJ0On=w375-h281-p"
+            ]
+        }
+    ]
+}

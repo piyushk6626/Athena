@@ -1,0 +1,56 @@
+{
+    "id": "20250205233026_247",
+    "name": "Bob Marley Beach Shack",
+    "star": "4.2",
+    "number": "790",
+    "score": "3318",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Bob+Marley+Beach+Shack/@15.5120569,73.764521,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc190bb511129:0xab3c898a5bbdd46!8m2!3d15.5120569!4d73.764521!16s%2Fg%2F11bx55g5d7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOKv8dbchKy6oBN0_ZcCbxeDI4QxvNyGWf7V-GT=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "evening",
+            "count": "13"
+        },
+        {
+            "tag": "beer",
+            "count": "11"
+        },
+        {
+            "tag": "shacks",
+            "count": "10"
+        },
+        {
+            "tag": "DJ",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Bob Marley Shack offers a decent spot to relax by the beach. While the food is average and could be improved, the ambiance makes up for it. The swings by the shore add a playful touch, making it a great place to unwind. The crowd is lively, with a noticeable presence of Russian tourists, creating a vibrant and multicultural atmosphere. Ideal for those looking for a laid-back beach experience with good vibes.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnvX6XQLctOhZVwc4CRQDCdTkGOoZeYYKMOHoLAS-lcS6Npjv_E6UXLL5bL8doCa93PO3HXN8tGszlNuP9889uS2lfYzsIWXRD1VUev28NeXlFH-vaMC_zemLTG9Tlo6JGigYk=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbAV5l8EMUZRXA2P9CE3J9k5UTlEj20R9ONTuLhfs3WOVs9kaLKS5Lj8Up3rxxusmCjZ4I-O0NrzxNQqWvCv86BuCqDpdKc04sqhoC1NTkt9rH5SCNj16qgYzCAfHdttE6nkOP=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmFZPcvHbUekiFuUBdfofIeR1P8JJB3_fLbM3XKHC1O7hhQqbC1uHHVildKpdBa_l0THcxffGL0mvYM7vmnbU16BUHa56iZT0QSLQamwEObenenxkIJjQAkS4kIAcvUOnJbiA3A=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Great shack by the beach. Nice English breakfast and great sea view. The shack is not overcrowded and has a good ambience. At night they have nice led lighting. Prices are similar to other shacks, a bit high but I guess that is for the view.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk067B_ATMj7rEDhbdV5bEo9zhXdOKMu8gNqoyUQQ6GZP6GF0kLmujIBK5ZdE4LgHxrFA53ayPoSrssNloQE4WeTP_CtEnTjj42l8VyqbQmqTtxvrwvvMesW-hhgjUU66rx_PQ0=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl8RCKxWZOguGti4jQuDKwwxkNIT9Q42Mq0-sJyKZ2jst8skhApusypdse63hg-8W7L1Gu90bAxAEk8j_afGf-OnFExC_-7QEjXCse-IQVklj8iPXPP2csq8fWT71NrO6reJfhBlQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkv_hPXfXhFthVTgE8Id-ard4nDc8X4oCTdSsSNHUO3N50Js9SkmB-Vs_SngVIYnrBVeaDE9VjLZnCH2QvYEiWR7lX-HVkJ2KD2pHsbdd2KhYYxrXBMntLzoQVemob1yfP0gtoH=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmPeywe8c-ln1_ApT76aXpM5r5d8nhdZLq_V7usNtz5j0LDZ-rn0K8bh7tSMcZzxR2Qk_VEHFmkNffHkYlo45ZAVaakJFXiBZSYoQkh9eocIGVtZLnwaK3_-assPBe3Q-tNaRJoMw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The best shack on the candolim beach.\nGood lamp decor, service is excellent.\nHad the best grilled prophet ever.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlwlOI0Pz3uYoOmn8mdGlbH7vG_7_MwjVojd5sYUDvYybGyyGudoQbubL0SDhRBzkEgSfE2Ww47HRFyMRYSAtwpE73YSNnRAQy0w2qhpdrB5ev5ov1fSavqPWiScpDN8HZa_c5B=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnX0jN3kZqAku_q5e8NmGbNRceDPhTdUg-RyhGUqXpuDcf4jKH0ieRcFOax_6Qb6n9Hh03dj0WNn4uHdRXOx0Q8_2zAm3mo5h1irJqHbryfq59UhMRr9sQqsU1n3htPm-gbERWL=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnHv4uJpAm8ZravlgDiMCjSTUnofNJjAA_raB4e6o_WyNo_OmKNTuqdna35jNOsd5D7R6gKP8ue9Rmra0ij-DK8TUoTb_0CvCyXf4eaxm9hCVowKkc_Sozj-yqZytTO1Pvcw_am=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHUib35Zo5zj0JnKphPd1XhsNJjzJlCvBWl8ZN7irmLMgvnOGY5Blq1oPpDI2Tm4t_ULlLpt-FfYnKxAOft0k_bRjiNOel02spLrIO_KgsNdvlUveKcWcnIhrW7pMgO92G1vc=w375-h281-p"
+            ]
+        }
+    ]
+}

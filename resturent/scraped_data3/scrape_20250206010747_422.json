@@ -1,0 +1,44 @@
+{
+    "id": "20250206010747_422",
+    "name": "Alfama - Taj Cidade de Goa Heritage, Goa",
+    "star": "4.5",
+    "number": "99",
+    "score": "445.5",
+    "area": "Dona Paula",
+    "url": "https://www.google.com/maps/place/Alfama+-+Taj+Cidade+de+Goa+Heritage,+Goa/@15.4561337,73.8135038,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc0c8e1ed010f:0x35dc05ed589c3d34!8m2!3d15.4561337!4d73.8135038!16s%2Fg%2F11byxh0k_1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMHM2LqeCKJi6o_3KKD0CxHtji_-YQCfH9bejS2=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "fado",
+            "count": "5"
+        },
+        {
+            "tag": "service",
+            "count": "5"
+        },
+        {
+            "tag": "seafood dishes",
+            "count": "4"
+        },
+        {
+            "tag": "dinner",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The waiter was very polite and kind to the children. Very flexible. The food however was probably the worst I’ve had at high end hotel. Most dishes either lacked flavor, lacked salt or was overcooked. Quite unfortunate experience. Would not recommend.",
+            "photos": []
+        },
+        {
+            "review_text": "Hi\nIt was really awesome hospitality by MS Vidhya Gawas.\nWe had a dinner on 19th June 2024 ,Vidhya alongwith her team were so cooperative , and the services rendered by them is really something which has kept the TAJ standard to a higher level !!!\nJitendra Patnaik\nRoom no - 524",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNlEsrdYA8JRZMYIXP8-z2IzUJZx2RMhuVF1fufFcRDD0C0J_JcIMopR8HIN_pubM8daiulU7qSoKY1FAVKIFWORxFt5BF_Wr5jfFRI0Zq--V5BqMI-3dy1hvzVcBojbAafRZpzQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "We attended the noite de fado event in alfama (which takes place on 1st Friday of every month). It's a 4 course dinner with live faado (traditional Portuguese music) performances. Wow! What about experience. Really too wonderful. We didn't know what to expect when we booked...but from the first note of faado, we were just blown! Will cherish the experience for a long time.\n\nThe food was delicious. Veg was good. The non veg was really memorable.\n\nThe ambience was just wow! The interiors of alfama are just lovely. Overall a truly wonderful night in Goa.",
+            "photos": []
+        }
+    ]
+}

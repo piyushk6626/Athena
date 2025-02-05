@@ -1,0 +1,42 @@
+{
+    "id": "20250206000502_265",
+    "name": "Punjabi Dhaba Veg Non-veg",
+    "star": "3.9",
+    "number": "323",
+    "score": "1259.7",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Punjabi+Dhaba+Veg+Non-veg/@15.3880319,73.8605941,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb956efa25a67:0x2ef14185b0dc5ce0!8m2!3d15.3880319!4d73.8605941!16s%2Fg%2F11f9zpptkg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMHeIGbBuFy47K1W_KLUeHKe410aQ7Xa2JM2iWE=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "north indian food",
+            "count": "7"
+        },
+        {
+            "tag": "price",
+            "count": "7"
+        },
+        {
+            "tag": "butter chicken",
+            "count": "3"
+        },
+        {
+            "tag": "lassi",
+            "count": "3"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Ordered veg biryani which, when compared to the price on the menu was 180 and got a bill of 220rs which in and around vasco is high the quantity is good but quality not worthy.",
+            "photos": []
+        },
+        {
+            "review_text": "We were the last customers for the noon. My 7yo daughter & I reached almost at 4pm, but Prashant the Manager welcomed us with a smile. He politely requested to order the food in one go, as the Chef was about to go. We ordered Palak Paneer, Tandoori Roti, & Rice. I asked Prashant what's for desserts & he recommended Punjabi Kheer. The food was delicious & my daughter enjoyed every bit of it. Prashant was patient enough to wait for us & made sure my daughter took her time to finish the lunch. It was his kind gesture which added flavors to the delicacies.",
+            "photos": []
+        },
+        {
+            "review_text": "I had the misfortune to taste the food made by Punjabi dhaba. I had ordered chicken based side dishes from them . The food was horrible and inedible to say the least.  It was very hard and we had to throw away the food after trying to chew a few  pieces . There was some hard pieces in both the  dishes and we got worried as to what was delivered to us .",
+            "photos": []
+        }
+    ]
+}

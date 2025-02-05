@@ -1,0 +1,53 @@
+{
+    "id": "20250206004505_293",
+    "name": "Schandis Restaurant",
+    "star": "4.4",
+    "number": "721",
+    "score": "3172.4",
+    "area": "Ribandar",
+    "url": "https://www.google.com/maps/place/Schandis+Restaurant/@15.4639127,73.8051804,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc19ddfad8fe9:0x7b69ecdc01d3245a!8m2!3d15.4639127!4d73.8051804!16s%2Fg%2F11j3s208_9?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMiFMQ4rDKGeypYB4I6DIA8FRrBuN3TGcv6VRao=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "19"
+        },
+        {
+            "tag": "naan",
+            "count": "18"
+        },
+        {
+            "tag": "biryani",
+            "count": "16"
+        },
+        {
+            "tag": "hookah",
+            "count": "16"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The Persian non veg platter was a delight. Chicken and lamp pieces perfectly marinated and cooked, along with saffron rice and mast o khiar which was the perfect dip.\nThe veg platter was also good but the dessert was something that I would want to go back again for.. baghlava and knafeh",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkr5SgU-YWzaVMMZalOGEJXsZ-jJDcQ0eHl2tRsp6usMHDDPXj57ysA1MHYZrte9RsmkxkgUyucQVlNvxBhdppO5bQwv4LH0en2NgXDP50YgEvEgMPAT3iPqSivNLw_GT7za3j1-A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkXKWpSVHMUYauAseqIKDbKl064sGNplHNoAsSlniSXrhPIQ2MIpWNRGAfFm0-i1IDRqrgeyTT0_xBxTVN7jAuZYvAGoJOGFsK02Be4TBm5_eo4nTLJzjdn_XrU-sGV1U-2Pj8H=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm-4TD9uPB642IqsGWc82FpXm6U2YlmP2DZD1O-GauG131kxu_Yock3Th4jHuuVn54RK9dtsIKJLqTQaKLhnCqU1d7sPQblDYym9Z1p-msDINXjhdzEXAAcGtqbytbbWBtMp2LI4A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkTy2AIC3c8gJLQEqbjK2bGo2HEpZcD_1C3R20qM5Q-qsH7YY1kOCq4cbwDAMP0p0Yh8X-k-Zl-272s7lYzTBEB4pdo5WT6v_8RU68zW3Z0O4E6oW9V_mmVEp68SdnDPgL83x27=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "A hidden treasure for anyone seeking authentic Persian cuisine. The seafood is fresh, and the flavors are perfectly balanced. The platters are absolutely amazing and we gorged ourselves on their Knafeh and Baklawa even after finishing two entire platters. The service is warm and attentive. Definitely worth the visit if you're in the area.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk4pk_DU8oB-2d2Ogie4Ia1IBiPEsIm6mMjcEwUK_srF8K1iz35MGQoEown75vtL1Xk8R1G6myiann-OSZg3xOuC7owVfZvINAWBGhMJAv3UevDa-mvtrwdeuJpDtgX6Uy_UA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlHfWnyhCpxKjXv2nTXs0BupbFOwU3tpGZyEVJklARyPPwyc0Q37rs5QFg7GufeC7KkDFSv_kqnAvZzMqWbSl5R_72sm9X-xy39BIqjczCUF3P6fMe7jNkEq6Ju9y9K6VAup0mVPQ=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "I absolutely fell in love with Persian food! We tried the veg mezze platter and chicken kubedeh, and both were delicious. Each dish on the mezze platter had its own unique taste, which made every bite exciting (especially when paired with zattar naan). The falafel were the best I've ever had and The chicken kubedeh was juicy and full of flavor!! I would definitely recommend trying these dishes!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkJ0AipEoWlV5LRydEdxFiliptK-Fw5wYzqKM_3Lm1Z7L3O1H-44x_J3dEZmIqVMmJXwLNxiWLmFj_TgeVOL5UO-fJXq-Ugrn_OojBrJTIYxmsIOzjp_mh_cjJhmMSGIIiK56wt3g=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4Ws3OGPGXP0x-CexGTQl0SfgbkPxdNz4W1H6ubjfur1L0JHlnIxflriJmKhB3Ktlo01DA_UO9JcOS-sGyvBJ5_aqL_g4i7J3oOVVR-oNGyhhQoQiMRPbmdir4vAuH2nL6RejR=w375-h563-p"
+            ]
+        }
+    ]
+}

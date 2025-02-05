@@ -1,0 +1,52 @@
+{
+    "id": "20250205231719_150",
+    "name": "Felix",
+    "star": "4.3",
+    "number": "768",
+    "score": "3302.4",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Felix/@15.5843127,73.7522664,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb9526e53817:0x8b214ee525abed51!8m2!3d15.5843127!4d73.7522664!16s%2Fg%2F11lgqgkpzv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMfOaQ_TmnAE5l_qV-85ZJfuc9AwEOawlDYkMhH=w408-h307-k-no",
+    "tags": [
+        {
+            "tag": "cocktails",
+            "count": "34"
+        },
+        {
+            "tag": "music",
+            "count": "31"
+        },
+        {
+            "tag": "co-working",
+            "count": "15"
+        },
+        {
+            "tag": "tacos",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great hangout zone. They are open from morning for breakfast till next day wee hours. They have a decent place, wide spread seating, music performances and then a cozy pub as well. Don't miss out on this place if you are in Anjuna.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdno6egyoqij3KeLnKDJyIRsPmVzJS47xfMi3YZgyv3DjHUo1dyiMB4bddAPdBN_KxXV3BrNocPrfAOh5dG4Z-IviOD2UbKhMGby7-pFd3arhs1gw6QfovqzeqceAVTZd4ko2aej=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkzoC3IGjCim0TWcTBnE2SFY7c4zCKUt0hiKhm8N70BqMa5ZZxqobs65a7u4IuPW3dCHsbZI-TtWgmSYoY0fdLA1In3BU5oy71I0ZPbdfCtvSIJ8YBDnvoHVUIq3yge7p6bwXum=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkgjrzvFjgwjsBwh42GTSz3rj--SGVfAIvxvefL0OdmQy4VbyzBUmPbtrDGRS7KKzZ9I0gO0X4cyjSSJL7A1BfFUlL95eEnz362ASnh16CGy2hSDdDMHyzidOlhStxuXQ-oOo4a=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnyEC4M5LN7vSAGMNJgGcNqOdPokxIwQI6aDq6Yfzw_HR2fisefOnMCCmVEYnN2R8CJEHDo940kFDeIVWXS8m8QFoQleYOmPc78QilnlZKgSFpfGOH7PRDjzzySlSU3zyFjNyJq5w=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "What a lovely restaurant. Love the ambiance, it’s cozy and minimalistic. The music isn’t loud so you can actually talk and listen to people, great for a romantic date. The food is absolutely delicious. We got the four cheese quiche, Félix hamburger, and another vegetarian quiche, all were absolutely delicious. Highly recommended. The hamburger was one of the best burgers I’ve ever had.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmDuW_V_NA6tZJxH0f9OEgW0AVNHPccSFQeWJOCNONx7LlAwc_awfqmY9hmWCG_RH-Mgm7PxJF7xlrcbJfcvlnbumPfEcq7U1N3PNmvBAj7MaTqdatkagR6Lz2RSvRMvoRJhhe_=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlTog8Y_MsBY3JGMsZgtNva6KgHdqTrd6FynqFw2ggmXnEy3HGuq6qeEdhFVXXckIlx2IbAznHMIm_CKLh-8IkHMnK-lZorekeM7sAHpE8_wzY-KrNEx8f70AT8wowOwpWlusEd=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJLzKyDlqoAyAWWK_GbmlutfXs3K9PFXnhf01CActUDoA7eWjWit6A1Hexs1npn57hcPH4GTNgLHKFMyF_1zXPCjxcCj8O4YpNlAeHZ-dx-pxUF088cdakhL5uEsSzShmuh_Y0=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqzYmhf3Tp_tNyCr3Hwu7kGldjJsWKTrrIReLZVTgrsE1FXFXM8LZaEQplG_gfNXp066siZy2s33TGRX-4-uR4AnbytV33pDFL_Diw6IMhDGUQilY6LL1_b6mJr6Wib7vdRI4J4A=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The place has a great vibe which picks up around 12am. The bartender was really helpful and fixed us with some really interesting cocktails. Vegetarian food options are very very limited but the food was really good. Must go for lounge feel and great cocktails.",
+            "photos": []
+        }
+    ]
+}

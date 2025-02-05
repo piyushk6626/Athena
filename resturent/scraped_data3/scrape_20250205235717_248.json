@@ -1,0 +1,56 @@
+{
+    "id": "20250205235717_248",
+    "name": "Fame Restaurant",
+    "star": "4.7",
+    "number": "303",
+    "score": "1424.1",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/Fame+Restaurant/@15.3170579,73.9024752,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb6eff40d2a9d:0x2284d71d45ba6817!8m2!3d15.3170579!4d73.9024752!16s%2Fg%2F11csqwd9s8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOmFMKpA8FGiaASNok9xH0eMTstuoK7ruPfk0PK=w408-h725-k-no",
+    "tags": [
+        {
+            "tag": "vegan",
+            "count": "32"
+        },
+        {
+            "tag": "experience",
+            "count": "21"
+        },
+        {
+            "tag": "jain",
+            "count": "15"
+        },
+        {
+            "tag": "indian",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the best dining experiences in Goa.\nNewly opened pure vegetarian restaurant in South goa with its unique menu and curated dishes.\nEach item in the menu is different and it tastes amazing.\nWe were left with the feeling of being part of the MasterChef episode. The items were presented neatly and the chef was kind enough to explain about the dishes. Special thanks to chef for accommodating our request and dish suggestions.\nKids loved the gold plated biryani and it was an experience to remember.\nSpecial mention for the dessert 'Nature' , it looked so amazing and the taste was 10/10.\nMust try a place for its ambience and the vegetarian food.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmYePoyQddvEr_VTG7nzOtjzwPeMA8di8ceJYJrEE0ChDb4U4B5_ClJVCswOPXlpPcWk-uehQUZtGn0kDMwSlD6zrrqm1-s67hujwchMlzzwXTf3K-SP1xUdZtehdFoTDEnhg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk0eYOnETWn78vM2g_UFqFgxsLFKrzz_R9lWtzeGA_NMAp-VvgSido2UjzyduqsjmQsr5e4RbldJ7Omh9FKOkQ38Pk8RpE0-zk3FSuiaZ5s3BiGPK57Fy5Ksgl8w1juxGTgfOo6fQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnnuXPgnxoNqFvO7Cw0hqR9Wc2W5uzi_s7unNJ4XiU-lPVDA14ddHuRVaoZkkrNkZB6TMZ4mzUPKpm5Ignt7pJu5Ucy4kI4gz5_1OxqqhsHttTufybBiaY1GzJpx3RrO0WE-iXn=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlCQEFrFseYBnZQEe8nrwT7K9B39HG2GjCoPX4Pdatbfae2rrgdQN88U4AbAEx5RDXfpJ3m3RGI0NDp2V-N1ndbyywRyKQmyXM3EZGux-7XUTbpKihkRdMWvLckmkaVsupsHujlkQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "It is part of Hotel Planet Hollywood at Utorda beach in South Goa. It overlooks swimming pool and portico. It mainly serves Asian and Western vegetarian food. It is enjoyable to sit in portico over a drink and enjoy the beautiful view of vast garden.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkJvH-JZtR5tBy-EaHxamRqajmFPGylici90m7coPK2y3xb1q4bIbXyLdTMC385YeR4_TB0mWOlwbeW0ZwcIlDyC1u1UrtilvGm4uPjWOlG19iV3Vsik91zJMlQUbEotxU7Lnz7pA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnushSJnWqOjKthkyDgGD1soegoKuzxGG46dsBdsRYHM2fEGpzERgppE4qkyvQS1qnIOWovIUl4TKoFmLUfgoNnRNBCijVr0PsEo98mBS-0x6fxznbf_oLxqGUJqCB_ichUuaY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkCVnQI50_ky7dvX74c9rV62QX2lZvD1qSL-ql-9-DU712tqPVMVCxq8fCdDC0QaIW9Q3mwcDB-TZINcS1CLdVCqY78eNglJ8AH78BZF7YdRgxq11FpJY2dMO9hlFIE-nrdtwdfhA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "planethollywoodgoa just re-launched their in-house restaurant Fame as a vegan, vegetarian and Jain restaurant. Chef @rodney.fernandes.16 and his team has curated amazing delicious surprises, a completely scrumptious take on the overall menu.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnp-csrNRsrNPj9ndW8qyxWwLwmkY0RKxNZ4ib3OH7A9-ag1Q9dLk48qAwcGpRTWS6ewUgUkn-ePjiXIbd6inJ71OxAQoxRDwKf3anO2Mf7frXtbOyEZhf9WTbx8Bf5ViOggLuH6A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4On4I_Pbf3DFB6Ic3FO67nvFCM7QCdvVnQl5C7v3nWuKTwxCXfLW5r-PmckdYkp_VRoI2UBFyVk4Rk0d-V18RZI2IVTAJWN1bgm7VmhCjuEkJ1FNWn6RaD4ZCxm5l2LUktL8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl-2OWz-OU-biPjsqSi8TC3cAC29i-1EAGrvdSIgtRyCfmVe2vLJE72gM9m-SCZkMy-EIxYUp9dvJ13zJmwBaeJVFESB2qQsgD9iRPD2SevrXcaP7hUi_PpdH53y0EjBB5JzOT6fw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlvlqGNr0EEna3stvC3hDBAo1qfpHTNoGBzYAW-B7Jdl-IT_aloxza6uVXFW6urplYJ6ydhPTzisAIpEATo_6axUNE7cch3O81nTPzP1wGwPRUGCel_6n8Nz8CVcA7jFT_vvL8=w375-h281-p"
+            ]
+        }
+    ]
+}

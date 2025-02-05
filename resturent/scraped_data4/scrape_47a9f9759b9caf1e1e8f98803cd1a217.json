@@ -1,0 +1,47 @@
+{
+    "id": "20250206003908_273",
+    "name": "Shivam Family Restaurant",
+    "star": "4.1",
+    "number": "843",
+    "score": "3456.3",
+    "area": "Aquem",
+    "url": "https://www.google.com/maps/place/Shivam+Family+Restaurant/@15.2897857,73.9699237,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb1aea244fd9d:0x7c92cbaa6de0136a!8m2!3d15.2897857!4d73.9699237!16s%2Fg%2F11gl0gcst7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO2wBRtKFDaOMyGdHqj7f4C9Dmfo2AF_tAja_Wr=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "fish thali",
+            "count": "18"
+        },
+        {
+            "tag": "prawns",
+            "count": "11"
+        },
+        {
+            "tag": "curry",
+            "count": "11"
+        },
+        {
+            "tag": "rava fry",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The crispy chicken and cheese garlic nan was a good combo. The staff behaviour is really good. The pricing is descent while comparing to other restaurants in Goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlteNaSqzA5cMWWKO6JxZ8NAesU0Fuxd4-RvkCdnM3U7Zb2vKFdiRJyAzFKpe2nUNE2qxql4YTRo1ICRHWHoUJtG-i18RBOX6xjaVUjJQ2lwpTveGkZMo0BmTzYajWzsTk8h7eP=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Though this restaurant is not that well known as other restaurants, this is one of the finest sea food restaurant in Goa.\n\nThe fish thali is outstanding. The service is impeccable. Ambience is good, not great though. But the food leaves a tangible taste in the tongue.\n\nWill definitely visit many more times.\n\nHighly recommended Fish Thali in Goa",
+            "photos": []
+        },
+        {
+            "review_text": "The place is beautiful and on road so no confusion in finding the restaurant. The staff is very friendly and cooperative. Ordering is also easy. The fish thali contains a lot of dishes, affordable and all the dishes were tasty.\nOverall it is a very great place to visit with your family.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlyJQ5vAK9ngilVUPfwhzwsYoHxg7f4Eo5joaZtze0eE-uIVrX9RpeV2s9LmSO2-pWmxgzLynRso7PNuvkREWeSkzKM02DGtwHp93CkSzrDfp7JBRnPCgQEvTPzDWXb62ByP9WD8w=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1Bq8xniqlmQYKtw60va2ySfblzpGAw4wsgYZ8BPWLtq-dHw88q0KDKt3NwuHeBIungIiJO41HBYbHiz56bNlRKIacevMpoR3y8blHcKqzUZfAGnvJi-PQP0_bIm8AM3YlrT87=w375-h563-p"
+            ]
+        }
+    ]
+}

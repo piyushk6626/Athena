@@ -1,0 +1,56 @@
+{
+    "id": "20250205225319_160",
+    "name": "German Bakery",
+    "star": "4.1",
+    "number": "1310",
+    "score": "5371",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/German+Bakery/@15.0093015,74.0276567,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe4552850cef4d:0x6847b25f61adfa92!8m2!3d15.0093015!4d74.0276567!16s%2Fg%2F11fzv7vp54?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipP28Ml8-7y7LRVa0kE881g3BcmUXcIa1b_yLw0b=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "english breakfast",
+            "count": "27"
+        },
+        {
+            "tag": "beach",
+            "count": "23"
+        },
+        {
+            "tag": "pancakes",
+            "count": "21"
+        },
+        {
+            "tag": "banoffee pie",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "First class establishment. The staff are super attentive and courteous. Food delicious. Went a few times and informed them I only wanted simple food items because I’d had a recent gastrointestinal issue. The manager was most accommodating and showed concern which I thought was great. Oh, and the Margarita pizza I had was the best I’d ever tasted!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmTIRdTfo3mBfDHfvS30EuWPzYKgzHnjPOcUboQzrIpAjjUvXJt46o15YK3KZTkjEcJgDvZZj4gcbKRJn7imh3ZyyFl-hIXNUH0RzcxOZ0Ku-zHfNwBSOxQewyyLzN8G8obAGs=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlo1efAi-pXzH5Dq0L9nsKlNR9AT4oc6_IaAdpEj5CHmSES8oWlg2SgzYmWQlIYVJ5HCIUnkpOKtXCwBz4sbkRVz21gLJvXHanSsqg4Nr6nTizvhLRb1Om_2jroOZ7joI1ySticuw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk7-HcjkYoMOg0w7xRbstyujZ2jMyL4rB5qEqQk9a6BWrTxUN1HVbSCZZWTrCKniwrJrnP5t9ZvAELbywjNY32rKnDse_oH6CIYkCdGExjSriij_1Qnf9OF0p4TVTtXIYPgnm8=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Best bakery for breakfast lunch and Dinner in south Goa in palolem. I had tried many English breakfast, their English breakfast is one of the most authentic breakfast I had ever tried. The only place where we get both juice and tea/coffee for English breakfast. They have a lot of other varieties as well.\nTheir pancakes are also good.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmngx6wVDnl9UzDToljrkB70aW7oLElPwvSQmhKna5YNcJUyRm6_14gnDFwS_d5w99RbVJDA5z-7PwUdBz1ieSVCzVlZgwSsuiMZISemnHDuqhJTnqtuLPLHGTLOM-UA3bFQEcruQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmWjZkdrFItRwBFxBBsgBtnHKvBC-O0_YGgeXUGMVDDMnkKtQH7yn2gkRnEkEOHMxopkF64Kt0MwH0l76lVp8VLBAQDV0O5AAKJf1LrMWE-ynHiQVkORZ_BNJjjVSMD9QB6Yxct=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmF_D91Aj4OR06563jJ30YnvDqI1aRaQhiAQsvoNmrby5Nb5S18s0Q9JF3FdgrALcH1b60kBLp-A62Rnvn5e_PHcfcb6taJ152DyJ6PUavChym2rjIZvK-zUQtOLld5BNFVePaO=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm6fAR3Nu0oF83bd60K2jib9VRw73_frkZ3qi24-GYE6o_PJkmySd5WfHvXm9a6y426P9w-IGROktNDdJXYejZchRIBRwCNnOUxJ34UeqkEsL-MxDcJ1jp3Tf9yYoumQlr0G1t-=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The ambience is cute and the staff were friendly, sweet and kind.\nWe tried their American and English breakfast. We r really satisfied with the portion size and taste.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnGmbgnkB35RwiSoc5uATbTmi8m5LRa4Acrl3dpiXumqaivaIgdZJ9IvU8BfnwJEH6Q_tzlDy8KpwnrCN_3Btos89UdF2v45BjV35UVh7q31etjPT29CUwDRxtxHFARCdpbM8oeJA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmjy_D4FdXYgCxfvlBuqSfk9ebu7z-wtNmGd7U2qAeTqtLgEZ4DAjbeEODEWWGng5qHVUFOI2JBFZ08DH-PivSXmiy4hhKbshvc1VuE-ptGJAma-GLtdgbr9A8ANsy_UCyd_y0=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkatDI_6kzhB0w-kq-o9UKFA_3sN6Y-UzsuyxAsEGnZMnP6R0jS_-eKqxZjdAtyiUNOI5mwyziVLQGyUFhDP0LRGkEqK4UMj-e5FEv1ALfS2MDLZAI3TxHTe1uhjw0pAXNeH50=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl7yRMni2HZG4NbtF7XOwsBmblt-HNwLMiYyyiORUazZMG5qOQDQ5tL62C_txaqzLkAxQsGDj3-TP4mtHAox9noFbqZM45yiCuZat5TCamPDQN4QCcGidj-OvpCFkiLT6tUEeQ=w375-h281-p"
+            ]
+        }
+    ]
+}

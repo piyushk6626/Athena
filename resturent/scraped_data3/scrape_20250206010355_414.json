@@ -1,0 +1,42 @@
+{
+    "id": "20250206010355_414",
+    "name": "Nia's Restaurant",
+    "star": "4.4",
+    "number": "105",
+    "score": "462.0",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Nia%27s+Restaurant/data=!4m7!3m6!1s0x3bbfc08d75f49abb:0x4506c257cb7f2b02!8m2!3d15.494076!4d73.8213283!16s%2Fg%2F11b6p20w4x!19sChIJu5r0dY3AvzsRAit_y1fCBkU?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMq0ED4Vhe6kWirR6fm9qf47uvkgSNDmzDRc_rz=w425-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "21"
+        },
+        {
+            "tag": "fish",
+            "count": "19"
+        },
+        {
+            "tag": "price",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the best place to experience authentic budget friendly goan food.\nI loved the king fish thali here. And the solkadi was cherry on the cake. Loved the food❣️",
+            "photos": []
+        },
+        {
+            "review_text": "Delicious thalis , with fresh fish, @ reasonable rates....",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmh4Q1lw8fKgNSSfWlZLGLXstmluWRmSF7vMLGlnjSdgyqAi3dgnAAtfgEfn-VTsVVnSbvcZbw2BJdZJdHd3iEscJGZLLZWgWDRI6Qn_XWhwKo0AKVw_ve7gOTEhsEPROPj8LsH=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkdbGwXIc1a6N8au17ZVDxFhtQ0zL2EckRO2UUo163ogxC0HEeQPo05mdbMZ2-E5rI0hIqXkYsvq-UygxptGI6Gm5X6upCkXh4lcxKzoMGHyc_ij26Emv3XiVfSKIaLDch3Zvzt=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNWv3wN9S2vwNfgkCx2_8E1vohVbX5kThyMt3a3l8DCpTOzuUlUWkNwfbdv3_dJ1fMkqy0QvXu6Ih_s6YXDpQzWClZtx6wEodjbP0P6cuyLB4dYEdqmNPJQEfePDh-OT-3Ocn4Wg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The best place for an authentic Goan fish thali. The fish curry masala recipe is a family secret. I take all my guests there. Francis is a good man",
+            "photos": []
+        }
+    ]
+}

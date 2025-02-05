@@ -1,0 +1,51 @@
+{
+    "id": "20250206005853_408",
+    "name": "Restuarant",
+    "star": "4.3",
+    "number": "111",
+    "score": "477.3",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Restuarant/@15.5176953,73.7651588,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc193f0ad7509:0xf7532d53c133bc2f!8m2!3d15.5176953!4d73.7651588!16s%2Fg%2F11b6hnvd6z?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhF_Up5u6wVzcY2V75MTxATMVX1hDq0_2fAwPd3iM6P8mURDlDjkMKR0DR9t9Ouzk55etZiJe5861W2x5tflaOiUehhRyrN7aACe_E69J_pqFT6MOOzvv1rEseeP8J7cPz0niHaKbHKH8EvFpqPqFflWPbcE_ADR6JjnWqlHllxI0mJjK5zJo4j9m3rtSk4GnNrPVuk=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "16"
+        },
+        {
+            "tag": "chill out",
+            "count": "4"
+        },
+        {
+            "tag": "prices",
+            "count": "4"
+        },
+        {
+            "tag": "song",
+            "count": "3"
+        },
+        {
+            "tag": "prawns",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The service was good and the food was excellent. Fish thali is a must try here. The prawns masala fry was delicious too ❤️",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlr4GTtMVWU9ur0ylUQa5s55mCqCAn-dbUjwnFILFMX_McNhrYKMSsMJ-bj1oZM1yQ2Hmyt5AVX1dCizrjQheD2vSTVh0H9vmRfZIzAvwRFAmKl30S1jKoiYDGJ2POo9MCBVEY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlybV5euA1ALy9lQ4Vin-Gz8Cb4PhNKJjXex11kV5TeHC5bzL5Zt7gIjB1M2nCm6jN28DJSuktk2X7dOVRt7T-AigCxRGjLufpo2UzZgx6khSyC864pjl6abb77ofQ5WfMHug19sg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlCdExi0nk6n3qR8bfR0JAhECUJ7oqVNe8azFg2nYz1pmshTnAQomD5CM7BIHA2ZwaYV-PkBwTIHYlAgw-RwkOWT22JIUrTCoq8UIemaFOoz8gr6wTQA4YSdGOdbBvl0r5rcUd5=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmg7gsYTwRIMaQFENOexDm7UQVi0qcG0eO9Jm-AI6nUYn1gZ5ca3vk7pD1JwhBFC0ROe-igOn2NkS57IOiXeF238JQRzCHIJSwPk46O7K1PD06nQjC1IS1qjC_t2WCAfbkPz-uOSA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very Bad service.... owner doesn't know how to behave with customer....very arrogant. bad quality food - too costly compared to nearby restaurant... Owner fools the customer on quantity provided... mosquitoes all over the places... no hygiene maintained.... bad washroom.. you will not gets what you ordered... lack of listening skills...",
+            "photos": []
+        },
+        {
+            "review_text": "Nice place food is very tasty and service is best thank u visit again",
+            "photos": []
+        }
+    ]
+}

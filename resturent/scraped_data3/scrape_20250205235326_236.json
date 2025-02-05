@@ -1,0 +1,53 @@
+{
+    "id": "20250205235326_236",
+    "name": "Thynk Veg | Vegetarian Restaurant | Jain Restaurant | Vegan Restaurant | Dine In",
+    "star": "4.7",
+    "number": "346",
+    "score": "1626.2",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/Thynk+Veg+%7C+Vegetarian+Restaurant+%7C+Jain+Restaurant+%7C+Vegan+Restaurant+%7C+Dine+In/data=!4m7!3m6!1s0x3bbfb7dc074cf11b:0xa898466e878cfe52!8m2!3d15.3101643!4d73.9159363!16s%2Fg%2F11w24f9kxn!19sChIJG_FMB9y3vzsRUv6Mh25GmKg?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipML5-MMgPHoshFhmu-j4x4NsLrfJ5QbBVKomoWH=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "experience",
+            "count": "13"
+        },
+        {
+            "tag": "atmosphere",
+            "count": "12"
+        },
+        {
+            "tag": "hospitality",
+            "count": "11"
+        },
+        {
+            "tag": "pizza",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Worst restaurant in Goa. We were on a long drive and badly wanted to have some tea. Stopped and waited for literal 20 minutes just for them to take the order. The customers who visit here are almost worst. They even give a long listing of ingredients and explain the whole preparation while other customers have to watch their mouth and sit. Today one lady took 20minutes and more just to explain a dish along with prep. Got so pissed off. After taking the order too, they took another 20minutes. Total 40minutes of sitting simply for nothing. Stepping out of the hotel and I am posting this review.\nThose who are hungry, pls don't come here",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlFDYBegyAlrP7EsjXbteiwtxlTgqZVtwtJSWCw1J1K-qIUXRD6J39p7nrhzy0JnsI5Si6iCq2EDh1sBWI3Omauud8ZAcKQA4M8RDx2L2Sx10l-5jig8LVWbIqJ9VRMsaZSKbbrjw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmoGbj_exOTdd_SisfJSghoQYRghBAI2ktmN8UCFyT0wXy4TU8uzRLudO4chUmSierND13_JOwfLtPl_nlsWTxCxhcyaz65tT9O8oUrcUGpohibb_AzTUFAE3Q5Vih5dDv0hG0S=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl5Mk1APjoKgV0-getgofB5OvPYkvQUXKkGS_21kK35cNdnZL43mmkVDt6-NfGbTHZhHF6LdGUbIgSvG2YQvsJr-fzBW02kzM7pJjHK9VTyKOjsygdcCvZnu_GngCQ1nMK1HdtdYg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmKyC4AcbCnlp-rGtwrLMS7_kTNtyM2TpWLbqeqZ28HN5iezaTo4Cdo6qGoFLNBtWFt9WWC79pc5nS9h-Bt3OWX0PQ6rjmGSdi4u2n97JvD5QDJ4rpnBdEfpqd838Xu90t-tFdD=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very good vegetarian food served. Taste was excellent and quality was also great 👍.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlZQSPVWK0lx4cq53dhKwsDxJHao8-N3NicievBVJCo9dq94geP6Wa7JH9oyMHYje5C3RrgDLckNE5ymjxaEJ1vtDWTL6RLvuCwNm7ECWA12Knobuslz_IsL3F4FYxqt3NrHPkP8w=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmh4_ejPKct4fS3GWystxZ2gljo7qnyTsQ-BXoihMmT7qsoWJ0uHdWBqO3rWhIi52-4lmzSo85CYEcvDcBNQqRxTmDceREWFCvxYi-OYN8rVGHVHBXskY0xPKS09d8LLzn6CKHW=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Thynk veg offers an exceptional vegetarian dining experience with its creative and flavorful dishes. Highlights include the pizza and sizzlers With attentive service and a cozy atmosphere, it’s a top choice for anyone seeking delicious plant-based cuisine.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmXh5OiCYRp2lgjBG4QKh5JeJwmXGLy6Om-dZ17fJq7VRrf5EeXK-AhhgiZm0-WwU07SP7sIaXzUFOiTqmfKJOM3gm3RTU8NY1iuZUmt6FFwVXW_9m5vVI7aj_GcFJr8I_3kVi2Xg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmPUXfQX6g2-2CWWOZ3ST_Q7RikEgxSN-Q10fkg38H42QwQmJXFgCz7crn_C1u53WukkvdFP6LgenbyJFke_WwbzF_iFq55V_3N2LeKqd1cBJUJbUi5Ie7gxlAJRaENfvITQfpYFw=w375-h563-p"
+            ]
+        }
+    ]
+}

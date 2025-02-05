@@ -1,0 +1,53 @@
+{
+    "id": "20250205234633_222",
+    "name": "Baowich",
+    "star": "4.5",
+    "number": "418",
+    "score": "1881.0",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Baowich/@15.3936614,73.8616211,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb9ee81e22f87:0xe9ddfbc26645cb06!8m2!3d15.3936614!4d73.8616211!16s%2Fg%2F11rxrrkpzm?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO-snCpietALWOuRU1y3CqwYn8jyYS_IBsGLmsM=w408-h883-k-no",
+    "tags": [
+        {
+            "tag": "bowl",
+            "count": "9"
+        },
+        {
+            "tag": "cafe",
+            "count": "9"
+        },
+        {
+            "tag": "forest",
+            "count": "7"
+        },
+        {
+            "tag": "chicken cafreal",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A good snucked in place with a lot of greenery, perfect vibe to enjoy your breakfast and evening snack. Great and affordable food with polite staff.\n\nSoups are amazing, and portion size is also great.  A must visit if you are near airport.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmiS_E-u7NKMsCkhIMPKgldj7sLIH4TuX7fGqJlWDZGIQpbMtJVPi2Gd3CJOc5_zLfP-fZsSGZdQv58Yp5nZ4u9RCA1k_qM4dspnQgVzGarcA_9DJHb4E1-qQXjGVp1EO87n0SHow=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmgG5vYU4rQ6Q4W0wuBgDPuDzZNvl2r6LOnFQiOSwKsp7VFEslfZD65LrgchW4lRnHMuavJJEvfsLahCSC_-hCm_9HIXZGxEewJu0QpPb8g1UgbB6IJrX6Li7IR2Do8J9Es0yQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkrUFglPGEQ8fbMsrTq8QR45a3bM1DC2zsk6dqfH1dvk-GyCU7hGvzV_OiMs3c23DvEYEq4zjl04r-mXnOrro9XAggXqkUOZwzk9wzz24MTDLy30E_QB9ctzOII8PNvt88llOkz=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmfXda8LoFztIax2Wo6CpYqFRlwPdXgy3jb3Z5ISnbgVwQN0ZFw-cej3U6Ibzmnq6sfwR1YOzFLKw7wddvSFOqxZ58Hm4WKFC5IrcbRGev7XDmK4OUaWhV-MDBi9pcyj9ARiXc=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The food was delicious and the ambience is great. The staff is very user friendly and never says no for anything. Customer satisfaction is their top most priority. 10/10 Highly Recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJvdmfmzdnO_MDCH9iLBFMt9dIxM5vczyYuDUBmTJxluBek4lR1389tqOgVHQFS2TROUtIeMY-mdqvBI5-4CC-QmmfjRttw5YSrQyZAsV0lGolZ49qoYhGeG3lgGWEMlNz6BfD=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmriFktXiIf2Z5-OnYaj210-XLPEgkjjcx4XDbIsNUVBkrU4ZmFODPLP51XffW_W5bI3XNjzz4rHR0YSYIeBvkBRu22CeMsbon23e3N3QSY5c5Gu0xEIt5tdJ3e_9zHjnPK_soe=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Here was our first dinner in Goa. We were super hungry and we found this place nearby. We liked everything of the restaurant - ambience, service, food. Semi open setting with music was great. Menu for kids was an added advantage for us family.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnC5F4qEw91doHmBthatyqXY-Q8-2S4f_L-0EYZ4omd_6zFDmPrr1qDTsj3ndSE2QZFqTLN7zb5BVA1gfK4oEcjx3DVJQ4ZlBaAt1fCQRq_ZmQfDSXNqHa40DaIwdsuAT9WPH8=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl-ifmykPJeDZZlLytiEOdaf2tz01Ols2nSoyl2yCAXXJ1MGYwuzKfmIwNNEkW07yyZKnRR81O5ffUrOYqBQ49HwwMKYAlGPGx0fkL2O7-V21d4qnPQOKyEKVNAK1Bx3WL1F9cJVQ=w375-h563-p"
+            ]
+        }
+    ]
+}

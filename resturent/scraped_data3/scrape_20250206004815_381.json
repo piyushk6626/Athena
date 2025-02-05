@@ -1,0 +1,52 @@
+{
+    "id": "20250206004815_381",
+    "name": "Waves Restaurant & Bar",
+    "star": "4.3",
+    "number": "139",
+    "score": "597.7",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Waves+Restaurant+%26+Bar/@15.5783493,73.7392757,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe992335d2a41:0x60a99d10bdf4aee3!8m2!3d15.5783493!4d73.7392757!16s%2Fg%2F11h3c3cgn3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOf_cceJkyTd3L1DmNLz-FaAUOOlM1_BCNDp3yT=w408-h271-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "11"
+        },
+        {
+            "tag": "price",
+            "count": "10"
+        },
+        {
+            "tag": "music",
+            "count": "8"
+        },
+        {
+            "tag": "experience",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Decent spot with average vibes. The highlight is definitely the seating by the ocean waves in Anjuna, which offers stunning views and a relaxing ambiance. However, the high prices can be a bit of a turn-off. Great for a one-time visit if you’re looking for a picturesque setting, but not the most budget-friendly option.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkUqJyT21-SepueUIf6dkkJAshvvt8JXBx6p-IEpCRu1H94LrjFrwuG7RLmnSHgwGZ_Cl6MWg3rpmlywOdtuNTYqC6jOBrLP2Al5-LacJnsPPMYVnU49-xwMST0_6PM40L08Ucq2A=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmpZQ12xO3XjRlwsEbRnnn9y0TqwVs2qBUjbxWNbHQigNBMDPbz9gJOFnu8zrqtxj4BGKouqHt0cQPsWmSB1eqgiOUuOGHjA1RoWAKxvkyTaP8g88CI7HctTkUeYyvAO5Njg2e8=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Me and my friends had a great experience, a lovely dinner alongside the Anjuna beach.\nSanjay Suman Chauhan was serving us and he made sure that we enjoy our meal at the best table having shore experience while enjoying the servings",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmSHLveJoKgQ0wpP-AXTlIHIn9KvMCyPAYRff6rMoVjZZKbHf1V6pF7Zi__AiBmqd2T1Mk6yJq1Whob8UD2wmmFFqEAsgb2nutLi3fqo8ZnrTa_DkmCd3XGSvKxLYG5OF4eEy1_HA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Location : 10/10\nPlace : 9/10\nFood : 8/10\nService : 10/10\nLast time I visited this place 2 years ago. Recently I visited in mid September and had a great time. Food is Good, Service is the best. Good Music, what else one need to enjoy the evening. Staff is very friendly and cooperative as they replaced one of our ordered dishes because of salty taste. Must visit cafe on Anjuna.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdks8Ug0qOBUMJdzegjQgqY1AQIc-fi2iy3I7d4iNJpKJTjJPKEWTZOjHsQu8iDzDMY0CF8xGQiqWubs_uagp8HtIvHt5cTpQMFIoeytoK0LiFsyP9GAhOusykW_bboNcZEw3F25=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnlW3F4EKBpE76ZEAtQKKgM1m1S69XSpjNfOi132AFmRWWypcid-weGrKYbaERPOKmnnyBU2k6-E7H0e_NwPIDw6yat_BMipe-s6G6U5-Ej_gGl3_09ofN2tDZM39aylWsFss-h=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlG4MFr2vY3jt7H49Z_V1EpWdaNPJfrExboluGRLpgrW5BVgNnUuHpCEpVdTppOrZRIgwsP_9msuf6EQm3cwQiNqPIAafsbiC5-8RzOMXEGUsqKPqgL26Q9WbIqDQciA27QkbFM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn-b_GY053m16Y9md094cwgLOI4ICVjqv6OgR4yiFeM05B2QH0mEMKOre1H5n0te3IqQ2U0gB1fVWJsL5dUNd6Qj2pwI1LRfPJlMKJYFwzA2Yt3rwE8xSUhcZkQvXT-1dTI=w375-h281-p"
+            ]
+        }
+    ]
+}

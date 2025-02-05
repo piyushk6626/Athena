@@ -1,0 +1,47 @@
+{
+    "id": "20250206002034_308",
+    "name": "Anjuna 21 Bar & Restaurant",
+    "star": "3.8",
+    "number": "244",
+    "score": "927.2",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Anjuna+21+Bar+%26+Restaurant/@15.5846787,73.7537619,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb8d77b1236f:0x6f6c26d30a47bc21!8m2!3d15.5846787!4d73.7537619!16s%2Fg%2F11gmdgwd5t?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipP3ShAkMUQTHvXhcmcKNu6bQY2V_GE7KZfd6jMN=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "15"
+        },
+        {
+            "tag": "service",
+            "count": "6"
+        },
+        {
+            "tag": "money",
+            "count": "5"
+        },
+        {
+            "tag": "beach",
+            "count": "3"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Good food, but a bit on expensive side if you go with menu price. Situated on the main road only. Had Tandoori chicken which was great and veg fried rice which was average. Big menu with wide variety for food and drinks. Service is a bit slow, u need to wait!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkRwNPVyLanPm7COjKCj91VFdboh3DZ2oIKaMooxIIsJ8ZfcYJdb8C5GZP6KjAAmKccpgNfmKDAGdsWMj4w3anSsFzQ0D3q1RKluL394yxBF9njzA2WDuSaC_RTiIJCEixspGHV9g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJmkIP1xRsgZU7TVg_8RTq7aJrkEJt9dDyurbWuXxmtFMwfiaYOE0uZD2d7wK8sWzfG-tZErerpLfZ5JgN69KKYdpOmwLs05TtZESjUMsZDz71qQe2cBqyUs3-Pl_-s6qZHDHcgA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlhMYdo6q6L_McF2A7ksy2X0N2SFEfHOcsZRogBIt315vcH-1wmrrL5XTqfoee4ilvlP8ujfwu8EiyotIb_Ld2ctMmvE1fmxiqixwMPUTBuVZb_KJSk5i0le9Miu0zylHBD6TeM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdksRR2xmwYzozyxQi-yKUuP7-PbkPgvILq9SRVXxEP1MM73Mp4x5di85TIp8SC0Ofh6Skv8wA_W9Th8Rp_yF5wp6m7fmfn2NI_uchLzPHS-EB2ackIaaGd1bs3DqdmyVw3Yef_a=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Really long wait for food.. they kept bringing drinks with no food in sight\n\nTiny portions, food was stale and bland. Indian Street food is the best in the world, it's a shame this place detracts from that reputation. High prices for low quality. Avoid.",
+            "photos": []
+        },
+        {
+            "review_text": "It is a local small food shop in the heart of Anjuna which you are definitely going to cross every time you go to Vagator or Anjuna beach. The food was good but very over pricey. Watermelon juice for 100 bucks and omlette for 150, highly overpriced. Go here only if you can't order something from Zomato or do not have any other cheaper option",
+            "photos": []
+        }
+    ]
+}

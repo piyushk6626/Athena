@@ -1,0 +1,51 @@
+{
+    "id": "20250206010548_418",
+    "name": "Horisen High-Dining Goa",
+    "star": "4.7",
+    "number": "96",
+    "score": "451.2",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Horisen+High-Dining+Goa/@15.4510495,73.8517307,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb9be20b7956d:0x3f7dde7f3b90dcca!8m2!3d15.4510495!4d73.8517307!16s%2Fg%2F11kpdgt2s0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMe67UF7bh_bZYFdmLJ37_wAcAYeYjOwSCxVCqU=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "sunset",
+            "count": "11"
+        },
+        {
+            "tag": "team",
+            "count": "6"
+        },
+        {
+            "tag": "music",
+            "count": "5"
+        },
+        {
+            "tag": "photographer",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Loved this experience. We did the afternoon tea and the food was delicious, music was great. My teens loved it!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmLmSIKa0R6Z_xEWpyfIh0BV7ZLtWOjK1bIZJFpmmHcPHcv6GYtLgk3Y8wTa4moM4FyKY3UJLKD7eHc4anoEIdt2ITrQVmukXregArEO3ENu2lqr1KGXXw-fGxZ5T0ulaQOUKc=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEWvGLZGUjypgWVqY_n1gJj0DpnDVRAC-WURdWMny49N1V9cAdyvY_OvL-p2gANl3qViYqiCFXTYp4riAplRUpXw5xWTBg2SA2s2O3j4yzKLmtx9gug4-2kFeQxiIkxR6WVJyRTQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqv4YmeQh2duiJZECa8G6UwmWLm9xK9_w1CL5Su3cS_yGC6NvYr6xVtBnJygYU-vc1heH999geNs49fkrTfp8jRAana3TNNM51JcNfcZrQMCXct88zasxnaBPGEOv2It5saYVr=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We visited here ♥️ Had an amazing Experience at the top , good music good food excellent staff",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkD0i-0ARECjA4n98S4k7HpUP0bdtnq_2YMOQf0gv-K8icT9wez5zzPXk9mSNY5JIVN3qqC3LNhTbbbW-ZslYZY6ZGVi2fDiKn9xSMoynYdsofqvOhSV6ysRG193R3VLpQicyiSQQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "It's a wonderful experience. Anybody who want a bird's eye view of goa with a great beach line this the place for you. This is as exciting as skydiving. The rotation of the platform is an exciting twist. Great view. He took lifetime remembering pictures of us and I would definitely recommend him as a photographer.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmaDZXHW-2f91XFeh4K1Ui7jQTXCRm9jD_2rHTq4m3ntsU2NFyjCS6AWMkRIkzJp5ZP7sRIvFCPmik81xXN6pbg3r5NlfD6L1n9tvTRwaU_tLk4p3X4UHWvJ1NK8WsJCoOyctjd=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnYf13yd0V6n9_vnfTlxOYrOyW7d9riAlXQReNbVocy3GyN-oHZOdRoUBn8xsLhTPb9FImttGpUVI5svgM16nwe7TXJlOIiGcqDIlNIlCoSBrQSKf5daCkuwyzqzvYLgz1csCV9cA=w375-h563-p"
+            ]
+        }
+    ]
+}

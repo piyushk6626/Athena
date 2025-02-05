@@ -1,0 +1,52 @@
+{
+    "id": "20250206004416_290",
+    "name": "Café Ave Maria- Taleigao",
+    "star": "4.0",
+    "number": "797",
+    "score": "3188.0",
+    "area": "Taleigao",
+    "url": "https://www.google.com/maps/place/Caf%C3%A9+Ave+Maria-+Taleigao/data=!4m7!3m6!1s0x3bbfc0bf2dfc887f:0x6ed6e0b75e6126d3!8m2!3d15.4760864!4d73.8207138!16s%2Fg%2F11f3qxd927!19sChIJf4j8Lb_AvzsR0yZhXrfg1m4?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNsa8U2c59epfjc2QYcN9s1D0OuAznRtd_dOJg-=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "snacks",
+            "count": "66"
+        },
+        {
+            "tag": "shawarma",
+            "count": "27"
+        },
+        {
+            "tag": "goan",
+            "count": "24"
+        },
+        {
+            "tag": "experience",
+            "count": "18"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Look wise - the donuts looked fine.. as donuts should be... Caramel donut was too sweet for my taste and the filling was a bit dry as well...\n\nThe chocolate donut was ok... Not bad...\n\nOverall it's fine... Nothing wow factor I found...",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkJ466cmCDnOTxPSKZOr7RhqYla-GSYj14Rz1fWqHtoHSaNaKaD-HO6FKNDeLN2FhUw4roEK_6k6E7Lxh7NzTfhy4tKO7F0ssPgZu6uElkA0lY7IVZsbgjEYuL7u1lBNzeQ90x1Vg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk4CSqJO423vgAwlOieE3uUj3REkta12bxqN-gn7KQ88n3X5G3T9q5GEc_71EjO6Go9gZ0XQsBUW9KZNVbxSbf6WCNkkXts5NANpNQfmJzh227SB3ynUyTc7xTJQgKNkRuqtS7T=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZIvpgPwGdmUfsmunVzsKyA0Qq95N77x_MYhsvOMBMhJ7FILeNXbu8rOPkD5xFkntJAcTh2l58FmzijvIcj093TP5TxVtML3mf1ojYtc2bfdbgmultYRTok8HW5QiCx6luYL9bqQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkazbszh440eqKPwYhhJidGsKZlrY9C8Tk5RdcJRHtkO_CTJzOvtKLxeAlHaCmMcr7MJQ4ryTrNdi0svD4S58cXGqt4FmeB11pDKSm4hG10k1h5dC7PBeGiIKFDig5yt3O1Gnl2=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The Russian Cutlets are nice, as are the spring rolls and cutlet bread. Have been frequenting the place for years now. Unfortunately, the new staff seems to either despise her work, or considers every customer walking in as a very tiring task to deal with. 😅 Makes the ambience dull and drab. Rest assured, good snacks, nostalgic.",
+            "photos": []
+        },
+        {
+            "review_text": "Good places for some Goan bakery snacks. Their chicken pan roll and chicken samosa was really nice. Small is small but good enough for quick eat out. The juice also was nice. The staff needs to more polite and smiling to the customers.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn0UmzndgW2LWhDzyzv35Wd2J8V7trO2hE8a6dsziZ4u5VRQPVdtpwP50PPq9mJl2WX6yhC-sratxviNQGlIrtHv2LzPFe4zXLgtPbspCRqNMXY7fNlccyvnutBvJH2hmQIZEn6=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnPokOp3ZDCG1L66hiAPJ9i6NQ7XZb88m5t7gq5yqvzVxbGAxCCnM7DXmWWQi0G8xaLDPV9XH9Y9EM_iOGnfrxWttsctxgo1lYrFbpZ7ISaFoUbhy_HfXNd2A8GhDj1qPZPY3s8RQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdml9_MTJlmvbOff-GPz2-ksFS8yoUD9SE1TqmWbjNmq5x-mGmKJB4uz-WCCgc_bVzeTbX9tgYW_bLBbDFzAi-p9bFB2tO63PSiumVnZxgbFr8xZAKXzMByvhSLnA4pcG5wsuWDn=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkYHQXRIYWyW8Mwc8JFJmiLTjr_Wy74ae3A8Yd3I0wh7XAR7Genqo2vEYGCWOjgvs9egpPRtxXS6rWD0ZNDT-D7XjGG8UgMUkY7so7TPA97nR1QJM2mAReO-P3cgvuo-YZXbh9K-w=w375-h281-p"
+            ]
+        }
+    ]
+}

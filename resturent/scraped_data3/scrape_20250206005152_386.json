@@ -1,0 +1,51 @@
+{
+    "id": "20250206005152_386",
+    "name": "Rio DeGoa Restobar",
+    "star": "4.3",
+    "number": "133",
+    "score": "571.9",
+    "area": "Dona Paula",
+    "url": "https://www.google.com/maps/place/Rio+DeGoa+Restobar/@15.4707398,73.8153081,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc10d3f01e6d5:0xf3c4d85429860a1c!8m2!3d15.4707398!4d73.8153081!16s%2Fg%2F11vbt8gkjh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMnbKIx5bOjdIfmIi86ntcf7kPwmxowrJfZ9Q7-=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "7"
+        },
+        {
+            "tag": "thali",
+            "count": "6"
+        },
+        {
+            "tag": "karaoke",
+            "count": "6"
+        },
+        {
+            "tag": "fish",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Authentic gown cuisine.Food was really good. Loved the thali.\nWe were four adult people and were stuffed and got remaining parcelled!!!\nStaff were very hospitable.\nAtmosphere was good\nAll food dishes were yummy!! Vegetarian people must try as very good variety is available here. That doesn't mean non-vegetarian items are less, rather exquisite cuisines are served. Service was great as was the ambiance. It's good for family n friends. Location is also apt as it's just beside the main road. Well maintained and hygienic. Will visit again for sure. I recommend this restaurant 10/10.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBQC5fDyNvUJSUEx_A6S6eu0_1d9mQ_pU1RWtng0pZLebSZul6qEU3PfVjsXd8TNPWe_kpxGdM24vw-ZYpKNAo7k2BhCx2JHTiaoWs1Ourx2P0sFTnNymJdAq0cy0hczPCMq0=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpazribu10YNJLhsLUCHsz_LsUgeENBOYgwiEMhsX4HQ2O0VsfoioZNfuBHJRCnnCPYDPsIBZEEU4e_GwYaKtAqgYWVgd_bw3g6u33vPDLGlWIj8KI46mRd9Nwpq4IijRk7hLnAQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdka3r1te5JQV6WnA7X01OgyB1jG0DKU73OSmuX-Wr3pllf_mGmCH4hyCf1ChE5YqlxR9b6UPi9R7fhQlAyYRTZFPpOQMvv6Y2qb5M-QYVyzt0I0DSyRHvSKTiuqtojJCRmvv0o=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlfx9R_YLZ_h4OYSxMJ4kdJ9DNc7WCvPdj4kZZ3i5N-qbrJz0Fd29v_LTSKFlr9sK0dvokOlFy1dxvgBbXtGKLy-eqs_E579Cy3brX_6UY5n6zMO0-9CwMekCjMyoz6ppjDfVwRPg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Wouldn’t recommend this place! Went there for lunch and ate their fish thali which was bad. It came with scrambled eggs, potato, naan and a last minute made fish curry and a black solkadi that was inedible due to high salt. Having paid close to Rs. 370, the meal was utterly disappointing!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn0d4onSTHXIGo30Cvgr3z5oOtlQHm3hzZXDVOwLauZZbWk3YFAtjH9433lcWTwnqXKFGvVcg-eOR0yHZqmbA1YklGyVyMHuHsgNdxUZQ8rwI_LY8nyAszDHPnmrM8WjenzESTD=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Rayan and Juzel are the kindest and sweetest host and hostess one can have, Rayan is a seasoned restaurateur who has successfully curated a place which is a charming mix of authentic goan hospitality and a modern calm down Restrobar. Be it an occasion with my family or my friends in Goa,  My choice will always be Rio DeGoa Restobar. Third consecutive year visiting Goa and coming here everyday to spend time winding down and i just cant wait for the next time.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkI5L9nPI-Hqi1AbFeQC8ql-gBuTqOI05YTN0oV547VcmMPRX7cL8Yu3_4F7-g8xDb_sx8lz7jqMa3KLKjbYC7ookz6JNPDABoIZvanuPzR9TVuMyBTkl7-8-VcW3wVCTkIj2pH=w750-h563-p"
+            ]
+        }
+    ]
+}

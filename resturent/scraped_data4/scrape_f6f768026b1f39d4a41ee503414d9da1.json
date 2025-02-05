@@ -1,0 +1,51 @@
+{
+    "id": "20250206002111_227",
+    "name": "LAXMI BAR & RESTAURANT",
+    "star": "4.0",
+    "number": "1103",
+    "score": "4412.0",
+    "area": "Bazar Ponda",
+    "url": "https://www.google.com/maps/place/LAXMI+BAR+%26+RESTAURANT/@15.397779,74.0034587,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbab93667b5d1:0xb2af8e2a02afe114!8m2!3d15.397779!4d74.0034587!16s%2Fg%2F1tvyk647?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPqAp9q7qyVrMR-rwCx2IqMTr3zXiAEw2zJdQZQ=w457-h240-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "41"
+        },
+        {
+            "tag": "thali",
+            "count": "23"
+        },
+        {
+            "tag": "dinner",
+            "count": "16"
+        },
+        {
+            "tag": "chicken crispy",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "-Ambiance: The ambiance was not great; the seating area felt a bit congested, which affected the overall dining experience.\n\n- Dine-In Experience: We ordered Chapathi, Paneer Mutter, Paneer Chilly, and Chicken Manchow Soup.\n\n- Paneer Chilly: This dish was the highlight—flavorful and well-prepared. I would definitely recommend it.\n\n- Chicken Manchow Soup: It was okay, but nothing particularly memorable.\n\n- Paneer Mutter: The Paneer Mutter was also just okay, meeting basic expectations but not exceptional.\n\n- Online Order Experience:  On a separate occasion, I ordered Apple Chicken online. Unfortunately, the chicken pieces were not fresh and had an unpleasant smell, which was quite disappointing.\n\nOverall, a mixed experience with some decent dishes, but the ambiance and quality, particularly for online orders, could use improvement.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl7GnxStHGbqBn1yt1F_fP39X0J81d3TwIar_RY0t6TqgQF1TbTJurT90sNbqz9NvfYgaePmpIk6IivVpuAqbRvUE7YOUNrIcnPnPyJy4i8NnGkC94KSnoo8FeEkHEGJjVztuGv=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdloIaNs2ZqcIeC6wIsxDqA8frjCUci-0g1VnZPg87IfI5LhMfer3-jQ62qUxe2NjcQbx9PedRDu2WJR_GgvixUdcztznOsaVrEUnsuq_w-q1p6zZw929jILi-EFNp5XSm9e5tD-DQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk18EJJpGsCtjRehnUO8KASU7zZfpV7bz1xfdw89SyFLT7UztaIlNwZDC4vAkmtAhXolbjpVHmj4FLHQSMTa4oLkcKk7eBvlhLulblOhh2W0nrFtUQ1IW6WwwqBxl5GScIHDHnJ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Visit Goa and leave without a fish thali...not possible. This restaurant tucked away in Ponda town is a good one to achieve that feat..started off with a special bangda fry...omg..now moving on to the fish thali.. with another enticing bangda fry , fish curry and prawns curry..the rice with the curry was  excellent. And with that ticked off from my list , moved on saying \" maagir yetha\"",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmP4LiHglbpIorWl_G9rcLX2mbMHpVmEPT1aUYacX3HpJI60snuwM11U3SuPtjOjSMBriFGXaruWvzU4odi2ujvpJq59odStzLp6vpMjvou6GAzYDHHaIlnfwYZm1ZpgDvX8hpfdw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmP4kUM7My9O-lQmA35iY_AuS9y2FMDtZMvh1-VL_7s2Ne7PXtELB-QCcxXOT3YdNXBgmP49pHa7WtF83M-MxDa8GSrp1S20D0gRrHNNWXf1d23NuEWoXwY-fnia5vAsBnTEGw=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Had the feni and some sea food sea food was exceptional its too good also tried their fish thali everything was upto the mark and  fresh seafood served\nAffordable price drinks and food available everything quality and quantity wise too good\nIn goa should visit this place",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkde3vKUkubbnjj_IO2DmdgLy5LhvXz943n0tABLLP_YT7K6yMsg3F9Wu1tZB8iph-SRn9uWgQ8U4Mj7TOPK_xLqi6lbgqft2pEekfWqOKC_Qc3LNk2IJWSLCTWobG_rFnT3d9a=w750-h563-p"
+            ]
+        }
+    ]
+}

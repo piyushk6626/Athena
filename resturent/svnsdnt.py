@@ -228,7 +228,7 @@ def main():
             row["ID"] = data["id"]
             updated_rows.append(row)
             counter += 1
-            time.sleep(2)  # Pause between scrapes
+            
     # Write the updated CSV with the new "ID" column.
     fieldnames = list(updated_rows[0].keys())
     with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:

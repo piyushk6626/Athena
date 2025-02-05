@@ -1,0 +1,52 @@
+{
+    "id": "20250206004056_358",
+    "name": "Jacksons Beach Cafe",
+    "star": "3.5",
+    "number": "189",
+    "score": "661.5",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Jacksons+Beach+Cafe/@15.5180977,73.763013,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc193c8fc17c3:0x4f9a9f30fc3d9ea1!8m2!3d15.5180977!4d73.763013!16s%2Fg%2F11b6ht3g5x?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOnAAw0blTTsk6wutpcPyDJt9KdgLqsySX-fAGN=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "19"
+        },
+        {
+            "tag": "drinks",
+            "count": "18"
+        },
+        {
+            "tag": "shack",
+            "count": "14"
+        },
+        {
+            "tag": "price",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Loved the food and service at the beachside cafe. Tried red wine with few snacks, loved the food taste as well as service. Shivendu in particular was very responsive and made our evening memorable. Keep it up 👍",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnd1yszUVJPPzhcRLY3vc_I1C1aw31R-0fPGTWWSW1Bjx4GjAC9x1jZsyIS-j99IhbSEfwA8b9fz2Wz7OhbMAi6UEwQ1rIGaBsIV9lf1AZAzdxNQewnFWhEtoE3gehoNcm4C6Jo=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlTxS-07-FQqvign2wPqVGuJCFeRCU9Hqkvn0NckNSyh0mPrVo6kFGZDNd0NNsi20Mx4N_evo3X9AZ_QCgnr5GYIzhhFXqLqRgGSKh5ao8N5M5adakHRWDxSuq1YwKctV3U2P41cw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmo1R1etIKX9SUNnfpzXiVSTgotlGLNFvpcLtK2n5KPFyLhKngXby0MIktkLzvNkAWxIFJ25wtHsBy2WoNIvaDvNdMK0MvFyD4L8azFT9sOcTE72awOTkn_ByKUepJ68RdS47Wj=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkQ3dOUVLqtN8BmH3IVE0ZbyWL1SE9SY7cOjBcF42iGgBdQiYzxQmamivCQb1xRaX6jD_3ZaZhE4LKD-r0TvTwj-tKLbzYKj9eSalA_IbmMbjzKWLi2A-LARchaKE_oAZWPye82=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "So it was accidentally ending up on this shack as it looked very nice from far sight. We wanted to get down somewhere else but then we sat down here. To be honest I liked the ambience but the service wasn't that quick. You need to wait hell of the time to arrive your orders. Also food was above the average also I find little expensive. I just want to tell you to check other shacks than this.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlOTr9dD4ip7xviSBwqQCgIclkL-syuNWewoRjFCmTGfm-X0jiwMdRW6mqtGs8vjDDf_FszPEsAoLlUrRp0BWPYvL41cfMZ0NvEsJmyimFwsa6zXvzKfQYADvtqx7Y3nOcokAjs=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk8nGKHGHU2DnsNyxi5cUf4GypTfUv4jwQufVrofYyq4_bD_skDBVHZq9cXbXnxbP_Iqz-vtZjHRHsDWXPcJ35hmS3ZPjH1fYzCqg_HnaqqrYtsCPgepXisYFxACFBFhftljOKRYQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn9wyLqGFGxbm_3UQnB2038ZXnTWO39MPrB6Pm93zwcbho7ZXCsvcyGxofqVk8DWJjpzyG5neMzJn6zLMPLPUeNJLyXZsLAG6xMi0Tv2oT_1PapTkCunYiJVECWgrpNLct-Ti4=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn3wTY1CRy-pwzxP-0EfdJ3AI6EwuKez6F7s_frpYmsM5HXAVT-5TeXaNTZHlLqXVkbFeZW1Ki5OTfBljm9SgPbwwIRRcltS3bPq4KUXOR-xp9FnRCSGi45x-IAehT8IGXs1Ryr=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Sukumar (staff member) was brilliant, courteous and helpful. The cafe is right on beach so surreal views. Food and drinks are good as well. They had a first aid kid as my elder one got injured while playing on the beach",
+            "photos": []
+        }
+    ]
+}

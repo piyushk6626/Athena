@@ -1,0 +1,54 @@
+{
+    "id": "20250205234534_219",
+    "name": "Ryan Shack",
+    "star": "3.7",
+    "number": "527",
+    "score": "1949.9",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Ryan+Shack/@15.5103105,73.7650437,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc19a0569e09d:0x10011ed981e7de0d!8m2!3d15.5103105!4d73.7650437!16s%2Fg%2F11b6g9ghb0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPRLzXdqcnCBm3VMfyRVgYvaanQqjwvxgzYLwOd=w408-h270-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "47"
+        },
+        {
+            "tag": "service",
+            "count": "42"
+        },
+        {
+            "tag": "shacks",
+            "count": "21"
+        },
+        {
+            "tag": "toilets",
+            "count": "20"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Just an ordinary place with  exorbitant prices! Cocktails are for Rs. 500, Veg Manchurian was for Rs. 380. Food quantity was below expectations considering the price we paid. Chilli chiccken hardly had 4 small pieces. The price and quality beat the 5 stars like Radisson right across.. but in negative way. Only positive is that they offer a free shack with food, which I guess everyone does in the area.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdleXLfSt5Obe4hOLYRyueYfJ5H8CQhhtMKAjM_ju_b4tsR8jae3Aa87m2SpufpgYqXTgY98VBJtCybGagkaQdFziOcmlv43jk9li9ikobvILFkHT6Ih75LXCXRiAoYqTYUst_Ls=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Reasonable price compared to other places near main beach.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl2BNN6u6vpMpfzYf-1GugvckUV3D-YU5ce1eKc4U_GrQjPxpviE-cd2Kfcd74tTxMV0G6Fql6Lf96TQdmkSneToZANtfWNobrQ5P9_qctM_dYJwxMaU-W8dE7dmpoal42s9mml=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlk7BeAONZD0GLVAQa-72XIIKezUu19fxQM1rR48DabVG0jYGIlEChS9mG-FE2YY2eq6za7wFUc_FDeMdZ7rJfuDBylsLbsUgzDDPZ0roerlMSMpQTmO-ua0GfUmgOyY82XZ0ch=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkLrhiL-zFV6zpzuWXivPUqdFxWJy91JwnFa68mVyBszir_LTIR5X7VfyCwDs5S-qwTeFNfiCV9dcucEFsVr4KCHznFqJTCPVE50ziOrCIEkL3weNxbubfm2p-P2QeT5sRjRUCM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmRAZ6Fytfm3evCr38xhTXYqlytf75XHjfpRWcRAX8bXldB3bClyyG59fYnNXsI1mHaBtgWzh0_UUhJIT8Qv0VCTKTyGhJCKh6doblpWDRAAJGMrxs4ntHwY5UYcnAQuX9c73Vi=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Santos makes this place so memorable!  He made us all\nSo welcome and he has a cracking sense of humour .\nThe food is lovely , something on the menu for everyone . Spent a whole day at Ryan’s shack and food and drinks all day including cocktails came to £40 for four of us !!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnAdcv2saLJYOQICeqSfccetvh1bdkobdsod5O5pF5B0lCfWb6w3-It1Uo38wJPT8wmsRY10vwWBuwvV7LsK6vmJeOTtT3Lu3nN_QmGvtNZE2dc3zfOToHuhv--cFPYfgM5JulM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlfQnHfst3cnCzhRytGe5Xw9cx-mLjLL2OgMEvUX3OjaK8bFya5_RTnKmuRSEYdDnF1WXOYrukQmL_fQ4FuKzIn3139Es5RbGD1BC2dT4ddUBUW2pDmctkGKmEOsIH2trUBfpTdhA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnqGQHC5DrPTUAnjegdmW4PohSSCCCQ2p156OSSdnId4yqAIA53Jqx7eQ8HnQUZQ9lIMZbM-6hf7Z0HQMvf98P8Qd2_L5jB94an4lV5zq0rQrW7cM0WXJ4LRn24VW3zwDrUQC8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn6PoQ-rMwfsZ3Hu4DCFfEucLcu4ADwz7NpzJJrEqy76L2s8j-qtM86oiM2c1fPDSl4GNmlmcbX48h6EAdMCqlo0eESBuQvvEsuQr7xsOMBRxXIzMouNGD7u4cvUKcBkTvmcv2aOg=w375-h281-p"
+            ]
+        }
+    ]
+}

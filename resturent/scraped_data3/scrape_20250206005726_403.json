@@ -1,0 +1,52 @@
+{
+    "id": "20250206005726_403",
+    "name": "Nik's - The Goan Fusion",
+    "star": "4.9",
+    "number": "100",
+    "score": "490.0",
+    "area": "Nuvem",
+    "url": "https://www.google.com/maps/place/Nik%27s+-+The+Goan+Fusion/data=!4m7!3m6!1s0x3bbfb1e13d0335e5:0x93d58314a8eafec2!8m2!3d15.3253211!4d73.9366898!16s%2Fg%2F11hnx5kg6k!19sChIJ5TUDPeGxvzsRwv7qqBSD1ZM?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMnZAEQj56egVTbwZsrutuxyK90BmPxOE2ttVcf=w408-h408-k-no",
+    "tags": [
+        {
+            "tag": "hygiene",
+            "count": "14"
+        },
+        {
+            "tag": "cafreal",
+            "count": "9"
+        },
+        {
+            "tag": "food truck",
+            "count": "6"
+        },
+        {
+            "tag": "snack",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I recently discovered this place. I must say, it was one of the best steak bread I've ever eaten. Do try their lemongrass soup. So soothing... Loved it 😍",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlAbQ6XkIGrrs4zSFeyo6WvJHiSjn16DGT16C-0zsbZ_L2S-HklrkBN-CJ61UXRsBWhrEeqttRF7yCBTimC8I4EnzDtoNskK1oqCWxhCfx18lxHvFuLyyHoFlIC111xwdMjwEF8jQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "I love the different variety of dishes that are available on this food truck\nAll pocket friendly prices\nLove the beef tongue bread",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmaXT91NLHNqkADvqJqLNNHDBBnexV_6arWsoB1lSR6zXymUlHiEIzO2l8FKhcRL6Lg9dbXEgUv4htPldeVDimQwdsJ9r_rvRkNqWPMcUb9f5ZAHYDeL-8S5L64taJ1gBWk6FfMdg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNGwnE8u4NegLRq3tugxYvQft_5uXzaRlPN1O5-_sRgD13VSu4mpjh4JBISET_BSK3-try2-5x1BTb1OY40SLIw-uzUyH0CZG_beud5NsTOLTH_bX8MYNY6d7Y-4JKlyTnWBZ9=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Quite easy to find on the main road. Only hidden on the street after dark as there aren't any street lights on the road around.\nWe tried the Chicken Cafereal bread which was nice and moist and flavourful. The Beef bread is also something to try as its tender and easy to digest with a good amount of flavour.\nThe Chicken bread was quite good with the right amount of favour. The breads are slightly toasted which gives it a warm and fresh feeling.\nOverall great food and a must try if you are around or passing by.\n15/11/2023",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdneZkMTkM7NUFBzw6VsT5M52yg5E9B5TZ0melXWl2mF3JJb6ZXZxvyXZX1XV5eEB1Pg0jeNVAjCluLr3RhllGiU3PnZNrCCiarXAJTPQ0aUt778t9-Gm3bY-Zc9bEuf_ZCTVHdaPA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlYRZU4aKB2CIfHgmBBFKAm-VLSvbltZeXZ9tjKzxDbPgmLtR04xpp02ymtZZDqKktTpP7M_cVqBj2gyxWLgouHp2YuX2Tkc405FwYwA9Q6m3Hei47xvVklAwy1mOgsUNDEnr1W=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn9bDkmYf_OwqxEdex4d7pRR2o4V7tzSAWu7Wbm3BmGmDTiKxsnK2pwLA2cnmba7TmMKksh6AiyTv2D_hcypBYT1Fwzd-Or6SssoKdVdo2k2D_dbTeVB2l96DDdnzzHOXN7a979oQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnZIHIGE8OQ-aRenZqotWJ9cU3YYu2yg2z7gNNeLCdZ0FbE3TSdkg6ngk8S-1-v1adcDSwexgaSGNMgDJD-AqFQcJp_CyAYlpomyfFOoGoti42OdREUKn5aLJrFxL5UZ7zdMlU=w375-h281-p"
+            ]
+        }
+    ]
+}

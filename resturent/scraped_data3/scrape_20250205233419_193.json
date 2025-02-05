@@ -1,0 +1,56 @@
+{
+    "id": "20250205233419_193",
+    "name": "Raki Modern Mezze and More",
+    "star": "4.6",
+    "number": "511",
+    "score": "2350.6",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Raki+Modern+Mezze+and+More/@15.4757488,73.809006,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1198535eac9:0xbcdb377d2342ca89!8m2!3d15.4757488!4d73.809006!16s%2Fg%2F11pzyb_1t_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPjV_zZvQQ_6vezyx4MmD35OH78KFHNZISa1BfI=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "cocktails",
+            "count": "30"
+        },
+        {
+            "tag": "evening",
+            "count": "22"
+        },
+        {
+            "tag": "sunset",
+            "count": "20"
+        },
+        {
+            "tag": "sea",
+            "count": "18"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Outstanding food and service at Raki. The ambience was top notch. Would recommend a lunch or early dinner here for some stunning photos of Miramar. The staff were very helpful with recommendations and portion sizes. Thoroughly enjoyed the nostalgic food and drinks and the preparation of every dish was authentically delicious. The tenderloin hummus and Knafi Jibneh won over the group instantly! A must try when in Goa!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnZw1m7tAcXZ_qdEnfQdY4_AXXXZ52otdJE1PIPobLM26-lTdnU1ak21wh6ufpVpR9IPtPF_QA7nn_AqPqy343hVB48GOPSZ2jyhEzi0DhFXQ0D47J5xfjiQaime5WeBq6XAVNcuA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnoMy-bnX1WIgU9J2b7E3PwqYJnuMLrWyNXcvWGXnFBIQenwWo2K8nOCd1TIrqcylJRNbkUcRYJkqv3mZPLaGZDRy3ULMyB5kJLWHh3c0_t4yK_VrJKTGKzkT2a1UxdmK3O5jjO=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnWER_Zc8c10s8lL720WhJJalHCwEdMqSCjwBkGLf8kYkK3ShbW_Yhi9jjyioSkSDnh9dnJbeEYYki_n5CqZpeLSR8XN1ZyyXbV3IBf2u5FwwvShX8qg3M9g7MU1IZ5sqfJg5EW=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn4FQltQJR0HS8hVhmiYoTRiuXY0CpvL3FXrgHP5IvDJE4Jcx_-HvUMG7gZvSd_JtcDuASXGCbmQ1NOlp173FckUDKtDnThtCZwawrmyzo8r2RwgXLSwF3pDv2Inh8_7ieUmhWb=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Absolutely fantastic dining experience at Raki Restaurant in North Goa! As a lover of Middle Eastern cuisine, I was thrilled to discover this hidden gem. The moment you step inside, you're transported to a charming and romantic ambience, with beautiful decor and a warm, welcoming atmosphere.\n\nThe menu is a tantalizing showcase of authentic Middle Eastern flavors. We started with the hummus - it was the creamiest, most flavorful I've ever tasted. For my main, I had the lamb kebab which was served with warm pita and pickles and it was phenomenal. The meat was melt-in-your-mouth tender, and the blend of spices was simply divine.\n\nThe service was impeccable - the staff were attentive and knowledgeable, providing excellent recommendations. The attention to detail was apparent in every aspect of the dining experience.\n\nI cannot recommend Raki Restaurant highly enough. Whether you're a Middle Eastern cuisine aficionado or simply looking to try something new, this place is an absolute must-visit. We left feeling satisfied, happy, and already planning my next trip back. Bravo to the team at Raki for delivering such an outstanding meal!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkwtc_5ShlAtQ17yT14bl_ANuTfXaVgV-WEczeBc4SzcD__kJeYIpFVd4Ot8K025lUIpZenqJYBZ9uimHUynDdMm9iMSapnkuJOfg7oaZBjcICdnN-TMuvsa_R9ND9pSgA-XKN6=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlfDdL1Z1fPOye9YVJgbbWBSvK4sJN1VdPVHjEwoBSQYXg6oVpL7A7lRAGo7-9e_r84lN8q1aQHx6dc13b2JSvg7JbXuvYZPFfokwAHYRxH0C3kis6YAe11EEq2ZVr8EFbEbe-W=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbAA5zUuZvDyRTz53rODnDDYM8jITeV4ZKmN0BRLd3q6JY6n74wmUoBmIQ6o-NO8jKclvASSGTtzTsncCqPXbU-dJ0kV-U5VBj3sLajXurS_XBzCFUsQ3O2X9jbZjx4K0Gz0uM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmMaAQVQ3mBAR1NVX4icqrs2Xqw04G4lRqkrknfManCEPfmKXtG7El8aDQyYyVTRhcas70CsWBlqfTgWeD95Va3MBxuedLEiG6IxVFjrkj8OnYoHzwlDDnDs2IollN2r3xvX-g-ow=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Amazing food, amazing service, Amazing location and overall great experience.\n\nit's a lovely place, food was out of this world and really well done.\n\nthe DJ has good DJ skills and played good music, which amped up the vibes of the place",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkGlK1GWMyqeiDj5dp7phB7h3a_vxTjHrLiDhTd6pk1sQ6OpuDxZZeHuHTPH0Gl2FhykklMNTvSunhZyRHYudl7KRuuijDLXczy3vqJa_IuDpCWqUIdnwi3I_tlDFPBqwDMl5c5Dg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkoHM_zMoQFnmKDtB7G3yEyHaedDHYpVeMlOPzSA5xjVw3DUQZVnlNYkzwLvk2U5x4RH6PEhBkpJjgAcrQhMI-ez_-58k5RBo2kip8xBZs11Rxzm27nCYRi08badG2cvf-Q6Ab=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnoFrjxigRFmPFpZcdDA3wCQwR1gPREcZ7mYPqocOo-1Nm0o1_nojRNqKZyOB6Zs3s0F4a5gMsc7rrJvqjOwumWFKUD0s6ZMfwGRz00Y4cK93eU6VV7k0ehE3kVcpM3hS_3fUrc=w375-h281-p"
+            ]
+        }
+    ]
+}
