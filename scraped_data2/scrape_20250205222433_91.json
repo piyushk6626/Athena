@@ -1,0 +1,53 @@
+{
+    "id": "20250205222433_91",
+    "name": "Cafe Jazz",
+    "star": "4.2",
+    "number": "2339",
+    "score": "9823.8",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Cafe+Jazz/@15.5159807,73.7682876,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc196f534e177:0x40c466408d60d818!8m2!3d15.5159807!4d73.7682876!16s%2Fg%2F11c5952zsg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNfuJ4gfDcHW1G6Hw7shpOTLL2GY_dHe8SJflRP=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "band",
+            "count": "92"
+        },
+        {
+            "tag": "ambience",
+            "count": "82"
+        },
+        {
+            "tag": "evening",
+            "count": "58"
+        },
+        {
+            "tag": "crowd",
+            "count": "19"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The place is awesome , just like it's ambience, music , food. The quantity and quality of the food is too good. The place is situated on the main road of Candolim just opposite of Delfinio's Supermarket",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkV8F4YvIF9-thMsTFgcNPlb660v1UbMPQTnIBTSbn0dGh5RTNrKl4SgGgE9XM_3kBX6JLabuA_fFtVCnmkapNwtSgwYcCBE7IxxVna_2zWv2036Hhua8_LyWVBhjD7yy9vKjZ7_Q=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkhx8uDoGQOfbaxxKZcE15sFwBizg-_ZdsPpchZ7IdjQbWXCXUyx5IIdFBW-vpZWbJ3dlgLNbZlFOwtWV043IrYgOXIWtl09HJjWRddZn9uCrnsE6hfQcZ-QxbT18hHto5SUCRE=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnhT80jZ9ACWDV_d-PEk21zzogkV_gEAFPoemF3lF-UgIbf-mcph-X4-6wuuhXQg6FK4TKV9wdD3-ss6Q7WA3lX43Pg8Sn98YLTGHCyXriCMfjiDKzgbTQIhigL6YPBoHPvNwzqyA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We loved the food including authentic Goan cuisines, roti , bread . Butter garlic mushroom , tandoor chicken , Goan balchao with poie best .",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnjxkpkOVt1-WwDbbv0bo5fBC_g8kfySL5q5_WQn50-Q-N3FmuZiY24PBx4J_yCc0TPp01AP0cIZrjHz6iRg2aNpGUcx5UpCHxH_TuSyEaG9Ka_im1ZGMklcLusHfOYGygyVa8P=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great experience dining here. Food was good. Live music was awesome",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmwGJ16xsC4MPKW_Ers6xDKAacN0aYxkFzAOs1JpZsaLNgOGMoqPUVgn2_G1eX_4XMOahJYpDIq0RuYLq1E1o6DoJM494-6VGyHt6FPKEg2aKl8P5ckz0ofFE_qenO_xEGsYkKs9g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJZgBR77wvHqQoN7LoGId19VZOvYuU3RfiGjiEE-Ut1AO-9md4_HKGHKaiETlbVrHPUkXLWS90hJ3CCiq8cLibkeHf1OPxke_tPoCCKxeZT6zBt_N2-7U1VrXbp2SBDFlwp1h3=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkVQncUu5uXThv0FvMmcM3pTK8IOUIGGhcq4Wxw300xUzA1zhHO7tlCkGg_9Fnjf1GW8DWcyvoQRtIXoq2Mi8698y7eP7MWEpJVOFJCqM2P4UNlvPvGhg3ZQCeHTP0g7pcG3-8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlpfP3OID7dok4Up7pl4d1VjORaYs35GzS5I14Rjri8M5uKgP2WSriW0ZldzSQHfsHhzikWZ7ZyQMvCsbBMDSS_HucW_FlOFegu9eJGBn20ueKtzjbRR6P-SLLnw2rk5Y5x5IUYUw=w375-h281-p"
+            ]
+        }
+    ]
+}

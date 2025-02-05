@@ -1,0 +1,49 @@
+{
+    "id": "20250205193131_159",
+    "name": "Amboli Spice Fly Restaurant & Bar",
+    "star": "4",
+    "number": "1100",
+    "score": "4400",
+    "area": "Panaji",
+    "url": "https://www.google.com/maps/place/Amboli+Spice+Fly+Restaurant+%26+Bar/@15.4977558,73.8266613,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc08edd595f89:0x236ddefb3e70147c!8m2!3d15.4977558!4d73.8266613!16s%2Fg%2F11cs17xnf1?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMuJFSwlZE6e48z_bGwRugCs8FE3y-by-CKxC4h=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "59"
+        },
+        {
+            "tag": "goan",
+            "count": "23"
+        },
+        {
+            "tag": "spicy",
+            "count": "15"
+        },
+        {
+            "tag": "quantity",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Had the best goan cuisine 👏 and Kudos to their butter garlic prawns 🦐nd crabs 🦀.worth every dish n the menu .",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpjhgI2bY9aQZyvMdjhRa-0NER9sAoaRSIxyi7fdMvA1L99AK2sgN_tLezm8dsvB3nAGTxHTQUg6CWVxySCVBuxy-lIQDTXOFv9Dipc882qU8_WdDty9tvaqMQw5V1YlLA7V9I=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlM43G14zGLfII9t3SRSqZdq62rDmnm1KEtu5-5dncnt_W_xwwC3B6GBs2CuLzLZ4eSK4eyYG1iYuLE9BTcacXLfLwgJpoOTQvd90F4aSBNgPrB0LG9ZTTFhYb5Naz3aYB5u4Y=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlAX_JCPR-cWRLPSY8HeekBXcuB-_qihWzI--JIJ7i9Ei2Vn3NCFwg6g1Wq4NzXRYFhFqruAIW6x3Gt8imhJxQDXdGQFSgXa0C9HcMLz1tluRoxCQIRd-A5z7Cm6h1n4drWgXk_=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The sea food is really delicious here and the thali has all the 2 or 3 variety of seafood included in it. Ambience is also good. Overall a good experience",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdljaUTRTGX2hhNIurLoW6lbcEssfkFN6g1bhm0VflWJnDuPOiR8Bt0TMUeVJAA5UvaX4kFFDPI6gevenACt4bLKCuKCYKPbeDQswMmTF4JlSclWw9Nol7Gzv00ATlOTBjAD3_uX=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnk3tEg5zHhXhf01Ri7reTF8o_zbOIzivwWbhDV4ayfKJXJIpxezG7RpiuMyX8onRrgBJXWpG6QxaBIFFUnR5P4qewF15SeWkxtEmPgC_IHihoxXEpeWwWQdbahqGkTc7Mg9RQIQ=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "If you're in Panjim and looking for a restaurant that serves delicious food quickly without burning a hole in your pocket, this place is a must-visit. The menu offers a variety of flavorful dishes at affordable prices, making it perfect for both locals and tourists. The staff is courteous and efficient, ensuring a pleasant dining experience. Whether you're in a hurry or simply craving good food, this restaurant ticks all the boxes. Highly recommended for its quality, speed, and value for money!",
+            "photos": []
+        }
+    ]
+}

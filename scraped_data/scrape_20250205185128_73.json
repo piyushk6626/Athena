@@ -1,0 +1,51 @@
+{
+    "id": "20250205185128_73",
+    "name": "Temptations Bar and Restaurant",
+    "star": "3.8",
+    "number": "2600",
+    "score": "9880",
+    "area": "Caranzalem",
+    "url": "https://www.google.com/maps/search/Temptations+Bar+and+Restaurant+Caranzalem",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipM3isamh2Yuwc889Jhb9JD-e9OWac3xTn-vCXSj=w408-h326-k-no",
+    "tags": [
+        {
+            "tag": "midnight",
+            "count": "18"
+        },
+        {
+            "tag": "booze",
+            "count": "18"
+        },
+        {
+            "tag": "morning",
+            "count": "17"
+        },
+        {
+            "tag": "pub",
+            "count": "12"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A good pocket friendly restaurant near Miramar beach !\nGood food\nGood atmosphere and good service\nMust visit once\nMr. Jay was helpful and polite",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlCBxLTt8kVeRVG5Bv-wpWNHVmfO0OY4hWejrd2LaLordHGBqqwkUOiB45TxvIHD5pzlgIEUleuVVNKVVkMEYpeG0lSGK_4abxaVgAOT_OpAuyLfAKcjJiY6_N1PbAG9jly01VDdw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl_6Il3NQpJB3kexW1YkaTldyj_7iZTj5oKmc-zrfiA0lrk2XK_jsWF525i1Vo5oY0kZBBCjchlwYi6hxCAtJ2PsXQZ1Hvu5jNUS1E7yxxEdOIFJu8NrW6Jz-4k2GQoeQYrZW6K=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmnpGKIAxuTtns9TsAE2kJVKN9ueVosrbxOFS6jVLd-FSa5bG27EjQ8CZ-0ZTJHl9kozxyjIuR-YjTZRI83gA3irFDiksJ4QT7OQe4WAwZKzzu_UYDEyteK2OwCAxhJTq6GUYks6g=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "1 recently went  at the Temptation near Miramar Beach, and it was an amazing experience! The foods were Fantastic well-appointed, The staff Mr. Jay was incredibly friendly and attentive, making sure all our needs were met with a smile.\n\nThe location is perfect, near the beach,  and dining options, were top-notch. I highly recommend this restaurant for anyone looking for a cool and relaxing Vibe.",
+            "photos": []
+        },
+        {
+            "review_text": "This is one of the places we visit for out late night food cravings. We dropped here at around 2 am. We ordered cheese garlic naan ( one of the best I have had ) it was stuffed with a lot of cheese. Crispy Chicken and fried rice were average. The waiters dint pay any attention to us even when the place was almost empty. We told them to clean our table so many times and then someone cleant it after 10-15 minutes. This place had ample seating and a  attached pub.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnU6NxvAOBRe4jJXoQW-N97DqAle8oEkKuTE40AGrIssITmHTKLXn5Tff1fzky0zqs-MoyL-Wke4pk6N2e8GRgICZB4Mz6gpCyWiayaGUlwLFcQ4FMg7IrqDukI15cRg9rr8UyTUA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1q2Z5hNy9cuVACjmpG4sOtqnKbx6wSYswv7fuEqNajpKyi1WPuD_oLvz3sTUZEsR-qbUo0q6zRcOgAEaS0F2W9uwNSQ24TUwZNKCzJ-eEakNZa0lsMekvv7Ox3zUsoYpsjNAq=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkw76BGeTvN9ZayZyZDQ1VR5BRTm3srZICeuCskKwNzmhfwVlS5cdh_ZzgBBeBGuVSgIc8vAIK9DS1IBfvA_bm8NutSjlbhKDPt4sNlOBdEAKLlJ2IGNQPYZNMNChBDk7RhUkVaoQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkBZVKpPHTUj3cSqxQE_j_96wVY-hbBCwg9golnfevL2EMhcOKAtnGUz4vrJqVwDpt6t3vQK21ltETbX4cl3kmvxbBpXk-kyAJjDWQQluvdl5ct4ulS1mb9ZMpamTWSfwcJXsc=w375-h281-p"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "20250205224236_135",
+    "name": "Saiba bar and restaurant(evening beautiful)",
+    "star": "4.3",
+    "number": "1486",
+    "score": "6389.8",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Saiba+bar+and+restaurant(evening+beautiful)/@15.61133,73.813167,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb16a5ec3915:0x19b13303693a9bab!8m2!3d15.61133!4d73.813167!16s%2Fg%2F11b6d29n16?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNRrQcbBUMJP6wo_IznCLQftFOiNN8pdClRwbuE=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "seafood",
+            "count": "36"
+        },
+        {
+            "tag": "goan",
+            "count": "33"
+        },
+        {
+            "tag": "fish thali",
+            "count": "28"
+        },
+        {
+            "tag": "value",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Saiba Bar & restaurant is a delightful surprise! The food is fantastic. The service is friendly and efficient, and the prices are very reasonable. A must-visit for anyone looking for a good meal. Have food with a chilled beer. Recommending Prawns chilly, king fish thali, Chicken Lollipop.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk8h__S6fPmCfROMD_kik7CBe6fJuWLpR1qtCXm5EClD1v0TDuUhY01DQb1gcZvBaJmnQvg0J1iSwjCbA5--EOj6c7FejtOm2qwWvb2VxGvkBAEGl0WYe2NBqvQKLY3ICTiiRkWrA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlS3yhjrbGuLduQQ4Ps0zyUFIJ1Ckis-EeyoQh8R18ZVUqGw-7YPWO0R8nfE2b0MElstZ0G3N5k8EQjh9ZqjieoarUh7NVRD8rSr6UDiBTgJ9KtAz11lK80MscX6SzPwFrqWyhy=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl7rvZ7-3hnP8wMy_v4uxEmQEdK8NuagFQBZJyP2-q20SHovz8IMcHk-tMlLVx-XY5GU3nvlbvitd9p9CAAH9U2TZ7kFUiq35NDTFaKLq3VfKUfjmo2lsXp79XkXu0-4OFyPm7a=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Had their normal fish thali very tasty and affordable. Also the fish was very fresh\nAll n all good experience 😀",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkI16ScALMrL9M5cu9DKUy7y9SCIgu7rrPNdlVWZkAyrlEFgF28TAS3QGj4GP0VCuIe6hMpLkF5QOd98VHlbbaV101cFS61xL1Zweb5Fb0ZGX1SOub5u1ywny83DH1Nk-ZbpJx_Hw=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Nice experience,Good for Family dine in , varieties of menu ,Goan, Chinese etc cuisine, once must try",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkSdQPgDzDxCzx-Cmt10KVtWV5TGseXHYjzc5SMk3itv6mMClOAisnf_ZJTBeXH3NhuJmV-8jHe7L6Zf0D8xCtpkzKlKweM_ZOAD3s_U6vCGzvzO8LW6cN6fP3mfbIUR1Yhshct=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnOUGpNET_kTiPGHnigU68D6KWHU2W6XdcJtuK505nQI5U36abxx4EAQ_ep3UVkB4VB7hbfP3pC8KUWvix0Xn3ul77GmUxx8ve0vWvP6R_LqyCfpaODHYuYliSpBqgLSKfgO6mp=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlPR_EQ34qIwnAbzgYfZYqa-rZ4k0XjuF4M8S2HIWrsERivXH7ZXC6pEitoT3uj8HkutrXbKDCdLbT3KoN1X02o3imK0GigaAs2_HzLekF1jv2EYLHgc15ydKo13kMBcVvC26xq=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkKIJ0Djv6AWP_aiY8PhQMZeKDuipY5ZDWFkt0DDNETEzSEM80F199skyCkhlRwLkDTPLbZrRN9UHDWAQMRV3nHYkPF3OZFEnc98zR_-r7kz2i9Po9qHVjy5Nv_yvZI5iUCD86X=w375-h281-p"
+            ]
+        }
+    ]
+}

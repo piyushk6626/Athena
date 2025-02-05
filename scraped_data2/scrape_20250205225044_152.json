@@ -1,0 +1,53 @@
+{
+    "id": "20250205225044_152",
+    "name": "Siona Bar & Restaurant",
+    "star": "4.3",
+    "number": "1342",
+    "score": "5770.6",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Siona+Bar+%26+Restaurant/@15.0131079,74.0230833,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe45514655100d:0xb4e29ed896177b76!8m2!3d15.0131079!4d74.0230833!16s%2Fg%2F11c2pq00rz?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNw_tdiqrM5DmtRaRNJ6y7J5HrBkwHs2D1GirRG=w461-h240-k-no",
+    "tags": [
+        {
+            "tag": "cocktails",
+            "count": "24"
+        },
+        {
+            "tag": "goan",
+            "count": "14"
+        },
+        {
+            "tag": "starters",
+            "count": "13"
+        },
+        {
+            "tag": "music",
+            "count": "12"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "They serve the best prawns rechado in palolem. It has the perfect mixture. Not too dry. It has a perfect texture and taste.\n\nTheir fish/chicken steak are also good. (Butter garlic, lemon and chilli)...\n\nComing to thalis(Kingfish and chicken). They are tasty but less  items compared to the price they charge and nearby restaurants. But the taste is awesome. So one can try it!!\n\nAnd coming to the desert. Their banana fritters with ice cream are to die for!!! Just yumm",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnu0gMoeIdTvx_ypqTkrOLTFz2CfrTnAlER6qEztUniRPisKZUajBcRN6B59hqPyrufkO7B9LXWHG48wOCH7Tp1nDKx5mXI7B0w3TO0mZ25BsQQkTtSmJLzWAIKnA90qSeVldY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk7JzetPk_UJz-MdZ_t51PX_tYsVjUxQvyyGxnLbTwT-pQhbfNBTXnlipLsP668Vu0F0oy50nwQk89EHLcsXz1vhGazPl_VcSnh1ItYmVNjV1fvDhWV68_IAzmwXJATaV8Dbkf8-w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn5gra1VHTS_thCPxVDsg8rsQUTtnPwj7FfN4-bynC0l15gUF-R6kNDD_GtluttmhvVsC5-W7W8sIt-7gasN9saO83cojX_oL-_l6O7wvzVphAc90avIzvJvHcUTnN2yhbsKIBl=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZGdlPXuqFTbXVCKNWb8gy3tWW0UtTh7sfeJNZMmyNB_2l9VTyhaFfLGoX2Eu9Y6IJVA3b-8IyLpop0rjI_CaSqtbGBi3j48HqcsIJ1_Ci7wMcBl2sd68SoQ0VAFOac-_gMxURqg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Fantastic spot with a diverse menu, though the service could improve. Don’t miss the local beers! It’s a great hangout for food lovers.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmm5A4MCTPxPYptXGeq90UYNeXZhialGzo49hVHkOcLf9cn028QjLowKGs0Ki4SGy2YOew-8hqXFMdeWxswJPLVTbNngiJJYNwXZNLrsrxIKa4FgZXSMy9BpLTv3k1hbJRORBpj7g=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlqUC7tM8GEpa4Lm9V6bdJ4KyqthjG-YvxQ6IxuTWcyPQYxx77jiEgn5Dsc67vTbeC80Eecvo70fkZzStmWNPvKnm7ELHVe136-Za-MlmT--yBaDgAaI9NAm5kosi8LYF1bqPmN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdne2m3edcU0Uuv2E2ztEDDPbz6izKR02wgohKIz8sEq3zwt2smUe1zZSf-SK0qqVSOvnWw8blvQydH2ru_SNG0y6HWidyWidFtxvplSbocCm9tX_kKup4eSES5T9HJMKpdJlpU3bw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Amazing food , i came here daily for 3 days,\nRajma and rice are delicious .. actually we tried some of their Goan delicacies as well & they were also so delicious … a must visit place for a north indian tourist in goa..",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdncILKQumTKPaoxEGC3cVNsS3gq34JnbSZ0QDlsCFu8p5hL_qoCz39USX_VpPkUfFPc6Yl1OGYBa4tKssXD62F6ONIN462Cxp_pklsdY2cHj0O6SOydIdhuTekvDFHwYHOxIwJF=w750-h563-p"
+            ]
+        }
+    ]
+}

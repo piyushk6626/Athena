@@ -1,0 +1,49 @@
+{
+    "id": "20250205224222_72",
+    "name": "Domino's Pizza",
+    "star": "3.9",
+    "number": "2322",
+    "score": "9055.8",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Domino%27s+Pizza/data=!4m7!3m6!1s0x3bbfb80c6272703d:0x441b7beec82d1ae3!8m2!3d15.3898668!4d73.8487834!16s%2Fg%2F1pyqsx2ph!19sChIJPXByYgy4vzsR4xotyO57G0Q?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMBDQkZQu3KTYEpbDSLacM7MuW0nNe9M_dDykQW=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "outlet",
+            "count": "23"
+        },
+        {
+            "tag": "airport",
+            "count": "18"
+        },
+        {
+            "tag": "order",
+            "count": "17"
+        },
+        {
+            "tag": "cleanliness",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Horrible Experience at Domino’s Pizza\n\nThe pizza was completely undercooked and tasted disgusting. The garlic bread was inedible—stale and rubbery. It’s shocking how Domino’s serves such low-quality food despite charging premium prices. This was a complete waste of money and ruined my entire meal. I’ll never order from Domino’s again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdngZDLZWWZVMywOrENWiEkpHjYL5cvlrpBX-XM-e7_d_HcL2q9xRnqKdEGwfNXQBL8DpnxKthS7CoDAWOxZnebbRNldwDJPBzAe04pmW47COUmFZ8bqfKUIa7okxrBE6ZHEsPM=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Extremely disappointed with Domino's. I placed an order on the dominos app expecting it to be delivered within the time. Not only did the order never arrive, but it was also canceled after visiting the store . I wasted a significant amount of time waiting.\n\nWhat’s worse is the complete lack of communication from Domino’s team. No call, no message—just silence. This is completely unprofessional and shows a lack of respect for customers' time and trust.\n\nDomino's used to be a reliable choice, but after this experience, I doubt I’ll be ordering again. If you can’t fulfill an order, at least have the courtesy to inform your customers in a timely manner. Very disappointing.",
+            "photos": []
+        },
+        {
+            "review_text": "As shared in the pictures, the condition of the place was pathetic. Zero cleanliness measures were taken. No hygiene. Washrooms were smelly with wet floor. None of the tables were clean or in place. The entire seating was distorted. Having pizza in house not recommended at all. When we told the staff to clear the tables, he was un apologetic of the low cleanliness standards. Coming to the food- we order stuffed corn Paratha and the food was dripping in oil.\nWorst ever dominoz experience.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm-bIwKZxMo1sEVVA6zHwgeG6Oe1ZS4uLASnszRANHubts6qDycSCZpAMwrOWp6On0XKas0khkn94YDt0QGk2ry0zYIafs6mIat1xpJ50RFPY8B1DaFrEsqnHy7DeSjB6MCLwTYLA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnUtndLmoKRIujaPDCa2-LDbi6SGcUwNxoHnMoNG-oruCvniMzduT9mw0yYlcIAVX5ZVlRwmw5MVmfNSwJZsanovDT8W8GUIlch0p6AFb5hD9PI6XSQdxAcizy2ahrW7O0EQNUX=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk9tUgEVaN-ZN99mIx_NGUbPQfpeRvOV6gBOhCzYuNLLn5u4GZ3bCChNdegbWMJzZFNPVBb778GIHFr1jCJ2YrHNVqcEkxExGh7oBqs-KR-5VjOWJdzmoyojnHQzO6D7ykgXG2aPg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk75UHPLh4tG7aviI_N0Pt2bK4ri7tBz1vsMZQdlb9EJKo1S1cbx1qNgfg5hJ__NTYRP_QsaSBzDlfmzONtAsFcbskhGKwSOSHwQOObDC1WVteggLgvdUb_APoocLsOqK9rB18=w375-h281-p"
+            ]
+        }
+    ]
+}

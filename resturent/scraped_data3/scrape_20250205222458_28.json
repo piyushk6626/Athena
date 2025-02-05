@@ -1,0 +1,51 @@
+{
+    "id": "20250205222458_28",
+    "name": "Hotel Anantashram",
+    "star": "4.1",
+    "number": "5265",
+    "score": "21586.5",
+    "area": "Baina",
+    "url": "https://www.google.com/maps/place/Hotel+Anantashram/data=!4m7!3m6!1s0x3bbfc7bc7e50f927:0x319f14d19a10feef!8m2!3d15.3981767!4d73.8127935!16s%2Fg%2F124yjm7mt!19sChIJJ_lQfrzHvzsR7_4QmtEUnzE?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPXBrgRDKSiqGsqbg5vjWHIml8Jm0n5nFlA64N6=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "sea food",
+            "count": "154"
+        },
+        {
+            "tag": "fish thali",
+            "count": "53"
+        },
+        {
+            "tag": "kingfish",
+            "count": "25"
+        },
+        {
+            "tag": "liquor",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Absolute favourite. Every single preparation is mind-blowing. Was so happy to take my husband here and have him taste what I grew up with. The taste hasn't changed in years now. Such fond memories and such a wonderful experience. Staff treat you like family!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnUs075R0lS6N9STuj_WYhOVHHA1duLC2hiD6TB28SWpekXWKIYjybXiW3Bte33AOTrHUdVAcOs8x05j2ORcVXsF-GFqwEOLdaK_SVz2el8IW-F_w1vCRdmB971-cIGvzzLtc4nPQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "First time tried Goan Thali. Going to Anantashram was a right decision. It was closer to where we stayed. Ordered special prawn meals, vow it was really delicious. Crab curry was awesome. Every dish served in the thali was wonderful. Prawn moilee as side dish for roti was wonderful combination. Goan Fizz was a great mocktail, I've not had such taste of cocounut milk and tender coconut water mix. Everything tasted home made without any masala and dishes are made with coconut milk. Overall worth visit and pocket friendly too",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdldcoAapVkAgXrDDrQesCFw2EexAonnxDVyhvhE8XKl5XFUdFWU8gnLe1eIadw9hHlhHLYtbDAPZEDT1W0t8BxgI3mq9ZJB61FYx0njI0LJYu_mCyqa3Q0OpEcNHrD0qgMUweHC=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmo8Orp-TIGSiE0KS-tsVuFfuXCeqrQBnyHEAQQQaN9_G7-6IovpwN81zmu5QILrzCMovA0PcMNLBFAkDKGGHnd8uMNNk_oKEPv0I9N-6iP6Fh2_qSetttap6kpTwYXsLwLLhv-lQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1ZmdFnpKcpHawLeTtdM2Zrs5A-h5RUeq_GCXPbRg4zOt57AtDFcYre7qE-e3sa7Hje8IA9S0gJFUJ4PO9T0WoKToWF4Ui_HsJpbwsp4guauMODDNNtq8sZ4cbDiXX0MLuzoo=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkcRzFB9dVsUjzj7zHkgQUNVLHVGRzFdxBFI3HPvUvRz6B0R1KY1vcfHsFBL-DpeTCQnDaPfRXrVfQ3Aq9DhMbTrn0PpR90qtIuXSX91rrLZv9j8VkWx1d808Q69AS8_oLdM3de4A=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Been visiting this place for many years , best place to have a Goan fish curry rice . Food is wonderfully cooked , with you being received right at entrance by the ever smiling owner Sripad  Shetye , he really greets you well and sees to that all his customers are well attended to .",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmXj4NWgjBA6SiYHAh7C3UqGVqjuDHjJn7qo8nXDQpr08_bRiQz97wYZSNE-zbt152eostOFhIyFWdmU1R24tXNQVLcm2jcMtwqsQLwtf-psuBLJwi7UvduL7D4F-qCsb24uPEIdg=w750-h563-p"
+            ]
+        }
+    ]
+}

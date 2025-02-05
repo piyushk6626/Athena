@@ -1,0 +1,53 @@
+{
+    "id": "20250205222821_38",
+    "name": "La Plage",
+    "star": "4.5",
+    "number": "4073",
+    "score": "18328.5",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/La+Plage/@15.6405736,73.718948,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe94df70459d7:0x21ec79615d518dfd!8m2!3d15.6405736!4d73.718948!16s%2Fg%2F1hf22ffcz?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPs7evL5F8qVYrj2OPc75iDI0ItI2xaRnXNPnU1=w408-h315-k-no",
+    "tags": [
+        {
+            "tag": "sunset",
+            "count": "47"
+        },
+        {
+            "tag": "shack",
+            "count": "23"
+        },
+        {
+            "tag": "place to stay",
+            "count": "16"
+        },
+        {
+            "tag": "indian food",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "It's a very old restaurant & a good one.\n\nThe place is run by a French couple who came here 25 years ago\n\nThe place has amazing food. One can reach here by walking on the beach or from the Mandrem road if driving.\n\nThey have an excellent ambience & their staff is very good. Slightly slow due to the crowd.\n\nHighly recommended if you are at Ashwem.\n\nOverall rating\nService 3/5\nFood 5/5\nDrinks 5/5\nAmbience 5/5",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnh5OS-iVcG9PRANCR1oIzwZyN4u3pY98TBkdlaH4ETF0ZlUKR6AXkcd9jnHCwURh4ZAZHzjbrfcW5E7z6N4Ev5H3opGMAPLznEFaPIcZ4OPwJ6YpgkjJ3NekatyxV6PZHJ3uF5=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmQpOB-zogWOj8MHgvM9mCbETqcd8Ud7AlSYi56Y7Jp2-VibIP31nHBXYJEGof4HJw5C3e9aWkInYx6ZGuax7afgRwL2dDhkMdwz0agd6oKYvMtModDQwXblGu17ju4z9ohNt8WYQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnW3WLR5y11k-UMQKd5nHkqyPRgoMBNXBw15MVY5YqQG6KBH616KLaexMJZeP-R0SRHyxL-uCSjIY32-dG6_gisKU0DkEd4TCvOVPbKy3ZHjk-07cf1tfrdsYlMYOi0gQJ6_jqJ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk0W_NHC8x1URxmZY0PbZcx-hLx0FUW-8ubqNrDb-PMgE8k6ekWOImXwssMy-4S9jXzzpsrWgeVD_6hzajr_LlET0a51KXbTy3rdCsOHY6v4yK061q7KdJ45i_JxFOp6p0X-oFDyg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The place is beautifully designed and perfect for capturing plenty of Instagram-worthy photos. However, the desserts were a little bit too sugary to our liking. A wee bit disappointed with the dessert menu as we were expecting authentic French treats.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkGDW5WrjeruLips716Fy4-svrllW-tdsqJrRwTj9LHfXw79MH4wKERI7jH_HRPbrydgnzK5NCxy05PhKCCY_BpnI6N9g_arBgxo13bfgmo2YYq4TnG5lKnX1uhtZxeEnqxrUaP8Q=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Very cute for a sunset dinner with friends! Loved eating with my feet in the sand🏝️ food was good, more expensive than the standard in Goa but the setting makes up for it!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdllJDIkI7mP9mheFn9dz-GyC-saS4nnf4BaiAPdEQD41YsEeuVTwJdpumU4mzpjh8211AKqLUrXvVSVdgtLi-I_daABdMgwjrz1qfRuLtoDUa5sOA9K9AmKCmTF8OH53rAK6TILpg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnx6oCjbalNlIAy20seZ5PpJCMAydbdkswxgviuv2dRzmjaDt10M-kYlfOZVlQ01itNzxKKC-eUR-S8iWG80BKFajkTEMx-9O6v-D5DvE315cq0XcV9LTVwru6-VjvnWqy6rLV7=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBYTa6NdJTEkVdo18nuI1vmUnrCMmrluXUy3j0pEyGZlf2BzkPSN0hM_NhYrh_B5ZXGhpI66CdwR_hYcSMyo_JOskpWyMQFXeZlsP1Zkqmj9uZrdixElkewioTF4MkgG6AFFZjsg=w375-h281-p"
+            ]
+        }
+    ]
+}

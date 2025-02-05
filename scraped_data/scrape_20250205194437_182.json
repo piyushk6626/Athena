@@ -1,0 +1,47 @@
+{
+    "id": "20250205194437_182",
+    "name": "MANJUNATH AIRLOUNGE",
+    "star": "3.3",
+    "number": "1100",
+    "score": "3630",
+    "area": "Airport, Dabolim",
+    "url": "https://www.google.com/maps/search/MANJUNATH+AIRLOUNGE+Airport%2C+Dabolim",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMa51hKQH1vl-rzJF5ampuXnrAPKAIaPWAtS31j=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "goa airport",
+            "count": "21"
+        },
+        {
+            "tag": "breakfast",
+            "count": "15"
+        },
+        {
+            "tag": "behaviour",
+            "count": "11"
+        },
+        {
+            "tag": "average",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The restaurant Manjunath Airlounge is situated just across from Goa International Airport. Both vegetarian and non-vegetarian meals are served at this restaurant. The proprietor of the restaurant is a good man; if you place an order through him, he will ensure that it is proper. However, the staff members are a little odd and unfocused. Prices are on the upper end.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlXXfUe6kzeFXiAlpXTg4zWveUq35D8ZMWwNRQXPFpzNU9L_E13j960WNVoNO_dnj-Tj9GL9UeuJCR-yGc1OkUR7QeRs0utWeZ1SCec3VOOOErc_l04XWYA-V__cM46LeY_p0_qrg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_UuYHZRMa8ZMP-7ex7UDZ_6v-U7zS6sbP5C-VoM1vUkbCLtlsuMhbcianFnNQt9TBhqfHYXiOGC8Xh74KXcUJDOrLrL7kUeXWMkem1Whuvqa2iOXmXdYYftIrMhpjhXIaM5ah=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkbeLyixgCp5CmY3H3NuCMU5AG7O8H14lrQ_HWDrhah9txgwF1oYtg3I7y2ydCQjK_SrJoF8BRArUlfBbrBE-jf1GGR9etpMy5I-SK9Sg3hOZq1XcpnCAQOVZFX_842jY10b118=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnQg-GegcJOgw-pTR03aZcJtFyMG4rihquf1nGOvPi20oEFYFqNUziwbM9L2kDMYQa9fDspvbK9APEnOu_DXhxexB1t1G9Ne9yzQLe2D4PVo4UFoJ1ihcqyK0H-CMPDskgNVfHs=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Terrible experience at this hotel. The service was painfully slow, and the staff were not just rude but also completely unprofessional and narrow-minded. The food was terrible—bland, poorly cooked, and clearly not fresh. It wasn’t just us; other guests around us were visibly upset with the service and food quality. The overall atmosphere was unwelcoming, and it ruined what should have been an enjoyable day. I would strongly advise avoiding this place—definitely not worth your time or money.\n\nIf there was an option for a zero star they deserve it.",
+            "photos": []
+        },
+        {
+            "review_text": "Very bad experience. My kid and family had severe vomiting and loose motion after eatingfrom this pathetic restaurant. My seven year kid was vomiting till she reached back home even on plane. Had to hospitalize kid immediately after reaching home airport.",
+            "photos": []
+        }
+    ]
+}
