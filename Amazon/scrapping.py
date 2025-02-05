@@ -21,15 +21,22 @@ def scroll_page(driver):
 
 def get_product_details(container):
     try:
+        title=""
+        try:
+            container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium')
+            title=container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium').text 
+        except:
+            title=container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text
+
         product_data = {
-            'title': container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium').text if container.find_element(By.CSS_SELECTOR, 'h2.a-size-medium') else container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text ,
-            'price': container.find_element(By.CSS_SELECTOR, 'span.a-color-base').text,
+            'title': title ,
+            'price': container.find_element(By.CSS_SELECTOR, 'span.a-price').text,
             'rating': container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML'),
             'review_count': container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text,
             'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
             'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
             'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
-            'additional_offers': container.find_element(By.CSS_SELECTOR, 'div.a-section.a-spacing-none.a-spacing-top-mini').text,
+            'number of buyers': container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text,
             'all_text': container.text  # Get all text content in the container
         }
         
@@ -60,7 +67,7 @@ def scrape_products(product):
         
         wait = WebDriverWait(driver, 20)
         containers = wait.until(EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, 'div.puis-card-container.s-card-container')
+            (By.CSS_SELECTOR, 'span.a-declarative')
         ))
         
         print(f"Found {len(containers)} product containers")
