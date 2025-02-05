@@ -1,0 +1,53 @@
+{
+    "id": "20250205192041_135",
+    "name": "Shimons Falafel",
+    "star": "4.8",
+    "number": "1100",
+    "score": "5280",
+    "area": "Arambol",
+    "url": "https://www.google.com/maps/search/Shimons+Falafel+Arambol",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOzze_Kh3Y5KR_x6ydeLMQkK_LHlxt_hVruqg6d=w408-h410-k-no",
+    "tags": [
+        {
+            "tag": "shakshuka",
+            "count": "89"
+        },
+        {
+            "tag": "hummus",
+            "count": "80"
+        },
+        {
+            "tag": "iced coffee",
+            "count": "67"
+        },
+        {
+            "tag": "israeli",
+            "count": "25"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Very nice place, the food is served quite quickly. The falafel plate was nice, the Shakshuka was nicely seasoned but way overcooked. The pita was very good though. It was quite busy mid-afternoon.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlZqdPqWrHRt9czrMG65MdKUHWm2a-8dlkDBCD4N4Ylja4PrpsW5j8RmdIB-5HPYyAoXQpIg7CAHwqU552L8vIiEB9xKeGt_T9BeU8Rn3Zj4o_JXUE3A4njyDlgR0gqMQB5DR-t=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnQq1ef-uFFcl49N63SDWUzkzkzmEMsZzAQHBurg3-lm_tYFSPS7Dtd3DlYsgQ1mwzGlPC-s6tOX71NrNJ9NBSo2fqtp_pe5OhwA5gh5xKj-Z8-cFcRDsAaC6ctt8K5TWcpPWnevw=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "We have been to Shimon's Falafel several times. Every time the Falafel is delicious and the owner is very attentive to the wishes of his guests! The place is small and the food is prepared quickly. Thank you very much and see you soon!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnaXNQQCtgeD1An4qXkzzKzcDoC5Gt1vaFr9xBQW0AZ82CWKUht0WMp-LGPznPbe_C6pX-Yk7X_7jkHKRAA3Qbm81uQj7EK_p1mYmaBTlSv9nfqt91WBmC0PsIiJKUtTKusg3jHzw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn7SplZWuKm1B1iO9Ksd1IPRdGfkmKBGAZYy8UhzKaLXdbJXXUGjDd7-zLfQke8_H3DBHeJuLw46x4BWUjYDBi_7xxBzsFHjNolEJDna2gljF0Y9N2F5dkwFcZMjkNusN_pva0i=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "It’s a very small restaurant with 2-3 tables. The owner is very friendly. We tried egg shakshuk, burrito wrap and Oreo cold coffee. Burrito was amazing but we didn’t like other stuff.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqUBGC9ggScbwZ1n230egNOPrEpvx9OvIcqIgss9lWte2qXTLB3INAaG4swxF4VqsJfQk7PO3N_DuJ6aWX-uGlX24pRv0rxSI4uGWOuswV0FX1MbzhwDGSUjdX4mgbkoL7bLh_bA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdke-AQtxKuSQ5dQddbW36muX0HthIRwk-q3kuQwGm6v26cIYf1GqoMqc1EARYlIJ3z1-w8Qv7eaHpnn-GhjZargneeo7pUCo-p0dzbD-9OzmWMz5YYjYSyeg3L-6XkXNzPFU6Vh=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmOEwOpCN0ltQLU-UNAyjllKCQE0nImYdMNJSXY9XPlzRcUIWNC5lSWKCqCyFkn3yBI0Khio0WW-jZuFgrhCvRsI7bjdEhA8zSxGSGlhmQMz3fy94KV_M4DBa59rDTmdIdLp6wD5A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn97s6wX6GSXjBge8i7ytmywVMdmeyJYaCLuOV9LynKcI1u0uI4DXOKbJ7Lj46ghtOaZNRMYcWk1h1D-yrUGt6zrSkxWHFgNHJ2Z85mLXqIF_jDBKdtiiiC7uc3Hwk7IO4bTls=w375-h281-p"
+            ]
+        }
+    ]
+}

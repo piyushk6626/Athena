@@ -1,0 +1,53 @@
+{
+    "id": "20250205184709_62",
+    "name": "O Coqueiro",
+    "star": "4.2",
+    "number": "2700",
+    "score": "11340",
+    "area": "Chorao",
+    "url": "https://www.google.com/maps/place/O+Coqueiro/@38.7444585,-9.2144055,17z/data=!3m1!4b1!4m6!3m5!1s0xd1ecd8086630b69:0x8a8667955af1e379!8m2!3d38.7444585!4d-9.2144055!16s%2Fg%2F11j20g1680?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNs3P3sEdnemt508c1aE-G13Mb9hn6YjRriju_3=w532-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "4"
+        },
+        {
+            "tag": "african food",
+            "count": "3"
+        },
+        {
+            "tag": "quantity",
+            "count": "2"
+        },
+        {
+            "tag": "environment",
+            "count": "2"
+        },
+        {
+            "tag": "family",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The chocos were amazing but the grilled meat, especially the picanha were over cooked.\nThe servings are very generous, and the cocktails too. Very inexpensive.\nAmenities need some fixing, toilet doesn’t lock.\n\nIn general, a great place to eat in a neighbourhood strong in culture.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlmqljCidwQ3JJ_WQfBSiiUubPIamIjFV--8dG4K6_To-kNavgRn08tiBkaWi7ER4602A8fNPr-Y0NQ98-iZfxXTOXifib9SilQ_hSAz8Yk_EwEabR1IqPQlPvgSYWvnCc64jqW=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "It was nice,love the food",
+            "photos": []
+        },
+        {
+            "review_text": "Comforting food in a family atmosphere. I loved the tuna steak with sweet potato and banana fruit. Delicious! A reference in Cova da Moura!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlfxjmbCdNr_zjPK3FSa5GmkozwP_jrYjgzVxnwPOJMecSNHT_HA66T6bMWsMV_pPqCtoWWZLzZ79H-o4bGl4CeMud0z_9HFX4lSdw1TE1xYMUwzqwKXe-PMkO3GRXnkTMQax5U=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmPd34vhdeJhVrFihIeDqJgly2NhKh1iyPKm3VJGeKaGTRYn2PoSyos3wP5hv-YXQ8HABsbyYU5CISi927ES11hBo1f3zmHy_T3bJ01gAg7J2KjUBUc1WdjNnPqX_xjZFs9uThl=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkBVvEv7SHv7NMUnZncoRbd74b6CitjXfJcSNLkoxRgX_nocBYpJKO4DFJtdUSBDDMcL_A--Cc1HAsRsLVl_dvxaRRMCpX9sndqVj3X7dxZtO3tQ2FAyaY2SVRrS82ERd8o49X=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn0XczRkG5tAvhc81XHhv8s6KdqWxwSNCyts5YyRlA2kH_6APolk7_NsHH2KRfeuOoTeRgIt2syYV5zgEmJ43dvOWdDfc0mej55eRk8g4VidDdNsysdkYfjn6Qfb948Zrv4ltXw=w375-h281-p"
+            ]
+        }
+    ]
+}

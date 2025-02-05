@@ -1,0 +1,53 @@
+{
+    "id": "20250205181755_5",
+    "name": "Navtara Veg Restaurant",
+    "star": "4.3",
+    "number": "13000",
+    "score": "55900",
+    "area": "Naval Base Verem",
+    "url": "https://www.google.com/maps/place/Navtara+Veg+Restaurant/@15.5487446,73.7598815,748m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bbfea08838ee167:0xeee7570fcdc3ebcb!8m2!3d15.5487446!4d73.7598815!16s%2Fg%2F1pwftdcjy?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNlaOZoYaTtMLzxogkHUK6HGldXzJzplo7Z1bse=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "pav bhaji",
+            "count": "65"
+        },
+        {
+            "tag": "sir",
+            "count": "44"
+        },
+        {
+            "tag": "goan food",
+            "count": "36"
+        },
+        {
+            "tag": "jain food",
+            "count": "27"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The food here is good! Whenever we stay near Calangute, this is our go-to spot for breakfast. We also truly appreciate the excellent service from Siddharth—he was extremely polite, humble, and guided us through the menu with great care.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmtBkWkxnkO7ee1Gorrz_2hiV1wMUz14ocRdu34V22bUbBhAf0SIs31NT11BwazGbt9hO1TcC94YIrbmn0GpPzxKysUbt3tiOAbD3Sgf6ISFMK3QOoPqYLrP9MxDwiu604I4Fok=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdks-U3ICRYTbzXl6Hm8HAh6VGEaVE3l5L-xa2xRY8Sa5ag4fOClhZY6VSsjPi43RZ1pR6dM-VXXkyFN8gt88ivX6Qbua0YOsCyVan47DGlQc0cpvKV35AfLYNItErBYfUY-aKN-PA=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Navtara, I have heard a lot about this place from travel influencers which made my mind to visit this place. Here we order mushroom xacuti & parota, jeera rice and serradura.\n\nI liked serradura & mushroom xacuti but felt parota & jeera rice were not fresh. Although waiter was honest person he told us what is best to eat and fresh. The best time is after 12 pm to 4 pm things are freshly serve here and available. Ambiance is nice but still need few things to fix as they are renowned veg food chain in Goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm0Sn2DQIvKQP6MITkALqW63h1upKXVjGJbUNOFC18JXQ0OJsyh74Oetpe2zJusZLrvf_0dniwHMmjLnCuyn0ruz7dv-bCXkPSVvXEB1-1sqD7pvicwp2pLm8mJntArNjN4QUEc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn6uGukvoiPspXuk_bNIHK6xrFpU-ZEVRC0_rpopmXJrsqMyzco2-D9q1iZk-FjCDHgOP7pf39S42AJJSBUunhZ1QDzPCMwPbI1njJsfRnCF-fCetcUL0mlwIjyw1ojlDDcnqXA7Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk1geufiuPBreVy6PoRhqF3vtzbsnm7IkCj2nmzNfhn8f6mKtqWvSDxAWckNEvg4dwz9jtaUgPYvAjEjFmhQUIyVyY3hZe8YauD3bTFP0Nge4EKbH13rFcPGumm8ddNcxXxMsE=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdksKT_Re6eeuFMeMKzc0doy4PDmqY-sFLDlbqxsOseojyMbBuGrJFH2B-PFfxQusJQq8VQngG8RoQQ2_aSh6bWTINhdQ6F6kOJzLmXJuzJ1kz9NOUDD9OREtLq5nmegWlsvuPACzw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Best vegetarian restaurant nearby Calangute & Baga beaches. Food was tasty and service was good. Rates are very economical comparing the overall standard of nearby restaurants. Limited parking space available. They have a cashback programme which can be redeemed on your next visit.\n\nThe main drawback is the congested dining area. Overall a good breakfast option.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmePwaS5WOtO1DyUjhed5WThxpgsr2B9nSFHFMTFQKu4rNh36I7UGHOKOgwP2gGesZ71QxOSYs_fbLMHULfk2xSSqzCZP3FJZZa7zPUJeCJVqGuXjGKCx-u9-c1Q3UBhSXDz_0=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkOB-Xfq7hIqiG7e2eMtTYD2YDjZrldcaYzKO0t9bvso4Ac4jM12U6tCbhnG6hzxeedAtXKjZss0i6cbbFxwOV2TQyAJ9RNqlhyiMYFpyVnfDdPETAwiSzumU0eJ5AC1jeuvpghhg=w375-h563-p"
+            ]
+        }
+    ]
+}

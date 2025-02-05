@@ -1,0 +1,54 @@
+{
+    "id": "20250205190502_102",
+    "name": "Cream Choc Gelato",
+    "star": "4.6",
+    "number": "1500",
+    "score": "6900",
+    "area": "Caranzalem",
+    "url": "https://www.google.com/maps/place/Cream+Choc+Gelato/@15.4850099,73.810982,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc11f6d961525:0xa90db5800115d53f!8m2!3d15.4850099!4d73.810982!16s%2Fg%2F11h1m4qh2q?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMhUxf4RGFMUwZOPhSKOa-QXJ-iF-VGSZ5Ybwwc=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "flavours",
+            "count": "79"
+        },
+        {
+            "tag": "sandwiches",
+            "count": "37"
+        },
+        {
+            "tag": "caramel",
+            "count": "31"
+        },
+        {
+            "tag": "pistachio",
+            "count": "28"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A bit overrated...but Ok.\nCream Choco Gelato in Goa combines the rich, creamy texture of Italian-style gelato with high-quality chocolate, creating a delightful treat perfect for Goa’s warm, tropical weather. Many popular gelaterias and dessert cafes only in old Goa,  offer unique takes on this classic flavor, often incorporating local ingredients or serving it with beachside views. Whether after a day at the beach or as a sweet finish to a meal, Cream Choco Gelato is a favorite among both locals and tourists craving a refreshing dessert with a touch of indulgence.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmyIJ55WduWmfDT8Ov9EIMT_nkcGhqdl4lwT_e03EHmCuZtj7SZwDDnoHc3gg9m8-CWPmdyOUh1ngXK_eQjHpxnDjASEZC2yX6QTbfgv2VqzUyyyeHqrZGzjTmnl29_B-bW5iYB=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlyCE-zTNT_Yy-8asYFkHL80xeLKaFcBO3Dx9P3zK8t3ILMi1OwxdsEHplzF4cGnDDbElxHNIEai8ko_Z7GQjl4u1TJmCuXUw9TpwmSLdDClvXmFXqlvlc01GE_xOPvWxEq7gALfQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmS3TIAbuj4MTtPUfRtmx-AQ9-6HLBu2naZRl3eQmb9WFVcCB8qJTuNVEUL_Wd64w9sTWTkCrG5FEUb4EGtWfn5nuAxKnFjAxRZ2BJ7eq6fSFGF1OL-wdVfKrRJgmsVpHslkOA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmmbNST2En99rqvh32ZvXcn-tcMInJTnkmTJ7GRFNo8yCBiglrEFcFvxQrH0Kv_bfPbaW-zB39gQBDy9VsxpQnF7EvRAK1-8DnNGSMTs9zbbqjMUV9xrhTNH3DmZgVKhC28cgiUjg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Not just gelatos. Which are really good, of course. But you can sit here and wolf down a smoked salmon bagel (topped with a fried egg) or a salmon salad. The lettuce could have been crisper - they should work on it. Decent cortado coffee.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn2sft1lGJ4ujApV1N53aLlSQHbxg55TKcyYisAjmvGOhYYLvhLmj2rSOYLh50KBelbdVUqjj72p7Pr9zxQOWeUQzGL09OPzm-jWoNQyVd-mbDAKiCUUFRUgZGDXGlSDyzcJClp=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnKBb85Lom2t0U5_g7JVtcJ0uRhhW0kQReFFY-zWhd52Ie9YFayMAviZ07zv5oDlzJnXa9OnRrODW3zTBWC1zQnaVfSK6Ccctu2gR4gDImQfX7oDbtDWfJT6TPKLbMI8dUPAXyW=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Have visited this place thrice and will keep visiting. The ice creams are delicious and there waffle cones and the best I’ve had. Thin crisp and so flavourful just like their ice creams. The flavours we’ve had are Mango sorbet, Dark Chocolate, Belgian chocolate, pistachio, vanilla Madagascar, Tiramisu and all were good! It’s really difficult to choose a flavour as they are all so inviting.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlIqIfZiILs_88zJq3I3xrurR7T6IeqI-T4YSukTebAfbgOfvloeywZTMCTzp8JJUsdJSWPOlZWje-QNRSMs_G0vwxmsOHL1DZE3DTvssr4QRbCA0ez9uVfTbbVlMLDnBGkjrKG=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkvS9rcYz2OQWifETDvy2rWUxy-ROvsDpp_LutdU3wfILVLtgkfIc_P-FAdG6ZdaSqykJEXYRRWqMZ-MVVeJOHqaprp_PiDb3dKkl3z8vbVdXAQ-drKH0s-efhLRWk0wNHpoPvu=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkxacPMFBFzC_YUQ5OUPKR1uwX6dLq7uTJLDaEFCXWi7L-7RNi4SLnxPT4G_X0GUjMMdXU_4zlEcKPhvvFrONYqUVp3rGLpek9rCP3WfOCEFxj3VfeZ1IbGK96KAiTzmAb8Psmz=w375-h281-p"
+            ]
+        }
+    ]
+}

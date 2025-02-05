@@ -1,0 +1,45 @@
+{
+    "id": "20250205192349_142",
+    "name": "Café Central",
+    "star": "4.5",
+    "number": "1100",
+    "score": "4950",
+    "area": "Caranzalem",
+    "url": "https://www.google.com/maps/place/Caf%C3%A9+Central/@15.4979341,73.8244504,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc08edf3c11ef:0x973965931f606e1b!8m2!3d15.4979341!4d73.8270253!16s%2Fg%2F1tgn359v?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPgb74o3ARfaOnsfMlXgDiw6xX3ARLiYmzWB0J_=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "snacks",
+            "count": "98"
+        },
+        {
+            "tag": "mushroom samosa",
+            "count": "41"
+        },
+        {
+            "tag": "carrot cake",
+            "count": "15"
+        },
+        {
+            "tag": "puffs",
+            "count": "12"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Their snacks (samosas, pattices and many more) and baked items (biscuits, cakes) are very popular.\nEverything is just fresh. Please do visit this if you are in Panjim.\nTheir Eggless chocolate cake ,Mushroom Samosa , Cheese Rissois ,Manchurian ,Paneer and Schezwan rolls are also their bestsellers.\nInstagram handle : @saviathebakecook",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqUzw74k5_r8oAH8NeYULlpasU4E18StqRbuDt19k2tyddzzJ7N1_sBkX_44UGQEUpqenKmvuWa-B2nqBAOF_3QSHxqqsWlLj2yCRYXEPFa78EL9V87wJ89iM-y-ZLs1h0pJeK=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlOzoWXsuuWNZyywXlihUC4jm8_av3OqoVVDlXwEA8lncrXfmBlp4hifTVe2h6z-NKz2adk2iY71PB6rQiEG8DQ4GqCRX0n5r2eLJFXuxdsu5Gyxc3LAfMnFMs6IjClFyF0hNrH=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "All their snacks and confectionery items are really a hit and definitely worth a try, personal favourite being cheese rissois. However the place tends to get quite crowded after 4pm which kinda affects the service.",
+            "photos": []
+        },
+        {
+            "review_text": "I trried coconut mila from Cafe Cebtral, it had a strong, unpleasant smell of burnt coconut, making it entirely unappetizing. In fact, after trying just a small amount, I felt quite nauseous and had to stop eating it altogether. I bought three packets, and regrettably, all of them are now wasted.\n\nI attempted to reach out via phone to provide this feedback directly, but each time I called, the line was busy. Other snacks I bought were not very great.",
+            "photos": []
+        }
+    ]
+}
