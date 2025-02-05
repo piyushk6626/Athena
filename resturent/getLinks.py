@@ -198,15 +198,15 @@ def main():
       - Saves each page’s scraped data into its own JSON file.
       - Writes an updated CSV with a new "ID" column.
     """
-    input_csv = "piyushkulkarni.csv"          # Your input CSV file.
-    output_csv = "updated_input_piyushkulkarni.csv"  # CSV file with an added ID column.
+    input_csv = "EXPNeel.csv"          # Your input CSV file.
+    output_csv = "updated_input_Neel.csv"  # CSV file with an added ID column.
     updated_rows = []
     counter = 1
 
     import os  # Add this import at the top of your file
 
     # Define the output folder where you want to save the JSON files
-    output_folder = "scraped_data"  # You can change this to your desired folder name
+    output_folder = "scraped_data2"  # You can change this to your desired folder name
 
     # Create the output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)

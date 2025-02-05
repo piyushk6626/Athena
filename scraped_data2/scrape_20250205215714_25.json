@@ -1,0 +1,53 @@
+{
+    "id": "20250205215714_25",
+    "name": "THE SINGH FAMILY RESTAURANT & BAR PALOLEM GOA",
+    "star": "4.6",
+    "number": "5768",
+    "score": "26532.8",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/THE+SINGH+FAMILY+RESTAURANT+%26+BAR+PALOLEM+GOA/@15.0131639,74.0226453,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe4551176241ed:0xcb99865baf9a873f!8m2!3d15.0131639!4d74.0226453!16s%2Fg%2F11b8szk1dt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPI6aQ5MK85-sjC3dFdnoDxct36d-Ks-6ObQp4j=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "73"
+        },
+        {
+            "tag": "tandoori fish",
+            "count": "45"
+        },
+        {
+            "tag": "goan",
+            "count": "45"
+        },
+        {
+            "tag": "red snapper",
+            "count": "42"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Food was real good but the service took a long time which was about an hour to get the food. Must try their singh special chicken.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkLULBeihTpiVhUmDHymuBmdSy2Tv4Tomw-J00oSkLIaK43B04XxGdnV3FYEWUBTNrFTqwmDwdbqU6KEgMEi2j5zG3X-VNu3I3uN0gg4nkA9Fg7BS2NwjyPnFDdUzJ2M8fwn2-rgw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlqQYXwCCmrCslyJulEjd90JyIL8kI64u96BXYd8HB-Uz3A5WKRYiJvIVGwMtTFV_stFq4CJoFrc3rrud6bilFRF5MHPy2qhX1TQmlnNmFd5LJZ76-9s2WtoXjhNhiTe-6XgFiy=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "We ate the best Pomfret fish in Goa. Ankit served the fish very beautifully. We loved all the details on the plate. The best lunch we had.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlVEJMbJm4zZDHEpmAhanGPxOlUQdIxYPm9Ils_eFBtbmlbwMtbWwS16_V39sHd4_no2F9XrqIXZwq4qD-4MMiICT3UtxyEV0r8RY--NnzUHcZlHTuzyQcR1z48PDeA9PYgpM8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdni7j6zl8Jd9LZkZRoeAWKTNE_qDJxd1LCWjFZXu9A-fMFUOKolPw5YEvL5YheL2XBaxYvDblMldJM7Zw8lkUGCzIDQ6pfGdAaCVmqjT32XBTmnLwKHumjAd_qu4pGVptu2IHpY7w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZaOZQbXpfl1A9eGRnSMVnPVRYgNU0BITOI684X8eRctvbjEAcZI36fQ-zVflEzRNrFPBsfqcZ1zyQ6z5tKDebmtGF3gBkDN-f6YHY95raTnAXdenrZfqnqHGvFK3YmZ9BE4Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnpE7eAHdXeWn5x4vM4Ql4C37i00N6dXgJyWcgKBYRvAcynlkFyxj_lvG2l_sNGJNL7uZ1duPCUCQVQM7NDoW1vk8TYBcfwsnKrK4gV5D-vpX8sRtcS4QCnxAyC0p5c5KVygcg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very good food and respectful service. Need more variety of pastas but what they have, they cook and serve well. If the place is full, they will suggest other places and if you are okay with waiting, they take your number and call you for sure. Lovely, humble place and people.\nThere is this adorable kitten that stole our hearts too!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlAUSK7ASNt-YuQwUIucwK4Rd27trckLTALLS9cPFDoQ6mbaTOT_9W9baiD64qn6xyvW5xNS3opnMy2US4nj4Wv9fMHAhKi0g9hgAmlcf4aDYOFROpJCwUqFmKIi6yGb5ZZQwXd=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl0negMvuFYvFB4edacFmPJ_uzIzjOxhp3qESpOu5Xs9mkFd_5MA5PS2MWeJ7VudVhP1Ojxcc9pVg4o0QkYzvF14tqxcHWJXPvDvFK6Oy9UTouKAYQ8Z8Rm9r6EUqaDU5smBOM=w375-h563-p"
+            ]
+        }
+    ]
+}

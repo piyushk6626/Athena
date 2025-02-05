@@ -1,0 +1,57 @@
+{
+    "id": "20250205222947_105",
+    "name": "Workshop Restaurant",
+    "star": "4.5",
+    "number": "1901",
+    "score": "8554.5",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Workshop+Restaurant/@15.5106266,73.8348024,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc0623b7c6537:0x1ae616ecadb98e4!8m2!3d15.5106266!4d73.8348024!16s%2Fg%2F11fz9cf5qw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOPB9clnAHDHa2J9sYCQ_pTJJqqh0AUurTEZUcj=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "fish thali",
+            "count": "28"
+        },
+        {
+            "tag": "squid",
+            "count": "16"
+        },
+        {
+            "tag": "coriander chicken",
+            "count": "14"
+        },
+        {
+            "tag": "river",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I recently dined at the workshop and had an outstanding experience! The fresh fish was absolutely incredible, perfectly cooked and bursting with flavor. The service was impressively quick, ensuring we never had to wait long for anything. The atmosphere was cool and inviting, making it a great spot to relax and enjoy a meal. Plus, the prices were very reasonable, especially considering the quality of the food. If you visit, don’t miss the coriander chicken—it’s a must-try! I can't recommend this place enough for anyone looking for a delightful dining experience.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBXKxVaGe4PP7w6e2swqnuBf77x_AuR_EYL3dq7jsaZQGj_2l_hUWzXvKWdtCNgwK2RtFFimR95cQntoZDH8bKDG9k2etqBA1xgUFXZjpov5IdVCQBvK30CM4aVvpU281uXshHiQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnRer2QiIARXL3VxDChkZKxhtnxFUGOAuRnCRhiPaFLZxPLN16DECsfiyDMv1WSv1JESRxn-cTWua2p9ltt985CHxSGGbVMJZrT7dQmKoi0B_oNzE3FgD8nj_nFcxUPQDdKGWvT=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmXbyKWEKtRcTGFHrUC_gEhSjqNS6BvhophZeB0u0YEasKNJHFW5dpEzHKTFHViQ24aorW1QdTAUZqA2q-aO6HE8yULE-12dFxLEPW7pthIx3_FdCa_o4lZCJQ--mfSARfSTCbm=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqzV45QOoe-ZAukeDMJ_Iwsd83TkKq4sZHTADaqf_7AvfUQapYA0Q4Q278jgUAEEDpnp-QriS90pLsiNND87E_mqgY37JfQi53ZYqqF69Jhow-KOPi7LjwZceW7mnT9faNZG-Y=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "\"Great Spot for Drinks with a View!\"\n\n\"Workshop offers a fantastic rooftop experience with stunning city views. The liquor prices are very competitive, making it a great value for money. We enjoyed the food as well – it was tasty and well-presented. The ambience is lively and perfect for a fun night out with friends. Highly recommend!\"\n\nSharing your personal experience: Describe the service, the music, or any unique aspects of the rooftop.\n\n\"Workshop offers a fantastic rooftop experience with stunning city views. The liquor prices are very competitive, making it a great value for money. The food was delicious, and the service was attentive. The live music added to the lively atmosphere, making it perfect for a fun night out with friends. Highly recommend!\"\n\nI hope this helps! Let me know if you'd like more specific suggestions.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn9ysRgwzxeMQ5KLl9FJIxNwuDxcT8wv_dXPVleN0vsoqXpgIigj4kV3PgJt-Sk9_ilkYLk7fc6cdm9tZCW7kgfsVCGkFKyFKOIzQ6FrfVb5YPjoeBfTkoNmKatjKq7PLs6Kxc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHm3CpDP0yvxTuU43J92Yy7h1XmjuTQ3Fsq9RTY6YJtiALoA_r0EXslePQbngap3XikrdZygfKyJaJee8BEcGOuKoRwTQukCaMLnrEuJIEAeA-mhTfu1rXUzNe6D-kvK0So8-0OQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmjWWKjZ-fvor6bwAWdbjhlAuR8vRfgBgZ1xYQMGabWV4a-QE-OSbC406WMpDmCmpaquHwaB8OeWicCbV4v5sQePcUoyfI62XHNHdJ59LBFg9mrj0gFaqKbFH5YA0XTrby7kJy3=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNfbPSG0TEy_yJKCyAxpIFZTbUCg0Yfm6wHiz2s-zzMoaxSVsP9-JWc_k1VwNX_oSWD5Cxs2amfiMyfc3G4FYnAaDSVwmAl30vzYw8Er02G60LrLYZsryhcwNbdqcB9LM4eZxR=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I can visit this place over and over again and the waiting queue explains why.\n\nThe ambience may be not as fancy as you expect it to be but what they offer is soul food which many “fancy” restaurants don’t provide.\n\nI haven’t had better authentic Goan food in Goa than this place. I am happy that I stumbled upon this restaurant.\n\nWe tried their signature thali among many other appetizers and all of it was lip smacking.\n\nFor me, this is only the start, I will not stop visiting this restaurant.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkZoHdbDDzggygqlAkrjFh7yh0CT7m61iZZlMQNPaxpBHlU-9ZoFAFpUhfcWWkP8u5WG4omoRTKfFNS0rWQ_VyrQBQoCw-hUZRtzv4cW9Ce77oWRIyDbvULnGvCmyPha8gLLDow=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkUCiVHwmp6nicRFt_wTnxh_dPkvwPNOLsu0rJ8oN-TYUXWIvfRN75B-ST_g0rzDuyV5wBW7GGq5bnpUDsTXdVDwjg3J6QEwuD6UIBwfOoXPRcSK_PhXPSYAXyuk3zdy8RCo9Du-g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmBqxpNPpl2aVeec_YGQ14httCSOYpeN_V6YOIF2pSNcRkMbsorCTWv6NDnOCZVdWuzqGXn2nGyHQT3chPgi-OJlXtV6LZysmiTvsLlztonru8i4MEqsNDtXyVv5NMa62-lvQLX=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkv9ldvIWzY1i_1nBuq3ACs12_338tVHpeKj_wdSH2CZzPffybmjPWwMHdglOkSk6AHOqk2PoLtGUIezwT760EF99he_Cw8sJjuR0CfHsYDolmeoiJZvaphPZs5prNlNKFoqRHlzw=w375-h281-p"
+            ]
+        }
+    ]
+}
