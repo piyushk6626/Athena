@@ -1,0 +1,52 @@
+{
+    "id": "033ff8233561d3bcd380a7a47578273b",
+    "name": "Hotel Kinara",
+    "star": "3.8",
+    "number": "961",
+    "score": "3651.8",
+    "area": "Aquem",
+    "url": "https://www.google.com/maps/place/Hotel+Kinara/data=!4m7!3m6!1s0x3bbfb3d434d72011:0xfe3f31d57e4fbba9!8m2!3d15.2858678!4d73.9783941!16s%2Fg%2F11bz0mhdvg!19sChIJESDXNNSzvzsRqbtPftUxP_4?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPNA8MlsRVuR_IKd21X42yjKEbgmtOxEdOoDaBR=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "34"
+        },
+        {
+            "tag": "take away",
+            "count": "27"
+        },
+        {
+            "tag": "shawarma",
+            "count": "22"
+        },
+        {
+            "tag": "quantity",
+            "count": "20"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the best butter chicken I ever had.. Even their shawarma and tandoori was just yummy..\nEven the vegetarian food which we took from here was nice... Especially quantity of vegetarian fried rice and paneer makhanwala is more than enough for three people.. Quality and taste was worth the money.. Definitely worth trying...\nLocation 📍near the bolshe circle ⭕.. Easy to find.. Parking is an issue though even if it's free of cost...",
+            "photos": []
+        },
+        {
+            "review_text": "Great restaurant providing a variety of cuisine. Located at the central line and easily accessible. They are available on Zomato and Swiggy too for ordering online. They have offers and discounts available too. Best known for their taste and portion which is pretty impressive. The prices are reasonable and they offer..a great taste. Biryani is a must try here.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkxQJ_GEKviA9ApfuxHEAuY8GBs_xEEl_LQOwayV3XjBXy0A5vGfZYsTKhzbOeB8ZUfaD6Q6xb-YnQAHBtIPfqqfYlTShWZrm2bm-Ji7Gyc4_n-HL6qoodNprfBhqbBMhTcgNPKtQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnbwgHw8gNHs14i7vCGyKoQ4rr04cWL9x7EnGcPZEzM2qqGUUURHV6CLraEBpMriRUcFXIl2LNs9Y6CFFH4hSuZE4XEwPzcEKootNl8H2FIuLTbpQuqOfFDr1MoG1qLsjSbUV8W=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmY3ggR3fywj8lohSxps8sRnzeH3h6zjlG3uEFPBbWGzFcfKTsa7ALTOPLfoDjApY6KVyNaByxUjYfMT2r_D-Cdepx5dk-6IXz0kaaEGlKKv1_GfUzHENyMtbt5PUUH5heE2ukvdg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHbH-8pxwuGEPFNCqV2oa5tidXlwB3u6s7PjayaHTWP3odTUnFiiFVYHHzFuRiTdmGdKpJAuQFFusFT1tJaIhwlUNVjqTNPl_zXNMmYQp5CKImISG1fE4CTLhOC_BEGc24x4ts=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Amazing food. The quality of food is sooo good. And everything here is really pocket friendly. The place may look smaller and a bit conjusted, but it's all worth the food.  I have been here so many times and I never have to rethink before spending my money here. You all will love it too.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlc0FQq46qTkVQxZToUhCbKjkWaEiAbYVsEoQ2ZZKfo7B6QGgNbME6gWuvVplP5tN8L-bMaRVm8t7Co_t7wwm_S3J3Ms3UTX-l5MHlPDDo3FHuxR5NUCLtJezqoW-U4BNLe3TfD=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk-SCSuTBazvzt0gsij_9SZdUy5smhiKh99Sq-ywc4DipD5MbPaK3Ja_29LjemF2HE95BhrcfyGR8kAr653xeke83GaaLZFNdDN0_bOCPevo_hrm0nA3n3bGHVir4Jwxxvwb2Dw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm4f9ofQalrDi_oroM9FlkKBFo_ZOB9CQDthiLLvdTrkcFD-rWrqkrPYD7sHSwPp9paUZC75AiZf120vCLl2SZ2T17A9z7GjNEpp-5_SjMUVsIF3pYB77emsqmnvCycn1vjED2o=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk2fPzq840CV9JtS4e_fn83M0N59J_bd82zqhMO0Ji3oF48xkdLK6mxbtvwm0sLOEFVgE4THJY2ppNa_UAx_aEESbOtRurRwfBo_sJTIEpuMZySqoYefFhKi575vU-fZvbbROCS=w375-h281-p"
+            ]
+        }
+    ]
+}

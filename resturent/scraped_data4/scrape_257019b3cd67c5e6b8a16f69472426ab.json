@@ -1,0 +1,52 @@
+{
+    "id": "257019b3cd67c5e6b8a16f69472426ab",
+    "name": "Ramesh Bar & Restaurant",
+    "star": "4.4",
+    "number": "653",
+    "score": "2873.2",
+    "area": "Corlim Ind. Estate",
+    "url": "https://www.google.com/maps/place/Ramesh+Bar+%26+Restaurant/data=!4m7!3m6!1s0x3bbfb9b82857a447:0x861b531667ff90a8!8m2!3d15.3994702!4d73.900216!16s%2Fg%2F11bwq8z50x!19sChIJR6RXKLi5vzsRqJD_ZxZTG4Y?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipP80RqjHzt4c1L_MwgYqHzkPt67kgELDlrXowXd=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "sea food",
+            "count": "31"
+        },
+        {
+            "tag": "fish thali",
+            "count": "25"
+        },
+        {
+            "tag": "parking",
+            "count": "11"
+        },
+        {
+            "tag": "fish curry",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the Gem of Goa. Best place to try local Goan food. Variety of Fish/prawns Thali they are serving at Rs.250/thali. Super tasty.\nGo early to avoid rush. This place is quite crowded during lunch hour.\nMust visit this place if u r roaming around Vasco/North Goa.\nI love this place. Should be in ur bucket list.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmeK9Ig0AtHZbgKnKRxpTvlPXbrMHjUVLo2-sCHGO_Vn9_Q0TLb_whutam7drlkeOXXBgbQnufX4xG0XaGex2rK8y_i21nBVYdCmiiYSbyfOiuOnG8FWbQ_LZfPbD9fTLOYkFHj=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmHvzOVVQGmMQZ_Wprph9YhOimxRpdbzUKCnSrrab3y5WuHLqtsh-SkIUq_GKTJtapSJ-aMs50uN9ioGPETDeXNk8Mqc9nAD9W1r3gmAAjAGd7Xl7oDdhviHj1Z8huNIUspLYUp=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnx91JU3gUIuNuK5ZXPB5tZQjUBXGlDDheDicEuQFmLHgsODKd470EqIGQEQWc_IOQHszM3qYI_yz1CGmC5p5V5D7kYXvlZ_0b5-rDCREWJHOTSGtjnbS55tvDslPnC4SOVTCFD=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmJKbed7oYQZgbQiwci0j9RZXURhhu67YMAPxs698yAWysQzB5sdSX-sYUhYQATiDBNOI4_JG-RaQlCf9k9Etwp6mpI_2ZXRnNoQI39Zh2hX3z3NXku-acPAlxZQxVgZhLQAzSx=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "One of the best local restaurants I’ve been to! We tried the Chanak thali, Lepo thali, and prawns thali. The fish was super fresh and delicious. For starters, we had chicken chilly and squid masala. Definitely recommend this place!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmKqzg3k5Oyt6ehmYcAXFwecnhRhf6D9FmRLCZRoQksu5efDVEZsW7bPWC_yxQ-a7Kkn0IjehYKhN7su5mDTmQjkpQLsKONwCD5tmTOT5LYSXJTbH8AZWQxDkWukGkqadAbQFOHyQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best fish fry available here. The freshness of fish offered here is unmatchable.\nIf you are okay with basic facilities, zero ambience and mainly want lip smacking Goan fish, this is the place to be.\n\nWe tried Modso masala fry, Lepo rawa fry, Tamso rawa fry. Their masala and freshness is the highlight.\nFish curry was awesome and Goa authentic style.\n\nIts a narrow road (not busy though) and can be difficult to find Car parking. Alcohol is served. 🥳\n\nIf you are anyway near this place during Goa visit, dont miss it.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmWbFhWTcfIQdKqdDKwzOBI54mtYqIpl2yplEmp39V_7urmTi7OCCGx_kKONZkF2tU-ybK6yrkmkMMkcnQnvt9gQ-i0KlqyXRRti4W8ranBZtHNrvzBSVdUjcC_ZhJxh8-83J3ESg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnui5-8imK-HU0wZMukDvYK11FZOynlv37mh30ApmMyNch5tgdmA7H54jpElF6AXsgAxWWKcaLZ0uSgDZAaciCLxpss4axW8jS2dTgU-5JnxM8eeyUp-O8kp6C4dpeOEjRPUibk=w375-h563-p"
+            ]
+        }
+    ]
+}
