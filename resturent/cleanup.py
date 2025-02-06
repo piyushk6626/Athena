@@ -32,4 +32,4 @@ def clean_csv(input_file, output_file):
     df.to_csv(output_file, index=False)
 
 # Example usage
-clean_csv('neel.csv', 'neel.csv')
+clean_csv('DP.csv', 'DP.csv')

@@ -241,8 +241,8 @@ def main():
       - Saves each page’s scraped data into its own JSON file.
       - Writes an updated CSV with a new "ID" column.
     """
-    input_csv = "svnsdnt.csv"          # Your input CSV file.
-    output_csv = "updated_input_piyushkabir.csv"  # CSV file with an added ID column.
+    input_csv = "DP.csv"          # Your input CSV file.
+    output_csv = "updated_input_DP.csv"  # CSV file with an added ID column.
 
     # Create the output folder if it doesn't exist.
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -255,7 +255,7 @@ def main():
     # Process rows concurrently.
     updated_rows = []
     # Adjust max_workers as needed (e.g., os.cpu_count() or a fixed number).
-    with concurrent.futures.ProcessPoolExecutor(max_workers=8) as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
         # Map process_row across all rows.
         results = list(executor.map(process_row, rows))
         updated_rows.extend(results)

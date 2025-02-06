@@ -1,0 +1,50 @@
+{
+    "id": "fcc49e397d0e8abac296f5887c3588ae",
+    "name": "Blue Heaven Restaurant & Bar",
+    "star": "4.0",
+    "number": "806",
+    "score": "3224.0",
+    "area": "Colva, Goa",
+    "url": "https://www.google.com/maps/place/Blue+Heaven+Restaurant+%26+Bar/@15.2816757,73.9468525,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb3e69d62e8cf:0xc1f794c555bdcc1a!8m2!3d15.2816757!4d73.9468525!16s%2Fg%2F11qlvk7ms1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPQ6TWVKLsGZFMO1v2bRqLHAVgAGNB_GLbyOeO4=w408-h725-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "138"
+        },
+        {
+            "tag": "goan",
+            "count": "41"
+        },
+        {
+            "tag": "experience",
+            "count": "40"
+        },
+        {
+            "tag": "money",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great food, great service and a pet friendly place. They won't allow you with pets inside but they have an outdoor sitting which is also fine. We ordered veg and nonveg along with drinks and enjoyed all of it. Well satisfied customers.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlwV6q9US_Z_MNTv1RoIo3CtxTcK2R_UBE0GMFWuxdeS2JWrv_lwYw6Y-l5hBRwMT0aOQ3WWtEMbiMChxxcUgDHSozTvgQ7aPllEFvW5zCtRz48FcCJ3iiVHHB_2C4J07Ww_toz=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "We were warmly welcomed and guided to AC seating area as we went there for lunch and it was quite hot and humid. The place is not fancy but food is what matters and they aced at it. The bhatkar thali was very good, they had a big kingfish fry and prawns rava fry along with crab and clams which were all fresh and were made in different masalas which tasted brilliant. We also ordered pork chilli and leppo rawa fry, they were absolutely delicious and made very well. Samuel was very prompt in his service and friendly. We absolutely loved the food here and this is a hidden gem and must go when you are in south Goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdly89Z-ZgkS9WTxuxPCfKWm5BT5i9FX51pj2q1H0Af5OdLcZ_l4nmHCWwrlF1M71prEj460GOuDK0sJKZgkdAk7fgDHk7fwUgUJ7iJUXwU5jTtWR5-2UXO3-Nffa7hgTtx2lZo=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlOjq_FfUODd9KXUulSK3W7uEyMU3lfeYFQKFhNLI9aTDALRdSXf8ElBif8TWvFo--TU3HWo1La3Vi5ruIrzDVrzUQbh86m4WGnC9WMN9SCHhsdbns3qlAZzwMcHVdQGmVFflR3yw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdliAxI8xG5JnFHibox70wXFdedYm4jttPSWf3rvIiOb3Hse5iNTuYFVJ_JtGv2kBYJ_Yk8PDIG7x9e4GazuvVhgk3M3HgG1vfPpl7Uaj9dFk0EnkELjN9ByAO403g_LdXHvj0Vh=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food is amazing and so are the drinks, don't fall for the offers mentioned at the back of the menu as they are not as they seem. As the service team ( Joel and Mango ) isn't very vocal with explaining the offers mentioned at the back, as I had gone on a Thursday evening with a few friends we were offered a buy 2 get 1 free on cocktails once ordered ( LIIT's ) we were expecting to get a free LIIT itself but then was told that they could offer us a Mojito..... Which is one of the cheapest of the cocktails on the menu.....in my personal opinion I felt this whole situation was very off putting.....",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZVDKnU2OD99BEBMq8ZjiEaatIdfLMqzYGa2BuFHVy7QMJs4UvBC47vGeb42RrfII7ghNPxqGaD9r4O3LRnN5DHJxhYBJOq2nzJbe-GjtGC5ao87uj-YNBnIikatw-ofjGllO1YQ=w750-h563-p"
+            ]
+        }
+    ]
+}

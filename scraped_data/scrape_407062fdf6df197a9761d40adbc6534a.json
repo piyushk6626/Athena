@@ -1,0 +1,57 @@
+{
+    "id": "407062fdf6df197a9761d40adbc6534a",
+    "name": "Fishland Restaurant",
+    "star": "4.2",
+    "number": "1552",
+    "score": "6518.4",
+    "area": "Loliem, Goa",
+    "url": "https://www.google.com/maps/place/Fishland+Restaurant/@14.9379763,74.0600784,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe5b64055ca80b:0x793e6fdc8e76c13a!8m2!3d14.9379763!4d74.0600784!16s%2Fg%2F11bxdf9vth?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh3.googleusercontent.com/p/AF1QipPaBGCKmt3tEkSje_lcIzK1BsaXOlrqpFRhXDIv=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "highway",
+            "count": "24"
+        },
+        {
+            "tag": "goan",
+            "count": "16"
+        },
+        {
+            "tag": "fish thali",
+            "count": "11"
+        },
+        {
+            "tag": "fish curry",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Fishland Restaurant\n\nLocated on the Border of Goa and Karwar\n\nFishland Restaurant is a no-frills eatery that may not impress with its ambiance, but makes up for it with its delicious food. While the basic setting might deter some families, seafood enthusiasts will appreciate the authentic flavors.\n\nThe Fish Thali is straightforward, featuring mackerel, curry, rice, salad, and pickle. Other dishes, like the excellent Tesrio and crispy Squid Batter Fry, Prawns Chilli (highly recommended) need to be ordered separately.\n\nPros: Delicious seafood, Authentic flavors, Affordable prices\n\nCons: Basic ambiance, Limited menu options\n\nRecommendation: Fishland Restaurant is ideal for those seeking a casual, affordable seafood experience. While it may not be the best choice for families or special occasions, its flavorful dishes make it a great spot for a quick, satisfying meal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmNZFGOtRCa2DS9fu8FrYuMxfJT3-xeoZNHylqUKhz2AFHdNDc2wTqW1j8LB-b9Mr9BRDGXgxu0snITnV_KgbmweGRDj_lGj4ri4sGDji2zkbqt77O9G7PJghHpeyFPffcLurAQQg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlts4gRVX-bPdgxk2Y7wJyOkBluzKuwtqyEa9vIEiTY4sRNOXD1RFID2ygrsR5-fYVVlIeR5sACaQpLoCn40v9nd9cQ7k1ibWLhqPdwGVx523Xmb_0tCNmQKjAPk_9MI1tRwY7c=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnP_AJ_tT29KAwc_3lZ548wqKJejY1HsX1ubq0kHv9FQec9C7J8e62Eg9-Y85ooZdoJr7W0ZRw455a7h-pmYoLcNrr-sqnzT1Zkk5tvAojVZW0wZNLaJfH_tMjJkUaO3cfwuth3SA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl9ToWqH0PGrwcX7djNTF9EHGJ2YRuafo5JYIkz1-Tej_gwMq3VannXX_8li9oANLuOuQuzkF_xIyYPBku_IpbEiKn13zQLKRMu1TlmivFGcM5B-8ar-FjNeyft4uqw3As16wov=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The best sea food restaurant, with pocket friendly prices located on the Karwar - Goa highway. You will have to ask them the fish availability as there is no printed menu card , order and wait patiently as it will be served hot and you will leave the place with a determination to come back here again. Since it is popularly known for tourist and locals you will find it is always crowded and might have to wait for sometime. Rion the owner himself will be there to serve especially the family room. Must try is the Squid golden fry, clams sukka,prawns masala fry, mackerel rechado fry, lepo rava fry and the sweet and salty lemon soda.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl6ygWPVj1yYkYGBxUphiBGcklaYFAoQ0GdMRrcXtAUjLMGoi-AKKFChybijOLCeKqDQwYItkbBPqX6J3z5G_9K-KJstIPxuUVtFkvuGGQwj1hC75Ba00BfTDtbmt-q2svPgQGETQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnaP8nyBDqZA0Q-L0Hg7BndkfnFrVDu2f7GKyAdROV6jmE1yQquU48Ur-xjwdR8FFmPXcVyO4PBzPmqo1hi0EZbvq0eZr7Pp3UQ-TUG4a00dfCstd0IDK9DVnQyRnIsdachaqI2=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkn41HyEtl8dE3E37HXiwYvVMm0UMH-lKoKkyUWS298zXQvPj5kmXsMQ8UvB4LrUVLiVk1D8O_wb9rF3i3fVomPV6Rbdh0YaZK_s3th0u3TWUaF43xNerWSM2K6TsMQpD9jfp9t5w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEfAGnibpTxPtJPDwTiA6GBCYgX2wjEs4_us9ifDkUqiryacLxJxb1h-dEk4SZnlWh-t6HJshMx8_z_4AjtFaKfM4krbiCRN8p3jWVm-po5GvDxdPnXoDdKGwr-x09NXaesFdH=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food was amazing . Crab sukka and Squid fry was very tasty. Fresh seafood. Raghu waiter was friendly. Keep cash as they accept cash only.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_2uXABDWFM3c7ItS5sOgg8gG8QQ6v5uh3eKgKfdhqfzfNHcyzLBIw-zaR9NeeGZfGZBcBY2wSv7y3cGo86YZFK7BX5R8UM1W9_WuDRmS2RjJWU3mIHJm7SrfKFQiyV641VxdH=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnH4x1zdDLwQveNp3IsUNp8kJD3eFLR4qZbrMcHtzq4S3VAoPYx60xIjD_m-TBdSzRrdavKIWd_T59cfSSiIL03Yf9IE2eV4ZyNmj88JiGKe7-q1JpErNvM71crkPMWIY2wkqSsIA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmcrljoivJ6dRbn-7hT6z9vgsfv6Rv8Qb3SY4HCV-cd-LTytsKGCiOipS5AJwGHeFSUejz9g7UiHhj0G2Gli5dkbSAQlo9lYLaiULdCGwI9pJZmwKgGR_7XHwVV0j6fUrB4yKe3=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl2o2RCVtQ9Y2k0ihMmAthHH28XgKCSNlwh-q9D-cr3i8EMoW39h_cW_WBRJfNoEZ1DP9vRNFC5_n1umj51_-wbKurf98oGJiYiJSo9FS__mgzZ3YnDgUZRisMXT0GxJETcAgxAhg=w375-h281-p"
+            ]
+        }
+    ]
+}

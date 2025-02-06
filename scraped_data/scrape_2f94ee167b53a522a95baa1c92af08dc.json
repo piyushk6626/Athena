@@ -1,0 +1,52 @@
+{
+    "id": "2f94ee167b53a522a95baa1c92af08dc",
+    "name": "Sheetal Bar And Restaurant",
+    "star": "4.0",
+    "number": "832",
+    "score": "3328.0",
+    "area": "Usgao, Goa",
+    "url": "https://www.google.com/maps/place/Sheetal+Bar+And+Restaurant/@15.4268069,74.0562486,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfa51f1e68d65f:0x310c7d6fc9bcbbbd!8m2!3d15.4268069!4d74.0562486!16s%2Fg%2F11cs6chg1c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO6aGBGVrx6bG49_eVfurittDUMS6tlQFLj1Hej=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "18"
+        },
+        {
+            "tag": "chicken leg piece",
+            "count": "15"
+        },
+        {
+            "tag": "chicken chilly",
+            "count": "15"
+        },
+        {
+            "tag": "chicken fry",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The place is often crowded, and we had to wait 30-45  minutes .There’s only one special seating area for families, which may not suit typical Indian families looking for privacy. The food is excellent, with authentic Goan flavors and delicious taste, but the service is quite poor. Prices are reasonable, but the overall experience feels overhyped due to the wait time and lack of proper family-friendly arrangements. Worth a visit for the food, but don’t expect great service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk5AyIvpE80ZfhUifvZ7j_W61sAO-W9YSwkfg0NLc-_qfp_sAws7E0RwFeZ3uVKYNucCSxcP8gg42y6wPHTFI6DfjG2HDR84WddwhBWHv36NL8IcE2lDJLkefIxXXA6Yd9Y6akI=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmeSVmBAK3WnHFdML9F4hHF2Ltg0u_QBQ7pHJsND0GBg4sph1Q3ThoUDDz1tsdYT1d1uf2uFiUS4Ac4lnPUrRJKbPOS1-EDChZgKwW7euSQvZOSyqwYDR4iXtN6HtsMbYdjrv2qvg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Food is simply amazing. But the service is absolutely slow. Ambiance could use some work. Price is also reasonable. Their chicken garlic lollipop is a must try.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdniyVKf3Uax9k8rvX7mfCbYvNsJ6i8xqm0Ie0O42ue672K7_kG9vwNwk94BoKVCG5Y0X3_IrraE2-5h5-ce6ZhQOydn-wTv_WWRSn5skgjkIqRSTu2A2U7ySmR8h3Un1fAPhCNZzw=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Wait time is too long for any order specially leg piece if you don't inform in advance.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkdnT3l0WD9Obamh5j6_sLAWkJNq7Oj0W6z570IM_YxdxZmNboIEwB_vYF9Mzdf1fTbTA1HYnYa8_B6rIQqJM77ftj0wuJYsHHXb0PnIogCLAfU0BpSaiNG4L1EhwcpW0npa_8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlqdLeQjFhgAO4OblMRk4agsuZh4eCjoCBMkFAMW0cUIv5gt0pQJHARkuO1m99SG3Ni9J84YJWd2EkKGswXKvfC6XkyGV6WIcVlFD93VvhJy8bnGBNnxMwsOWhhzt2vqKcyVqxFyg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlSaEY2cblwCCD8O696ngNfPPrm7mrqrF5lqR5TWsou6mVnCQreQuDgTpsqPZWunrlIUFGOkhkm10YrnzRg3vsBsLv5f12WmL2r68-fkXY2MbSst9FBE-AMIa3oqrY00gj0jwU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkEU3m93jt2NNKcjad3v76bsrjeu-nzaDa2IbYUMuOZs1WIeaT5Ttp9AiePhw5dp5TSa4zdYWMZzTvmPxa7KI0q-3UlKLWJpDnO_K_kVQUis2201SxaYM0EtjaemJu0Z0MpvRQJTg=w375-h281-p"
+            ]
+        }
+    ]
+}
