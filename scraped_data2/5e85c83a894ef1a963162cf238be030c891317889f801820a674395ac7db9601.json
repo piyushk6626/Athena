@@ -1,0 +1,57 @@
+{
+    "id": "20250205234855_140",
+    "name": "John's Seagull",
+    "star": "4.1",
+    "number": "1851",
+    "score": "7589.1",
+    "area": "Bambolim Camp",
+    "url": "https://www.google.com/maps/place/John%27s+Seagull/data=!4m7!3m6!1s0x3bbfc7fd930eaaf3:0xf8de32c383adefa7!8m2!3d15.369583!4d73.834538!16s%2Fg%2F1td2fbw8!19sChIJ86oOk_3HvzsRp--tg8My3vg?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOBFKaXlK6HFFSv_CG9lvQGR2j-lz2vQCC6VCNO=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "143"
+        },
+        {
+            "tag": "beer",
+            "count": "28"
+        },
+        {
+            "tag": "karaoke",
+            "count": "25"
+        },
+        {
+            "tag": "shack",
+            "count": "24"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Our recent visit was an absolute delight, and we can’t recommend it enough for anyone seeking the best of Goan and seafood cuisine.\n\nThe highlight of our visit was undoubtedly the delicious seafood, which was perfectly cooked and bursting with flavor. Each dish showcased a dedication to quality and taste that is rarely found. The owner and staff were exceptionally warm and welcoming. Their attention to detail, from understanding our preferences to ensuring the perfect spice levels was great.\n\nWe were particularly impressed by their recommendations for the best menu items, which turned out to be spot-on. The attentive service and genuine hospitality truly enhanced our dining experience.\n\nFor anyone visiting Goa and looking to savor the finest seafood with top-notch service, this place is a must-visit.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnKPvQtxBqftIcWEAG6Ov9zmlWFp-4DqmOv0PT4b58ae9zxXwe0lJQLabz-5c6T5wx4Nd2WjZgH0km5wb8VMPt2KErrm8cEQiIFm48mn5TH3JLnKQ5nkceNg36V5Sf0AT3ZI38=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnW40u4DxLGm6rWhsabTFCuN3ZGDvPt88gWIHrxjgFym-yZOhL1GZfpKBAzHzB-54a_q7CU8CMtpZD-5u2T18CjmOZapXwYMpiWH3LshlJZUAX1nUo4lcqT8_aqr8bBkMIrRJ9UeQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl9_9CjgBOMkxaIHEiSjitAIO9Sps1EbF8VTrU06u25xr5MQha-9WbGRuJLMW18W4zHCoQiFRw86M2wUNikvwc1bwOPWr3fUO-EocpPF5GhURJUl7o0s2L0Vq_GNmqHT7h4irM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlUO60d5c4vHR751ztixxi1vYE1ppd11a3Ara3OGe7h6UZdjtxY-Kl7jmGrrg2gcopwspqan_dAHyAJXj2_l49Ao0jTjUFeyy8K9ObBGtKM_0ueQ0uAxWuFrJfSPiE6R_EGfFaKBQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I give a 5 ⭐ rating for this restaurant, coz it's simply one of the best restaurants you can go to in the Bogmalo region. This restaurant has a sea view & amazing mouth watering seafood dishes. Pork Rib Chops Grilled is a must try for all the Pork lovers. Their CORNER Bourbon & Bacon Potato Pizza was also 👌🏼 .Usually crowded. Good seating capacity. A big salute to the management, staffs & Sue chef n his team for the wonderful experience & delicious food. Tried their Cheerful Morning mocktail as well.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnYFziPmpBBqPvATTfpXJpZfINuq88YjbJ20-kT5OxGnIksaHoHPSoczkmJKjKAcYl7lVEnIt5Zw2vPHLTLXCXPp3ndJzCj8s7Kh_7BNg_iSN3blOP2ye_riAui1OaLmr2a6vh=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdndALpCYtYrRmShy3cUulO1oOwed_gCvKwnN94co7yLKsLw88Gc_t8B3C7fTnvEmJbULrGQ-nvdw0n0-gRIgqtWlTnWUHZgQM6V82rEBE3vOj6rO7imEIrUUj4ZT054RYwymoGF=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmUNt3DudneZGaO7YnVOdceGds3M9g1U4cJTVm2vkt9oMewXUH6ITa0Qm1km88RdGzatEMv2uuUZy4PIwpVPb21PO9FWgORrxrMANa2drX8jI8e54LirtMnHOTBpUKdxsHuCwVu=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlZgexupkE0ke3KX5Fyhbu3yBN0TtfTmYwhs62B_XAOeE_2-n5rEfE7eGQR2OQjfffqCbL6j64bCqPLUpshU36yQlEUPUl9godcSxlbzD-F_-ntfxK_Dcxt0bZk_0fH5dm2GSXB=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Good place! Tasty food and you can have wonderful view of the beach with soothing sounds of water and also they play very good music.\nLittle expensive but the food and service make up for it!\nDefinitely recommend everyone who visit bagmalo beach.\nHad paneer tikka masala and chicken tikka masala.\nNever had these good panner tikka masala. Also try the Goan special beer which was nice!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlj2v7l-L4LhrxRNMu5xUEOCmLqfhixDOMizr6mTLBe5h9BFZ_5nY_TBOCQN6dskeHIQTb4iZ8t6wvu0jVPMS6r1-KFW4eu3UVmAVL-W6nhYjE6W00G6GG8HoMZeJwxBbAmHFSWZA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm7-Ls55psIULfUy8ehJd5XzLAsv7q2tLMem7g5vA0fjHxDY0TpuO0_64mHotURujmdaO6p1UwPsq_MEhnigZfxAXsUvZlUEofMw3cDFZhCsP7u_h5rMEQhnJvher4BzUZ14xOz=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkYngJk8Hgzo0a4GDh7JP-qkwegk4cA0QcMGkphswBXDkOI7dnrL4w39OMaLPMibDw1j3xPfs5w54ZtlAqY5Vj_EjGd0rL0Md9MAZJzd2qL1AWZaFEcIHekgUz-Qus8hIPgLiaMKw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkmF_o2216ZKDZZkqO9JxxwxB-SbBImthCNvo6OYIIcZWWKFbbW0uAUMMN8eKAl2rl01vZFiBHrZG6MImqHTlVrJcbxNXAQ1sbd9KKtFh0Cske2X9js_Tx8hrFSDdcVicQt3m9-=w375-h281-p"
+            ]
+        }
+    ]
+}

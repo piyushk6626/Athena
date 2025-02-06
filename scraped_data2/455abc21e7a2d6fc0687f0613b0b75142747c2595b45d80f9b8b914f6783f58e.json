@@ -1,0 +1,52 @@
+{
+    "id": "20250205231015_135",
+    "name": "Karlton's Horizon Grill",
+    "star": "4.4",
+    "number": "852",
+    "score": "3748.8",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Karlton's+Horizon+Grill/@15.510878,73.768923,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc19831b64031:0x3e52b5a08ba5045e!8m2!3d15.510878!4d73.768923!16s%2Fg%2F1tfnx0td?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMDFkwG3r7RvXY3Hf3ZRk9Ttwvv-1urLbmxqjeA=w425-h240-k-no",
+    "tags": [
+        {
+            "tag": "pork ribs",
+            "count": "28"
+        },
+        {
+            "tag": "BBQ",
+            "count": "13"
+        },
+        {
+            "tag": "fillet steak",
+            "count": "11"
+        },
+        {
+            "tag": "dinner",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Karlton's Horizon Grill in Candolim, Goa, is a must-visit for amazing food and a great ambiance. The beef stroganoff was rich and creamy, packed with flavor, while the BBQ prawns were perfectly grilled, smoky, and succulent. The service was warm and attentive, making the dining experience even better. If you're in Goa and love good food, this spot is highly recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnk8FMde_0eGnKjtUXS-Yzp4BQ72__Ey_qQEiVC6FOf4zTOn6wDAOuSJFeh1THAC-a-mgdBlS98tWdipk97dLDx7clLwNAd44WElVT051kPRAqk4140KGYuaZblmEHDBGmwELIS=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmBYHw4eOpOhwMJz1wBeAzE4rxpVNoncIcgbLgQzVUih-O7sAI4js9ECj-Nir4lmMSmowFMebOyeTmfrAMnEWjhi-ZyAhRQI5s7EPwE9gBjG1lvVtowuGwpA71QSEFiT630k7fu=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "It had been a while since I last went there but I'm happy to say that  the quality is good just like before.  Great food, great service",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnaC-cF6z3JJZpzgMDIgjrmLj71GiHNUGDDSOLhdvPoG_iUHmynBTkvijWQjtwRnCGtxwTyQkiRaAZmIt8CbCydc9YmLWdzumk5F0P_m_1TaXC0TBTPr-VRsNPpZWjCTM_LE9N0=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkty_Bdirm0rKwMCo7vu2nRrO1mROxh3NsM0daS1t1qk68WbngG9PSrH4goRdMaQpPqBRqvSg4i1tCrGe6rMqug5gWg6ylkiu8dSh0yHYMxF3nNdj5BGMO7vvAFpuZhBesrcVb7=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Good location. Faster service and great hospitality. Good music. We had lemonade, simple dal chapati and it was simple and nice.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1EpKH-MQDqwjUigFF0FW3Wzfnp91Oi_L0h3U83IjsfJoMzu4m8S0J7MRlglmFIC1TRSiHPnh6TE2mVWuimmxImS_u97hkqhN6IgUFlq-pp3mDxURj4IywiK-y8z2CBpZjEA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnObqwEB9nBtYyA-z2-LuS_lSW8di2r-8Ncbce1yCsG-LZySKqHHvYC0vBNiuXy6BdZkKCP1wTVVTo26wSO1bGxQsPi-CVQXb6wmfQlfIaxWOxm9dx6q0k747csNbZ6OKggRk6D0g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnzepBWpFK6l8_3OwYKn-DKq6gN6WpFLxrNQ0snT2_kKxnJ9cjpiGc_rxNmae90QDnkdngHJDpf5smYwISh1WzwqU62pIo7I3aFeRJNS_kJgB51PCYQ3VvWLA1CySftMtosidnb=w375-h281-p"
+            ]
+        }
+    ]
+}

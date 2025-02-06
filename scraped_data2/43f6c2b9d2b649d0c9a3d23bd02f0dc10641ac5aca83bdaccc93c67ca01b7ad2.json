@@ -1,0 +1,53 @@
+{
+    "id": "20250205190230_96",
+    "name": "Aangan Restaurant",
+    "star": "4.6",
+    "number": "1600",
+    "score": "7360",
+    "area": "Caranzalem",
+    "url": "https://www.google.com/maps/search/Aangan+Restaurant+Caranzalem",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNLsOPxpKfWyyNgJVwrVpk9g1HT4Uun1hqrf68F=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "78"
+        },
+        {
+            "tag": "fish thali",
+            "count": "35"
+        },
+        {
+            "tag": "butter chicken",
+            "count": "23"
+        },
+        {
+            "tag": "barramundi",
+            "count": "15"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Aangan Restaurant - A Delightful Culinary Experience\nVisited Aangan Restaurant and had an incredible dining experience. The food was exquisite, with flavors that tantalized our taste buds and left us craving for more. Each dish was crafted with care and precision, making our meal truly memorable.\nWhat stood out even more was the exceptional service. The staff went above and beyond to ensure we had a comfortable dining experience. They took wonderful care of our son, allowing us to enjoy our meal without any worries. Their attention to detail and warm hospitality made all the difference.\nHighly recommend Aangan Restaurant for anyone looking for great food and a family-friendly atmosphere. We'll definitely be returning!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmn9bASLR09Dhrr1ZGlkgE3GwLoLGb3Gl_4BR5z09ojRQvmInI6xxQczwfuZFuUnnVyF8yRSQMeuZYj83UMswY55erlGqjpqj7tMmCyO2tSsF4O_dIsD7AUDjScly925qQyJRxw=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "This place serves amazing Goan cuisine. Each and every dish was made with special care. The taste was really great. It was less crowded and we could manage seats without advanced reservations or long wait times as we see in other places in Goa.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlso2w3wqh5YpAXbDtPLAV5xkeFiMBSzz3j9XGMpXktDVacQsJo-CK3r32O8Hdh8a54nMJxcnA2nlTShoOIBUIpmwHXQ8nhat4xPA46DSjcN7I-dJKLZEIw5iusSIaVf8P0MTYj=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkYJHIWYMsPVQU1QzVRw_zITxGwuny_VErwDGbJnpw5tWB_Hfe_KZX9fHJYsgUt64jpn7UCUX7bLo84LD5CV0-OzQtxHLXmzbf4drgFPWbbtFFLL24Tc15tSMgEuPmY3-xhV4oW=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnoHPYrN2EeeI6pl29PHePMN4DDPMPTT-y3SN-suZnBZ16WGm9_YVCupICd6VDUjAsYDTFy9lpTfFVSAUcSaVmVXNUMb3qKH8BCLC69K7PzEpDWLMmvekCuHuGD89EMUTf0fmsxLw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkAs3hN3gRHA5-_VRvHPIxBGiz9oVJ1a65aehxO0YPv9GKFPqUDsrFkMZPfpKbqpV5EO2jOXRJ8PKqEznT3Tx9wgmdiE5wgNtJ27sR8YLzO0A3TzK3o6hw9Ui1sRLIR3NUWtl4=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "My favorite restaurant so far in Panaji! Very professional and friendly service, cozy atmosphere due to a smaller size of the restaurant, and delicious food! We will try to visit again.\n\nThe Watermelon in watermelon desert was more fun than delicious but I guess I should have guessed that by the name :)",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlWGfJiVVG6R5i-Lw2mSGaXOiiLSnvFJq_pRxTlu5flcZS9zTcnR3KpjmkWlneh9H_jvVonERcVazUE_reDf5jn2kHxlctm8anPFtiJIzByQ1dPbGzncMYPRJjKGSVNTUTVo_dMrw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk9MVbCEQg4fB4tuF-3btkomk4zQSSI5cER9F-pRylsP4ZAg_2Zs1A6TSUiyfRYdcesdnJAD2Dprl90vBHCpMQs2CfBT2jUFLu0cgU3J8_cD_o2LCoUHHiKf1mH6HLnBEVe1GPD=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn2JhVvJ7X3gOUv1BicoG2q9g9WYDiz1mgmaphMyOU2EOdRXtcN7D8bqpq8rFTJh_wEbtZxoM7c-I87uvXmaRzXYaZLSgpV5dKv0pGq-TY6Iegb4HndHbNVxlTiJkf_X1EWd697og=w375-h281-p"
+            ]
+        }
+    ]
+}

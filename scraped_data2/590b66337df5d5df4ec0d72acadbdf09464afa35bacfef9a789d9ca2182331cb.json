@@ -1,0 +1,50 @@
+{
+    "id": "110ce3b9c30b38880b96c0e43becabcb",
+    "name": "Taste of Goa Family Restaurant",
+    "star": "4.0",
+    "number": "729",
+    "score": "2916.0",
+    "area": "Mardol, Goa",
+    "url": "https://www.google.com/maps/place/Taste+of+Goa+Family+Restaurant/data=!4m7!3m6!1s0x3bbfba973d7db74f:0x56b90e80f8f1f9eb!8m2!3d15.3946541!4d74.0020019!16s%2Fg%2F1thxtnrg!19sChIJT7d9PZe6vzsR6_nx-IAOuVY?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOQ6heDxrp2J7kMfF3VDU-ZJ9bbmH5woMwHsQcj=w408-h244-k-no",
+    "tags": [
+        {
+            "tag": "fish thali",
+            "count": "14"
+        },
+        {
+            "tag": "seafood",
+            "count": "13"
+        },
+        {
+            "tag": "fish curry",
+            "count": "9"
+        },
+        {
+            "tag": "hotel",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Tried Goan style king fish thali and chicken xacuti. Taste was good. Both service and ambience were nice. Owner was also quiet friendly in explaining things.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl0-oGKh5I1nbFKUB21_87N_Uq1wbLIKVEoTYlvEWDBdv-lJf6Oj-FhaVXdq9u2SZQU4IYfA1I2r0weNLtm0lXcXmbwOKZqhQ2F8YuGN-em-aLfVkU_n6sqdBKKa49lSJ8Iezaw9Q=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Ambiance good\nFood quantity is good\nBut i felt the fish curry and fish was kind of low on taste, no hate promotion, I try new places for good food,\nMay be the day i came was not best,\nDon't stand on brand name taste of goa.\nAtleast the goan cuisine should be on point.\n\nVeggies was on spot side servings .\nComment location/restaurants you think it's best in ponda for fish lovers night time.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk0-qGJDW81JORCexECYBq5N04-Kk6Xi-JCAvmSERZZQrBHibWwAlYQiEFHMrJGJ06fMBOydyePdnvOG1Yb9dncEBFyEamp8fD5ZMSflvBF_DwGeyMU6A-9Ljxt664zpu_JwTCpIA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Ambience wise it's good although the sitting space was small and already occupied by the time I reached there so dicided for takeout. Since the masala they use is made at home you will definitely like it, I liked the prawns curry and modso fry from the thali I ordered, would have loved to try more food if had gotten a sitting space.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn5-A6kLQuwrp3gJgnmztl0q_VribxOGKg81JA2Br67OhhfSwxDlEKdmeGHAbccXjGtssGSjw0TSk0UH8nq_RSSZsETWkblFPeEDuhl9azpLGtTmJ0q8dwY_1qLJVFWIvdSEaK5=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk2_zuAnsRSOmXl8WI5-ja4BO3g64XaKdpZne9imSBwQax27e7h1FA5PxSrP6YGu6Xmy9qYyomTRyq9cRkiQwbZSNuBU8UzsJmPDaRGBBCXXHhTCvV25p61M1tSGWyHNqpvmCFU_Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnXFg6FiPFLVI-scr9IgvZF2W8tpFOWtRzK4bTO7TM1w9F5s2oTpVJr1bHbhcAjAyxAnkrb6gg_qvMU0F8GKJ8_G6dcoW6XdaXsPM-rYJcBF3QBhLVeMvUBfs9yMX2TGyWwNNZ7=w375-h281-p"
+            ]
+        }
+    ]
+}

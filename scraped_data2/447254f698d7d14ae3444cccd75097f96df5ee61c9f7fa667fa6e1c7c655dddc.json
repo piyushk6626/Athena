@@ -1,0 +1,53 @@
+{
+    "id": "20250205235208_144",
+    "name": "La Cucina",
+    "star": "4.4",
+    "number": "1643",
+    "score": "7229.2",
+    "area": "Mandrem",
+    "url": "https://www.google.com/maps/place/La+Cucina/@15.6401553,73.7229214,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeec9be97939b:0x9dc948771eeaa5a4!8m2!3d15.6401553!4d73.7229214!16s%2Fg%2F11gd398c4d?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPVJP6pMOv1ySaCp4sgvD1ycQElJ1w8Kmhout6q=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "brownie",
+            "count": "24"
+        },
+        {
+            "tag": "garlic bread",
+            "count": "17"
+        },
+        {
+            "tag": "beach",
+            "count": "15"
+        },
+        {
+            "tag": "gelato",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "My experience at this place was absolutely delightful! The food was beyond delicious—every bite was bursting with flavor and prepared to perfection. But what truly set this place apart was the impeccable service. The staff was incredibly professional, attentive, and made sure every detail was taken care of with a warm and welcoming attitude.\n\nI can confidently say that this is my favorite dining spot in Goa. The ambience, the food, and the service come together to create an unforgettable experience. Honestly, I’m surprised this place only has a 4.4 rating—it deserves a perfect 5/5 in every category!\n\nI highly recommend visiting this gem of a restaurant. Be sure to try their pizzas and fries—they’re simply out of this world. Trust me, you won’t regret it. Cheers to a place that knows how to make dining a truly memorable experience!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn9Ek_JAztC7CSHOfiFaUb7nRWfyJC_45B7vo_MfYU56cmdeVJExm3howYcEy0f-Cu7bPhkoawx1rcLB-FEnLJEbcVP8o9Qv8kf9viYhZXy7yZ2ee6gAoGm-x2wk2-6sPvVDolh=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn56if5c7UwEQ57-ajtsR8fVX0UBHbebLZo0rS3KuQto_lX5IZihZwu0IAt37N8Kzns2El1IGKiceQloPTRj7EBsX-fiCREQ9FvPNhhn-iUrhfx5mriUsVUafQ6c42HqmZN6i0yHw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmdJYVAiMDNc8lgN6dh8LWQlJSjTie5GbrJ6GqURM6izsKSIEfJ25Ntkbp-n__8p66AGnu1gdCjK4OqiqmtUAaZJ7fScZFR83qd2QhKdXwevS9OX2kGc3oolfgJo-jFpeUwlsA5=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "La Cucina Goa is an absolute gem! From the moment you step in, the cozy ambiance and warm hospitality make you feel right at home. The menu offers a delightful Italian classics each dish bursting with flavor and freshness.\n\nI highly recommend their wood-fired pizzas – perfectly thin crust with generous toppings. They have variety of hummus.\n\nThe staff is attentive and friendly, ensuring a seamless dining experience. Whether you’re looking for a place to enjoy with friends, La Cucina Goa is the perfect choice. I can’t wait to visit again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkAmXWzBqiEfy1mZGVt_61L-h-F0yZuZZrUmQIyKbJw0DP_bXyvUhwGYqAMTETvnCsRTGUTnyMXCOwZ5q400yB704SUfiaBO-xJUb4gMZrwK1sK_mSmPHmuIBXjebhC76v7koS4=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkaym8MCqYnSg5zA53zlzcG1Rs_LDKOM-nh0YBDbQsf1mbg75gIkT0IRg6tMjVEEr_VcJlvmx9VVPnmRS29UKSKI3D6U0T1FOS07Yqx6kw4fKjUaWw1JMLkfqcCsWJB2328OjxTIQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnExQRNkpqoEFSnHvr3uQpqL_OCFYMsVE1gIbyrwHsK-vR9xqMhZwOuSx5pFl22dZE-EU0stXMcXn4vZoqjsV-M5hbCmS7pduXv5hQfpN36LYlQ9VxZWzvLRDhqg0-Id6pXO6RL=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlIdh7E5V7eWsWDkfh2wahAYZPCe9SO4ejEEinKqYIGn_G4mzK9R5VMpJEkG0P_Hm6XxhLcDr0rBTYIFJgGdxjtNKPLu9xhIUupnBcjtgW2blm37o9LT3GwnIGuOfGqHJLmfoVtbw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Without a doubt, this is one of the top food spots in Goa. I found myself having lunch here every single day. The fish fingers are absolutely delicious, and their mocktails are a must-try. The ambiance is fantastic, and the service is exceptional. I can’t recommend this place enough!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnaDSNgCT1AwbYDwxnGBcxfePfqwFQw-ufNFyI2Yv7Tj-7XKQCtKYggxt_WI7ndCC1eM9Zr9EmZJ4qgvZVl8KZJ6wlID01J48LzAVHgYbjTTTXtf7MhcdDNC34vwvAZTrhWE3E=w750-h563-p"
+            ]
+        }
+    ]
+}

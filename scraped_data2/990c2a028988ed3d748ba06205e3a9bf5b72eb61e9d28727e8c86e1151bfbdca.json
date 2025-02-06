@@ -1,0 +1,54 @@
+{
+    "id": "20250205231555_209",
+    "name": "Sanil Bar & Restaurant",
+    "star": "4.3",
+    "number": "929",
+    "score": "3994.7",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Sanil+Bar+%26+Restaurant/@15.5376601,73.8173211,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc03d4c76e437:0xa06f97a466576aab!8m2!3d15.5376601!4d73.8173211!16s%2Fg%2F11bwptsb4w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOBrjS1iyQycxJYdlQMtJE7XCiPnk-Rfc36EqcQ=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "fish thali",
+            "count": "30"
+        },
+        {
+            "tag": "fried fish",
+            "count": "14"
+        },
+        {
+            "tag": "kingfish",
+            "count": "12"
+        },
+        {
+            "tag": "fresh",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "It's homely taste and after long days had some good food here in goa.. and you don't get any chicken options Here 😒  which is bit disappointing. Taste wise it's 4/5 [only rice is served and quantity is bit less]",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmE6g86ZxV3It7QFtDZOatyk0JuZRYQqWujkqclJR-wTVY4qWvLS-0a0Vi1_e8a3qpJo82qsSKC8CwH82qM-DUR2lX0VcwA84n8woAsa-WWKBxrlzpvyfh1YTg_E5XGvTrhMELd=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkgF3PfSkLTA2FFzaO7QAFvTI2u7w_bGdv7volsONlSSEFYQBOsT8Vjy8dY1B64tNNEQHtFd3-k2ufLXsCpWkc7gyAAAmQH4AbUoS6N8TiyH8YF28qRmOaEhoX4O6oq6e3Frd-gpg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmy3IWkdR0DwfcK7UP-2GYlPAOPNuflDqKGrtXMN-5IUUcpWzHMNc19ytJMmeIvlyuHOadJzsGWIj5efVxnF1bIxsTFq74EkUAI62pC0q2ajGvZKgW453fjlJ_UtHOjv4P3zTmK=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmeobxwEgRIwkMaC10PHn1SxGJLezeN9qgjcvMRdFMtbOeA1upxhNzlJ82RG5Jj_o-YukMPVc59hoVo8WgfH1Vx_b1Fjh2NZgbx7XA8SNU01rM3U71eQcfh9Jn_H6nAJQvDuIIV=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very Authentic Local Goan Fish Thali.\nThey have different types of fish thali, mackeral, lepo, prawns, modso chonak.\nAlso the fish is very Fresh and very locally prepared unlike big restaurants. Fast service and Food also is good. Only sometimes u face parking issues.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnwJSb25VNZ01ijpk1me6e-Ds6Y8w18EZ5VzXuUtKRwHRlzJvYBOSwplENdseif1WK1Bo8fpy9tOZDrPER0JrZzP-PhbfvfqfxrQqKOFKaR0pAe8h3nF-9P0BL2mz4m5jvlFyly5g=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Well Sanil Bar & Restaurant looks like a small place not so fancy but let me tell you the food makes up for it. The local Authentic Goan food the fish preparation and the fish thali is worth it. The fish is fresh and tasty and the masala is great. Try their Rechado masala it's different not too spicy but tasty. Yes the ambiance is not great but it's a typical local joint for home cooked tasty food. The prices are not too high or not too low considering the quality and quantity of fish it's moderate.\nDo try this place specially if you are a fish thali lover.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnq5nQxDBzmiLbWwXiFanbXLtOrTFJmoQHCwK_cuHjOLttCN_5-_xZPqFjL1FL48NnhWfS2dUGgxpG_K3JY6KgzOIuadHSn9g7PSVLShiUngsvmxD4C4n3_qyfUc__K_FJRTSc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmpIyYy0vkaPuWRwdsN2v8NmR6yDL5E_rxZczkFkhuZDqZDb1EEIBfi2dB6bE3lO38wCwdhqPPHi4eNnGbuEL3VoTwAu69rZAGHiRkInFXHfN7honAGJSX_W3b_XareYG5HivAL9Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm8yKmQmkKaJ3tILqf__AZ_ZjtRL1r4rTF2h91NLE55SW_G4Xij38d6vSDy55y9l6MFG0X7alsYjBkhQUc7fWuBa0D_8Z6Utzb_qc-ds3t2Uw8OLh2sFHGOmHH-sx3ltnq_Gzc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm_25-WtAIMF27iCbj9MXdwG0fKX38YxERx1oHxGXq2QPfTLLtN9a6j9E5D5sIBsW8ZUfRlNOTxH_FwzUqZZW5SvbLAv9FyiHwef1c4JdPfaEVsOB8zjGefYV1b2HSqDkMU73IVvw=w375-h281-p"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "id": "20250205230753_191",
+    "name": "Legacy of Bombay pure veg restaurant",
+    "star": "4.1",
+    "number": "1091",
+    "score": "4473.1",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Legacy+of+Bombay+pure+veg+restaurant/@15.4971532,73.8247458,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc08ea2eba1d3:0x326b1068e3894288!8m2!3d15.4971532!4d73.8247458!16s%2Fg%2F11bw2hpfxq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOlpTj35lTKsYCodkTxZmVIfDXMKeghsq-8m7Pk=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "pav bhaji",
+            "count": "21"
+        },
+        {
+            "tag": "vegetarians",
+            "count": "16"
+        },
+        {
+            "tag": "hotel",
+            "count": "14"
+        },
+        {
+            "tag": "hygiene",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Earlier they use to serve tasty thalis now it’s not so good. Paneer makhaani was very sweet. Didn’t like the taste at all.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkWz4evzaWjZHqVWU6mmpROr4sw_xWQQEiatYt760eVD_nETLvkKpNgpMd1t8FyS_0PZK6-IIM5_TzcXCm_ptupFobdbpxqz-9vQe_KYkx3qGNuxEe_tsH-9AKcluw-mykxkSQa=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlcPrUsiy_gvk8bcJh5MPvWc3DQv6HzM_7ROh2zRFUwFmz4Gq1IWmAuwK1TqqX5mkPsg4sa85vmjbt3U71_8nceREBGp1rErR9HrM2k7kDYRRmWzTkasLXX4jgEepwCRuGcYBeBFg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn2Ihd2kJnKCvSxELPP3GtqCADSiKKFGAHoJ_vaIikddixsgU5-Ncgx9q2KletBgUX3mNEDNImIkcEokzZsPdpOX3dPyTfxWb4FvpxXc1sLcl6MdEKWcatPoFD90w1nqVKOrRY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmsWZhGEfMOSaxX09QlgGdUgHa8EQnto_jAnfESgQCd0PYJA5HKITBne8l9Qcnzuhpf35BN3-jtkC7gekPbJhxPFgPZcRKyPj2adUK-6s61Ym8t0ULcBl5BqXArzw0x2hFnNc06dA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We first ordered uttapam which was nice, but later ordered cold coffee and waited for almost 20-25 minutes but after checking again they said order is still not taken.. And later cancelled. First experience is really not good...",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdng6r4J1J4chttNRHKrKqmAP_5jypxl6rUgSzwjeeSKQa-QSTtgpObOJpX10nHszfzmD0zzSczOEM51jB9obW1Nw66Tj9yl18YRra50gn05vzQ3RN0DXWG8rlQaO--v03t--By3=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great vegetarian option in panjim.\nWith variety of  vegetarian dish and sweet I like unlimited thali.\nLag in service.\nNeed to improve service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkD7PgCedzdxUIDFa8tJr_WROQRA5W5jj0R9ULMmo8QLu2PQb1V6klvJhB52XCZPAerIyPF7dv8VBW37SYDf_qigpGBlAMDzNvH0e-OCqWVFv6EM5idtclmOlQssqraebI80FmU=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlrYwxUMOpikhUnQ3W74sFcFuHq73CKfw3filQ0AvPmOrHvrjCpnuq7KjKIyb6EAgbThnj0X14cFsPWGBbY-omj2HSOFhCCoFTaY9b8nsA1e4ISEF1gBsuOkaH3H3T_932lt09g=w375-h563-p"
+            ]
+        }
+    ]
+}

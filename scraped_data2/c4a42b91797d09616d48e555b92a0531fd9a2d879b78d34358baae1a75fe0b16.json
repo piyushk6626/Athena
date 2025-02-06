@@ -1,0 +1,51 @@
+{
+    "id": "20250205235713_160",
+    "name": "The Goan Majestic",
+    "star": "4.0",
+    "number": "1590",
+    "score": "6360.0",
+    "area": "Bazar Ponda",
+    "url": "https://www.google.com/maps/place/The+Goan+Majestic/data=!4m7!3m6!1s0x3bbfba96e0dccdb9:0x5cfee32f2569da04!8m2!3d15.3958006!4d74.0024056!16s%2Fg%2F11fzf33pxs!19sChIJuc3c4Ja6vzsRBNppJS_j_lw?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPU4-qKFCBPZhcm-BpfQWRzHZl-Q8zfdvTZzjcS=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "19"
+        },
+        {
+            "tag": "seafood",
+            "count": "18"
+        },
+        {
+            "tag": "hotel",
+            "count": "13"
+        },
+        {
+            "tag": "parties",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Goa Majestic in Ponda is a decent option when compared to other restaurants in the area, but there are some drawbacks that impact the overall experience.\n\nAmbience and Comfort:\n\n- The restaurant's air conditioning is not very effective, making it uncomfortable at times, especially during the hotter parts of the day.\n\nFood and Drinks:\n\n- We tried the Virgin Mojito and Fruit Punch, which were just okay.\n\n- The Chicken Manchow Soup and Chicken Crispy were average in taste.\n\n- The Prawns Rava Fry was decent, though the portion size was small and not particularly remarkable.\n\n- The Chicken Cafreal and Roti with Chicken Xacuti also okay, lacking the flavor depth expected from this dish.\n\n- The Egg Fried Rice was good and among the better dishes we had.\n\nService:\n\n- Service was slow, and we had to remind the staff of our orders multiple times.\n\n- After placing our order, there was a long wait, even for simple items like a bottle of water, which took nearly 25 minutes to arrive.\n\nOverall Impression:\n\nWhile Goa Majestic offers some good dishes, the service and comfort level need improvement. It's a decent choice for dining in Ponda, but patience with the service is necessary. The restaurant has potential, but attention to detail and efficiency would enhance the experience significantly.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlsQh61-DBPVVbXuZT-C2GR1w9zCNa9PdXNGbo2SjEDZCZf4UjIpC1JX1LnX_vQB_NIKMI3Wy6MtKxiyhdpxN9uSyXYzNd7fQXm_sbBEzoTP33gr-Ltykt1eTFwc_oFhQl_mcNP=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNDXK5F1KwFEdaszT3G1k0zOIH4f2HybIcSVhKPPOl1QoeuWy8l5KDRmRcqroT8WU3FDzkn1Oge6KTivF1HkUOm_AA93Ihtf9Qqh2B8S6B2ajZR3A49qt73BpKoXsTLMLTMMhtzg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm6c0C4RTJSrdjL9BVQ7898xvDlbSEnJZ0fuBBf4wp2IcShiCJBANvhQK5di7s6pZyiUWPAyx7K0ivrJX6izcpDFcznxu3-3C5WXu46kHZ4TQM-sqyQMstlwVHWzKUo_5uVY6L8=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBSm79QRidxtXIcRSmTK_Qj3mezzjL_QYvFGVMyPA7RsdgbuH0MFvFw4MbLPi2StOdO_jeFALebIDAn6fNVX33fh-ATj-AiffvQyPI0rfLUZGSN3Z3INNqIrOUeY7Y6HTnX8t5iw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Must go- if you like Goan food! Fish was super fresh! Prawns were good, have eaten better…\nSole kadi was yummy!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlpL8VTPAILhJ8vOrAJpR_NyYNRN4FBUH2Kzguw7H0OxHUbx-IOHHWbmwRgDeQddxjMG_5EwmgV3NMWlwm-ODrZJHA0IEFL75Yz4ZuAkd9JlGn2g-06tt9OHqf9mejhF9pUPF2fIg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmakMx2mZk7COT69Y2mVFViXmqpkCjo2KzlMoYBwtmAKVHfhpFodMvEFT4I223XFXmXYjPSyq5YOMUFSTbiyqBAMZGDeg-uHzI3OXedT7c5H77Wr1dFRkgdS148DsPGA_JUdqc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnkrxDxxaVRynUzkRnezNTj6j9foAI_k5SoXFzwq28c5WxM5y-7DhEyxKH5ICFDBnST27J5wX5exTxn7aV-wzMdot0BPfKEnXfqxHuq3rVYqy1vI84zVCs6oSMt0QF_5qCna2K4=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I do not recommend visiting this place. I waited for over 10 minutes, but when one of their preferred guests arrived, they were prioritised, and I had to wait even longer. We eventually left due to the unfair treatment.",
+            "photos": []
+        }
+    ]
+}

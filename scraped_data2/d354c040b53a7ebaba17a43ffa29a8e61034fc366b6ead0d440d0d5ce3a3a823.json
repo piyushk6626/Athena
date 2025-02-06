@@ -1,0 +1,46 @@
+{
+    "id": "3142e4479737a0140fb670b7df2abca6",
+    "name": "Meeting Point",
+    "star": "3.7",
+    "number": "815",
+    "score": "3015.5",
+    "area": "Verna, Goa",
+    "url": "https://www.google.com/maps/place/Meeting+Point/@15.3759167,73.9248658,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb9fd571537a9:0x653e8bc9bdea66fd!8m2!3d15.3759167!4d73.9248658!16s%2Fg%2F11b6s0rrmf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMO979u7ffJERRMd6NSLGxiRgO7gqppBBEUXMA9=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "drinks",
+            "count": "8"
+        },
+        {
+            "tag": "prices",
+            "count": "8"
+        },
+        {
+            "tag": "bar",
+            "count": "7"
+        },
+        {
+            "tag": "thali",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Food is really tasty here and reasonable price too. Service is good.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkNCxMWBQYCOI_vObxMg6RqBGUrLi6DzGBnond8Jcb5PPNLd0unJ0vLvcdRNHjhLeGslz60p74SECopV-fMK0-gF5sHWL-MuZ6h-9yu98IYEEKxaYb3KVKbxuPia6fAnpf1Gm9F=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Completely third class service I had gone ther for dinner and all the service boys are not much busy and only two tables was busy but I wait there atleast 20 to 25 minutes not even single person come to ask me for order not even diserve 1 star for service",
+            "photos": []
+        },
+        {
+            "review_text": "Meeting Point Restaurant at Verna Junction is a convenient spot for the working crowd, especially given its proximity to the Industrial Estate. While it caters well to groups of male workers coming together, the ambiance could use some improvement to attract a broader clientele, including those seeking a higher-quality dining experience. The food is average but satisfactory for a quick and casual meal. Overall, it's a decent choice for workday lunches and gatherings.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnY8fjt_CD_6iURB_J7Z-hOmzcyjOo4CeqJqaoIQ0tGuFSXcwhDK_q8PKsPiqVQ6LGAIcyol1lhHZKeeauzVxAvnHOOajipSBtYiWaZH-FftxmMuWbmTXCKnRwiGhtZ7IrEFFPN=w750-h563-p"
+            ]
+        }
+    ]
+}

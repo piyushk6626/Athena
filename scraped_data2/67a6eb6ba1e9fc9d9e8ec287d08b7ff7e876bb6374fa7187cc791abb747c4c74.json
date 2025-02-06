@@ -1,0 +1,53 @@
+{
+    "id": "20250205221111_59",
+    "name": "Charcoal Chicken",
+    "star": "4.6",
+    "number": "3019",
+    "score": "13887.4",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Charcoal+Chicken/@15.5265765,73.826147,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1f7ef285565:0xd01194ea33775a07!8m2!3d15.5265765!4d73.826147!16s%2Fg%2F11p6xs3lhz?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMt9XB6Nul_zHV_bVvrGhS3r0ZUZ5VlKuT99_TR=w408-h408-k-no",
+    "tags": [
+        {
+            "tag": "kebabs",
+            "count": "109"
+        },
+        {
+            "tag": "thali",
+            "count": "55"
+        },
+        {
+            "tag": "arabic food",
+            "count": "50"
+        },
+        {
+            "tag": "platter",
+            "count": "43"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I dined today at Charcoal Chicken in Porvorim with my family, and the experience was excellent. The food was delicious, especially the kebabs, which were perfectly cooked and beautifully presented, with the staff explaining each dish as it was served. From the warm welcome to the helpful guidance in choosing meals and explaining the dishes, the staff was exceptional. They were friendly, polite, and very accommodating.\n\nI appreciated their attention to detail, especially providing hand wash service at the table both before and after the meal, which was particularly convenient as I was with two senior citizens.\n\nWhether you're planning a family outing, a meal with friends, a date, or celebrating a special occasion, this is a fantastic place to dine. Highly recommended...",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk6ki5U56x0KyL8z7RE-9kXkPQ7J4PY2Mzo0QifV6aFiLcg4nkIpeHt27LUiZyxfu2iZvzrEl4IICr1ouH_-YRYB6C6Q9RDmt4BRzvdBSmcjFsa-_gqZUu7yEdWiG7AtGTU9MxP=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "The food was flavorful and enjoyable, showcasing great taste and quality. However, the overall experience was impacted by the slow service, and the waitstaff appeared inattentive which could be improved. On a positive note, the restaurant boasts a spacious and inviting ambiance, making it an excellent choice for hosting family or friends’ gatherings, ensuring everyone has enough room to feel comfortable.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmap3lvKZrxDW39_OskMrok9-iILmAmNUC46qgXSJG7Ier0m-_Ur25DySX7p4L7wTi5hO6uR1xZlnSFwo-jquirSzmzWUdFkKYwYrt_jrE417QnD_xYopXGZW50Ab6NdyfsNYwk0Q=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnRJhfd0A9TD3GuhL_pNCTW0twtlvThK-vdzm8KNzJvrfGENH-4F0Ky-i-FlFvp1bLWKKKP-HokScp79WpHBMQ6RPGYc0qUUzpfA-tTp6oVliRmyMQYlLYrtnhckxLto_n7fbU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlw0w3s5vPwIhkdzqmXJw2nQ2HRnusnKMppNoOk0T30zWdLfJtsZ-RtL1GXw__mRRNQbkzn3MwaXa3kvCf6sXbY7KfxgsMX8VZZxVRc0jgnAk0D3hNaqvElBJUQJPF2yl-qW4ARnA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Had a great experience here the staff is friendly especially Muhammad minar and must try the crabs and king fish.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnf8ENVs5NerKWgM-m2vUgbc8TQOP9YZyO5nqXVeRFoBx--JM4Ro3CnJZU0wirZD08t07jMRX6JjHfjl3bW_qGC4Apwy375xEVeLXn0PV3Vhsoj_IeWV-YR_Uj_Jk6szaODouEI=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnnbuRb18FuDAWnHwivbtGKZd75MBsfWTXhNP98ncxLHKeHxKUUr41ckPfjsw7MWCfirqJj-4F4smKf-0ppK_7sejvtPKctc1linci4YW_KT5-NK9x-twLG16f_z7n9fnemYQ3IA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmoaBl03OnRMrq7CoMkR5YI4hBJbv3l0pzX2qrrOGBsHCVAmXq9GyY6I2Etz5CoQFdIsDIU5FVgwheiEPaSIj0YYi2XtNvIjL_r4lkJHi0luxMStrOnZYZGGO6vQFLXpr-9W4_N=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdljhpj2LW4EU82uSCHbHQFEo15zxBuM7Co-7qL_dzTz2Qnt5Km7RUD0_1Pf_qPuazdLMADGc4LCaIppXepp5B_unqbQUW1NxUsUEWU-ZmGMGdvpYPLpYcWM4Lvkaj_DSnYuk31UGg=w375-h281-p"
+            ]
+        }
+    ]
+}

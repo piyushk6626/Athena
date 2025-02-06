@@ -1,52 +1,57 @@
 import os
 import json
 import hashlib
+import shutil
 
-def rename_files_to_hash(folder_path):
-    """
-    Iterates over JSON files in folder_path, reads their 'url' field, computes an MD5 hash,
-    and renames the file to 'scrape_<hash>.json'.
+def hash_url(url):
+    return hashlib.sha256(url.encode()).hexdigest() + ".json"
+
+def process_json_files(source_folder, destination_folder):
+    if not os.path.exists(destination_folder):
+        os.makedirs(destination_folder)
     
-    Parameters:
-      folder_path (str): The directory where your JSON files are stored.
-    """
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".json"):
-            file_path = os.path.join(folder_path, filename)
+    existing_hashes = {f for f in os.listdir(destination_folder)}
+    
+    for file_name in os.listdir(source_folder):
+        file_path = os.path.join(source_folder, file_name)
+        
+        if not file_name.endswith(".json"):
+            continue
+        
+        with open(file_path, "r", encoding="utf-8") as f:
             try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-            except Exception as e:
-                print(f"Error reading {filename}: {e}")
+                data = json.load(f)
+            except json.JSONDecodeError:
                 continue
+        
+        # Ensure required fields exist
+        if "url" not in data or "number" not in data or "score" not in data or "reviews" not in data:
+            continue
 
-            url = data.get("url")
-            if not url:
-                print(f"File {filename} does not have a 'url' field. Skipping.")
-                continue
+        # Convert "number" and "score" from string to float
+        try:
+            number = float(data["number"])
+            score = float(data["star"])
+        except ValueError:
+            continue
 
-            # Compute the MD5 hash of the URL.
-            file_hash = hashlib.md5(url.encode("utf-8")).hexdigest()
-            new_filename = f"scrape_{file_hash}.json"
-            new_file_path = os.path.join(folder_path, new_filename)
+        # Condition 2: Check if number * score > 2400
+        if number * score <= 2400:
+            continue
 
-            # Check if the file is already correctly named.
-            if os.path.abspath(file_path) == os.path.abspath(new_file_path):
-                print(f"{filename} is already correctly named.")
-            else:
-                if os.path.exists(new_file_path):
-                    print(f"A file named {new_filename} already exists. Skipping {filename}.")
-                else:
-                    try:
-                        print(f"Renaming {filename} to {new_filename}")
-                        os.rename(file_path, new_file_path)
-                    except Exception as e:
-                        print(f"Error renaming {filename}: {e}")
+        # Condition 3: Ensure at least one review has non-empty text
+        if not any(review.get("review_text", "").strip() for review in data["reviews"]):
+            continue
 
-if __name__ == "__main__":
-    # Specify the folder that contains your existing JSON files.
-    folder = "scraped_data4"
-    if not os.path.exists(folder):
-        print(f"Folder '{folder}' does not exist.")
-    else:
-        rename_files_to_hash(folder)
+        # Condition 1: Ensure no duplicate URL-based file exists in destination
+        new_file_name = hash_url(data["url"])
+        if new_file_name in existing_hashes:
+            continue
+
+        dest_path = os.path.join(destination_folder, new_file_name)
+        shutil.copy(file_path, dest_path)
+        existing_hashes.add(new_file_name)
+
+source_folder = "scraped_data"
+destination_folder = "scraped_data2"
+process_json_files(source_folder, destination_folder)

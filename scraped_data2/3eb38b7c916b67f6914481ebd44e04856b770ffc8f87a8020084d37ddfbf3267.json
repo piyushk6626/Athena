@@ -1,0 +1,55 @@
+{
+    "id": "20250206003925_274",
+    "name": "Bhumiputra Resturant and Bar",
+    "star": "4.1",
+    "number": "843",
+    "score": "3456.3",
+    "area": "Pernem",
+    "url": "https://www.google.com/maps/place/Bhumiputra+Resturant+and+Bar/data=!4m7!3m6!1s0x3bbfed6faac81c4f:0xd8037c257eeb03bc!8m2!3d15.7138305!4d73.7995856!16s%2Fg%2F11p11cy71d!19sChIJTxzIqm_tvzsRvAPrfiV8A9g?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPSWGRx7YWPhtewAf-emOKIq3Y_AN8KSFhkeRqw=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "102"
+        },
+        {
+            "tag": "platter",
+            "count": "19"
+        },
+        {
+            "tag": "goan food",
+            "count": "18"
+        },
+        {
+            "tag": "kingfish",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Bhumiputra Restaurant in Goa offers a delightful dining experience rooted in authentic Goan cuisine Known for its homely ambiance the restaurant serves traditional dishes like fish curry, sannas and flavorful seafood platters. The service is warm and the rustic decor adds charm.\n\nIt’s a perfect spot for those seeking an authentic taste of Goan heritage.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqd4HFkztLZDZPYy-izDkqEokTdo1GmHl7KMRN7eNturHXdUMqL14nVoav5t3VgVI7sy8qHzvfw2xTd1AfoLH2ooz13TAfFNdjFZGspEZpWFnAF_6T2lycXaMKblRwAoQ99frJtg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkCA_pc_Rh2MJWbKTPqIJPA6MD4-sitgUFcHmw1FswZlAsWlmZOTP7W-v6_uboCdWCBUcbCAur3TuPy4IXRBku_5TxAXufeSWdh8KRJDneGl3dR_-4J7uQzZL5eFdpnJRa2m2ib=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnsq7MzKJiJTT4kSpH8Qpx16TxhaKWbsAOBc75Ox1pHCHgujG0fdzqzwUVhoKgngU_6bsZojdd3DjoysnIiLtukiJptm-tqvDmGSMOp4yuEYlsWTRUBFf2FUOsEZPjzpsb-BUiF-Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmc40UUOR-0PvECO8sPcfAailIla-rSevcmB8ocJbSfFmzrUdvYwMzAZd6oypAU1h_4OmR-5iRsQTvafEnqauMwAPCEWEvufJnwvGO9xNoXk-IsUp7xyQq2a8xIdbxwH1tDe1VF=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "This restaurant offers a wonderful Goan thali experience with a great selection of fresh fish dishes, like spicy fish curry, crispy prawns, and tender calamari, all capturing the true taste of Goan flavors. The food is rich in local spices, coconut, and kokum, giving an authentic taste that feels just right. We tried the Ravan thali which was very nice with some tasty dishes. A place worth a visit for your next lunch or dinner out…",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkoh0kk-Y3c0NPbHpS523XSgK92toishnE6OVBKhq8MKgKUAtQtzNuTj6zTLuPsmrRwrv-nKMkH5nL3yTgeZWkLf3uenwxwbAfKx931DQ2VQFw8jGA6qzekho6z-dJH87Hl2U03=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNYfZbC30JJSwHELyMHqf2vy3lc4IlGSBcFW66X2eyZobKS0jSyWwAFCXm73ss8Jd-cvherFQpJtXWKCzelqd4ZF4cghQ35T0CWwfixTQkNdr5JdzJXvm-0oRvmp5D333HyKhi=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmBI4hoFaN3hDnHPV0O-BRt57SayNmi-629m6-m2qN5M_9F69Yg1Fl9-2Yn0bpSh1kc4PNy2CjwllrqcMjoP-lPyd8DB-XnomNiiTRapG_QTQyhMoing02gWr7IjsEY2qLbg5-A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmpENYQBn34ilSEPqRGNOz2r3HPDwtQh4V0-bKsXoQ1rS6OsAkOXLfziqjRxI8FMtLI_1zq_HKSiCId-u31slECMhfMrt3rV-tDE7opw8ju8GQzPiuiMPwFzRV3kmH8CHCalKM=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Excellent Food , service and Atmosphere.\n\nRavan thali is awesome.\n\nFood is delicious and hygiene.\n\nYou can visit again and again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlXGQjVxZ-jsuKr3ksCJiv62d5_dDky5VBEX6K0FwnODfM8zCUkFzVCUnUMafYHG3Jk42sCTS0HpDuIgHvaGFWU8pPDUeSdjOQKzKeDeJ9T9pkfYsehuYsGC4zTrGz5IOxQ2kWs=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmbllIOyid096n6cYYMyJoK8qAEzaEUOGWbrJSi_v2o97ta8LNHB0zYM1pultirkISKSctleXz9_dZQxO3xuI-4ThWUYhHw8l9Jd9E6_9f1UY2ofrrrCuBv_RUlo3FSZh0-yDO1=w375-h563-p"
+            ]
+        }
+    ]
+}

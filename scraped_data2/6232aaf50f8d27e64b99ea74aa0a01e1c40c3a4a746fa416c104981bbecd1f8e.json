@@ -1,0 +1,52 @@
+{
+    "id": "20250205232111_225",
+    "name": "The Brasserie",
+    "star": "4.3",
+    "number": "851",
+    "score": "3659.3",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/The+Brasserie/data=!4m7!3m6!1s0x3bbfc0e8524027c1:0x187cad28100b514b!8m2!3d15.4821453!4d73.8095423!16s%2Fg%2F11c0w0vk02!19sChIJwSdAUujAvzsRS1ELECitfBg?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMjhCYWUdJLp45Djtrwz4iKJRhuGa-88KeeCGyN=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "33"
+        },
+        {
+            "tag": "chicken ghee roast",
+            "count": "14"
+        },
+        {
+            "tag": "drinks",
+            "count": "10"
+        },
+        {
+            "tag": "pay",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Located inside the Gasper Dias club, the restaurant serves great food. We tried all kinds of sea food and weren’t disappointed in any of the dishes. Very calm ambience all around and good service. Rates are very genuine and the staff have some very good decorations.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmbGgrLyTifleSsRmMkdI3nxJ3Ot4A_0MkfoporvrW_ubzHKSt91Gu4xM3zTHiJkRQRN7_E3N-Jm1fsjEsPOXB-cK883f9oiRMHb3eycksH83LU_MEeVvEADDSxc5zCyBJof_QuEQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlLSR4G6EOFa92u2J54H72ewkgI47mZpgVTUj0JpZ0MDqJEeLNRMRakm86-Abv4RN_KB8aBpMWTMbAE8TKBO8CsZdZUOhcv55zuwCnaoSyNXjS8az6U_38vMJyLKcZyB_iZ9Oxn=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmkSP5pltwuud5ebCVt95fvxPEaAMW9znrGLEiCmhFwFuaUkHVTcxS-PWouONHZVUcnx0Ol8lSGU226fpkmwA5BS7rlkJ9YjH-cCQetMeDSshDfUL8v96OFpBaCMJBZN1R45lbCFw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdniS0gVUxLr1q2OtCBtbgCeoWtcTCH8fZ-fTLvS7iJcJ1bk2rhK2-2piap0XMBhxBK0IhKBt9iFGl20Qk0sRqf-hRTkjU23ioVXc_NpQk96AyNfmka0ts2pCXLfMzD_Cd46i2Og=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "It's been more than 6 years I've been visiting this place.. on and off. The best part about this place is you can enjoy the food even if you don't have a membership card. You just have to pay extra Rs 30/pp before you enter the restaurant. The price is very reasonable and drinks/food they serve there is amazing. If you're in and around Miramar, you should definitely try going for dinner here, I'm sure you won't be disappointed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkvHlEzlR9spmaxJLA_-Q_UpedjxebMccU60zgiOR9yA58cXxJ2OkNlpwYRLuwZ2vTUl7e-0EFoa6DtHMaICTB_1FTvViu3zH5cP-3QyqpSLRnrJrWIVELHr15X5qq-ILcBQTMa=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmTaMg-14NdlK2nq71IZous3viZzkvezp5kTu49mCvKPt5Nf83CHmfYygpYZtgfkvPLQi4gLZpP5V4Tvu0gEMHokruvgycBzeDcUDrhecNnELuYGXkNRuV9pRtGSGpjXRb3M9lBaQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_qnnaAdBJhlaNpvVaDC5DZ-aDY0ZEVtphvdxkNuGW5eTyL5Ei3Cx-qya3Tqieu-akh1WqY0Ltp2clH4qJ7J-lKIcIpA-0lNDjQpv9ljiwkMn9mrMgLCFi5z--UB0MXqPlgSs=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm32TuN8Af4a-6j2p6D7ori4LPiMzenFyWfFEvvcynu99fVYQo35UB23C6sv-xKETfSF7ZadVY1YhLfCOQTvUq9FGxSktKMTcTebzp-enAoZoQlwQysV9U8_2KjFE26meILX_A-YA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food is good, service is okay, the vibe from the other visitors is very dependent on your choice of clothing. I didn't find that enjoyable.\n\nA solid 3 at best. Do try the food!",
+            "photos": []
+        }
+    ]
+}

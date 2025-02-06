@@ -1,0 +1,49 @@
+{
+    "id": "20250205233549_263",
+    "name": "Aditya Food Court",
+    "star": "3.6",
+    "number": "849",
+    "score": "3056.4",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Aditya+Food+Court/data=!4m7!3m6!1s0x3bbfb0bae3c953b3:0xea9a67c8f6443641!8m2!3d15.3643802!4d73.9504779!16s%2Fg%2F1ptw2rtr1!19sChIJs1PJ47qwvzsRQTZE9shnmuo?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPy3mXjOvJ1vnFTZaokjm3bq1asoeBQ4HRpB6kz=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "25"
+        },
+        {
+            "tag": "clean",
+            "count": "11"
+        },
+        {
+            "tag": "thali",
+            "count": "10"
+        },
+        {
+            "tag": "industrial",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "1. Apart from the person on the counter, rest is fine. The old fellow thinks he is doing us some favour.\n\n2. For taking the order I had to wait 15min even after calling many times.\n\n3. Food is delicious, also the price point is good from an industry people point of view.\n\n4. I am vegetarian so i usually order a  rice plate @100",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqeWcZoLLlakIfkYCVRqRQ7zvioyyUNZAnBQZJq34HO8LzVHicsLCVUVZM9J7w5dp2EKXN0HrXDx6DStHr0GCnhFpk-bv7KB-TJH89Xbbf1NT_mXMvQdtUoKUQZquH_C1bVjU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm3QpDZsxTewQGnFhV1pncfmlJr2c4G5T0bKEXZTc34tSZTtOYde34zUgDaIqw6YjINVJJA5gm7FuMtxvMG6rKBmNZNIDiHcwM0pbRgThRsrNLgoDQxgnRBfHVAAqkSbkDLAcZrZg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmz7n3rlrdGmOfWvH_-TFxme-lfKMiTVMqZaJoIHm-2qVi_ztRRVVHVcKSgpqTVIFXSlMx4jRts_0eMvNYIVlQTV_xi4anlmlw5Ytsmn11FDPc1oGVzIW0BM7ycZpDtzFAgC7I=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlM4PYSMILJQegqoQ5FSCaSccAR-WnaH3Z6GFIn_5Hk8bKidoD8EKI-rrjKOplPSvozePjzytmuK76IZbB80fPX2kJFepw-KkEgzR48l3HC2KJmgy9uBFW1TdsjI3wlA1p6mhc2CQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Not worth, staff behaviour is not good, in menu items are full but in kitchen they don’t have half of it. They even don’t know if sugar syrup is not there we can use sugar for lime soda,customers to tell what to use to make item happen😂.\nTried 2-3 items but not as per quantity or standard. Bad taste",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnWkIbtVQXUwt33E8WhPUg5mnLC4z5nvuL3iPsONpEjGpK2oyLvfuve5Q45lGTvoksFjZIkuw_7TuZxpeaA8texJVeH7N_ePKWTRMnZ53HxmfEJPau9lLxCBbPkL73GNcZdaIaS=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Third class management, third class service.. pls don't waste your time...",
+            "photos": []
+        }
+    ]
+}

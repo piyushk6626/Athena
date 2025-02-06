@@ -1,0 +1,45 @@
+{
+    "id": "127c69fb67c724ebfd449af3f67e115d",
+    "name": "Kinara",
+    "star": "4.0",
+    "number": "814",
+    "score": "3256.0",
+    "area": "Cuncolim, Goa",
+    "url": "https://www.google.com/maps/place/Kinara/@15.1802892,73.9477801,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbe4cbb353a24fb:0x5466e06a9f2eb06d!8m2!3d15.1802892!4d73.9477801!16s%2Fg%2F11c6057rgv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPLe2Yx1b7fPdknY4rqz_zPTvxBbcHsU2Fck1s=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "27"
+        },
+        {
+            "tag": "thali",
+            "count": "24"
+        },
+        {
+            "tag": "hotel",
+            "count": "15"
+        },
+        {
+            "tag": "veg",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I recently visited this Restaurant and ordered the chicken fried rice, crispy chicken, and lime soda. Unfortunately, my experience was disappointing. The fried rice lacked seasoning (lacking salt) and was served cold, while the crispy chicken was also served at an unsatisfactory temperature. Additionally, I had requested the lime soda to be less sweet, but it was overly sweet instead. Given the overall quality of the food and service, I cannot recommend this place and would advise others to consider alternative dining options.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmUR810DQdH35jDJHE_tNZoov4CXuiEOLWtJZwTbUguIIhWSSB7981HUeahiXeebESLaS3S72uLMQfvN4h7_Cop62tMnDvvg48kGmftEdG5MGynYszkImiqmleqA9ethGNvJgdM=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdndxJVNxcFyQ_AW3ZjM3__VM67ssOo1YFWhSiMGyoY7Wdtk3LRLKa2qlc-l0ouosTGm4SUTmvpTp9qJB8rnFiViHFroX6NZOdQlp0eO5P8WvyHpnUU24m0CPwuJxe2sHuSXN3n7Gg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "This place has a pretty good menu but takes a hit when it comes to service. The waiters  don't have a clue about service. I finished  my drink and nobody  cared if I wanted more. Service was very sloppy throughout. One of the reasons the place is not as busy as it used to be. They seriously  need to work on their service strategy, and I hope  they will .",
+            "photos": []
+        },
+        {
+            "review_text": "I visited the restaurant last night. Greeted and served by friendly staff. I ordered a veg starter veg main course and drinks. All the food was delicious. There was a steady flow of diners and customers ordering takeout. A good dining experience",
+            "photos": []
+        }
+    ]
+}

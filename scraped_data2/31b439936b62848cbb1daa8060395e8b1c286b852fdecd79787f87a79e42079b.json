@@ -1,0 +1,48 @@
+{
+    "id": "20250205225156_93",
+    "name": "AJ's Kitchen Bar & Restaurant",
+    "star": "4.0",
+    "number": "1565",
+    "score": "6260.0",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/AJ's+Kitchen+Bar+%26+Restaurant/@15.5990144,73.7423104,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe97c97435e05:0x1b24acfcf312dc9d!8m2!3d15.5990144!4d73.7423104!16s%2Fg%2F11f263tss5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOxxwd6Eqcm7vS4okVbPQ9cw3nyhtXccR4mfMD3=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "music",
+            "count": "12"
+        },
+        {
+            "tag": "tandoori",
+            "count": "11"
+        },
+        {
+            "tag": "goan",
+            "count": "9"
+        },
+        {
+            "tag": "prawns",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "as our food was brought to us, i started to eat mine. i quickly noticed that there were cockroach in Food . nobody else noticed.\n\nso i quietly pointed it out to everyone. know what their reaction was? they acted as if i had ruined their lunch - that it was somehow my fault for noticing the worms.\n\nthey all just quietly stopped eating and barely acknowledged me.\n\ni reported the restaurant to the local health authority",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmreGQjVwCqI0tMDz3y19NIZAosbxln-FW0a-u8cfjMWPbj5VTFYrtEacKXsWugbFlxE7q_MNTCOFhY1R-Rf4DpjNBF5z0chqGHzC1Z3rEspNqo8Jtwo3FRPlgpC0VYxPEywiw1=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdktc4BfnSCKWBWk7NI3RW7LMq3bX8yuofqCEdkliULNeFo7M9MjNXokR4eVjQgPoc7OicQqGso8ZU2N3snjL2bWmg8GiSFr0Ty9l_eciCGgFvFHhi1JTnS_XQ7tvJOJKICuoJEgWg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "This is a small restaurant along the road, the owner and the staff are very welcoming and courteous. We went here late at night hoping to find nothing but snacks surprisingly their whole menu was available, the service is fast and amazing. Food has an authentic Goan taste, I ordered a King Fish Thali which was more than enough for 1 person. I wasn't going to have anything to drink but the owner requested Me to try Urrak (local goan alcoholic drink available only during certain months in the year)  and it was amazingly made by the bartender, spicy yet cooling. Had an awesome dinner experience here.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnoDYdsepgFfqTAKMVoG0ss-64ZXViuBrII6e-hqmgIIupu896ntZcZ1sTBfEevo8xy5KqVPBcij7blT01HW8w8UbQgfyqNN0rCDUJOeb5Lt7ZtvcP1KACPV268bSqI5sWFN1Zw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk8p6TN_QE4UA0FVlQl_gwj3Cacxsn_cNf4FHpwcMTJK7Zz10L0A1_3EOVPIOXdrkcr-A8TG3_BPnnHjOA56gJ3vmz_ujg9LDRTuMqYt_7LQ23pZSsKlSdhIVuhrhdqy-z2s0NQ=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Very friendly staff accommodating our kids needs. Delicious food that was very inexpensive but great quality. Great location next to the JW Marriott where we stayed. Our kids would give it 100 stars if possible!",
+            "photos": []
+        }
+    ]
+}

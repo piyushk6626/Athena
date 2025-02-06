@@ -1,0 +1,55 @@
+{
+    "id": "20250205195225_203",
+    "name": "Adarsh Bar & Restaurant",
+    "star": "3.8",
+    "number": "806",
+    "score": "3062.8",
+    "area": "Bicholim",
+    "url": "https://www.google.com/maps/search/Adarsh+Bar+%26+Restaurant+Bicholim",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPihqJTITrSYHsAP3JbDnkAa6Sdhnv3h0hbe5qT=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "40"
+        },
+        {
+            "tag": "fish",
+            "count": "18"
+        },
+        {
+            "tag": "thali",
+            "count": "18"
+        },
+        {
+            "tag": "goan food",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I tried the Chicken 65, Tandoori Chicken, and Fried Rice, and they were all delicious! The flavors were spot-on, and the dishes were cooked to perfection. A great place for a tasty and satisfying meal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmlhK__LBuZjus6yWjxYLGbAP0tixeR-hZss1ZhLVTpqLanMyMfqMB-kCt4rZbdQKFweJzeRCg6aUxfrHb5YdEMpTv0P6DYV65uZDqCcJwGIUAsChbesWT8p2k5a1IL5XZK4jX_=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk7uqjdTOI0_HsFVGR5mNubAoav3VT1e3gF8olhhTpQGuYkkQe2bP6T-jiwvRGVGSzrIWCIDhX7QSL5BP9g6MX-DWkLLsmkBSnk30uVv4QUOW0K7xfpckmXVYoYl6qpP79l9x3MTA=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Tried their Chicken A-la-Adarsh, Salad and Rice. The Chicken dish was fine. Service was good. Prices were okay.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkhgwzFGEs35TV1_b-hTBa7JWmR4SlnqUo5Hb_bkNTBsmiyVgRPm2Bzc_pHNY6tOW2PPbBCsNH9fBVYxetSJLoNj1fyh3lw-zMcEE0HOEBQ1YuPRCVEiaP5ESL_h1i6eECDS1KIrg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnu01LznYcNx2rW0-zKES5IQcRtGBo_dyOm_ggXpvxfyS4A2nkdW20_0zXiKfLGUAOHrk4xSuRawQbb7XMtlDQBqOXXIDfwkhHPGqn8Fh2XrtIGK_S_kyOlg4MBDTIXbwL02hwU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnnCwA-REbW5VbRttchd9vJQeHRL3wkdqiXMh-zrcpmMNjelyF45LZIgXm9TmqRHyFBbOsYkScqTm9VQ5xYH4Qb9nxfeVQRInXXHVRRcz4gwwN5AgsPFEuQEKEwHLdm914h7E5zXw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk6W7m8kLoD-eN-8OJFHDNMdb6pxF_MHAC5IrgYCCQEnK576zYepXLkIeyjHXVT54HYpevac-uGhWPlKck2fjjEb4GOjs4gXfrYmynW-32jRoDdSSvKT9cRf2XynjMyaVMl7rix=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Nice and cosy, adarsh reminds you of the old school fine dine. Tried their tomato soup, masala papad, veg crispy, and biryani. One of the few places that does not overload the food on salt. Balanced flavours and courteous staff. Worth a visit for a wholesome meal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnUeoBcCf2kPRu2Tlg9rZ-fPzjF8p1NIcJUD1z0fabB_EiaBpF_Lfksd9Srv8LVwoJzyWP2o6AS57Gy2RT2jh-5TEH72RxAmDxXt-4ACtNtYqAzkaAv0GHiouxyDi-wflFuDIFr=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbNbpfxRtx9IM5u3t_qGH2hm4rwHQp3pAgtiU-sSe4QVcGEciNVad0zXctasGl1ijfkdwE5Etoj1UvKpqZRIjYE52ksX4pfYooVX5792RWRPtlkSIrIntlxX-p1royk4ER3t8Xwg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm4V67-51xOT9oeR4-9JixvxQ190AnT7GCwkf1FsAPJM0wvkGYlIFf63F-pnpqZ4vbChOCaCn6xH0pMdqxh1lnN9Vw4mp1aLxmGy2d7WyRAnOHWTnKVwZqZb3HGE1t6yPKkyrKR=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmn31d0YRFiEj8Hy2-iALGzfJNzhJFhnsbORXLqCu5fyplbtcW3oXywtNQuXkVe3DwxLVII9xM4UohUPmoYHAzXOdLj3nwsYKFwVioOclBmNHArqaeoGAuFgRboinaJmEBDImAM=w375-h281-p"
+            ]
+        }
+    ]
+}

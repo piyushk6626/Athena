@@ -1,0 +1,52 @@
+{
+    "id": "20250205232738_174",
+    "name": "Cafe Krish Juice centre",
+    "star": "4.3",
+    "number": "648",
+    "score": "2786.4",
+    "area": "Siolim",
+    "url": "https://www.google.com/maps/place/Cafe+Krish+Juice+centre/@15.6315506,73.7614275,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfebf7450646d9:0xdbee0aac35f70df8!8m2!3d15.6315506!4d73.7614275!16s%2Fg%2F11b772xn9f?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOzveWONsCuSEYiuOHHLxboY3bLn_Pnb7DxpkoM=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "river",
+            "count": "26"
+        },
+        {
+            "tag": "fruit salad",
+            "count": "14"
+        },
+        {
+            "tag": "service",
+            "count": "10"
+        },
+        {
+            "tag": "shakes",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Krish Juice Centre is a hidden gem with a stunning riverfront location. The menu is full of delicious and healthy options, including fresh juices and tasty snacks. The staff is incredibly welcoming and knowledgeable, making for a truly enjoyable experience. Don't miss out on this must-visit spot in Siolim!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl4Rq3Q7O9qJocI7jj-vzdUW9yQEb-UGpizwWXOsSFXTSbhdjSb_RTYdhZgEL-7ci11edjbPH_j7OTHva8KnkaCwckNpRN_EPdDCCCknpX3VlBZzR41ffI63RwXmlGi9snrHhMt0A=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Sweet little rooftop place to chill with nice views of the Siolim bridge and Chapora river. They have a range of juices, shakes, sandwiches and limited breakfast, lunch and dinner. Also a fish/chicken/crab curry rice or fried fish with salad.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmOG0I4F8leidbiCRopxdHt5x4gT96OsHpDEqF5IejfY8DOo-X-JdCyREg4EKAlITzfqdElWETurIZ1S8-zFJem2adPPl8flv7eXq8e-e5_tfanfFhdqvFqc83FvNdTdZn8j31X=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEkKxKCdZAedjyC-8ByThabsz_xtNtqnOCSJ9Vi7qhEx_0SqmMqzkbF5MYzk1WF3lxLFhVCgb3fpi02_ihgR-GHQcBYPm9WCy5ar4qJUtDFColWRvGsJsBb438H0vHj_ur8JT8jA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkFMAxtv0gaF7wOdaikczu5PzlGnTaQyaHXTDDwZxetzkTNNe9AGxGr9X51D_MWzvENWUTSjCsBD9Mn9Vy7XGBBQoOtc0mvIHdP90sAFw4_MsbaYLMttyt9AAk4JqtVDiV6KXMI=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlQgTGrYzJ8I_SXQy5C9crFk1Re3GAQ1RxHSsJCfsp0KUtd2ht08uL1cciXwqMImnd8BFxd92jo2DI3JQYUeL-KBK5plEJ7vgQUgedW7W3fBaC-ZDrtIkaVZ1Wc7BsufbxuXjBsRQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The cafe with amazing river view is very famous among russian tourists. Great place to have fresh juices, shakes or seafood with good pricing. Considering the service, staff is very friendly.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdndK2MqK_uQe2heJvHNW125tTQ9nE1aF6pUBDzwdlZdedfLJKj4v6lOQ5G54TPy2ClYqAZFbg9QnbP3N4laX0KP5ikOFg_CWaUYGd8xOe1pSlaGgknmqMYeWvEKHDL1KVgEQ3g=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl1ENH4MxzZemYN7RflDHAlExlinn1ywWxf1lg_ihA0Gka0bVZmfPi7EKZnGGAG1A-6fG-Fg5R0wU6rWbUwUWc8Nax85ojOmir0iIidAH8tKDe3oqeXEcguKPLlX9TmmcVKNK8D=w375-h563-p"
+            ]
+        }
+    ]
+}

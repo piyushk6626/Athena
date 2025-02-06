@@ -1,0 +1,45 @@
+{
+    "id": "542afbde5109ad2a73847f05aa23dc1b",
+    "name": "Blue Corner Restaurant",
+    "star": "4.2",
+    "number": "845",
+    "score": "3549.0",
+    "area": "Benaulim, Goa",
+    "url": "https://www.google.com/maps/place/Blue+Corner+Restaurant/@15.258953,73.918577,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb46c83b3a6df:0xb1977346eccc7158!8m2!3d15.258953!4d73.918577!16s%2Fg%2F1ydpv9lwq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO6_GiYGqDf5vOGoS6nAzSYaBAibmzhxyFlwkbT=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "120"
+        },
+        {
+            "tag": "huts",
+            "count": "35"
+        },
+        {
+            "tag": "peaceful",
+            "count": "18"
+        },
+        {
+            "tag": "place to stay",
+            "count": "16"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "If you're looking for a quiet, peaceful spot away from the hustle and bustle, Blue Corner at Benaulim Beach is the perfect place. Unlike some other beaches, you can park your car just 150 meters away from the shack, making it easy to access without the need for a long walk. The staff here is attentive and friendly, making you feel welcomed and taken care of.\n\nThe menu offers a great variety of options, and the food is absolutely delicious. We tried several dishes, and a few really stood out – the pepper fry calamari, chicken salt and pepper, and tandoori chicken were particularly amazing. Each dish was flavorful and well-prepared, and it was clear that quality ingredients were used.\n\nI would highly recommend this spot for anyone looking for a relaxing day at the beach with great food. It's definitely worth visiting again with friends, and I'll be back for sure!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmqYGjA2u0zCGuSfxuwJUHU8-DmNhVjg6LPDtFroBZ3LaDaik_isljjeqa6r-Fj12anWYZgPuAAJKpEhfIcqUZ49mrzzpIKS6YpVGGzSsJc7m5UpQ05DFrSbTKn-x8u-ARN7O33OA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkTdeTuv7n6ANTdqPrDMj2W5rb5GXz6hnOY-M9poSNG5M9QbcNv3fDG5wYswUMH3tvrc6-Qmo_oZq3DpZBZSCAm9w6XvYiJVwqIv-Gjv1AdePyB2wwq4MsIqvTSgQpoJ7EZaIQg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Lovely shack right at one end of Benaulim beach. One of the few professionally managed shacks with great seating overlooking the sea. We had breakfast, lunch and dinner multiple times here. Everything was just great. The atmosphere is perfect for chilled beers & people watching.\n\nThe only negative point being the people serving are a bit stiff initially. Visit them a couple of times and they welcome you with warm smiles. Something that can be addressed, in my opinion.",
+            "photos": []
+        },
+        {
+            "review_text": "Food is average. The service could be better. We were a group of 5 friends and one of our friend doesn’t eat non veg food and the restaurant didn’t have what he was looking for hence he ordered from outside to which the restaurant staff refused saying outside food is not allowed. We understand the “NO OUTSIDE FOOD” policy but lets be human enough to respect everyone’s personal preferences of food. Just to mention that rest all of us ordered from the restaurant itself.\n\nGreat atmosphere though",
+            "photos": []
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": "20250206001948_222",
+    "name": "Aloms Bar and Restaurant",
+    "star": "3.8",
+    "number": "1175",
+    "score": "4465.0",
+    "area": "Aquem",
+    "url": "https://www.google.com/maps/place/Aloms+Bar+and+Restaurant/data=!4m7!3m6!1s0x3bbfb3de751c884f:0x31905cf3ecb23451!8m2!3d15.2820453!4d73.9611241!16s%2Fg%2F12lks353x!19sChIJT4gcdd6zvzsRUTSy7PNckDE?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPf2ez9aUcnlQuOz2j2R-4a3Tmz4LR9E6ol01hW=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "quantity",
+            "count": "18"
+        },
+        {
+            "tag": "dinner",
+            "count": "13"
+        },
+        {
+            "tag": "chinese food",
+            "count": "12"
+        },
+        {
+            "tag": "food quality",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Bad service this is third time that have found hair in my food had ordered an veg soup found a piece of chicken even after showing them the proof staff says it’s cabbage doesn’t know how to speak to the customers very rude. Very bad experience no cleanliness plate an spoons were dirty",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbyQNBYfqQPPzFa6ss86e2LMWllv344mivVVWakBc2bFwtY50CA_VgMUyqsBIWocp2d92y6Rga4hRJiu90sIMNIkyQi3_LXc8btZSVWZ-Cl8xacZkH0onZBSI2dj2osNYrYlxI=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Loved their cosy vibes. The food was served hot and was truly delicious. If you need some yummy food during late hours in Margao, this is could be your saviour!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdljGrLtMhiXxtpRp5DdoavbycKHIpGdZl9X_423j-B8WWAzRJ_k_moo04f3N3xRDCc0vKmjvG9tZw9RHB5lUKPBTtsMFRym25CFfm1xTAQpq2fqw103fyn43O1jFJ5mGRjwS2mU=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmiiKqRpH8a96pvrj6pqFB0qxBr8hzkuhKLBdtqqWXQYkYVqDRpb65XAopT1yyUuAGa_pzvEaOkumxkuMuf2hcvEm2aLUuZURR41Hb5QRN-xPtvU3Cyo0fxuU0-uj0ZGZMEooin=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Aloms has been a go to place for late night food cravings.  The food quality hasnt changed much over the years.\nTheir chinese dishes are always worth having there.\n\nThey do have separate section for serving alcohol. Pricing is decent.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmFubJg8DE88EUatlb46a2vDfAB1mBnrUT0YGKkgXb5QxwHgL2GOlgoeaJ7f7tDE8jFEj8a7e5VEIb6WUn8d7NV_18PVYzkPKZVtluohPuJJ31EOZn8R8DgOmkWtXIf6KUB02vS=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn_SkpUYZQ6WmHZH_VFj8AHH6OeNdJeDli37L8KnInsNKmkP4u_G-NLfgWswIZSBzH_8tTuW-nHwOoZfcrtkxbjVkjW4TlZW3Z0m24t8zQ75Vd_uL6tRpWV9IN_bdCFdKBCNrZrNg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnSJu7Jqf5-8DdiRy8r6GS-cU0DxGXC4DpXGffJMC7ei97gWtBE6EsfoqQXVascK0eEOqqqqO5nPlqQuoxTk4a3ZYUhzXJjyT-trT05YUfYHVKpeWIbLUWZZFVoHlKYqg3yV1c1=w375-h281-p"
+            ]
+        }
+    ]
+}

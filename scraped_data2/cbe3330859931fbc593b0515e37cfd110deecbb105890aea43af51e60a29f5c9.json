@@ -1,0 +1,54 @@
+{
+    "id": "20250206005102_307",
+    "name": "Nivaant Multicuisine AC Restaurant with Bar",
+    "star": "3.9",
+    "number": "759",
+    "score": "2960.1",
+    "area": " Kundaim Ind Estate",
+    "url": "https://www.google.com/maps/place/Nivaant+Multicuisine+AC+Restaurant+with+Bar/@15.45954,73.961308,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbb8d147409cd:0xa2ea01b5a73a39d8!8m2!3d15.45954!4d73.961308!16s%2Fg%2F11bxb9qzwt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPYP2K7NKEyHXXsoK3mWdc1eUKmViB_KSEqOtJ0=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "33"
+        },
+        {
+            "tag": "price",
+            "count": "21"
+        },
+        {
+            "tag": "seafood",
+            "count": "15"
+        },
+        {
+            "tag": "highway",
+            "count": "12"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A nice place for quick Goan lunch while travelling.\n\nDefinitely recommend this place.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn52iE0XVn9cjn8q613K1zowwOh8AZgNdxcVQYHwtzHJ4RbOqkVq55bdsaoDAw6YFodbolev6lN6dKr4l56vWPx4L1eFo0r0-x3ynUeZWehJrvSu6wFOTnmxPPQZUrKA8v0Y61Wsw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpmZh3nLsuvCUtlPCkqbStn0C-RBnPI6_swyZ5G9CC9SgHz9ePyHpkBya4zgQzgcyj5ns9VmFVL6s6JXrGeH7Rc0KviSfAcqTeFnOIEs8P9aC9hb6sIsTTAtAXVp4Pxk60aGoH=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmxKSgcahRJZIomK1y-Fk0ROPOx8zhcuqJDiF0UQsb_IntyxVc96hPr4m0TtvYAtiJfmPkpn2bQCZ4k5E7MSVaWCeTw3thdOz3u7PsLmvaejoqQvTZZrQVVTbxYnWLO3Cj-df4=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlosXGv04B8JHrOhfmh5gRYjTlgidJbDk-BSJnWCcd9SFHySW_CMV0UKj5q-kuZ7H9UNF66xnKyoDSy0IU6EN49u17odRMmxGbuhbAsbVwlL28RUU6vpSy2JilaNI1Doogo9HwVmg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "At first we were reluctant to go to Nivaant, but I was taken aback by the service and food.\nFood taste is really good. We had Prawns Biryani and it was just yum.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEwjrpuod-Z7H5CnyxMoJOC1ULUBUdWqUXHr89-zTPeaS2U9DsH9aRrDroTCh3DlfLqkOPkncvIpn9vAV7GPZu1FFwo6OlgiUWvivUCAAbuUyCpQ77aJVKO9HrsSI6465UHq6MzQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "THE BEST RESTAURANT while traveling towards DoodhSagar 👌😊",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlo0_Z2Nz86g4K1krD_luD1iBEZPhFin2akvS9rNzaM8IIy1GCa8vf0YVLVg2ygggmFz3MWscJKlZBvh6UO-PBWquBRPi40yY4PrM5Dn_H8dK6DVrgHeO-kaviGcr-w3UWifyPM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnenJFYOvzWVwa-6cvc5FJn99GctQfN1PlfmKAgUEaD3ND5eOny8Xr3lvor6AV4IAyFIBkELzJC5qMJzGluQc52bBpDFVqsB_Q9kdMnJV2K3o_bg9LIv2L-HBctmFmmhizjKvsiPg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdly6bT7or1P_zLUFiPVUg5POBr5Y9m-yRhbnfmtQbrM7UdM75JK0trkPkR9od6gGsbv9MH5wAj3toa5a6MQAu656YIfBSl7iNUl_IddZicaUciYuYvGqf1QgXB4m1oUmHc9wMKE=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlKdyma6dxcPGPpqCG1g-UWjC4V3wSD7bNyQxayUo6uD8xGWwmzGESpJh67qos5zRoIaoYKMQTsM953oGAUDGzCkbBQP7-7M4Daxu7PKxh9lGx8CaYJpv0z3KWt9mW-_QfNldFT=w375-h281-p"
+            ]
+        }
+    ]
+}

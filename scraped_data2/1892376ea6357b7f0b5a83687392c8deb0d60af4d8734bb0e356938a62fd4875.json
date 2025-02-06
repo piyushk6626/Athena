@@ -1,0 +1,52 @@
+{
+    "id": "20250205220927_54",
+    "name": "De Candolim Deck Restaurant & Bar",
+    "star": "4.2",
+    "number": "3607",
+    "score": "15149.4",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/De+Candolim+Deck+Restaurant+%26+Bar/@15.5133102,73.7683203,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc197bd251039:0xb25455d444132bb6!8m2!3d15.5133102!4d73.7683203!16s%2Fg%2F11b6jgjv2j?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOR_opYtsx1vHFJlctD20pUVN_4zeaAoCu7Jf3F=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "live music",
+            "count": "104"
+        },
+        {
+            "tag": "beer",
+            "count": "40"
+        },
+        {
+            "tag": "pizza",
+            "count": "35"
+        },
+        {
+            "tag": "steak",
+            "count": "16"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "We have visited there and has fish fry, chicken tikka pizza, creamy caramel accompanied with 2 drinks. The food is good, but the live music was horrible, don't know who was the singer on Jan 31 , 2025 eve, but he was pathetic , can't engage any of his audiences and his choice of songs were also pathetic! However the ambience is good , it is located near Vaddi of Candolim.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1SXy5Nom-tq_fbzzM3KXtSyrdzqFVdiAjLJv-XtPST_fDzmWNNtJVJ8qNKcQD6X9MOpWK0tD67zqRdjYonFigNf2cAFd7XhD5mDvGBvHEpXvm6pI8aNTzCIxG9LZKHeqQhgA7=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkmxeqn-icH35Ueq8YIf_TWRNREyIXfyjcuUKqbBvcJuLlxESrjiU6gHEuPPNehSTLAFQvhJBGemneKTJ32RNSm-ljLdSuRE1EAaD32K428L5GyWjzy04s9yaQbRcx-8Z9or6WnrA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl5x9rYF3-Z7dyXK60RcGcTU5bGPBFB6H0WEuJObOxWHM4fwvbPGgRaeswrC53u3_64xPCPq4AaEDSDWTTkng_okdRHYw7beosghYvnzT6tCF-HzIGj-wELEpIw7pxVXFYalTHe=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlM65nq3i-pRvf7o5zNOKEhNpGFFHFtYaQwpL3VMjbNKIebiXzQSrmYDBrxP1LlRDZ9xTZXvaMZonfO7uOoEVlGll2t3lgEgYYU9CqEgK0RY0YwJhf9ZfZJxb45_Vxsita8rMuB=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We visited in the afternoon when it was pretty empty. Had watermelon feta salad which was nicely made. Beer rates are reasonable. Washroom was clean and maintained.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmSPqKFmk5RZoLVXDlhnb10c5vhd21waJb7p7w8eQiygeGhED1KkOZ6KagZZ-ykOzrEa41zPkvs5t7Vk1YJTRDJrKwRnr7i407k_j1r7KLTy9FwWZJy_M_OGFFv02Dww1OQjeybrQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "It was one of those places that seemed to have everything in place. They had good interiors, christmas decor, in-house bar and live music, good selection of dishes and an open air ambience as well. The goan cuisine and even the curries are definitely worth trying. Prices are reasonable and its open late in the night as well. It's very close to Candolim beach and attracts good tourist crowd.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNV89EiZqIoRyocpJQOMNBHzeSpGVZi6255vYDQM3YLjPrJjdH0A1bkuzbSbKrbpDFxJrkCc047livbNhIjeEDRk2vrSMViOptfWpEeWYQqizwBiQFJKVDksbfnm3PeQBrwjr2=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmC8bhIv4duTNf4S0ttlCJK_W6g51wqVhPRJ_3z3nL6oOdyWAjE70tgiBaacra2fcypWHkXkl7d2oinIiJ9xiM5mJ3_-i86nvHQH-B7HuUK0uO42bkR1ZreTqlpr7O9qCnR62O-Cg=w375-h563-p"
+            ]
+        }
+    ]
+}

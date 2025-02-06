@@ -1,0 +1,52 @@
+{
+    "id": "20250205231708_213",
+    "name": "Mollu's Classic",
+    "star": "4",
+    "number": "976",
+    "score": "3904",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Mollu's+Classic/@15.2924442,73.9563125,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb1dd03129157:0x699627805a1402c3!8m2!3d15.2924442!4d73.9563125!16s%2Fg%2F11fl0x3b51?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMW7z8iDXf176Mc55w4nZBO8PDJHZDTvY8Bi7fY=w428-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "44"
+        },
+        {
+            "tag": "goan",
+            "count": "19"
+        },
+        {
+            "tag": "quantity",
+            "count": "18"
+        },
+        {
+            "tag": "fish thali",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Went there for a quick working lunch. While the interior is lovely,  the food was just OK. Nothing WOW! Maybe I didn't order the right stuff..\n\nI tried the chicken liver chilly - Fry and that was delicious.. other stuff was ordinary.  I was disappointed with the xacuti.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmnw3RzAy8FsciMleMjjCzORjbrlcySOG_-jrPDroiNRml-o6M5agGE-z1XLdGBVllVgMPbDLyymEGR4GKmE5kAccRhsBU7A-ecXsHEu3fp_c6d4ZCFGm3lfmOcMqcKCuXHl8w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlUgEEttaCzFa9SLDZ9bYFcXX8QWlcug1uk5z5mn3lLLdOfbZe8lFTOp0vxYSw0pY0Iz0mmp1y4EgK9GaHqVsDUCbD0C4YfD_HBkl5eji09iHpDX_NvQpFOUVZ9LmToSGQGRgDe=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlR4FPK6CRjFU_gxjeu4oTaXRhaOGIxYDDS872tx-UVL0mTOqSghU6Qnyblbn5UKyjVBH0ODLPKVwKXdvKQMWr2XOKo3ask8kiv2bZcqW6c40SS45onVr6R1PXRntDjkDZqbxA7=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmOI42v16AzzrD7XtCEh83NSdR-ycVW_MnM_swCBQ-JVJh2OLtJK1EKF2k3OkJMU6ELE32IjCfTGz2CXHY4ohW1kjBNy8Y-Rp1Zk8SGZWLVIPEJDSbttyiGtmNB2sbR2meFarGF=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Good food\nGreat staff\nOnly when I visited it....it was short staff\nSo our food delay else rest is top notch\nThe staff treated us well with all the hurry and short staffing\nLiked it",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlU6CCJAL6SKyKuvxuUE2StedYt-aVbZuFQ2d4L-noVc1i8LO1cam9grsOUWYWuR7_gYNMz4DTnozg00E1k5SBC3ELitdcOTZy6N4fqTNfa2d9FoPuSpXLoWz68Z8nmWvNopNIZjA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlkSr2DDCfrQ3gRPnZapFFF2qJB_lQr2zP6CRIbyoja5QtdOR7SISOY4RlSLHjbwgFLyvgSd1xRWFJlgOiJN9Nc_bO_bfkoVrBnQpLPj655cUq55DuwF9GLcAxHxdypegaONWAP=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "A restaurant with good vibes . Fish thali was not that great for the price we have to pay. Fish didn't look to be properly cooked and wasn't tasting that great too. Rest there was muscles fry which was awesome.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkyQqPBYomaNc5j4ufT10SzN0Gb_Mb_IG_Ngdz6EuTWWfDGOZ0SgGASUMqjmKbEuUyCWGRXhduvRlrUV2ErDFqz6Jy6jPn8o11i3Qt81MvDa1twEfIyPhyHFPUY2X92M-aKkUTE=w750-h563-p"
+            ]
+        }
+    ]
+}
