@@ -1,0 +1,52 @@
+{
+    "id": "20250206001102_284",
+    "name": "THE BASIL LEAF",
+    "star": "4.3",
+    "number": "265",
+    "score": "1139.5",
+    "area": "Reis Magos",
+    "url": "https://www.google.com/maps/place/THE+BASIL+LEAF/@15.5201029,73.8280886,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1a06f995a95:0xdf07cc3787b6b6fb!8m2!3d15.5201029!4d73.8280886!16s%2Fg%2F11h107lx66?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOKeeqjayI6bc7KiDN7l_OTba80NGB_rdB8Yid6=w408-h303-k-no",
+    "tags": [
+        {
+            "tag": "prawns",
+            "count": "8"
+        },
+        {
+            "tag": "prices",
+            "count": "7"
+        },
+        {
+            "tag": "seafood",
+            "count": "5"
+        },
+        {
+            "tag": "goan",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "This is recently opened restaurant in porvorim. Ambiance is excellent.\nWe ordered\n- Malaysian chicken: It was good. Chicken was cooked well. It came with fried crispy noodles.\n- Pan fried chilly fish: Must try. It's spicy and flavours are on point.\n- Chicken biryani: Recommended. It was good.\n- Chicken patiala: This gravy came with chicken kheema wrapped in omelette. It was unique and we loved it. It's bit sweet though.\nGood service. Prices are reasonable. Most of the items prices are in range of 250-350 bucks. We would definitely recommend this place.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn6WZR0YE1qqXIQ4As7YBY8BLrIcGOtrL8M8cGKRk7k7hudO7zqZVke1WtFkBCv9Dj6WH0uyGW4mEgoQx8iUy4IMpaHDV6NqP8fCNud1S55GWl1Kt17xSLb9K0buIO31BnLR93bnA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmzcft4emQCgEvJyi6cMR1HMIiIsKsakzL92jgtdxqc_llHiUI1zQfMdGp9rU4LbERa4PcsTqF5FeTNEvzEO1OmE1D4X8Zl69rtbe_k2FjQZmeUMJfmBRPSQws_lz4adqzx1WhUqA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlXRVK0pn87o3LylwgPmNMc8jEHUKfInJriK0MNP4OQSXPfkqQ7q1LALVgGsY0kHsyy2iRg-QAqPFKN-t-ujXvuvyG-SxyLlvRHEy8XnYjd_KoZTlcN6CtcV6UYE1wOA8ZFdEnf=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkI4XSkYYuz4o_kVjeBqMTl7Vx-t9aVvOsYUb103ltF_Ga_2CD21jZO0JoQ4J3lvfdeuvapDVgxZeEg_LrdBKErjmPno9vSGRcGdrXERGAa2nyisIEnXtZLMpqKPU8m9GhqHn5ZnQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "If you are in porvorim and looking for a good food place than look no further then basil leaf.\n\nLocation : Take the first left after you cross Bharat petroleum, porvorim, goa. You will see golden plateau board on the left turn.\n\nAlcohol is not served yet at this restaurant but you can carry your own booze here, this way you save on the vat that would have been added to your bill.\n\nPerfect for a small get together with upto 50 people occupancy, but have limited parking space. They have this huge screen where one can enjoy sports. Good ambience and service.\n\nDishes I tried here are as follows:\nStarters : garlic pepper prawns, fish Pheonix(There is a similar dish in chicken which has the same sauce. The dish is called as Malaysian chicken. Try that if you are not a fan of fish), Bangkok prawns, chicken dumpling(this takes a while to prepare so I would recommend to order this at the start only) and chicken lollypop.\n\nMain coarse : rara mutton, butter chicken(if you like sweet butter chicken then you may try this one), chicken biryani and cafreal chicken biryani(has a goan touch to it but not as great as the normal biryani). All the gravy dishes go well with butter rotis.\n\nDessert : gulab jamun(not that great)\n\nMust try :\nStarters : fish pheonix , garlic pepper prawns\n\nMain coarse : rara mutton and Chicken Biryani",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm2FtrutiED_vEK7yzRgLRdLYFt8Hf3mNmSkhi8kARR1uEyDFgvPHn-S38VRTt48znko69Jv5qvK_ypJVF3yAPgh6fLhGi_N6GyvrQ7GCjfFU9WDMnJh6J_azwv94pWybR5sAQd=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn64nKkonth0hVkYxNE-xWtjkl_XfXwFb1d-oCVFDKoaBP1fJtErQyu_5XhaBA1r78KJA4nj_CIt-EmW6qNq8gNjmNDWYo3iHf9dwaJqHDPPC7TkbCBJDc6YwAcCCssUmEx5KfF=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlU3KUELk0jRvBPyTkHPgWp4QSxXl3DcTKLMneHD1b8tzDgtiIh5bLxrWnWox3VXr2d71J9YDNXbNv5J8lNH4h1snBXAEf81gHXI0URnyQCO1MbAzt1Tk3DzzzBFBFmQRxbhtBv=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnyycSCtslRzyFb54X9gEdvKtuuPkyMmLe0gyW8qkK6Fhgmllbo1wTFsVUe-5T_pCJ2aIwkGdFcqT-9fKvl3OJyzsTmrzG_1sZUkiqiMBXyGHlr7YgwFiXRbnPgaETOc096gKDH=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The Basil Leaf Restaurant's very incomparable taste of food and service is very good. The Restaurant is very clean and tidy. I ordered chicken Fried Rice , Chilli chicken and chicken lolipop is really awesome. Specially thanks Captain PRASENJIT is very good Stuff and Service Just Awesome. Thank you",
+            "photos": []
+        }
+    ]
+}

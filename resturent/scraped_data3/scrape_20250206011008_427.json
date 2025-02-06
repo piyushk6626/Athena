@@ -1,0 +1,49 @@
+{
+    "id": "20250206011008_427",
+    "name": "Cafe Hyderabad",
+    "star": "4.8",
+    "number": "85",
+    "score": "408.0",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Cafe+Hyderabad/@15.5794861,73.7546663,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb57ab0af321:0xa3ae0285d5f6176a!8m2!3d15.5794861!4d73.7546663!16s%2Fg%2F11jzhhc6wc?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPlyo3io0KegDecvmwjG8Zwt3FW1y72l6Fv4lSW=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "prices",
+            "count": "6"
+        },
+        {
+            "tag": "hyderabadi biryani",
+            "count": "5"
+        },
+        {
+            "tag": "chicken dum biryani",
+            "count": "5"
+        },
+        {
+            "tag": "starters",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The restaurant serves great Hyderabad Cousine.. Amazing Authentic Hyderabad Biryani, amazing Chicken 65, Paneer 65, Awesome Breakfast. Must visit, as they have very reasonable prices and amazing quality of food been served.\n\nThe owner pays attention himself and is a great host above all an amazing person.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmBHDej_MBuHEGroFbsp6DQHelF11paI5vcFuq6mBesCh6LveoPiki9g9EWRLmapS6ffYjSiINi2CsEMHGMtLeHKyd0V_PGxumIslIp5aviEPNCrCJPJ9mGmbJ5U_Y19x26MBk=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Nice Ambience And good Taste I had never before in Goa ….  And it’s very reasonable Rates",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlG6bkzBkYVD1U6N10aE0nDXwn8HpaWlV5LpeZFUCKb0pPemnCDG5sLhv1tsgcWoYTszGd4rJz1IyWdliIz_2LjQakdY1qLjAIbfXN0sGMBXYKRXTjAww1kmQlNTIimFow6uWJbZA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkOym1YMFXobORvg8Tr1iNwwrsljWzBAv-z5oOd_vHW3WWavru-E3UBltgV4jut8xH3Ork2s6ESWm4fT5BT-p8InFc0HfmBBNaP6jjFNQi8z3Msvqn3uk6ViKj8rAnMYjlfyJlm=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnlE_5C9dwSHl--qdP_QmgT-u4Ec6ln9vpwt1yUwscsLH3BJx2RllzLC99rpNq3Vi1LfiXHpkWbJkqOuGW4F2mo-6cP-zfLo5GP9zL0zraoNNYba_ME-p8mZuj5CHm7ISaopqSkvg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmWTH8UENbIQqZcC2vOgP6a40reVJ7gr8pwb2hQcz8bDvuYl1kXkdIt9g2vb1eLM-sDSuX88ql8ebAc30dg0WCBRGLXMiIVuUfkF9zUNmYc08-LKQJdcQjbPwstKbWhohbjw6I=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The food was really superb. I had hyderabadi biriyani and sambar rice. No words to express my satisfaction. The guys here are all belonging to Andhra. Cafe Hyderabad made my day. Any one who wants to try the authentic hyderabadi cuisine should try this restaurant when u are in North Goa.",
+            "photos": []
+        }
+    ]
+}

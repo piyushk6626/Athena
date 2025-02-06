@@ -1,0 +1,48 @@
+{
+    "id": "20250205234324_212",
+    "name": "The Cornerstone",
+    "star": "4.3",
+    "number": "487",
+    "score": "2094.1",
+    "area": "Majorda",
+    "url": "https://www.google.com/maps/place/The+Cornerstone/@15.3213211,73.9043471,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb6e447a828df:0xedda6226edd870e4!8m2!3d15.3213211!4d73.9043471!16s%2Fg%2F11b6z2pt2p?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNlQoL5MP_Brk7fbVO4GPhQZl43_u4XYhpCBfGo=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "steaks",
+            "count": "25"
+        },
+        {
+            "tag": "experience",
+            "count": "18"
+        },
+        {
+            "tag": "music",
+            "count": "11"
+        },
+        {
+            "tag": "goan food",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Pineapple Mojito 10/10\nFish fingers tasted amazing\nOverall a peaceful atmosphere\nRakesh & Sangarsh were cooperative.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl9k2KrwPfGCben6m9Lj144WcgsHwM0N8GhRYKBBlNMlBXcruNn3SvmUvo1ml3TLBMintylMxrTevRzfqY-83t5re-26yk16l8aBrS-JYlGacDBxigPlaaynT4JCpYudx1qTqVK=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Food and mocktails were average. The chonok fish didn't seem fresh at all. The prawns in butter lemon sauce was good but the prawns didn't seem fresh again. The squids were good. Both quality and quantity was k. A bit disappointed after we tried it, even though all reviews seemed positive and we were convinced to visit this place because of that.\nThe ambience was okay as the outside seating was shut due to rains so won't be able to completely comment on that.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnnQf_Pdjmp4YzqBdTltGO3wF-QpDuzNn203JL9OIlIiVGUCV2aOZQqWe0SWjiwmgMdL9YFewh7u_rcyK2oKvtvkC7mTOJpqGMCyzcKOAD6K-bQWHTKzxwRjvUESgv9Cy-twJrb=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmX6tmL_j-830r2kLNEg3itYd5aCCka8KivrHo6QyIqEXw-5Pra5FQlsDj06ipPOLaIPcggxeBgem37TcA70PyQsIVt4MMht-p05FECpw07QlwjG1bvq8DBpIyqH9X4W8KeZ2Wo=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdklsIJkxqCqKH2gjXHS_LrI4O0-XE0enm_pwo_CNQzXmdedgrmYZbLgFdCxalSujXdjlktlCxgYUw3NaJnddgPqcre1Q96z834fUXjm931fmW0YAj9DppoWIvPG3wamXEVQYUvO=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Had a great time at Cornerstone Grill. The fried rice was flavorful, the chicken noodles were delicious, and the manchow soup was comforting. The veg noodles were light and fresh, and the soup was just perfect. Everything was tasty and well-made.",
+            "photos": []
+        }
+    ]
+}

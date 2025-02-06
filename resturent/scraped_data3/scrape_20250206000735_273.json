@@ -1,0 +1,54 @@
+{
+    "id": "20250206000735_273",
+    "name": "Jaya's Kitchen",
+    "star": "4.7",
+    "number": "252",
+    "score": "1184.4",
+    "area": "Dona Paula",
+    "url": "https://www.google.com/maps/place/Jaya's+Kitchen/@15.4573971,73.804079,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc71ad4ec7921:0xe3453be2f8c780b6!8m2!3d15.4573971!4d73.804079!16s%2Fg%2F11kq60m1h5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO7HMXsBcX0OoUIfpn4d8FdZzpFQ8SQZu_xLCGA=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "filter coffee",
+            "count": "7"
+        },
+        {
+            "tag": "dosa",
+            "count": "7"
+        },
+        {
+            "tag": "price",
+            "count": "6"
+        },
+        {
+            "tag": "snacks",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Stopped there for filter coffee.\nNice filter coffee, also ordered shezwan rice and sandwiches both are nice too….\n\nUncle there at counter is very humble and cooperative.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl416ZFN94rKJhLvS1GoKf8SzvpMRi62MIDFhusMru8SSDybdYf9sml9Zb91vLBPc1c_7lnikt84EgDkEhWVPQbHo03ORq7P4CmAm3EMF1kTyZX8Nc3KgaT64Oy4U3K7kVwThxS7A=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk8FYMg2wQ8ThSfU6-TsNKfRyXOdicUqCeb0uSRV22QW8b7hB7NnMp78JDsnuGF5VNA6RmNr1Jd8-RmjZaw27cmgE88hp_-YGErR1EgQPGUhDsAn843sCeSpxdpBCFkUkrhAYE=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlL2pFkfQ06OZ-p6mYsqIt556PRjg4bGQ5lO76Gl9-rFzezH6rsPR0H-8Hx0xeTVm6bCRqkk3Mz280Ke0uX70OC4JDa2_O6T2eeEJzbe1GYFL2Any9BYL3Xv0fwAGge1O8u0N6X=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmtqlHKkmTVy9b8z1RmjfbCP3aznDuOWanw1A1Fekq9pv3tbE4uWyrnfwjiKNkqDp34KeDQbmd4HryW_IMj30D23jSiXYNRfz07sG3eanbkpItquxexnMT4L2vgYX_axPURVF4Q=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The restaurant owner is so rude if you ask about the quality and taste of the food. They just mix white rice with sambar and serve it as daal rice.\n\nPlease avoid this place, if you are looking for a decent restaurant.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmmSU2J_bQEXpN848LLjbuTka6ZJBJ8R3_KH7LBJi1S9is3CBzRcUYNGyRAaKleGq5vuUq8dK_C2tIekz4Ej4AxFFIc9drpLHYZwniy0EIMYrdQvrhdxe3B9a8_3hGubm2OHoj5=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkEg3TngdHfwwSh_mA13YETlFF-12vKlL7LOvqUzCMh8tmjJl6JIiouK5O3g9Yr3lYsyVJ9udGjZeyOwG-w9cmQIEeQaT058ofiAIJLmAy-e1DK6w8Bybnn6CzYU2HOWkePRib0zw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlVPfFzeal8QC2tt7_npH0c2UeaH5qEFaWSQnf19a6DXPXW-Wi1Fr7gZaaF_ZiMzGMC4Y3IIp7Ck6zIwoAJk_RlcVQKAOdNgvAf1TcShrPuycQEXGjintnj0oplUSjwiN5VgXk=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Good place to eat snacks.. service was very fast and Uncle was very polite and sweet.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnK7v4PkcVARjLTogR4lQd1IGjEQnhrlsTLIltiGGishjY13eYuGdsqYxNFTbKGRdnJNS6y_ygQX52K0gucx9OpluL9KAGN6iH328djcb-A14ZXV0-EB6hg_HrVUS5D0u1CmJV-=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlqkxRPDSc93PtnAlxJIk652oKG6q7nSogshQmdaV0hIWsHGNK3Gs5t0W5TuGrHZRu0yQPHhLI_hceLYmF5a7hl6wA_tDn_TlY9XbwrDWfYRtZ0EujEf8T2GiY31xxJ8ZE0k3Lz0Q=w375-h563-p"
+            ]
+        }
+    ]
+}

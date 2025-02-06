@@ -1,0 +1,54 @@
+{
+    "id": "4e63a9293cc047d8002f787d920d7c92",
+    "name": "BENO",
+    "star": "4.1",
+    "number": "1521",
+    "score": "6236.1",
+    "area": "Navelim",
+    "url": "https://www.google.com/maps/place/BENO/@15.251476,73.9353349,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb58094205323:0xf872e7c041f2915c!8m2!3d15.251476!4d73.9353349!16s%2Fg%2F11rsv1lp9d?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOer-VPwsCEmUwnNXsQxPdOmEUHKZ18B80HMSR4=w408-h271-k-no",
+    "tags": [
+        {
+            "tag": "shakshuka",
+            "count": "39"
+        },
+        {
+            "tag": "eggs benedict",
+            "count": "24"
+        },
+        {
+            "tag": "turkish eggs",
+            "count": "22"
+        },
+        {
+            "tag": "poi",
+            "count": "15"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "At first, we were impressed with the variety of options on the Beno menu. We decided to order some of the best dishes, based on the staff's recommendations. Unfortunately, the food turned out to be mediocre, extremely overpriced, and the staff had a laid-back attitude.\n\nWhat We Ordered-\n• The \"Meat, Egg, and Everything\" dish was disappointing. It included 2 eggs, 2 small slices of bread, some beans, potatoes, sausage, a few pieces of apple, and coffee. This dish alone cost ₹650 + tax, which didn't feel worth it.\n• The Eggs Benedict was a huge letdown. I've tried it many times elsewhere, and it's usually my favorite, but after tasting it here, I don't think I want to eat Eggs Benedict again. I don't eat bacon (pork), which typically comes with the dish, so I requested a chicken sausage substitute. To my surprise, they charged extra for the substitute sausage, which I noticed on the bill.\n• We also had two beverages (a juice and a smoothie).\n\nThe overall bill came to around ₹2000 for two people. While we're okay with paying a premium for good food, this experience simply wasn't worth it. I wouldn't visit again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmzdOrcGXxhPLF4Y1t6jZ_h7wR0pOUK9TKnLDYD40Sxp-iSZwI6g-wSgkNkFXu46fYmAhQlx2AXAXVi7io2D0jdSqneu1ONI4hyujZDGxeTdVvUE_FYIe4MzJzEV8rF6wi3ozdc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkzFH8nvEPbFtOQ2QjTyof36Liw6RGSfq02ViRdo1fhiy8EIlJ4bDYU0HdrqXNcYN1Ev-J5KKr8SQS1uBFF7cBqG4OJXsk8Ij1GbiQBFW_4S9ZFnGL6CgnP_adzZYMBrFSzZGjzFg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm5ffMc9J4ziucW-t-kFnYKnlWo1dkjvQjrQFho25d71C-P3zIjSZNkAiPrpPLomy6etcKu00Gv0oRgMaeSQjUhPhSabcMRF7Hh5m5BjkfoyeAwgedjIfm-1NmeV3NVahfQ1SML=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnCU5M_tP0orgMk882wtNS2pNDdTgyZQshs5NOgnZuZ3mBu7vvd8bPZMwSMFPyJddg1HQH27QilbAN1vZqp7eUaimQKwT69ajVGWbhrDmHF5JTBseggK9d7pyV01miETnZK8fp-Hw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Hey, recently had breakfast with friends at BENO's.\nNot many options for vegetarians.\nAmazing with service and food. We also met these two cats at the establishment.\nOne thing is they have updated the menu and we didn't get the chicken steak we were hoping for, however overall the dishes didn't disappoint.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnlStim0MBnCO4xieWf-ybg__a1KBfI5ant3Ke1KjWFp4LujlBl40IwEMRMAXAUSsF_FWLIvmQ1H25rbNhAFpdkxjBRltzK36gLIp8r2uS82pZPAKPUQjj2AWktwHPhwXFDC_gVxQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkR88PIKy_-v_jt0QeW21ELNJWPD48g__Rtvwj0LpkyQ4Db1XX6MwytQLapmhWWEtDOBwMolTEvtIkJW5RwWcnKIcK-ednZV-AkAZxxM8SUH96tkIkBCqmXF0RyUq6UrID9F5K6=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkS9ax_hvojVWoPjta9-XsU9mPu1qlEXMGPYqvyPDCdkLhC0fuuJqZO7D2f7JYrIgR1BLilJ0k3WZhEz86YDjuWMgHuVzjz8Au-tEQ6clf4bly7bKrPpH1PohgvT7NKwoigc3Z7Iw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl-NgcDuygjcFn45My6LIdZG3wDbGrVRtdVetw5cwsa1IArzcKtHNOq4C6g-Fe_bziG9ymBOMzlj2xqrresQX2aZd8RVQNs2QBzGkJv2Ut_0zeCuR77O8tCBs8KxzHqYYklXCXT=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Everything we tried out on the menu was so delicious. Fluffy well cooked omelette, strong coffee, smoothie bowl was all yummy. The prawn curry rice bowl was so good we re ordered twice for everyone to enjoy a bowl each. Loved their in-house in cream too. The pink guava sorbet was my favourite.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlus_TBKQ0JB1OUfKXPnD0kvfb7-ONB-ojMusjG4vL-ydKbRzvtT9ZipNUp9Je6L5z69Bk39QVWp4AVQLclPRN6VRnhGMtyeHnC6nJTRZL5y2wO2UMWcr1gTX3xsmBGGoileOw=w750-h563-p"
+            ]
+        }
+    ]
+}

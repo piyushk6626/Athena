@@ -1,0 +1,53 @@
+{
+    "id": "20250206000701_186",
+    "name": "49ers Restaurant & Pub",
+    "star": "3.8",
+    "number": "1435",
+    "score": "5453.0",
+    "area": "Collem",
+    "url": "https://www.google.com/maps/place/49ers+Restaurant+%26+Pub/@15.2810017,73.9311462,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb4190283b6cb:0x3ee5c3f81e58fcaa!8m2!3d15.2810017!4d73.9311462!16s%2Fg%2F1tjbqm4y?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMK58kg5KRvXyKdlNhXnJIskDPs9NsWHwJ2nzL7=w514-h240-k-no",
+    "tags": [
+        {
+            "tag": "live music",
+            "count": "29"
+        },
+        {
+            "tag": "colva beach",
+            "count": "17"
+        },
+        {
+            "tag": "food quality",
+            "count": "15"
+        },
+        {
+            "tag": "manager",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Visited the place at wee hours after unable to find food late night. The place stays open till 2 or 3 i guess. Small cosy place, but promising. We ordered several items, starting from Chicken Xacuti, chicken vindalo, mix fried rice. The food were delicious,  however the chicken pieces could have been better in size, but no complaints with the taste. Star was the Mixed fried rice which had generous amount of prawns and chicken. Also the host and the staff were helpful.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpNCkeh2AocCH0OKnblrfta34GO5J4Pl4HUMRlQNPZiInGZ1x1qBDuepzATRr_OBRApDTexEiLooipmEcjLn1Z4hSA-JYMymLbVqDlkCI47hZt2V2uT8uR7l5zldupcP9lvekg=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "This is a restaurant right next to Colva Beach with good seating capacity and the ambiance is nice. The staff is friendly and helpful and during this Covid time they maintain social distancing and hygiene as best as possible... the food is good but a bit pricy as expected from a place close to the beach... they do serve liquor and have a large bar display with all major brands to choose from. Over all a good place.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmVhVtoEBbDBpMcF3tgEfCuZm3NLOek7LL5mrPmgPzbjg1Wfl_zJoEE_rR23DJ_R6Mod79o54k2Vl-zpeCU5eHVn6xs9AODvKiLdm-zR-fulnfregmyKXNqXFcR2BnUPkwh4Ao=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkihg1JfFhwF9jFxuNZA3zKEeWuImcIA-Y8llVHCFhEHPrUwFAsqwRADJcO6FViIEfheagKRxaAqB_Yjrz9APgO0S_U9CmRArbLSM702r5aeqbPc0C0AQSWOfoZfscL0-WpRDEM3w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmFeKOg1XJPphPEKJwh6zen_qWiTIq2om7vairv8UVL06UnUKrXt7AYrDY8ksH2zTmGeX7nuRV_Q1M2hZc8JePunFhc1SVKin6lauRkH1zdJ88X_OaB99bN2E5tsiIJ2LSUbMMN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_0xG5f3FU4zga3vFe8-Wu2yqS0Tmlwh82Px921DkdH1GLUJYWfE0nb_m7VjWbPPVs8167Np09rfXVbmrxHDY2zueYLQjjchwUD1Pu3nSBxcHHogklORjIPmUNE2PjO2kWog8daA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Ambiance is Nice. Hospitality lacking in staff as they aren't very attentive. Food tastes Good but quality of Ingredients used particularly the Beef was Rubbery & the Chef needs to look into the same. Live band performing not Very Talented but very Amusing & Entertaining on a Funny way  with their Accent.\n\nVisit only for an experience of the western pub ambiance.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkTjFXdQc4OnzYRZfFNZjpC5URgRZakDmqd8avh8UrSrwBn4OHFEqUDg4hPv4d3JgYqAtnwjoGApF1134P_Du05j_RExbn_R2iFQuC_l4HbgNzpeJ3EOcJyOJCqsZ5vue_n4H4e=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEqGfaDrp-tBCLkKMqzVvrKq7nCFs-IYJg1wPsvofKEdP_iPdSCwIliVBrHhK-FSl9CGrGbai-8XqMmdMMjyjNxsobYm_3PKs6iTIjkpxuAM8tTtuUsJgB47xvVbGN11m8pV_XBA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmKX6WkcytY_FTobBEfPELmwCk93qQcFGP7Poj51YxB3zHB-r0zTgKWIJbE36ntyPDre3S-rTiex2-G7rMmdHrmbGD5w_QKeDpDK6WHlZ7UCmgLcFXzVY9u28PpD7avinJVMJd4=w375-h281-p"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "b5a9a1bde147d6abc5b3139f4ece8c07",
+    "name": "Amancio Classic",
+    "star": "4.4",
+    "number": "1666",
+    "score": "7330.4",
+    "area": "Tivim",
+    "url": "https://www.google.com/maps/place/Amancio+Classic/@15.6314179,73.7647437,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfebf6bbe0a0b9:0xee1039c64f8661b4!8m2!3d15.6314179!4d73.7647437!16s%2Fg%2F1th08wtq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMLPSB4H0IpAcMmajM0LLedFe4HmlKcJUTEzusx=w408-h317-k-no",
+    "tags": [
+        {
+            "tag": "goan",
+            "count": "82"
+        },
+        {
+            "tag": "seafood",
+            "count": "58"
+        },
+        {
+            "tag": "cafreal",
+            "count": "12"
+        },
+        {
+            "tag": "tandoori",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "What a fantastic place! Randomly stumbled across this place on our visit from Dehradun & we’re so glad we did. Old world charm with delicious food! Hope it stays off the main tourist trail.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm0uhDzH1GnLoUrcgepwizlPZlFb3uhbsZw_7hduCzD3ALdcLooRwYxKdMuO7101fuhyINnE_fgTb65h5amyx7SyC-4JOs8TJPl4lFBNCoCjyWIfDJYH3VW__W2jgybgdvNtM5UQQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlZla-qhRwwa8uto0dUW__OMkGi6pyelqYS8X30WghxKws8NBGdZExLUHl7DIg6Xn644Kko2cqBtNrThe5642BiyHIQ4lXVY-ZHc0MRFij8i0i-eLEAk42deuK3EgbJ_r-kMaFq=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlMtwHCFdqKh_WAxvBuYq0w2pfCFyYQkdnvgXY53fqGsLbtVOIP-wDaZJ8F9MxQde-PSCmDVcC57_AwgyGDrf_dgfzZlyANTho-XRV1sbdUrNQW3MzYh0OCET4E5jcDgk55S__h=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "One of best restuarants in North is Amancio at Siolim ... Food is amazing and reasonably priced too ....  Even cocktails are very good ..",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmjjNi1ykC0as5faECd90biij97-CGbE4qFWsbnth29FGmqZC4PrkX0UEZg4OhbtjnZLnuYg6OqrdB9KN3oocNdrHSEweAWRnfSUGRCDHJqrK1NXNSOpbK_UQrM3FDEN_6yQ9ny7g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnxmwZlCjS7zthYUDYjH32VvfwCATb9VQyOtRsZ4SWnFEjJurbTEQB0UTfc7C_nDUH3X0wzBRa8MExRl5Ky2PVjduNcao30S0uWKG4oo2_TGMnh1BgoknSyd1ebTcynXBkcWKo1=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlHD074xB3QT6qxqi4qXReCNMVRM26gHMYz16Au4N2Eyn74Bhz2WYVwIbBiCecKF_Zns17KxGzggwVELhLM10od-FhLEYbLZzpVzsmbQHmaFF_SisjsgHWAszvLu7AYZ0_6TGdH=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmPIUBR5bu57S_iGc5hyUwenuPt8z2AIVjtKZM5BFhEIVd2NMBCcJ9d_IUqDh2hUb0HKbEsCLUVF-EwceOom_ZQMVPt5Fv_XrF8lgr7T23yx5eZiQy4V8_oabPshwFAq_H86ZAc=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "If you’re around definitely go here. Economically friendly and no astronomical taxes/charges. KF pint was ₹80. Great portion sizes too. Food was good but idk why i was underwhelmed with the taste after also eating at Spice Goa (which was expensive and had relatively less portion sizes). This is a place you want to go with your friends when you want the most bang for your buck.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmtw0Hdelb-TtYc_iAr_3PfvpjFpVisuWZ98-sjX81v3NmN9MFCkeXGey0OoWKq0XJDR00Yf6eDi5Vpbq6MS1zZuIRE1AkZ_CYLmI13maZq0eop-1PO9Sn6ufV5NeFD5iukmOYNYg=w750-h563-p"
+            ]
+        }
+    ]
+}

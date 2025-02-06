@@ -1,0 +1,54 @@
+{
+    "id": "20250205235833_164",
+    "name": "Lavish Bar & Restaurant",
+    "star": "4.0",
+    "number": "1571",
+    "score": "6284.0",
+    "area": "Mandrem",
+    "url": "https://www.google.com/maps/place/Lavish+Bar+%26+Restaurant/@15.685468,73.711041,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfee5092d1174d:0x7b31bdc62fc18ffa!8m2!3d15.685468!4d73.711041!16s%2Fg%2F11bzy6chmb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOJs9A5smicj9YkAylpHQGPIFpIP7r7bwJcSRU5=w408-h906-k-no",
+    "tags": [
+        {
+            "tag": "tandoori",
+            "count": "34"
+        },
+        {
+            "tag": "indian food",
+            "count": "14"
+        },
+        {
+            "tag": "goan",
+            "count": "12"
+        },
+        {
+            "tag": "alcohol",
+            "count": "11"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The food was okay compared to the price it was fine.The main thing is food was not hot and the was very slow.But the vibes were good.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnWPfqCA8gbAkZSQU_32z2_ms7-8rIZmwBIoF3mh6m2disxF3ncXRll-bcw_102I4OKYxTaYhuEFTPv6BydQ9EbYRK1V_a55UQ3asdMsoJqkFJBHVV-hLaWuIAFeyx8hKzTY3ANOA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmX0KJHzBZsP8Llb4afbGO86cxkKCD_6rdgt0Pxs35_TUwRFiGzWPXPliy1JxShmI3xbSrSN3hWAyZ_ENqT5OQ1UfssIIn4FVA-tcAGCgkJ8QRwYN1K09LCTnU8ECaEg4rLXzSY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpXRjzS-LaMf1suDZVeH1v8h-32xit_j3swW6oulD_M3bRnYsH2HiiTIBYQh2v4v0HlM-pTRbsCLskJx0_xRHzxr2IQjTvLcnubD5kWfcFg4IFPacvwZI12YgAzIkzinSfSnBfPQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmLIJFiX7C2_YA0Ihe2F61wujBkOqB6lZQt6R-ldNJKWN5hdVWFjHB9HaIQLr0vQlFzucCmCjNQ9Vcn9oztmwuI5A02ijX45Qt3hfio2RpjAnXAYCgkCQJkQBgWU6xehQAgmVm0=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Best restaurant and bar in goa aarambol. Good varieties of sea foods option. Must try crab masala dry. Owner and staff are so co-operative person.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmtbYnHpoG8inID-D2DFW96q91MHYRiWlUwAmpaBhX9ApgJWwyYS6n0R0goHmr3_0sF7kXoa7qAgFp9NtYArg0AtD2i6hP9rFQqk8ZQ9SEc2veZkvKx-NSKgNPtQdBQQ5TPgplRxQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great food mainly for locals when our food finally arrived it was good",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdllZNJg9NlalvlTW9wAod3hSWnnt-NIFbhVQNPldN7UTCv0f6vuxDUj5tpBwpB8Lcol1FRgYsDsrQGsNzZ6vlymLyXDUcjvy0pIVkYyQoGWHuo79UUchP6idw5icVm5JggDIUE1=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmWEQVlHwUPhAHWaAoYHFhsgcuHRZJwD6wvKh47R3ev_nsLjYBCEzd4CTcqQteDszl37RQJYogUKjrK3otB6KVC_gWXrPW__477I3KvLoHn1kayxqJDFaGY1k2cAxKuGPpbNTWAuA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbG8Rnr7BVReGbo0IguqnAkSljal4O3hzxCKDMv7TQDFYMMilZXYaAIgwjVQeF-CLP0NHHhx0adsZPDOTSfXuTq5Y7ainKpo-YTDA686ROgGFSgOplkAfefrXopmPUCv7PRjMN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnLO8PdW1fOKxvFkxrldj-pHLYR0VuFQia-4ZVk1cWpbwoPcspE-CfLyez-2rOfH_ijhwci3KgT4TwruMo_uGvTOZStxPCBSjob6M0A3We8DBinfNW32M6KRCjVUMUaA8MTgS3hPA=w375-h281-p"
+            ]
+        }
+    ]
+}

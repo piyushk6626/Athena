@@ -1,0 +1,42 @@
+{
+    "id": "20250206002509_322",
+    "name": "Rajasthani dhaba churu vale",
+    "star": "4.0",
+    "number": "207",
+    "score": "828.0",
+    "area": "Betora Ind Estate",
+    "url": "https://www.google.com/maps/place/Rajasthani+dhaba+churu+vale/data=!4m7!3m6!1s0x3bbfbb58e17a0f13:0x72cb7d6e18a8e4c2!8m2!3d15.3925719!4d74.0214068!16s%2Fg%2F11fn4d2tvh!19sChIJEw964Vi7vzsRwuSoGG59y3I?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPTq3TVzuNqN443iWYvsitCckjjJDsMVRdS3Ez_=w408-h725-k-no",
+    "tags": [
+        {
+            "tag": "truck drivers",
+            "count": "4"
+        },
+        {
+            "tag": "price",
+            "count": "4"
+        },
+        {
+            "tag": "rajasthani food",
+            "count": "3"
+        },
+        {
+            "tag": "service",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The food and chapati were of absolutely poor quality. I ordered Veg Biryani and Wheat Roti, both of which were stale and inedible. When I called the restaurant, they denied it, saying their restaurant is open 24 hours, so how could the food be stale? Is this a joke? The oil they use is of poor quality, and the owner has no manners",
+            "photos": []
+        },
+        {
+            "review_text": "Great Vegan Food nice\nWill come back again.",
+            "photos": []
+        },
+        {
+            "review_text": "The place does gives a vibe of a typical desi dhaba. But don’t go by it’s looks, the taste of the food is amazing. Even though it may appear that the place is for truck drivers, the taste is amazing. Cholle masala, Gobi manchurian, paneer tikka masala and paneer chilli were amazing, I heard positive review about daal baati from my friends but you have to order for it 1 hour prior. The only mistake you can not commit is ordering Special thali, some friends regretted their decision.",
+            "photos": []
+        }
+    ]
+}

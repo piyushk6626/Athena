@@ -1,0 +1,53 @@
+{
+    "id": "a1cf6b4b88bf5a9f7a8ae815c55fd271",
+    "name": "Cool & Spice",
+    "star": "3.5",
+    "number": "825",
+    "score": "2887.5",
+    "area": "Aquem",
+    "url": "https://www.google.com/maps/place/Cool+%26+Spice/data=!4m7!3m6!1s0x3bbfb3de877d835d:0xb64ba7d4f1c663bb!8m2!3d15.2824225!4d73.9625355!16s%2Fg%2F1hm26tppq!19sChIJXYN9h96zvzsRu2PG8dSnS7Y?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipM5Ril_uV3Pa9Mkwb6zFV8gKMeJV4Ep7ioSWjuN=w519-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "21"
+        },
+        {
+            "tag": "drinks",
+            "count": "14"
+        },
+        {
+            "tag": "bar",
+            "count": "9"
+        },
+        {
+            "tag": "rates",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Very bad service and food is not tasty. Don’t waste your time , we waiting 1.5hour for dish.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdncFaKLJW1znKN9-sEPiC7jwhihrbA4Tah0_gBrYeSqye1lNi439H4BkARgCTAuNzEvbSCo1fxGliba4SU0BfK8ftHeX678_fWbhL5iwmZVmnAfiOJCmnqLS1nkvHPJQ-nrsYpo=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnpmGfcaCn8eSiA8fsxn6Q3rijSm8iJyLC8Q1XsOiLYpuPYHJvyVjhKSpuW0Y_smcg6HAAZRIy1Vj8Q9eNmLFKn8ZEvECsWDJN1tFSJvUwBvJBvzlNv092FzSM2ZXy4VYszP78tkw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl6YBoT9HcJacvzz32GE-Ie4Co4wVY5kZlf1Hb7_68-yUTHew-Z9GMTq9mz5be62g3sJQCIzRGo16hgSM9uJyPsqg6r9BXcY37XynmVTs_cSHBjh-anY0JMsrKNYNdlzcycUhWP=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Went there to have a decent lunch with my family looking at the reviews and ended up seeing a cat having the leftovers from the food people left there. Staff started arguing when we spoke to them about this. Worst experience ever.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmiCS_VOMEvwHy0tb9MtcJPRiGhMKdCkkRxOxcAtVRbBJEz7-HGps23pjzzm2yrPY16McRSGSlUJFB8f7YgVfPE6ZcAIxmNKOf_K4UG-3s9rC2_UjhLNAWdaxvIm6KhELkM3G2FYw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkVOqiLflHQH89wNUFv8TbI7jeVOqZ6XznsXj8zYYVf9emq51hsXiGPtLJiHzJGp6ndXq97yrNccaNUW-haEQchxPuDgq2yQo_A2rr1oE0eIohVZjXoyPP6RAKBF5uBxmat3icd=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "To experience a nice local style goa restaurant, this would be a good place. The place defines the local ecstasy of Goa. The food was good and also also their fish cuisine. Overall a amazing experience and chill local vibes",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlzb-vbXFlpUEFnjnDMwVs2hgKpwOEcSQoEG8F8BHMj_82KdoXZoJ02QlAkKFPFY4TrdECd9QcTjGiPTdcegqpR4QvFmUaDHb_ewgxeJeUfwJw9lVLGQO7BUukK6CKrn5hFXenb=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkvTWqwaLD5iu3paALt8UFOu1C43p2n-NhHaGEnNDcn8rgn-BsUTqGDySOUGlbidqc-TMKlEtJCOhizXI1_5J9b1zR8yOvRt0_1Wih5r6db496Dvf9U7JaoPj31jcgwEWAu_LYEUQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk-OLoM8FneTTa6_ky9oEl6XRB1eWhBbBa9MnIenH1EFsCU7_k-GhR3kvulsAelMgsCKrZv30eU7GruObcxNZc6aEFczIrF6xtAOrpSWJCL9byETYrtxFgnw_6VhrSS3tN7BJO3=w375-h281-p"
+            ]
+        }
+    ]
+}

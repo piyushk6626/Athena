@@ -1,0 +1,49 @@
+{
+    "id": "20250206011204_431",
+    "name": "Chachas Food Point",
+    "star": "4.4",
+    "number": "90",
+    "score": "396.0",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Chachas+Food+Point/data=!4m7!3m6!1s0x3bbfb815986f5b35:0xa1ff14b97089afc0!8m2!3d15.3904623!4d73.8640442!16s%2Fg%2F11f331jdl9!19sChIJNVtvmBW4vzsRwK-JcLkU_6E?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOqmfZYFxBc2jmRsXph7mTSvtwJhs-I1MZDPJXv=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "biriyani",
+            "count": "5"
+        },
+        {
+            "tag": "kerala food",
+            "count": "4"
+        },
+        {
+            "tag": "puttu",
+            "count": "2"
+        },
+        {
+            "tag": "spicy",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "got lunch for myself and my kids from here today. run by a simple widow. she personally took my order and made it as per my request. less onions and mildly spiced. everything was hot and packed perfectly. we need to support such small businesses. she has a heart condition too. i'll definitely visit more often.",
+            "photos": []
+        },
+        {
+            "review_text": "Home made chicken biryani by Chachi, chicken and rice perfectly cook everytime, not spicy, light on stomach. Fried chicken is good too. Very economical considering the quantity served.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl0tKYYQoc9zB9hQDwCwG6s7IyLwrW3-_0WDq5FLO-7PvImEpnIqTAgDiwxulSAhPPclRpHTXKARvXAeh46wa8xndyDdiRNvZzGyiv7OwuU8tKGqOFlSTI2P8KjftFQZ35TqvaUWg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmECZfaswzjA_FygKbUxwauncWedy5VgA--BOjPHl95DTtKMVXaDcszzYFKEIAwdf5CTsv-07GmqSK5NuZu3GkgeubtYQiv-Zux3l2lQZ4-cF-l1qS4-YiXYIbLKEuYTpHUS8Bq=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Moms touch to all food they serve.\n\nAuthentic taste\n\nCan eat up daily as we eat from our sweet home.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnWjdJ1MIIJ7zEzk7yj_JeR21PLDTCrFWtiWHAE1qd-D0eHL99XKLFBm4NlMlUEae6kRgwUmvV-rmA3tdLUAKmU55GM4aUq5RuBzScxoBQ_-6B9m0mllR8A7dNezzVV9RfboGBr=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlafiG4Yvcj9GKZOdNtz2AB6J4nJfGq7Ksy-hC5LFrWr3A-BqsDlD9VMw6oDIi_zL0cXYAM2u0tbTBh7ELyd5J2bdRGPUpf5xQm6UGESMM-a75POoMFRe4TVvbaS3r2oK_nfbPc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmTud4XN1lbcq7_90bqr4ou2ZV7ZToTmlFuEW-czPJ_KIaieKGj_rYC5OB09KQ1STSwTQ5UTuerI00lzxY9KaUBHlwwbzc1eWBoaaa_JGJ_e_fSNTlPG5x2GYT5pNA3kLKNy1d4JA=w375-h281-p"
+            ]
+        }
+    ]
+}

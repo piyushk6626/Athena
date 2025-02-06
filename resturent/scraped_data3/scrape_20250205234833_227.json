@@ -1,0 +1,52 @@
+{
+    "id": "20250205234833_227",
+    "name": "Raza Family Bar & Resturant",
+    "star": "4.2",
+    "number": "410",
+    "score": "1722.0",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Raza+Family+Bar+%26+Resturant/@15.5853455,73.7544554,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb033663a297:0x63058d7094b36bad!8m2!3d15.5853455!4d73.7544554!16s%2Fg%2F11ghpmp55x?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOmP1Q8xxnG1doYv1rqpFHBz1BNzMNKTsqdZzdG=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "21"
+        },
+        {
+            "tag": "fish thali",
+            "count": "8"
+        },
+        {
+            "tag": "beach",
+            "count": "5"
+        },
+        {
+            "tag": "food and service",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Well I can't write about food as, I have not tasted it  but I can write about service as I was unfamiliar about the area and I asked that can I use the restroom as it's an emergency there was cleaner whom I asked and she pointed out to the manager if I'm not mistaken he said no straight away. Being a female was denied like it's so sad, you come to South Goa they won't deny you at any restaurant or shops if you state that you are in an emergency. Like dude I won't rob your hand wash.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmi1E7hdA32DEOv8N9PLzkwZTrEH7hLSJ-AZrp6uEN00eljJvbHTtCKfW79oSeKX9mnksNmSgXrgC_3EqYC2AKgiX3u3VzF3YwTMx7E8hoDCxjFTVYyyhSu4425S8U0eAgppb8QMQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnfIVHK8YhfBpcAcQZnyB-Nv1CpHYQY-tRDf0SZuVglsf98p0tOXfzJsUGJQOfE1ntXzGVz1KhVDHT0YmelV2YNm2Egy1ealKd5kB-oJ3rh4KH7KYt-6hKm2LXupz7A08R--_-x=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "It’s really amazing place to have good goa food. Amazing staff.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm_6edSIyS7NraZmDgOKjO1fH8R-iJrVhIFSfMTakgd0-hQm90y0dQ5-XJ7DDL_yjwpf6wGPlOd602cQolxtql4p2twFsyZ4UTpl2dbCE24Tp38SaBawhGf8zr1mhKiQ5V1EIC1=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Looking at the board fish thali for 150/- we bumped in and explored a few more dishes. The taste was not that bad it was good and the place is also quite decent. The service was quick the fish thali highlight was the bangda fish so was served at that rate. Whereas the prawn's golden fry was nice well cooked but the coating just dropped off. The chicken vindaloo was too spicy maybe that's what it's supposed to be. Cheese garlic Nan hardly hard any cheese. Overall can drop in if you are on a hurry and can't spot anything around.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNMr21bfNxv1iwuT98cywRqAPeItYZ9dGR8ls63sFLN_L2c9VLMFyNPRspbciRxmbAKpjpcQmXHCQPNutPch6tT_Fy2bvTNg0sJo-HLP9Pvfjh3Qmqnz-t9AcQ6A8ohOlAtphSbw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmdjPZb0dLYsmiKkwxUnsPWgMKFZ6L4gl5vUE_0Xy7OXvX5wi3NRMTvoGeNzpVfk06kqFeSf132QvW1E_VoJbx1BB3Tol-oqOmRlwHaMLlgcoEIcVtIlCweQzTpOqQfszW3mek=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnSp4jvIqd7IS5rbcDXHWrfM888MmXTi-sUeibsVM1c4MAbMVnD-AUIdPBfC1mhKTkc7lrx-r4O7MgMo2cxePYReIdHrDcVSaWM6hwJ88C9HYWnfV4M39gbz7gPnvqYhbeA3K7j=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkFJMxTUm97kVhAKSyRNldYk6iwPMut9Do-iT6LzlyGAsnCJ-sJtedt-NvCR-I760S_vh_qWa_SY0tC_TbEHkp0YWU5o6BdpFiPvqBrnFBW5XzpFz_cCtEnwlTDFQdh=w375-h281-p"
+            ]
+        }
+    ]
+}

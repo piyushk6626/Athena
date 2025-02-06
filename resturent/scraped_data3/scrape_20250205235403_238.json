@@ -1,0 +1,42 @@
+{
+    "id": "20250205235403_238",
+    "name": "Hotel Priti Bar & Restaurant",
+    "star": "3.9",
+    "number": "397",
+    "score": "1548.3",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Hotel+Priti+Bar+%26+Restaurant/@15.3759854,73.8822621,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb82a3017cdcf:0x5c7943f12caa86dc!8m2!3d15.3759854!4d73.8822621!16s%2Fg%2F124s_qy1r?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipM48zQdPoisA_z-fP0W_OzJ3EdWoj11yC9zsxaC=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "9"
+        },
+        {
+            "tag": "breakfast",
+            "count": "4"
+        },
+        {
+            "tag": "quality",
+            "count": "4"
+        },
+        {
+            "tag": "price",
+            "count": "3"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Last month I had gone to Preeti bar n restaurant for lunch. The whole hotel was full of people drinking cheap liquor but it had a different family area. The waiter  of the family area was really good ,  well educated and well behaved. Food quality is normal but Service was is nice .if I come back to Goa, I will definitely visit this hotel again...",
+            "photos": []
+        },
+        {
+            "review_text": "Big hotel very very bad food. Zero star due to posting I post 1 star\nVery bad behaviour of waiter. One old man waiter also telling lie. They are serving sour taste idli. They choose new costumer for  serving bad thing. I ate idli with bad smell.  After asking waiter also told me that the batter is fresh. He is also telling lie. They served me cold tea. After asking they told me why are you taste the tea. We can not return or reorder or also told due to fan it may cool.\nThose who are writing this hotel is good  see the toilet then write the review.",
+            "photos": []
+        },
+        {
+            "review_text": "I have ordered chicken noodles on swiggy, amazing packaging plus good taste and quantity.",
+            "photos": []
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "id": "20250205232918_179",
+    "name": "Karan's Multi Cuisine Restaurant & Bar",
+    "star": "4.4",
+    "number": "606",
+    "score": "2666.4",
+    "area": "Dona Paula",
+    "url": "https://www.google.com/maps/place/Karan's+Multi+Cuisine+Restaurant+%26+Bar/@15.4517595,73.8031742,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc72e8deaaaab:0xcb48f672d5357a74!8m2!3d15.4517595!4d73.8031742!16s%2Fg%2F11c2pqnqw4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMDXvRZHgrtDytDsxFduwZWVeLVxTYXK7ZNdmK7=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "sea",
+            "count": "26"
+        },
+        {
+            "tag": "price",
+            "count": "20"
+        },
+        {
+            "tag": "pomfret",
+            "count": "6"
+        },
+        {
+            "tag": "thali",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Heads-up I haven't eaten here. They have kept a board outside saying that they have special offers. I've added an image. But nothing like that inside. The views from the upper floor are absolutely mind blowing. So do give it a try for only the scenery.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnfhvJOd2ralU7GT859E5c3Qz2e646HqLjgqZJ0fReucOsxQbzQrflj7UqKViuK9Vfbok3AJGrFOg5u7qFCavF7f5AABztQblvfqMSfvrimBOI8qetOHr-kaxCl6rEAIjUKGf0=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlF6X6H5qCqNQU9XmLOlfBhkTOrdIs-LxNikdL3RMVe8xcOB9I_t2JJde83-2ZULVMDK16dRuosjKreQXVzL62IDQCTTJCCg25gdUZ3lqm3BdvsikjEjPHSasnzZGqFuJCjM-b-=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl1LzdyexoYNUjSyI82WNt8FtFFnsH8V1naj1qCjmOAPvSZ7DpRUoyW-AkcfAP-c1qs2pcXP0XKCIasIWJzotftjipJRWWqsR8qunKknPi--JEK62jody6XRhyyYKs-45JIesap=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "First time visiting Goa and a friend of mine reccomended to come visit this view point and this place.\n\nWhat can I say, it was a beautiful experience from the scenery, the service, and everything else.\nDefinitely recommend dropping by here during your visit.\n\nThank you everyone! 🙏🏼",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnxMe9wOO2DajOYBvfJDY2AMFI1vLTqCFiqiDbbkwf-ndNlFybDMDGnGB8yBbt8d89HvrUJ0i-BoE-Gt4FvFTgFZCz9VtZpf8nde9XnHpIWLcCLKWnwxheSMAdxAZXriSlDCVqe=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnZFs1iXtafQLBaR_G3sGFHWrkF-yFTBcC0HkBcrvq_Gpz89cksTfkGmBuj0GtazfnRuEWFy3H8mXYDHNtoCp2vHYK3nTO4JmQlP5GQkrvkU22ERezcahXzbzlp3QNy8_lZmWRB=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn_ZIq4f6wL8ZZqNzAxkDbhyDigu4k5u9XecF0IS3Vk5ft49UiEVT4_4KZHeEQn1ai5wlPX2vPHRk9KI4bJ9J1Bynv4uJorPWAZgkbtjrqNST_ojlQYxbWRraWTfONhQpkEcndh=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "It's one of the best restaurants here in Donna Paula jetty ! I have been a regular visitor and had wonderful experiences with the vibe , food, view, and atmosphere.  Love being here at Karans.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmN6uT6T4rGzZrIiCiahJpQH-Khj52E0AzfoOd-mVdK6ny8SE4fTuzxVRuOjop8M0OoyDBtqKkTIi1TO8SjyS4_oKilGVv74KaI4SlybcNy5KOaBpf8-XJEhSZDPDNw2N2gww3uWg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmWD2JGanXAWEh-zHe748PAaqPR6BGrRTK3BYMKtY4KGQdSpzGbf5cpn6_zyQ0nHsGBG_ylwkhMxnSL7Bkub1uarDahdZVpgXIXuy07FTJgXCDr6jsQ6rtI2lh4444IKzffoDlf=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnCzVXm4atLMKyw-FRhHt520CHv0QcF8ISPxvMmlXnP8tvq4iGDkcZrQanvzUq93YUnYn9tV9s_VWvKnA0_QRKjLyVBz4iNsDII2aIzDfEvUDchVmHKPfOb0PsHy31obQ3hsqbodQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnPJrp7z0i0G9EE9bkThRViTMGMNqjK76LJKwg9jdCt4flYLt0MsWdSnz7fF9WA8QXymeocVlUl1rI48uLtkZoMdAwVQVHpsloG0X3HGtiq9w6B55sOkS1nKhP8g4K7y_QEeePX=w375-h281-p"
+            ]
+        }
+    ]
+}

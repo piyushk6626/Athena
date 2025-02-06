@@ -1,0 +1,51 @@
+{
+    "id": "fb4a6dc44330d75a5f5f96e57629ea7d",
+    "name": "KFC",
+    "star": "4.1",
+    "number": "970",
+    "score": "3977.0",
+    "area": "Bogmalo",
+    "url": "https://www.google.com/maps/place/KFC/@15.3912975,73.8491927,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb98a7ee1c461:0x5a1257bd491c8bf9!8m2!3d15.3912975!4d73.8491927!16s%2Fg%2F11j139gkpd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN7Yl-wtr2NYxCq8WsJpoE0cevQ8w1xyUzKSP73=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "experience",
+            "count": "20"
+        },
+        {
+            "tag": "burger",
+            "count": "18"
+        },
+        {
+            "tag": "outlet",
+            "count": "16"
+        },
+        {
+            "tag": "service",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "After many days I got a real taste of kfc which is missing in many stores. Kfc here really felt fresh and well made. Parking is available in front of the store. Less people manage the store so there is some wait. It is near the airport. Highly recommend",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmk5n09Nj0-buxl_cU56znTB7MSw0zWeSeKZ4seYv-xvylfMWSGEFZJjiZD8uQWmopIZLN1J76ZDPnAs6g9DwYkRi_BZ6RzEyIVbGPSOOPeXyLmJ6CmUV-QsMYxylpx42t8DFVK8Q=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlAOfKmh3dEC5_ExJUAgzxZaNOYqyK8TV829gVjsJEAV3GY1JVc6V9cZon5I0HB4V146erJOHu4w4wWGaBJckKlx84HIYa7_RzNbZpa1YX4kFS6_68Yjibil5L30dhN5EBJFW-u=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlPAbdfD2dXylzRjtE1bwkpFXrCy7BV_vPw-6GS9G2btgK-yu0ExT8JNS6BAwOzQiK1jOIZmnp4b1fiDnhJaRiqT8fmQ0y53PVogDOnXZpQ04wjCtQjyBAkvxnVmNDMDU6-bmk1WQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "I just love to visit this place so much, literally my happy place around this area, whether I go there alone or with my friends and the food is always served warm and fresh, of course, who doesn't love KFC, I just love coming here and trying new new things everytime, the place also has a very good ambience",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnWK7jqqxP1hyKLkwZmH_nemGgs9Ik_TfvAsqMCswOqigj2PbSECS1aqCa_t94rUZPoJ0Cru4kNu8mMy1jmb0QK5A986CxqAKchIKYueerqnwUIzrFlrNiRS93USJpPxU-aMcED=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkrmoFYHHteKcJ7oirNyMs6DerAoYwcPXHs6sc1jTGTP1ypzAhqTumWXBrwPEEIVtPi4fshnJwpeiHUR55FjK6R5JpQ_tcMIL9nD9DAo7UJmdDBQrO04ocdRoESh6JFy6h7_Byr=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmfQfl3j1pFgSZF-Aslc8QvWqF0e8H_6wcGa2jcrhgPA1ghxvPH14fy5M7cMq1CHZ-QAr3W7tiCPAcGpIm4FEEHjYKP86phqBkcN14U1CGAJt5NHI2dgOdFQS6vMPb3TJFQnLM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm4vLOdogDBfxPBenoda7XWsm0WTznGj46nCOdhj9jKbg6gHEQjcE_3HERStNccbnN9rV-aAwh5nMS8SXrHLzGstYqQ5zD486GHvttnMX5YD8ZPW2fnOxmFF3ZSdgh13g_gsdzi9g=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Dear KFC Team,\n\nI visited today at ur dabolim kfc  and was disappointed to find out that you were out of stock on fries. However, when a delivery guy arrived, he received an order with fries.\n\nWhen I asked the staff about this, they informed me that fries were only available for delivery orders. I was shocked and frustrated by this inconsistent policy.\n\nAs a customer, I expect to receive the same service and options as anyone else, regardless of whether I'm dining in or ordering for delivery. This experience fell short of my expectations.\n\nI hope you can look into this matter and ensure that your policies are fair and consistent for all customers.",
+            "photos": []
+        }
+    ]
+}

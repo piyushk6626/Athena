@@ -1,0 +1,44 @@
+{
+    "id": "20250206002051_309",
+    "name": "Deelsons restaurant n bar",
+    "star": "4.1",
+    "number": "224",
+    "score": "918.4",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Deelsons+restaurant+n+bar/data=!4m7!3m6!1s0x3bbfb9c966b914ef:0x798213d801552395!8m2!3d15.4549646!4d73.8516006!16s%2Fg%2F11jm7cwjqs!19sChIJ7xS5Zsm5vzsRlSNVAdgTgnk?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPyKs40tguooGqbUx31upwNKynD8n3kw1FoC6fK=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "8"
+        },
+        {
+            "tag": "price",
+            "count": "5"
+        },
+        {
+            "tag": "fry",
+            "count": "4"
+        },
+        {
+            "tag": "experience",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Food served here is way better than the restaurants in Goa.\nDespite the ambience, We used to go for lunch & dinner at this restaurant as it is economical (had tummy full food for 4 people and never crossed 1k)and tastes good.\nWe Tried chicken crispy and chicken fried rice and loved it, also the food portions are comparatively more.",
+            "photos": []
+        },
+        {
+            "review_text": "Veru good food and very quick service\nMust try squids rava fry and chicken crispy.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnfXwwgemT7zWwrZMijagNCSdAoES-sC0RlD7ATeYxHezzKPw6gxPtPtcty_ZowSdszeyR_IuzVK4VFHPdmv0NcE0HhQw_xQAnad68uWmNMr1kU43zNxL0e_gko5wtElTXQ0ganBg=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "The place is nice with good food and service but lacks the photogenic environment very dull , they should put some lighting and decoration so it stands out overall a very good restaurant .",
+            "photos": []
+        }
+    ]
+}

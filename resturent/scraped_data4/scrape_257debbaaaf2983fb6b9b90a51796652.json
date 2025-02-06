@@ -1,0 +1,50 @@
+{
+    "id": "20250206005208_310",
+    "name": "Taste of Goa Family Restaurant",
+    "star": "4.0",
+    "number": "729",
+    "score": "2916.0",
+    "area": "Bazar Ponda",
+    "url": "https://www.google.com/maps/place/Taste+of+Goa+Family+Restaurant/@15.3946541,74.0020019,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfba973d7db74f:0x56b90e80f8f1f9eb!8m2!3d15.3946541!4d74.0020019!16s%2Fg%2F1thxtnrg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOQ6heDxrp2J7kMfF3VDU-ZJ9bbmH5woMwHsQcj=w408-h244-k-no",
+    "tags": [
+        {
+            "tag": "fish thali",
+            "count": "14"
+        },
+        {
+            "tag": "seafood",
+            "count": "13"
+        },
+        {
+            "tag": "fish curry",
+            "count": "9"
+        },
+        {
+            "tag": "hotel",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Tried Goan style king fish thali and chicken xacuti. Taste was good. Both service and ambience were nice. Owner was also quiet friendly in explaining things.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl0-oGKh5I1nbFKUB21_87N_Uq1wbLIKVEoTYlvEWDBdv-lJf6Oj-FhaVXdq9u2SZQU4IYfA1I2r0weNLtm0lXcXmbwOKZqhQ2F8YuGN-em-aLfVkU_n6sqdBKKa49lSJ8Iezaw9Q=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Ambiance good\nFood quantity is good\nBut i felt the fish curry and fish was kind of low on taste, no hate promotion, I try new places for good food,\nMay be the day i came was not best,\nDon't stand on brand name taste of goa.\nAtleast the goan cuisine should be on point.\n\nVeggies was on spot side servings .\nComment location/restaurants you think it's best in ponda for fish lovers night time.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnEbuvprpfgHCNbhzUJFpBkR-dyQWV4mzqUfCQqWUlTK96njOFF43nPOFuQnzIU1AF6J6pWaLxEq3y4E9PLqOwQh8OC8-XYkUpWH8X-3SCa9ZZOdSoFVW09J1On_kjDHb1Fm5AZbg=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Good place for having seafood. The name itself says the \"taste of goa\". Thali is offered well. Homemade taste. Overall good for the family. Good times",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkqz3yXQOmd6o2hEVMFMz2IN6XudAnm48i4s_4iVADSGKoNCWwNrmDCWWMOHvJHFI4z4-W04LKP98svmeeY2XEMV0rjSaOXxS9enBuoGt9C1bh-9emdR0-XIWyuPJ4CAm995YD-=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdki2zQ9VeMCP_ef8yEH9NA5SE62GAWIMKH1qpRVrVLF0n4-ZLWT-rRWZff3Yq4Y_zdzVqhwnEx6ucE4C1fXcNQ3xTFl9oPbeacBIictefdxcdbcn4PnCkJpJCeUO-s9Slnrfmc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk9qH1AjhmuL_ZcomhGHxTm6xpc26zn5hdoiZ-2dLuDnxJkZJR7iTfaMgWLvGNiqWceuj5b9r-CRYB1ifyFCDlE8_M2JS5hN4y4zZdyyt5oplbccWoeEp7LLIfGJ7amDFj-Puwh=w375-h281-p"
+            ]
+        }
+    ]
+}

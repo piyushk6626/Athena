@@ -1,0 +1,51 @@
+{
+    "id": "20250205233214_187",
+    "name": "Antojitos",
+    "star": "4.4",
+    "number": "567",
+    "score": "2494.8",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Antojitos/@15.4770346,73.8153238,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc0c1192e40db:0x6b17122e16a5991a!8m2!3d15.4770346!4d73.8153238!16s%2Fg%2F11crr9k85k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMPm4V18mX3zVEh50Xpxh1oHybaq4o1372nEEmP=w408-h725-k-no",
+    "tags": [
+        {
+            "tag": "food truck",
+            "count": "36"
+        },
+        {
+            "tag": "hotdog",
+            "count": "16"
+        },
+        {
+            "tag": "nachos",
+            "count": "14"
+        },
+        {
+            "tag": "prices",
+            "count": "14"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I liked the hotdog, its was yum. Even tried their burgers.\nSurely visiting again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnxyelZf-q9xZAQ7GF0ANOCngWGY8mare9fGvGPHtEH3l7NYQmBOubh9aeIMvKaa2m9K4tBCOJ-BwpfoerWE50PJMgDruzX4y3yVQ6R7yKMPdt6vFyeTzu9oe3xS9HY029waNhxEg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZIjEHyA5uXdyOYnkkcrs2Js5zKiaSL1gQujuvsRB_qkJLewtQm3DtYowVySodYWQdZ0mT31hgF4Dod5Dj7ReZUTELWVOoigCGoCw4q6K1tDgh3tDaBKtpKMhR1nrb5XfJip2K=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "maybe the most underrated food place in goa ! Everything on this food truck is just amazing 🥰",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnOm_-DM5iIj8NclwveKSnAyCLbVCgI86VUiIrbSj7xbf3pFBQ25BwcvDRT0xUJyMp1EgGCa9rzC7H3TTUa4espPN_AOB0j4e2ll7mS6e7WZLMO3UmHQBOhTZw7rNLwJygCRWn_qw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm1Ko1K48UnQN4KYcbP4tBxDLuZsp886PXPEwjBWbcvUFzjlTl8rns4PzULhYMKHyrLOwylFUxgaI4A8YrLb3wGID5lRP0I9ENeqLqda5g9g9lCzsQdMjlEivFcp2YwToARNKA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkzwpkSkxNyJeWprZUfueFOB10vj90JQw1-9NKNZWg4weET8IblJCF_r5aRKJq5uwsp--UAidxKflf4nFdJGncF-mWlVtO8975xHLNypAwXufvacPCG-qCBOpztOM7fhtBhxcjPAQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Today I was very hungry and ordered  a BB ( Beef Burger) from Antojitos road side food cart just after Caranzalem circle that heads to Taligao. For that quoted price the bun was small. The beef patty was OK...nothing very impressive in taste. I had lots of good burgers elsewhere for much lesser price. What I did not like was  that my Burger was being handed over from one person to the other while it was being assembled by three or four people all with bear hands. Non of the workers wore gloves. You never know where they put their hands and fingers before handling your food. I don't care if they washed their hands a million times and with the best detergent in the market. There could be bio Hazzard cross  contamination  if any staff member is suffering from some sort of contagious infection, or has some  virus or bacteria and has a cut on his hand and is bleeding....extremely dangerous. Moreover, I doubt they  are holding health cards. After the Burger was handed to me, the guy sneezed into his hands. The other in the van coughed into his shoulder. I think that would be my first and last visit. I am crossing my fingers that I dont get sick.😷",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkHx-XRaWzp3gwzjeClIzkHrXoeCrLbdUVafXZ2_LRWIBLkfnIArmKzuyzPhwmjkOdYopEcsS4tR7PdyTY26h0eQbuSFTM7E8CdJwe9cXzG2TDxnixygwKqRoV6XqjJGFyXzfRn=w750-h563-p"
+            ]
+        }
+    ]
+}

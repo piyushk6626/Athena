@@ -1,0 +1,52 @@
+{
+    "id": "20250205232147_227",
+    "name": "Nandan Pure Veg Restaurant",
+    "star": "3.9",
+    "number": "930",
+    "score": "3627",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Nandan+Pure+Veg+Restaurant/@15.4978769,73.8277233,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc08f234453a1:0x12f6eee3c656404d!8m2!3d15.4978769!4d73.8277233!16s%2Fg%2F11g69_f125?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOwX3gWur_5k22DBBv3F-BwtTilhYyDXcY1z3rv=w441-h240-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "80"
+        },
+        {
+            "tag": "food quality",
+            "count": "16"
+        },
+        {
+            "tag": "hygienic",
+            "count": "15"
+        },
+        {
+            "tag": "quantity",
+            "count": "13"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great food. Highly recommend the Tomato soup and bhindi do pyaza",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnvoqu-LwWrmbGr5XLU_wb-F6wUsEpUpz0t_F5ESOnGCQ3E8AYkqb4B_GLulUFCFGOwm9DVjPDSWuNv1AL_7poBPfUKZ3Jhsfde3ohFJOKcpGtzr596D3miAyAiS9SnpMruvtMFqA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Awesome place for pure vegetarian food. Loved the Veg Kofta and Veg Pulav. Soft spoken staff and cleanliness observed. Cozy seating place with good light. Keep up the good work!!! Will definitely visit again",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm5dyv9wAorhkfFoPgQDFf2axy4YjpmOE1wNFdh5vWTxElpP9uehIMxyZI-ncDXmk3Cdf_R3GPSvxIeQa9EiKX4QuShvvu-mH4Q6DDKpuQVR30Cj0KIiyB7Wo0ZOyQAcueeNg2U=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkJds9RwXGc9QDcKBvnHV9DftjufLnjNUvZQyfRgdzY5wjRpdlNlMsUukFkIid0QFKv2lKDyg23YBMt3-In_4THESWJLb4iO2fu_LLe9uSOrFTksbh658gdbTbEsyxPykQVA-t7TQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkj80u-dqLzx7zS2tuWuYqEBWLbZjhGYDp8A4mJjKVFywSiK_oypZjbRGx9xuMkmEqKXXBUWc45WpVSEtZBlltoxcir3FS6VlWgfcRbYpqTUBgIlLS0QWpLiz_DjCaC_wEJAzk=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlfqUckHC1EpjFC9omOTpMVDZMXiQg1uL4dhneR8kcErdlKMY0hD7WRHJ_2TTcXFeZKaXjy9fPxbXuHzX-rTsfCaou5YFor9BFS9j4ZKlQK5qaNUsg-fH9GkCaLDcDX2dMsGoh9BQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Poor service, average food taste.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1w1iSoaBIUe1AYeJAONePpN2X9l_AtzyLy76DgWjEibPICIMX5vrr7FFGwN0QGV4wY2QdJiczyHHYzkTHsQzouhyDlEGzP_vGxy5VMxtFoL06P0OogegLV-WyvQfvJpHoi-D4Qw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk6S4WEK977kLlfdRg30crEfk7nymljv3sK0uqLQcTzaClBTUP2sPmOnUE21GcOxHPG-QIkHqrS2cjPiU8WCthtIQ_J2c_jG4_aPT60XrEQVIciWblvu9-5kDUHCcRFLHnw1n5j=w375-h563-p"
+            ]
+        }
+    ]
+}

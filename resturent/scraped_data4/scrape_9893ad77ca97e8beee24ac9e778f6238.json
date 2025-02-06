@@ -1,0 +1,49 @@
+{
+    "id": "9893ad77ca97e8beee24ac9e778f6238",
+    "name": "The Garden Restaurant",
+    "star": "4.4",
+    "number": "1367",
+    "score": "6014.8",
+    "area": "Cansaulim",
+    "url": "https://www.google.com/maps/place/The+Garden+Restaurant/@15.2764999,73.9166022,17z/data=!4m6!3m5!1s0x3bbfb4190dc08dd3:0xef2c0c5910555d79!8m2!3d15.2764999!4d73.9166022!16s%2Fg%2F11bw4vw4j_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPgHCN9rYvobFu-OM1b7Cejj9NqS4BFTFgaxkKA=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "colva beach",
+            "count": "24"
+        },
+        {
+            "tag": "north indian food",
+            "count": "23"
+        },
+        {
+            "tag": "music",
+            "count": "20"
+        },
+        {
+            "tag": "sea food",
+            "count": "19"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The food here is excellent, both in taste and quality. However, the serving staff needs improvement. They bring the bill immediately after you finish your food, making it feel like you’re being rushed to leave. Restaurants should create a relaxed atmosphere where customers can enjoy their time with friends without feeling hurried",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkLlu9hw6n5kjJqPTv1VUMdHeeGoZtJWpLXJFyj8tZDZVoFIG82AF1nD7ZcEPvHc_ddymE8qAQ4LjD_spgXcNZnCMeOUcRdTjTsx7IjDpzkrlH8Jq8AXOt49uMdCvqP4ezJfdI=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "We went in for a quiet and good evening & for our surprise and then really got to scrumptious and delicious dinner. The Host is friendly and makes you feel welcomed. A pleasant and surprising date night! Best place even when we were in the  off-season... North Indian food is recommended by the Host.",
+            "photos": []
+        },
+        {
+            "review_text": "Went on weekday to celebrate a birthday... Not much rush, food was served quick.. Ordered fish, prawns, chicken and paneer starters... In main course we tried chicken ghee roast, chicken kadai, cheese garlic naan, biriyani and some other dishes.. Food taste was good and portion size was okay.. Should try Chicken ghee roast...\nLocated just before colva beach parking area... Parking space available for 2W only... 4W can be parked in beach parking area...\nOverall a great experience...",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkqYwCZtvQ4vFXH917c611Q8Jjrgnf_y_VrVrLwYzHLznHCN9-HlferLVMDz1TBGy3Fp3UC9z_VscSiXPZFcJBveSF0nA3zd2t3udnOImrf9Q8RfH5_apX1_oU5NbFwEZm8Zq4=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnOvAG8CXRmShzpcshhVknz4oz76mmAdTC11-p_idRoEqzo_ldOXud5hodclkPplnLvS-8EJ8gMQDn3jF-8s3C_PChpSPAc9wSgg-gMQHCzVHt8qvBCF97rUK60BXDvKzVFJEkKFQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl_ub93kFI-PL5zes8PJ3-hJ73Vo1HIx4GPWtmIhG30RwhN8ntYBUYqiasydZLs2NQEtxlXtQalGIfkKTomjkpfIw66ljiWQSskBbnTg8F8ayn_L8N_Y6V5KlwNPCmpOUFccsUw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn4OXK9hDwuiA3o6fZd6Igk6Sa7MsoGd6WvhkHXqv_dYb5lqXMPYD-sncrzB1I7c1KVB16T4lWmb4gDPO1yQnrqGm--piQhPZ1Pmwrkb4mr5v1vK0pR98O6WfWKOoANSvMcC7hr=w375-h281-p"
+            ]
+        }
+    ]
+}

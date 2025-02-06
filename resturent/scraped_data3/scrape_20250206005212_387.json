@@ -1,0 +1,50 @@
+{
+    "id": "20250206005212_387",
+    "name": "Goan Rasoi",
+    "star": "3.8",
+    "number": "149",
+    "score": "566.2",
+    "area": "Reis Magos",
+    "url": "https://www.google.com/maps/place/Goan+Rasoi/@15.5202982,73.8283099,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc13d1a46551b:0x9ba6de9fcee74367!8m2!3d15.5202982!4d73.8283099!16s%2Fg%2F11fqqgmk8_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNDqiqXrSLa8neZx8OShBaGz6c9rOht_qpdAtM=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "10"
+        },
+        {
+            "tag": "fish",
+            "count": "6"
+        },
+        {
+            "tag": "service",
+            "count": "5"
+        },
+        {
+            "tag": "price",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Worst taste with an unhygienic place, full of drainage smelling , do not waste money.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmNyul3f70XZ5uKAfUKRkvJDnLMyh97CuyRTDR7-sblh48ASh6vKOeFsIddgHPCCP9DhEfBphC-4j2f8jb8CVI9nk9gpKCQlhAbMkD2dEjKSgp99RkfxJjo6Z2zyKntgkKpXcfoiQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Food was not tasty at all...Chicken lolipop was not properly cooked...chicken biryani rice aslo uncooked & very sticky...hakka noodles was decent & good to eat...overall not satisfied with the food.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlMOe-0IXvQjOF3xtnnGbHztQc5Qy1hPJVyFVtL1pyH9Ny8qHPfaSUQ4rPw3Dt0z2lB-lkYklWHj8rlBQDmvAbrNEdiCwjAzd3zBq1q-gNLUiaARMKgDJDPqg0wOlkCe6a7m_s5MA=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkhWN8Y3Cf7jNlUn01vlc7hiz7_YAB2sglbwDczgDJi2EJ6kQQN-2GGwAv2M3pNeTHLeg9Y1XufBH4T3EqnDtmFX-4RvS2CecpYynC-b6i84dinmsye95TJBjuuSqLjURCpUj67=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "We had prawns curry, surmai fry, butter rotis and a fish thali. The food was simply amazing. Glad to have found this place.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlTmrjGI-yY5mKJe56R3Li2jFjo0trEOvAGT_a8eY8OCN7a5dglsLbbB7aV2Tf0GA_DndryzkAKPllJj8C_p5vDIgv7wt-DEqXgQB6XvtusyWv292gdm6X14j0rHRbMYxyq7lBF=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnArdjOIYp5TWdGv42na1LRIS3diZaIaatD7gpwb2rerFNUtwAj9BSx2fQN74g2qdiYdpFPAHaGR69Lysnvc9bt952KNvg3lreTGs6toB_3Xw8wQxxlqBmMhENymDYBO6ZS2N3X=w375-h563-p"
+            ]
+        }
+    ]
+}

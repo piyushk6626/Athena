@@ -1,0 +1,44 @@
+{
+    "id": "20250206005310_390",
+    "name": "Gds Burgers Goa",
+    "star": "4.7",
+    "number": "116",
+    "score": "545.2",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Gds+Burgers+Goa/data=!4m7!3m6!1s0x3bbfe9a0a88d9b93:0x297e89a0dc9d78fa!8m2!3d15.5765346!4d73.7457238!16s%2Fg%2F11n0lmnyzn!19sChIJk5uNqKDpvzsR-nid3KCJfik?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMMBAd3qH4OWs7znTB2fOlP8GYz-ADScX1NtiEx=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "bbq",
+            "count": "7"
+        },
+        {
+            "tag": "hospitality",
+            "count": "4"
+        },
+        {
+            "tag": "pineapple",
+            "count": "2"
+        },
+        {
+            "tag": "anjuna beach",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I'm 25 year old..... more than 5000 burger till now..... but GD'S burger is a gem.... so delicious sooo juicy and the way he handles his burger family is a cherry on top.... superb rate and superb taste.... no more words to describe the way I felt for this place.... Gd's burger is a feeling forever now.... if you're in Goa... don't waste a minute come to this place and thank me later.",
+            "photos": []
+        },
+        {
+            "review_text": "I am basically a food lover, I have visited different countries and almost all states in India, every time I'll be experiencing and this time here comes in goa with GD's burger ❤️",
+            "photos": []
+        },
+        {
+            "review_text": "Best place for burger. don’t miss this place ever.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmNR_6QEQICmb6jZNuMpiOKETCV_qrWin-_qO_OyAKAjkyZfGnYa6n1sd8fGw1T66Fel30lK79Y2INATaaOzV3klyahpbA_W67FIldtWZubE-ebaEX-vZTU_6LzMGZRxWL4680YcA=w750-h563-p"
+            ]
+        }
+    ]
+}

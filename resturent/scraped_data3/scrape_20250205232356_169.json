@@ -1,0 +1,52 @@
+{
+    "id": "20250205232356_169",
+    "name": "6 Pack Bar & Restaurant",
+    "star": "4.8",
+    "number": "602",
+    "score": "2889.6",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/6+Pack+Bar+%26+Restaurant/@15.5761196,73.7451412,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe9850ab49c99:0x16b73d4b10951e0f!8m2!3d15.5761196!4d73.7451412!16s%2Fg%2F11gwjfw1l7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO_pCSkgmgiKwqhlhNbkM5QQDMGi91QD3whyjOR=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "urrak",
+            "count": "31"
+        },
+        {
+            "tag": "fish thali",
+            "count": "15"
+        },
+        {
+            "tag": "anjuna beach",
+            "count": "12"
+        },
+        {
+            "tag": "prawns",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "I went there for a quick meal but ended up returning three more times. The atmosphere is very peaceful. The staff are also very polite. Pratap attended to me most of the time and was very kind. A true gentleman.\nI tried Baby shark rawa masala and Pomfret masala fry. They tasted delicious.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnArQfC50NGDpZr8POVG3x-DmC0Drac8Yfqz7Cn6GH9N4Gd4g0oNwxiv6WjgDnILfSD2Gpgg4pBoziGiVNjDulN31tAb30FktCS4R2F9tlhEJMajb70XaxUQABkhnQsA-uwT_4Thg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmPJftSQsoO8-nosdxxf_s85fqJiJ1--L1JzXBqrEg1Zkdp8rFSPJA_JMoHdsOuqebkwjd4Q-hYUZ2LP5EfuS7UkSMtk5BWoSb10ffKodU-MlYh2DzjEJiJV98az6t5O8PF1bY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkEwJmSgIic2jvElK2ZLNpFie2WRpRNOvCaL19_NS5Bb6v96A857iqPZpbeQR_lzIH55I2qyo9B6q6qISLVeZe6sNQauIW--t6C07Zu1ZhSjKqXG99C6GPhHcdH0dtZnhrOvW0N=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmdUUpxQy1yqyJA5p4V1XCZ7rgBp70RmxaRtSb2RMjGcjdAcNsbX0Zf0CVgaOHVS2VobiMRx013GQOBrsCCqaHZVlmQlQqYAEnDsyKam_hNWshpUQpQom0d9vrCqaw7VYWgWZIN=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food is delicious especially the seafood/prawns but the best part was Pratap. He is the best waiter we have had in all of India - what a kind joyful man! Made our experience very nice",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdljO6Z7LtUCV8mvIf3s9n3R0ABw9Xid8kuo09XjBwyJOCkQzedol2HXO6bBPIqI8YiJ_sR_oV-foxDJyJrGOQuUc3Qahe3FifZtTP8vZuHGcSmlHwv_sQvavTtzlAS3ntKJV1Em=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best restaurant in India. They speak english very well and as not many had lactose free milk. Very tasty! Top service and kind people! Must visit & chill!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdngwJ8b-lKuo67AiQWXL8rA5TbDk85tSgAFnyM7oT_8w7228wMX3Ri1R0oG1ozk6jpLPtxy2Cxj6u3riOi7g5FUyW3t8GO-jgd4rHkIpNyokA3dwUiGvaXqm4HR1RxpcFmk1lQg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnCwUEf1NsTPLyDHVB_dcO5QdkypmVTS_FxUWiHwf-nrwov2vu8wRNHZgAGi8C0FIkWLUQy8YhybYqhZCwuZb2tnN-Kq1NmF6EuRmy2DnI-IkzYmw4ov9X2zywpwy048Nk8t3w=w375-h563-p"
+            ]
+        }
+    ]
+}

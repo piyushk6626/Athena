@@ -1,0 +1,51 @@
+{
+    "id": "b5c24b3fcfc39f9db0db0e993f3b1c52",
+    "name": "Junas by the beach",
+    "star": "4.5",
+    "number": "640",
+    "score": "2880.0",
+    "area": "Mandrem",
+    "url": "https://www.google.com/maps/place/Junas+by+the+beach/@15.6718161,73.7080495,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeef0149e7a65:0x8b47381808cb3e6e!8m2!3d15.6718161!4d73.7080495!16s%2Fg%2F11bxb9skrg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOiOXyhzW-Jit-ScjT5-ykQw3CqBvVFUkv6QhfA=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "cafe",
+            "count": "58"
+        },
+        {
+            "tag": "service",
+            "count": "31"
+        },
+        {
+            "tag": "shack",
+            "count": "12"
+        },
+        {
+            "tag": "experience",
+            "count": "10"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "This is one place we recommend everyone to be when in Arambol/Mandrem. Food and service is exceptional! Right by the beach no loud music on this beach that’s the best part! Peaceful and only white noise of the waves or artists playing their instruments and performing! Just love it.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl26ftWdn2vnLAXY8aRbOTS_51kNodQZWdwq_m2LEBqcpbj_pIrr9Dtw2iR125t56DNrRCnlKfx0iNnDdiqLVuuQLl-3RVwATh3UL1xmktwEaQpUmcddUAvTvwXYMxU7DjOtol64g=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnT1YUXdjqZwQal9LJkoGVUO-atoozILAnvRfSMGNDGo7pY50F0tI9Hi0p6J4xTJJs_GjVqKYCW5ntu3uRvowbaOCxIF4IC-mHwCeSwlQGAKwCZInFP0HsiaRfQTPvPmsJrf0FI=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn5GucIguY4jpbbybPu0bPQ_7UeJQ-5P9wQntWmQ9kWhELLn-YJO1fyivZKfZn2MF3RVTaqbLcYd0Vt2b1aC2FUNcf02yQsJ2MJJ8TZyI7KzcVhVrsFrc6YPPsL90Jzw8XtdGQZ8A=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The vibe of this cafe is amazing ! Had so much fun with my two little munchkins. They enjoyed the food very much,Very kid friendly place yet amazing.Highly recommended ! Definitely a must visit👍👍👍❤️❤️",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlcYfMBOb0WUp2pAz2Fp-b4B9DluB6RFnYpbv7day28lNvOFquLlBbbfGMjMYzfW6-SPuqj3j2Yke9wHANLHsLuE_gJCw7EvY_abMmFw8l0vFJ8j_OJw8pJZI40hL2UG0gjORo=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn3IRcrPYwracJHnPiSt_Za3NSyLbvGm9Fc2Osd9wkeSk7mbLIVwTVa5Sbe2buSa9lyUFAHNHamBDhx3sqF8MK4UTZnIpCBPe8etA85k2_MPsmi5wNppzr2kzFYK82lVIkcezpz=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmlqLKVgXqMYKb1t1ystdf7a-bZqtM93AmXP5oSKuSq4GGKVfA9QwToXK50wpIamF4tRPvrJCWheHZWCjozFOBfiwPPj0nB4oijx22S7ZBlAFbVHPvlM-P2NTjOxFGSfJXwmxv9=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmLL8pVFtcVw2aZ-73oVuu-k7ohh9-o92mVPTXkMu3G6B9VpN94T7A6Jpf8kfZe1FqDK26M87vXnXcU8KEPmQGpA7ZGtXrjRu1xEz9bqaOKF2o1LF6qJsE4iku5W9WfrXfn2MjTeA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very ordinary place. Little tricky to reach there and the food is below average and the beers were warm when we had been there. Just that it’s beachfront people come there otherwise this place is below average than any other place.",
+            "photos": []
+        }
+    ]
+}

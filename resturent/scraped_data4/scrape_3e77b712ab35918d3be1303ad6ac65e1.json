@@ -1,0 +1,53 @@
+{
+    "id": "3e77b712ab35918d3be1303ad6ac65e1",
+    "name": "Balcao Restaurant",
+    "star": "4.2",
+    "number": "678",
+    "score": "2847.6",
+    "area": "Mandrem",
+    "url": "https://www.google.com/maps/place/Balcao+Restaurant/@15.6674183,73.7213883,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfef2fa5ec32cd:0xf1cf18b061160ac8!8m2!3d15.6674183!4d73.7213883!16s%2Fg%2F11ffw45l0v?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMXmvcnMu8JZHVIcr1KanXJIvo-Lp-J8dSU92pw=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "goan food",
+            "count": "44"
+        },
+        {
+            "tag": "seafood",
+            "count": "19"
+        },
+        {
+            "tag": "fish thali",
+            "count": "15"
+        },
+        {
+            "tag": "squid",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "One of the best restaurant for authentic goan food.\nAtmosphere is good with ambience.\nIt took around 20 minutes for the delivery of food.\nStaff was helpful.\nFood quality and quantity is upto the mark. It's tasty.\nRecommended",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk0ZjfXifWQkObGNGVFKyZG-QePDzBziu99BI6Hhzw6Nn_sIilXcJfnTEy0QoQbZsMo29v4VcrIVfUKsHw7R1Kv2I8RIzvTi99XZooz0WMeS6-8EdtwAWpyqoDIriqYqGR6Pg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk6btiIc8c7aegGJ3cQa3s_9_P5pdUHD_Lf3ACas0Ms1HSuGhpiu-fpVSqHva-caQN0h8GVCKx4IfhCg1Qn0kp3avhn8Xnxp5QjtUgeZjPiCKMAtYjiUYRG7U8azmtBnZlrnOp71w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmGYQafVWwmUNKd18LnMVtdQbmFCWxOyx3bvoaczJjvHsvuAfYgjFSEj6zS9QGTou24lcnV9kCh3aWkeh9wvMnzImGYkby84ZWkn2HDNi4ZqFVIYJ8VdFGlVcEdgroRS6PxJdA=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "This place we loved when we went on our first day. It was late but they still served us with a smile and this place is all about giving you the vintage Goa vibe. We had chicken zacuti, mackerel fish fry and fish curry rice. It was mind blowing even though it was late.\n\nThe mackerel fry was insanely tasty and fresh and so Goan as well as fish curry and rice. Next day we came for lunch and ordered their famous fish Thali but we were disappointed coz the fish and prawn wasn’t that fresh. It was smelling and we know that it’s a smell comes when it’s not fresh. We get similar taste and smell when we have prawns in Bangalore. Overall i still recommend you folks to visit this place when you are in mandrem.\n\nHappy food hunting!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnB3p6hExVMo2eBmpkEcWI_RaMXfMsgTXqbliHJgAeG2SDALPxV_u0ZJPFevB5dntZlAjIZ07qpSnPXzNYH_leNkvuCF6jdXpWAHU5KHldzYfezrkhA6gYstyQdBi8_R3vgOsKQaQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn2SHetu7s8DB2JGIFf0KG0GAZgYw2QWTu9EmpUMgk5z_SYTzi0anuANNeCJt3p8cOZCDnpWRv31_kE0vsSETZoEty1GZaMTo4_Ubv8qlcAC1u0fPDxFJM_UnGdycIcEJjpE1UN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnQ2epGrbvN-Eg_cxg2zjWCBHfzbGl3JSgZRlW10SOAExEIT_eVN-SMKDGToXzm7CZkH8T_5ynsmi1C9OlHdHWyXSzzTDokzqk5Qe2irXN80oIdgFLHZ5NNsNFPSvFzQH7GY1uk=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlaGFkMyoGSJqQc7ec7JSlavQZNTC9F3d60qJh5IzRFgHAYD2HLrarn0rJe45grB1v9Iw3JVN0tTavR5_21VzXDEgdYptOkI0moWqVUXejQ-n1W5XB_lvz5FIlTZAn5lmryqbv7=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Just okay. Didn't like the Squid batter fry much as it was a bit sour and just had mayo on the side. Cocktail was nice",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlYvb6Pud8iiHGbep_EarhqZzn2ISdpRSITrDL4Z9KHh3wQynHt5yvmh9fzZMz-cG3ioXSs8BWdfq4GqtwpA-fzqX9BQ2E0UBV68kP6pjlljagjJqJYpLptRnqNPp2VH5YxRnC_ig=w750-h563-p"
+            ]
+        }
+    ]
+}

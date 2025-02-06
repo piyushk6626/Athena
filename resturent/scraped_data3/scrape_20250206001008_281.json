@@ -1,0 +1,50 @@
+{
+    "id": "20250206001008_281",
+    "name": "Food Court",
+    "star": "3.4",
+    "number": "339",
+    "score": "1152.6",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Food+Court/@15.4960731,73.8348029,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc0840eaaaaab:0x129ad75537119258!8m2!3d15.4960731!4d73.8348029!16s%2Fg%2F1tfx3bws?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPzju23NyIyyiwJVt7t6GJjf85jYljB2pI3X6tV=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "19"
+        },
+        {
+            "tag": "price",
+            "count": "11"
+        },
+        {
+            "tag": "masala dosa",
+            "count": "9"
+        },
+        {
+            "tag": "food quality",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The Gadbad ice cream at the food court in Patto, Panjim was a nice treat. It had a good mix of flavors, with layers of ice cream, and fruits. The serving was decent, and it was refreshing on a hot day. Nothing extraordinary, but worth trying if you're in the area.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlR6D6ieOORkIJdDzG1j5aqYl89snMk9HqwoixmB0d7vZN2YDIRLMw3ocERRUieIxiCsx2dxPpfIAsBIbpskc4l50mT0SYrz24_hRkBRps5jx-aIzmvaBjCiIDETlmwGdh7dk59LA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Ordered masala dosa from swiggy\nThe dosa had a big 8 cm long hair inside\nSo much disappointed",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlc2TlBQWGqzL6lAG0SA1l7mnrrP2Q6CdqJpfVJ_tpDodqVgLY0bpSIxCfOqlw26ciOv9RPxPmYK7L-0ggHrw3oxPu-2Fp45J2kwji2lOpSgCsnAiE0U2x2rmfPfpr-rO7arBiKdw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm1rYhcOkTJXqcpVICMMM_9fDrZS-jTNQK5SA7IGCKSzHh7udL9OO0E8rKFZ1pefIr4vBI2dYy99tpM0nEHvwFrO828MqyihZzV3QSR7qe2ySp-IumSaXwnmgK__nY_FeohuETb=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "We visited the restaurant on Thursday evening, nice ambience, service was quick and hey have a variety menu, all from which I have tasted are great.\nReally enjoyed my dining experience here.\n\nwe will definitely like to visit again. ❤️\n\nOverall Experience :-\nSERVICE : 4/5\nAMBIENCE : 4/5\nSTAFF : 4/5\nFOOD : 4/5\nVALUE FOR MONEY : 4/5",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkboG_TiFuGvUOiC2YYktHtuPj1in39awrA58X2bFBqkI1Pq9QVYJ3wVrkFsntCAkpMNouWPbwgcn4JZkLb7p5CdhXiKNWYvkDAiM4yVhG5Wp3s_hZXT0DUmMbVMEr2YGgGCCVv=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkjnQafvghysT-Nj_RQ-1GgLnbvywIWUmO0xzewrj59KwsNs4M11DMXbztLjhwuEfKp8B_HQhNoEqQ4HYFKSSpAc8PbJh0hiUmF4MYaZBlUOQL5Zl552OUrSwNenO8gMCDOU-iK_Q=w375-h563-p"
+            ]
+        }
+    ]
+}

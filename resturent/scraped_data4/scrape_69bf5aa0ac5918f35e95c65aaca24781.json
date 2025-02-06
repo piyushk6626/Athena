@@ -1,0 +1,50 @@
+{
+    "id": "20250206005446_318",
+    "name": "Zeons Restaurant",
+    "star": "4.2",
+    "number": "681",
+    "score": "2860.2",
+    "area": "Orlim",
+    "url": "https://www.google.com/maps/place/Zeons+Restaurant/data=!4m7!3m6!1s0x3bbfb482b056b4c9:0x307b735da1056aaf!8m2!3d15.2291542!4d73.9350526!16s%2Fg%2F11c3ww5f0n!19sChIJybRWsIK0vzsRr2oFoV1zezA?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO2vDl8zI1kEQLSWJRtDvWIbOWtPLz5ckKASVj5=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "42"
+        },
+        {
+            "tag": "sea food",
+            "count": "17"
+        },
+        {
+            "tag": "varca beach",
+            "count": "10"
+        },
+        {
+            "tag": "hygienic",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "This restaurant is a hidden gem. The food is really delicious and staff is extremely friendly. Must visit restaurant in Varca.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmVRfAq_cX5HGH8YhyFMWVJOMUaIsK7LF4CC_k_vKZIX-Tzy3sQE6au1-zwtxb4x1kTYtMFEnFB1JV-lSkmXYqIj4BDTqqxiMSU6ywwrmSjdv55pBnGjF3qjxpbu1WEQmrz8WBWrQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkCSva8wqFOPZqd5Dy7enPUtQU01hx7JWtSLztCpQpxQeCNR9S_CYjW9oO2lr43O5oHzccUprRQuQ2DlONEex8Zp1zrFstGByCDDs6HcyLXj0QL01xjCTIrPjuHTKmd23yeOVgN=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdna1Jy2cQp_25YnM9H_vzGrHnAjyScJEbnJtzIryM8op_MH9HXnSU4CYP0H-jpMFjkXeljjbqmDOJnJTdZBGqueF11xKckg9AlxOV7pdt7JqvPWXVEbq36Ne5ZM4c8vcZzdyUqgSQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "The food is fresh and yummy. If ordering Chinese, then mention not to use added food color. A good restaurant around varca.",
+            "photos": []
+        },
+        {
+            "review_text": "Zeons has the best Goan food and that too at an affordable rate. Good quality, quantity and taste. You have to try their fish cutlets. Their cocktails are also good. If you are looking for affordable option to eat and drink then this is your place.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmA1KHmi3CG4PEVnGo8Esjnvr7Qf3GojbcaoyVdegKNUqE9JL0QlZgk6rZoZzcqrqrhVrC5UgHMVNYodRRZDpGYffbW2UznyGHG-HSW6nOnkQ9UdlFGJQYZ_kj3qkdz_fVSesTY=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmAyoUkK_GRAN7wRtb7jTDhJ1Uw7yDgEphGm4Pab8yKbCY7LXOFfKUmt3G-NZ5VdLs7ij4AsZ6toen3MrkQXIcLG8xtqomV_2afttVBn7xlVHx8MqjkyD3Icj7vhKM_s4iqfu9v=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlBM4r-YhgGsVIuJV48P5DwXfCkC-IIVYMXneYMIwRo_E90G6Q58A39ICPIN2yq3zN3h7bVXIM3PCpnBVN-OpbT-Y3FFI1QaxaFe0mmcxOVvI8LfUSDvttnBXB2n1VLD5aBVlQ=w375-h281-p"
+            ]
+        }
+    ]
+}

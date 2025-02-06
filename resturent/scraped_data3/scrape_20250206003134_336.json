@@ -1,0 +1,47 @@
+{
+    "id": "20250206003134_336",
+    "name": "Fusion Restaurant",
+    "star": "4.6",
+    "number": "166",
+    "score": "763.6",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Fusion+Restaurant/@15.4967636,73.9127128,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbf1fdb54a0ab:0xe113441049d933cd!8m2!3d15.4967636!4d73.9127128!16s%2Fg%2F11lg3s45km?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO8J21TK1fi4Njoac3tVy0Hes5xvimMkRS6ElLP=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "18"
+        },
+        {
+            "tag": "goan",
+            "count": "8"
+        },
+        {
+            "tag": "prawns",
+            "count": "7"
+        },
+        {
+            "tag": "fish thali",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Went for Lunch while exploring south Goa. Got this restaurant just opposite side off the highway. Well I tried Goan Fish thali once again and surprisingly the fish was the best fresh fish ever tried in goa. It seems run by a couple and they are polite and humble. We tried fish thali at 140 inr. Only The rice quantity can be improved, rest seem to be a perfect.\nSo Goan Fish Thali : 4/5",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnZfan2Rx5lcn_YK1aRWsLwk_E3SyJF6-AmNId51fgYYu1H88V9yQMUpebG1fszqEiF-wA0H0zUfDvf6rXreLjLdXtwUOwiNgHtclUu0XjuJMsP2BxxJB6Zw4scw83GQp9tYD-g1w=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Had excellent home made sea food lunch. Fish and prawns were fresh and cooked well with right amount of masala.\nThe restaurant run by local ladies maintaining the authenticity of the local cuisine.\nGood job!",
+            "photos": []
+        },
+        {
+            "review_text": "Amazing must try place for authentic goan home made food.\n\nWe tried King fish thali and Prawns thali. Both were so tasty and yummy. Quantity was also very right.\nMust visit place, its nearby Basililca church... It worth to visit and try.\n\nAmbience is also soothing..simply will suggest this place. 👍",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmLvQKmXOtkvSClmJ_JDGUBaG0EpfZECTStiZbcx5AX7Xgx9hGfhlyF5Ke4sOwSX-kQI9h-ObwqvOiC8jhJ7Bq95MWCOPf2HAhklNP0LwdrNcbXa5pp3y4ZgJAgNOqRM3WHDpK_=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm0MEQPN_1N03BBmXFZxfHkBRBRRN4ixjXMRnaYHTx7qfsvggkZLEbpHMdlJmGPV3wEcfQmi5_xolxrGOQD9vkP1cA1Kk53ST5tqdgxGPoDWVQWwjxgttSqkttQSfFtRX6IJMTSOQ=w375-h563-p"
+            ]
+        }
+    ]
+}

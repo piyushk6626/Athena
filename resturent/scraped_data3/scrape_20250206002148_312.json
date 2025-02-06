@@ -1,0 +1,49 @@
+{
+    "id": "20250206002148_312",
+    "name": "Goa Streetz / A Goan Cafeteria Brasil",
+    "star": "4.6",
+    "number": "196",
+    "score": "901.6",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Goa+Streetz+%2F+A+Goan+Cafeteria+Brasil/@15.5032844,73.9136895,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbe8d851f546d:0x933d6b24cd66fb7e!8m2!3d15.5032844!4d73.9136895!16s%2Fg%2F11c1wy49k7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOz3Z6OL1NFYgPVeftOhbF8LEEGqoxDR1Pqco8G=w530-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "12"
+        },
+        {
+            "tag": "thali",
+            "count": "7"
+        },
+        {
+            "tag": "feni",
+            "count": "6"
+        },
+        {
+            "tag": "burger",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "This is a nice small place run in old Goa\nFound it on Google has really nice small menu for breakfast\nWe ordered the ham and cheese omelet with the cutlet bread\n\nReally nicely done with a home cooking feeling\n\nWill visit this place again",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_Ke5fIpSx-A14vhXZsOxqCygqGHEfZ0SU_W4dYUwWKS0f-9b2HVtsxb6vLph2cdjBLEQMKtJQcr-dldR3l65FqYhwL5hN0zw5einWV3uqBWUiHg16L8kK4Qlq_M4mAwxR2Ro=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdksZTrSE0IVJpdnnA6j5UaZ6CWjyH6-Eo7k91bKb5-xNxMlA3ghh269AjpnFZZrawDeuGl8B-EauhIqY7rLMS7ZEm1hWQZCS2VpuVShc-MPUV6XQONArIQJKWYnu6y0BGfOWwvphQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkH0wEF4DVkYGvX_sYq0vObPCoizPTw7aFcubzIBFyc-qIvWL0mF5Q7uBQvlOP7Z7mvBbbuL_Y-nlWQLi0iDFHPlowG85snpvfOk4u2DEDM_RHUP0tgwefAM6iafB5Z4WK_c3g=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmiKJSSDstBvyt8RqPZVzpVco1N5-eE2FtLp-yGhuGBLIjZCYLUNQsUgTtmPkM36tXcDFGQAzjESb5TIu0T8IKVsLMbLdFBQSTP2mS6Uww7M3w-YC19Q0m0Dhdf3SaCi2SMWUEM=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "If one wants to taste authentic Goan cuisine and snacks, this is the right place. The Goan Couple serves everything with a heart winning smile... Overall a very good outlet...",
+            "photos": []
+        },
+        {
+            "review_text": "Really good stuff for normal prices, ambience of the place is amazing with some good music, nice setup. For a foodie and cutlet lover this place is one of the best around. Their croquettes were also amazing. Place is really cool and food reaches the standard and expectations as per what you pay for.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnfZzhQxSAckYGvXm1XkzD-28tPKiHeFrPoerVPod2D-Bs__hg9gQEM6SoU-JgdHgXTJj4GkPUZnkAU9RNCJoMEWv2WMtxdAAGWsKNBevgCaTr4A_sGMUbL6wzqJo4UYUQiE4gJ=w750-h563-p"
+            ]
+        }
+    ]
+}

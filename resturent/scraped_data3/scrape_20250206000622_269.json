@@ -1,0 +1,55 @@
+{
+    "id": "20250206000622_269",
+    "name": "Aditi Family Restaurant",
+    "star": "3.8",
+    "number": "317",
+    "score": "1204.6",
+    "area": "Valpoi",
+    "url": "https://www.google.com/maps/place/Aditi+Family+Restaurant/@15.5259849,74.1245006,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfa17fe4d20479:0x41e02dc865051913!8m2!3d15.5259849!4d74.1245006!16s%2Fg%2F11gd1vx7mp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN6GDhbkU38Y3eQi1HI0VWzxiTHjgncMjJuVlX1=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "10"
+        },
+        {
+            "tag": "fish",
+            "count": "9"
+        },
+        {
+            "tag": "quantity",
+            "count": "3"
+        },
+        {
+            "tag": "price",
+            "count": "3"
+        },
+        {
+            "tag": "food colour",
+            "count": "2"
+        },
+        {
+            "tag": "hungry",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Good place to have lunch in valpoi area. The  place is on the highway and can be easily accessible. It is famous for fish thali and they also serve Chinese food items. We had a kingfish thali which was good. The staff is very friendly and provide good service. Must visit place if you want to have food in valpoi.",
+            "photos": []
+        },
+        {
+            "review_text": "The food was good, the fish tasty and fresh, but the quantity was a bit less for the price charged. {Rs 190/- for special thali} they have an open indoor section and an AC section... May be the price is higher in the ac section.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmkqc7slB4mjUtRzcq14SJZDCxrJ4ZDUZZpG2mUGUO8pK7vq4FLDFL1dY_nny2pQnEorgkxjCPRQbiNx7UDi3i7zIWtxenQwrIannxiQIoSdH3raB0_STqq0dBE6RjW7LSTkTqQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best kingfish thali, do try if you are in and around valpoi.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkZapC7PL1P7DUnDtXJ-i7UHNHtPoFiO2pIeZi-oc9naD6JVU0jgyT6ygLA9ZrjAcO23NcBaMvNF2_F2q4tX5LX0QumpBUDlP3ci7m69IFtNoIQxKcCcXTJ067kaV3CPXTwzCUi=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmIzz5vGZGJVdYX11uvwe2u-M-cA4ZFqGBDIZAnizq6GLiKxEQaXD2dUI0nXrHZu0kWW6-s7aTfSqD8n7w0SSX8xjlQm5kdlQhOlP-KXvLCW_7QtU0BZZT0vXRYtP3khU_XjjQ8=w375-h563-p"
+            ]
+        }
+    ]
+}

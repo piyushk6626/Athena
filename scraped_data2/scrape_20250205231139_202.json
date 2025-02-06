@@ -1,0 +1,49 @@
+{
+    "id": "20250205231139_202",
+    "name": "Pai Palace",
+    "star": "3.7",
+    "number": "1133",
+    "score": "4192.1",
+    "area": "GOA",
+    "url": "https://www.google.com/maps/place/Pai+Palace/@15.2840971,73.9779973,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb3c25ea5a8bf:0x4491f602b8874b1b!8m2!3d15.2840971!4d73.9779973!16s%2Fg%2F11b8b2nlcq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNMWy3xu5X0isDB7rb7U94HSS65gA9l7Ztwy8hp=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "27"
+        },
+        {
+            "tag": "food quality",
+            "count": "19"
+        },
+        {
+            "tag": "hotel",
+            "count": "19"
+        },
+        {
+            "tag": "south indian food",
+            "count": "18"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "You get neer dosa here! We made sure we took that as a parcel to enjoy it at home because this was something my granny used to prepare for morning breakfast. They serve it with garlic chutney, potato bhaji and coconut sweet dish. We had an evening snack of Bombay pav bhaji and cheese Bombay pav bhaji with tea. The tea was prepared very well. The place is well lit up and welcoming. The staff are quick and courteous. The crowd comprises mainly of families. The menu is vaaaaast! There's other small munchies as well that you can buy from the cash counter such as pan, khajur pan, chikkie etc.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnaw0QW2OBB5iUtunHQ3NJ0Sxeh8gd18omaIHjE1meiIdM-Kqcvlrhu7Jj1NVBQ_I4NhGo6ZpWIEhPrFHyPzH2NWSVzjw0INZR203m57HDUuRFOraTU8P-zWjiiMW2ZREo3ZjtK=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmlJVOKz69YSUAGynYhmo-rZU4zYys7kHGLbWPzYPQMhzMxht0QLRgtDobugH4VKxE9Fj0JyZn_pW_1g4ySyIH3949yDgUmfCb_pbo4EITae7M2UwOSuWEWBNByS4URbKSaGZvUBA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnFv2KFvatOZSuA-tBbl3FceKJDbo0Cc6uIuvUHYfRYiPVORgaSiYFJiWT9krjwgCKdTypKtI64yGp5Fd79pvHNyyeWJ_0Lf2PrvcgbQOO-GfD7MgsY8epYvd5TzkYeqZyz_w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmY3_Fb8VLYB7YLXpRvG1JXUEvxaefY3VpFrEMjKK_8EMaCQmchDoWyGk9EhT557bdfJ57AOO9H_6MW34RW2GEQS9EOVBhWRQtL-QjFD5lg6CkV6AvO0Z0OnJp5Ey9m7ofepWyEpQ=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Had ordered 2 thali via Zomato Railway Service\nFood was packed in multiple polythene bags, very inconvenient to open and consume food from these bags with knots. No paper plates or disposable thali tray provided.\n\nThe sol kadi had leaked and mixed with all other items.\nThe bhaji provided was spoilt and was not edible in the Jawar bhakri thali. Papad was soggy as it was packet with rotis.\n\nPortion size was good. Zomato as usual charged premium over the restaurant rate and places the order way early. Leaving the food cold and stale.\n\nProbably best consumed in dining experience.",
+            "photos": []
+        },
+        {
+            "review_text": "Very worst food in my life, I ordered paneer butter masala parcel but he mixed with Atta and canflour , dirty taste in my life, don't visit in this palace",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkyLSGUfiqcXebc-FkJtmkc60spJRVMs6ivy-StCSRvtHSbmckxg0_gprqlVjIA8qcYFnh49kXu2I-TtN6koAktpboi3tme71fUStfFhmY5YO1TBF2JvcMAjenY1GOtYm1sRLt5=w750-h563-p"
+            ]
+        }
+    ]
+}

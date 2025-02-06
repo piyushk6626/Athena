@@ -1,0 +1,52 @@
+{
+    "id": "20250205230811_129",
+    "name": "Cafe Antonio",
+    "star": "4.3",
+    "number": "974",
+    "score": "4188.2",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Cafe+Antonio/@15.5761726,73.7403394,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe98f14506209:0x9f0615c2739414a8!8m2!3d15.5761726!4d73.7403394!16s%2Fg%2F11cmsvwp0w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN6Jz0j0odSbT4YUfZFpM5xx7YH-vHXMvQFNIk2=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "beach",
+            "count": "79"
+        },
+        {
+            "tag": "music",
+            "count": "74"
+        },
+        {
+            "tag": "experience",
+            "count": "44"
+        },
+        {
+            "tag": "shack",
+            "count": "28"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great staff, drinks and good vibes! We didn't eat here but the drinks were really nice and the service was great. The water comes right upto the elevated seating and it was great to see people having fun, taking photos and chasing their flip flops after the tide swept them away 😄 🫶",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnb8eP5bzrHAzxsT_SDoYoe8Shau550BpN7kLhYj6SMzaiCXYol0f3KpI9i5VM4JtxKq2ZnZS8wcJQEA_8d7IrSDhFa77cptxm95fT6itwAR6B8q6AzgsGTXKw54aiAI07XmS0=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkKlCrL3erUxSr5a2wgrr5R8j7ueiYKObzZaVXpNjXEQXjzl8RfOLqoiWsfQwnZ6UKe0CzXpDUGsZiy0ZsbIgL2KfrLlqoK8fkSc1qh6RxeiaCH5Xb_1PpQ7yMWfIxNqlK8X0rKvA=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "I got a pizza and a breezer for 900. The pizza was decent. The place, the vibe is really beautiful. Music was a bit too loud but that is to be expected. Good place for youngsters who have money as it's pricey. Right on the beach. The table setting is also different. It's more like cinema seats stacked on top of each other so everyone is facing the ocean.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnnc-BE5NRLxP58VsbKOB4dn8sWYv3_YwNKCvXuULkPRwum8N_sL7CLMHLeMaXbjBotLO-fa4qRT_JECMziYi0KCvNeAzueFZ9_HXRvinBUC8Be_Qubtk-EPEXP8R-G4dOrr9jD=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkk4-vXkVxMFDOopm545uSF6Gfa22gWmCL3Aif20Nq-edlA_jGBjx5-K3DUf3A9bGu5_s3m8D1odbLkawieJxp1OHf1dm-MuYr7WhadklY2SCGGidmRCTZRntPBz4TPBRqsIYdQMA=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Stumbled upon this place just at the entrance of Anjuna best. Great beach shack, incredible service and lip smacking food. You can easily enjoy the sunset with the waves kissing your feet! This is a great place for couples and photographers!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlnt-HELpknLJM_36-NM8C65tUPSGxihfQsmHwkt-pDfmOTpz84EaNw9nNP16M4gtY5XGkQxdy1KXHSfT5k7Q9n4qE06FgiDSF1fXXCm9piVzH-WFkJm1i8aVMa0z8DZCnHWkaq=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnjJi6nLgU_0KYV1PnlHVjHOXvMSpIX2ZF6DDzFJCKEz3ak-cMEKaD26wnWtK9Lcon4d-tqUzEABS2e562S0mF831aGOctlcX64fo2LZyYkQgOwYwPPDLiWv6AVMxBqrWvzg7jO=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkfj6Zj1wUU0hSBP8nKW_yx48ZkOncDilM-tUmP4uh8F0f5hKs14BhvF6M8VyCTs7-qljMNzygRRPJ6UGuPztSET17kasPd2hzzUZpJJY7W_VB_f4_1aPnROsFfSYeRy3rdWpiFFA=w375-h281-p"
+            ]
+        }
+    ]
+}

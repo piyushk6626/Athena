@@ -1,0 +1,53 @@
+{
+    "id": "20250206002110_310",
+    "name": "Table talks",
+    "star": "3.9",
+    "number": "235",
+    "score": "916.5",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/Table+talks/@15.3877723,73.8640652,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb90107e59a73:0x54f9efb80c4192c6!8m2!3d15.3877723!4d73.8640652!16s%2Fg%2F11mvgyj0nn?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMLlDuT0J6RnGmywYaglLcQiQEjFLcUfdXOcN-W=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "shawarma",
+            "count": "14"
+        },
+        {
+            "tag": "alfaham",
+            "count": "8"
+        },
+        {
+            "tag": "price",
+            "count": "6"
+        },
+        {
+            "tag": "tandoori",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Ordered take away for dinner .\nFood 4/5\nService 4/5\nAtmosphere 3/5\n\nThe food was good and I ordered  mushroom and chicken dishes\nThe servers were very friendly and made good suggestions\nThe grill fry was their plus points\nIf you want to skip the wait you can call and pre order as well",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn0elT8tugxY3EBUq2mZVa93leQYBaHntpF4cShZ2iWgyX118IzcvhccsgQjSZ8jemS2K4WwYn4WnOF21ZyEcEu8bT3GxLN15ZdfOoOgwpZIg6qTdnoPsKEJISeWgIR1oWcbMBC=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkkg_-sZTHyAqZ0OrKeqKvYj6IHJrZz9nZ8FL_qxA1Xm-e_ZDaCKIsKHqBB4MZWUMkh8YQNjzhHTKuXOTCo5u-tj7bMHCm7uHGpeuFtHgdIhYN2-6njyCCaPI2tItMo3ojjKIVw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmXbvmxNEeB_NG3ZwganyUsCj7XK6KxMDxZ2uMkLCt_7uWQeDYdZNjhLWZFDWcyRy9A0L2K-eOmJwxI-bZrn6JjyOm50XRa_D5qaHpZSf9uNzIZj1lt88s-WBNT_frB9e0NYqEF-w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmeXJltMQID9qA_3LLCADQH1IvcAFWczQki74xRoIirVrRljdR482YDs2mRubdViAMc6GQECdBp8QKlR-4zL7BMYV1hiZH0x8bV75r_taU7nq-KqoTN16SOtpfck1zQo-JTjvnX=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Ordered two supreme burgers one veg and one non veg taste not that good the burgers were just filled with onions the bread was also very soggy and the stuffing was also really bad overall not a good experience",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnj_fDvs151qLCMYPaBH_gaD_afaMZJK2pRz3wBa9c_Phlxp9fbFsFvOWC_2vgmcAkRdSkfH-ef5Bq_dz3CHW-CZzNQfj_pq0qgMw00LZFftMIPotu4muaGTTKAd5KPf1abeNzpQA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "I had ordered Mutton Biryani here.\nQuantity is excellent and the mutton mixture was also good but the Mutton was not cooked properly. It was hardly chewable. Ambience is an OK type. Prices are a little expensive compared to quality.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnOxRoFtVtQs2xnN_RYCyQzE6a8qKpc6RIWY0_E3CnqwyiddqhcXcW7ZP-aYg_LrbusdUSXO9CeRgH_x1xsm2woW34mW5hb3q2YSJTNLOb1BIjclKua9SUBjCTc3dQQ-3mX6atV=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnxQJFcKrrkZH6oi8WwjrtrhWOOJMTrS5dj_dy0IkAjjaqSulzmclYKr2WU8fL7io1ShYTqj5B8PfI07Hg-kbxCEYIQ7tHbeE1BXEbsz-XwsTA-5YXZ500W0fMSeF6ej4CNHJfM=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlUpg66YtL5v6rHDf5hjMG4BDgH2JLShVHERZOTXuWTn36He_DqshR7zgVoNLxNkqqw4yo28Yfw3iNqCU_wCcn3zppYS6pzPAJO9Eb_hV2toYX7_h_0SP7rlKh7bVQnY0FkX_T5=w375-h281-p"
+            ]
+        }
+    ]
+}

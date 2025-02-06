@@ -1,0 +1,49 @@
+{
+    "id": "20250206003720_267",
+    "name": "Hyderabad family restaurant and bar",
+    "star": "4.6",
+    "number": "771",
+    "score": "3546.6",
+    "area": "Arpora",
+    "url": "https://www.google.com/maps/place/Hyderabad+family+restaurant+and+bar/@15.559314,73.7640163,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfeb1a1ae08771:0x46a7b059cc78254e!8m2!3d15.559314!4d73.7640163!16s%2Fg%2F11qh7r0skb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN0VF0WIunzn9XN58y2ukMbasduqJV30RPAb4Hz=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "40"
+        },
+        {
+            "tag": "hyderabadi",
+            "count": "39"
+        },
+        {
+            "tag": "trip",
+            "count": "9"
+        },
+        {
+            "tag": "andhra food",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Delicious food ,one of the great biryani restaurant in these Goa💕❤️",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmOdU5THtRzaRgv5lDmXN6Wa_GTOJtu7W6gLbvJK6ehv8IrTNDuHNMT_2LUtrMbSgYPWJpwp55HzdxrhA6Ri71abEtZs5JlRi-Q2A0kQLo4o3eLAGIz0GJTuNEaUZGlSxn6U4tS=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn68cElCoRB8WmB0-A2wdEtCkUpKapsx4hxZLybw00yMFtl0yvD1cE1V0t3sCEhGElcm4uC_bnnKQMdXwk2kEijupABiuZkLHJZJbNAIsh6Z1lrSioAqQFFuz-t-HROESkEwVXP=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmFJWidp7-NlbaHGSBU2InJuSKJi_uxfT9tSK2jToRw7YAfUUFb935t3rRDyYtvnb0DQl-gLUM8lQsxdsV2XzMD_GzS-qCA_USQkR8yBCm1R7jG0IuX1jE7HEAYZOmsb_BUhwtz=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlAlyzmy1CIrMA6rY--ua69iMrjsvIe3cUJenMcZf2xtMWcdtcOYlvBS76tsOG9H9SfuEXC9HK-JxL0whpL7DaJYdrFxzF_a24fCUDbS3Jj5DQFpZGrxa2WwxxKI7jrxq5BUcTyrg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Food is very taste … service also nice … plz prefer this one if u want to good food in GOA 😍",
+            "photos": []
+        },
+        {
+            "review_text": "Highly recommend loved the food specially the chicken dum biryani and the bar. It was though a little spicy but good",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdngYBkhuOM94c4Qj8UYurnLYNNQ6PiCy65E4sQcHO4Z5ypr-3OC1rjpHyn0rNo3QZBIfgg-eDJrOwgEwBjfGVBC5ECWrbAMxF6CfiX119CsM9n0Bwy_i2epmKM9cbs063OULemm=w750-h563-p"
+            ]
+        }
+    ]
+}

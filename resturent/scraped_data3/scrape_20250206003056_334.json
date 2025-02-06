@@ -1,0 +1,52 @@
+{
+    "id": "20250206003056_334",
+    "name": "The Little Hut",
+    "star": "3.9",
+    "number": "198",
+    "score": "772.2",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/The+Little+Hut/data=!4m7!3m6!1s0x3bbfc194c7f9eca3:0x41b875fb8d780194!8m2!3d15.5222053!4d73.7669259!16s%2Fg%2F11bwpm7j9l!19sChIJo-z5x5TBvzsRlAF4jft1uEE?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMM9sGjXq-PKrW5kEYCSm3-815TvCN55Ya-ygKe=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "11"
+        },
+        {
+            "tag": "thali",
+            "count": "5"
+        },
+        {
+            "tag": "cafe",
+            "count": "4"
+        },
+        {
+            "tag": "prawns",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The ambience of the place is very good. We had ordered masala dosa from their menu card. The tsatse of potato bhaji and sambhar is so authentic 😋.\n\n♿❎Not accessible for physically challenged people due to steps.\n🅿️✅Dedicated Parking available for two wheeler and four wheelers.\n🚻✅ neat and clean washrooms available",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnvDNPEbyFXWwh49h-XTQwj3cAoU0pq81uBaQKGK023-5AiE33dbXIn1Cb9MDYcQPNvGHBFVe6smYTvCX1qyMEiBzHC_TmBM3rVquVMIk0kGtw4tEj01kr4twtGJpVQ7SlJs81AIQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdks1crnck2NxM1oWOIRJKlZh_a_w5F8XEPN21c83_cXUe3BRfMZ1DTjVYvlQ0iIIaj3CueJWs8GHVyNQc6DROMbvQS_3dYDfyrLKhuR_PKzP_ykIRswvKv3G4Lia4Fmr2e8DK83=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm-Ux7Yj8w6tWRo0QT95yv2k-WxFlAP0H90lTnNC2dEj5W-P7h41pdQZKPScQgx6ZvOfZzeYo4iX7iaz9CIXnS2fi6lyFvBRUZM0EeVPFoDRA6y7TQv11vFxzHUoEUhGXyV-V1kLQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn4OH1azIqQ_4zRuStFfdROojbmACBpRpTxYv1F_Evh_u0tpQKvgrWtB8UBou7Qw9V81mp6Rxfb-fgyY85umvjKnw2Ff_z_dK6eT0Et_Pe9yH5GBDc5km3_FLIVi3ENceC9srs=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Excellent food and outstanding service.  I had the best Veg Thali I have had here in India. The prices are very good value for money.\nI will be sure to return before I leave this area.",
+            "photos": []
+        },
+        {
+            "review_text": "This place was right around the corner for us so we had multiple meals here. Food was really good and so was the price.\n\nWe also loved the ambience of this place. It's simple but romantic.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlUJ_1E9XL0764315GM_7EXUh8pJG6w2r-WRz-piFzX_mvGlmnq79lqWrCwEtA8jYzHSCC4-gNtwySvCHzE8Tf5KbuYCMdhag0F9FnokAnY_MIXDQfZh9XMevF4iQZ0gEW8vGlf=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnCSrd6hB2Ai8vbOcFyDe_ZBXH_bwNAVrndnceXEPAFJBGzcZ647w48q8mzHKAlHEtLulR8pezN_vw-UOe7zQCWbB-QGtHPGx0cfCwQTBauiVJVnW7DnYVXy0RqixtdUV_c1Swg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlSINbuNpzHrqkSRt-XStwrHhfeYJDQ04YCMjqKqF7pnTkbd3sCtQtnqMJV0lqdPIADGne_t2SQve6VNsptcKScaAzeDKBgCbauVn3ZAzfeuklzVk78_fV7yqug541r2zTanzcl=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmaALRvGu88S8-qN-vAVCSt_749BXzOLDodalTnNZeVVcgx6dbfoCm7X6kJNTgIZ6dRqfppcUukqBopHo-_iEXH1PNuI2FmI1o7Cm-hVhXhpn3TW1ESBFOM2HDggvRE0sPRlz-ekg=w375-h281-p"
+            ]
+        }
+    ]
+}

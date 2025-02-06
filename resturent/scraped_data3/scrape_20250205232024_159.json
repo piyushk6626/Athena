@@ -1,0 +1,46 @@
+{
+    "id": "20250205232024_159",
+    "name": "Dosa hub",
+    "star": "4.3",
+    "number": "721",
+    "score": "3100.3",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Dosa+hub/@15.5840501,73.7527875,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfea29591e9aa3:0x47d9413b80600266!8m2!3d15.5840501!4d73.7527875!16s%2Fg%2F11c2nrblfn?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO9StlC3W1PdxXr7SyK810mMzoAZC4yalREJ4Tr=w427-h240-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "36"
+        },
+        {
+            "tag": "masala dosa",
+            "count": "14"
+        },
+        {
+            "tag": "andhra",
+            "count": "12"
+        },
+        {
+            "tag": "fish",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Nageshwar rao most talented server i seen ever in my life, very humble, respective, timely server,\n\nI trust only Nageshwar Rao.\nThank you.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmKGusccuS3YBqtHPXlwYQBvqxBkqy0-nEsVqdW0mZNJkagWr6Bg6fYjEcbi_j07NIzRC6qLyqHn1iAxtV0sT7qUfFcfLdR_Nubspwv2guI9t0Plffq_Jeh-LpZneVOs_ect8Lo=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Authentic Homely Andhra restaurant. We ordered sambar idly,chicken curry dosa and chicken dosa,and these were amazing.service is good,responsive and nice.We liked this a lot,will visit again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmh0K6ZbT8zNPHl7PbBJSrfs3NTXSzGr7e8Kx5UvAAnTE24rmVcQYYTBY2l0IYPAa7I0c5bZsnBmOsINxfC6Q_KkJZw6Y6MJxg4Ms15RSf-T_X6LDMvMCUDL6-VQdnmobX_I9cTww=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "A proper little Indian dosa place. I had Mysore masala dosa and a sweet lassi to start. Then had a veg curry with roti and papad for lunch.\n\nSomewhere Indians go to it so felt very authentic. Good service and very tasty food.",
+            "photos": []
+        }
+    ]
+}

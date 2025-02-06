@@ -1,0 +1,57 @@
+{
+    "id": "336731f2d33ce29c09e870c262b2a08d",
+    "name": "Pepper's",
+    "star": "4.2",
+    "number": "2417",
+    "score": "10151.4",
+    "area": "Aquem",
+    "url": "https://www.google.com/maps/place/Pepper's/@15.272603,73.964541,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb3c391c5f13b:0x72e0c72ecf34cd7e!8m2!3d15.272603!4d73.964541!16s%2Fg%2F1tk_mqs3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMlEuqD3MEHlGi_8Q9B1Ayr3vcYnUViz3cDOQXs=w533-h240-k-no",
+    "tags": [
+        {
+            "tag": "beef steak",
+            "count": "26"
+        },
+        {
+            "tag": "serradura",
+            "count": "22"
+        },
+        {
+            "tag": "bacon",
+            "count": "13"
+        },
+        {
+            "tag": "cantonese",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "We absolutely love visiting this spot in Goa! My husband and I really enjoy the drinks and the steak they serve. The staff is friendly, and the service is prompt, making for a delightful experience. It's such a tranquil place with a wide variety of delicious food options. Personally, I can't resist the beef steak—it's my ultimate comfort food, and I rarely venture beyond that! 😛😛 The restaurant has a warm family atmosphere that truly captures the essence of Goa. Plus, the cleanliness of the restaurant and restrooms is impressive!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnAGf6eJSFDVMFPqT3XS9tSxvx-BKpQGyPQtLgFWp4ErHARgtMLydYjHT67w4vTbvQ_SCLi89r8abLowb8XyAEKmIjygGB9s7cvsew4m6oilU2gpgm_cfFwVQrI9Yn0q2SEcLl3HA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkVJ5DQ-6ScXI_Zw99UvnxgSnV55uRwTpCxFb9m4nUgaNE_S1kcwwficgS1Z_WyNsrPwDNQQe1v5kM_9LobBcF3clDXYXfJHY7fCm5c3QKl78e2zk_c8JXYbENQrWxDn8pTHSc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlNUlVhAzuknYfrTcPv3vgYN1EH8sDaGKyvq5gD4XRxJAscFsqRZMOGZkR6pJp8Kvse-uDC23_JbMhdmXaublIj-HBwr2ehU8DJHZCAHoqdSb9eKBrDsGVBbw_ttDRMRGqNonI3hA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmbDsPbPlK1hP13EujlH5giYOea2chOC0Fi-atapg6eEgyJmXmweDGCh_y9eNe8DhS-Chk5Xs96GkVw8IRbnOiHqzgJETDqNdYEVRV7vvC7fxKglpd3_YAs4x1BTGZ5dCRc8SQg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Mom has been talking about this place and wanted to take me here. It was definitely an experience. There was someone who greeted us outside. We walked in and sat on the left side, where you get the street view. The ambience is perfect.\n\nThe food was absolutely divine. Every bit was an experience. Asked for a starter recommendation, now wishing there was still some more of it to have 😃.\n\nWe had, Cantonese Chicken (starter), French fries, Russian Salad and Chicken steak. For drinks we had Lime Soda and Corona. Every bite we took was perfect. The food was delicious. The team working there gave us such good service. My parents enjoyed it which in turn makes me happy. The best part was after that absolutely delightful meal, the Peppers team gave us a share of Seradura. An absolute must have..\n\nThank you Peppers Team for a fabulous time today.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJ1Pg-G9aR3ZqX71VTuynOWbBFs1KzxXHnfb80LjSPUXDqYGnKBq3jxhrZxEBvrWxAiSLPfZc-MAcyK1lbTrDNQVDUJEgjbZAMv5I7tX3qxDEpq5eGjrlHgo_h4G6vhAtEOf4O=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnn2oKPn7IlrDsJojmT0uHxZjJ2h9TIzzehoXJhXEfztWGWIkhGCIkXT92Tx7MUC7xARgT3AslJ1m6tlET-XoRnXTKU1v2whiOkECJSwCK6j5sEx8zB1YxfYrxl9YdLtMX0L_VcKw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmEep-JxVXM7sFGr4YoK0lvVpQEBQRnvGmqJ5ulXCOhlPEqKnivrI7oB-BIs7MaFmAMw9GUisP4sySCKocDu511Oddx05OPksBNASoY2YoTGi8MYVSGFc_KEks9pRfhFA2mv10=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNFcSVWEBk1FYhrFGv5jhTFjrhx5VpHoSzyctbhwOV7ZdIQpy4BkdCQotC_m3bF86Yv25LB5hvushPLjO5y_na2Q1iPzJxDuSBsKjP7hqbYQ2lOJlrLtNv82DOchjFd_LBuOoh-Q=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "We've been visiting Pepper's for many years now, and their standard remains consistently excellent. The food tastes wonderfully homely, and the look of the restaurant is both nice and cozy, creating a perfect ambiance for a relaxing meal.\n\nThe service is always outstanding, with Rommel, the owner, personally welcoming us whenever he is available and ensuring everything goes smoothly. The stuffed prawns are particularly amazing, and the seafood, in general, is prepared exceptionally well.\n\nPepper's is our go-to spot in Goa for a delightful and authentic dining experience. Highly recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn_wi0KJonOqjSd6yx8MWQlKT7sVn1_U8qzznD0Je6EYi3ar6i2U5RZCFxBdvx-NUs-YmgxeoOiUBIvvADXd7Xpg11lBtsOWTQbtvEmFZcHpYc5fO2PyPMK5YTNToAr5Ht7DcW7kw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdl7KzDKq8rm1sRI677aMgZZYWdKKa4S3Amn1gthX1Uz0fAU1Lbt8iheHhrMzwCSdw4ILxbQxkSodt33UWe24iX3-uhpJL3vaWi1lmtv3AcOmUrMbHagJCJrhNFuDnmSqHBu3zSd=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkzpLEpX0UckibAWkwsGNxW5fnB3AQ7JiwgNbt3OMGGd6-xcUKoTVqYEdsaKEQ3EB0oPBeiL8tvzhDF5RyoGw7d3P3_kRAyI5f9YJDKJVOUOAYYFdl5bKbG_NqeXwPd1q2gIzbMbQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlqQlE1tPAknl7W_3TaocvkSNNmQN39gp111ppgSWFDTKvYWxpE_toOt2aKPsOz-6dShIgL0Gh-9gC6hqIsLleHvD95YAz4X8Ogrws1dYYJli575YKNjUkeYKg1ldWSCt4nXd0y=w375-h281-p"
+            ]
+        }
+    ]
+}

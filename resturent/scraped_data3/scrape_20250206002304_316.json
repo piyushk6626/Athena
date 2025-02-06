@@ -1,0 +1,50 @@
+{
+    "id": "20250206002304_316",
+    "name": "Kerala Restaurant MAVELI",
+    "star": "4.7",
+    "number": "183",
+    "score": "860.1",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/Kerala+Restaurant+MAVELI/@15.5852189,73.7402214,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe9902c6ed527:0x6e5d66ea17114ae0!8m2!3d15.5852189!4d73.7402214!16s%2Fg%2F11sqx52p52?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO6isRoTNoIjYrkBcvF6ZD0ldbuzBu6wBoklR0Z=w408-h929-k-no",
+    "tags": [
+        {
+            "tag": "kerala food",
+            "count": "18"
+        },
+        {
+            "tag": "price",
+            "count": "9"
+        },
+        {
+            "tag": "fish",
+            "count": "5"
+        },
+        {
+            "tag": "paratha",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A Heartwarming Experience in Goa\n\nI recently had the pleasure of dining at a cozy little restaurant in Goa, run by a wonderful husband-and-wife team. From the moment I walked in, their warmth and genuine hospitality made me feel like part of the family.\n\nThe food was fantastic—simple, flavorful, and made with love. They have some great vegetarian options, which was a big plus for me. You can really taste the care they put into every dish.\n\nIt's rare to find a place that combines great food with such a personal touch. If you're in Goa, make sure to stop by—you won't be disappointed!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn-Fvg66l3hykesLegpr28jgFv87UIBSofHdq_NUuYWygQ3iCcgj_oQbo5yOcVw_LBT0Efjq1dpbNo6HLjrFIbqWIhuTpCk7hpt6O3yDzST_yoBedfCmMJlykDw2O0Z8JzJ2yJg=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Maveli in Anjuna is a delightful little eatery serving up authentic Kerala cuisine. The fish thali, fish fry, and porotta are particularly noteworthy, though one must be patient as they are freshly prepared. The owners, Chettan and Chechi, are most welcoming and provide helpful tips on local attractions. The restaurant is spotlessly clean and the service is efficient. A fine dining experience for lovers of Kerala fare.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm3RE0lrh7b0O051GnfruaDrnZ6tsmca8O2KzQqbiQbWMqpe1MLA1jyXNJ4UkBUM91w2hUUTGDPfMjcow9iOryux0y9YSZaeB_KIPks4rAq1l8JOdSQYmbyXe2RbGgH8JW51QQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmSoyAJwT5smRbkUoRACuuC_ZFzU2AUlOPloXxaam8iBDoamrMxsQFw48tX8vU2eYzo_BJAsIDcoRVgvHis0h6eix4FWVDvvtMlQdn-SpNmt1bkniDFTLQBNyKTRDvnmfPMtxRPyw=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkSPQIfkcvoWFC1IFmg9MTLdupyFG8n8sm-5vQcWFoS9oVWVPXFbbQuEgpgz8FsAIq_gZwhOgZA1dTkySjBLUZBW-CJSHnkNylLBoJMsD9v6AFafwALVswaC8MspLGFCMX00jm3=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Amazing veg thali and very generous portions.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm4vTQGyTGzxzQ-qLbsuck-D5AMOyiVqNiqHPTyvBee7q9zvgGaNFBx5RYVaKbXM8PpCskjwOjQnPqYi6cwqoSfKH25cPxgNs54OfZR3DTMEPuaWb4K6euQSTi6Ow-TCbobX02OlQ=w750-h563-p"
+            ]
+        }
+    ]
+}

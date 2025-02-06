@@ -1,0 +1,57 @@
+{
+    "id": "20250206010810_423",
+    "name": "L' Azur Goa | Restaurant & Vacation Rentals",
+    "star": "4.6",
+    "number": "96",
+    "score": "441.6",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/L'+Azur+Goa+%7C+Restaurant+%26+Vacation+Rentals/@15.5960202,73.7366942,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfe97a72901b3b:0x8cf1d8ff91bde4d7!8m2!3d15.5960202!4d73.7366942!16s%2Fg%2F11bxf53hx7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipO31RPajv-3XnevDZ3u3X9jkCWVbOQFcntxjyE6=w408-h408-k-no",
+    "tags": [
+        {
+            "tag": "french cuisine",
+            "count": "10"
+        },
+        {
+            "tag": "service",
+            "count": "7"
+        },
+        {
+            "tag": "pasta",
+            "count": "3"
+        },
+        {
+            "tag": "tagine",
+            "count": "3"
+        },
+        {
+            "tag": "moroccan",
+            "count": "3"
+        },
+        {
+            "tag": "pate",
+            "count": "2"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "A quiet cozy nook where the chef and her husband take their food seriously! The passion is so visible in their cooking and service!\n\nThe chicken liver paté is to die for!!! The best I’ve tasted! And a warm meat ball tagine on a cold winter night was just what the doctor ordered! Huge generous helpings and so much warmth over conversations with the owners - this place is a must visit if you’re a serious foodie on the lookout for good food!",
+            "photos": []
+        },
+        {
+            "review_text": "Take a charming path down to L'Azur and you will be transported by the food and hospitality.  We had the pleasure of having dinner at L'Azur and it was a delicious feast!  We started with the pate, olive tapenade, and blue cheese salad.  The pate was some of the best I have ever had!  For our entrees we had the prawn tagliatelle and massaman curry - the flavors were incredible.  The pasta was cooked to perfection and the sauce was divine.  The massaman curry was hearty and spiced perfectly.  Rita and Ali also brought out some bespoke homemade sauces that complimented the dishes.  The wine recommendations that Ali gave us also went well with the meal. One of the best parts of the experience was Rita and Ali's warmth as hosts and their genuine enthusiasm for the food they serve and prepare.  We hope to visit Goa again soon to dine at L'Azur!",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk_-Yw_yaPF2zPelALbcLcfEpquC7EDaBe51-5So9oE4taq__pJ0DHFT9qk6Z2LJyLT98bAENuC82LHNPSd7UFul7xMC7Qwmdg9YQoh2EC95XXvnSz470u8a46E4oMuWxi_BzvP=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Beautiful place to stay. Cozy and secluded",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkCf4mi7d5-gznzxjzZqTzx7MAqAh84knrgp_gK7BJ9p_lwmrsWdySMdTkAjHhtI962b7-pfqtXvRaFgYoVJVc8RcYhleQxWSncX19STCOmiMOmG-fQO0WoeWPGc0X5wWYN4lc=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmU4gnGXfiidiBVN3cSeg5S_5wmB2_Cuc-mCS0KO2FVGIdfVKmJ6k2TgQ0qZfQcl6IA68g67WLrX7dmUIuTnJXe_p-TnlR00V9pNXr63fyM0iBhXcOi0qlon3_1JeEBF-sP8sL4Cg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmrxfwc9gspgkI2r0MwLykTIM3jIuIxUM9RkQf_vEk3uNOecxw8ndwKaF6huu1LbYh7Hn8ltWA6cA6e0D_egnPzD9G8V9OC4v_qT_5tjHHvS83pdkXvxUwg-fg4-T8PCKJ2zxGG=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkfdSEGrLcW0auZUVVIY8rXHgHMc8VB-4_614h69GBslfBjc63Bk3fWSVTu-U0U5lxhVJmpHckuy7o5edm2gGXJyL1W5maIZZzFMctq7ueLh6PJr685XVQ4Limmk7AazGu5pH-x=w375-h281-p"
+            ]
+        }
+    ]
+}

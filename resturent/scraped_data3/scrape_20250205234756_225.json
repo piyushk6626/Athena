@@ -1,0 +1,49 @@
+{
+    "id": "20250205234756_225",
+    "name": "The Curry",
+    "star": "3.8",
+    "number": "475",
+    "score": "1805.0",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/The+Curry/@15.4935142,73.8362632,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc156b6ee9909:0x62c1ca1e794e89f7!8m2!3d15.4935142!4d73.8362632!16s%2Fg%2F11nyl5y7tp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipMLJBxPmiisZStj4waJjP35IgYZcBGilYuJuMHg=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "45"
+        },
+        {
+            "tag": "thali",
+            "count": "26"
+        },
+        {
+            "tag": "prawns",
+            "count": "7"
+        },
+        {
+            "tag": "money",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The place is right next to the Panjim Bus Stand. Food wise it's okay ordered Fish Thali, Goan Prawns Curry, Chicken Biryani and Plain Rice. Gulab jamun you should try it's good and lemon chicken was nice.The ambience is a bit disappointing as the roof in the first floor is really low and tough to walk as you might bang your head, I am around 5 feet 9 inch tall. The place is clean and tidy so you can have a quick bite here after getting down from the bus stand. Ample parking is there on the roadside and parking person will guide you.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdliB5e8jrtzPBs6_y37Yoqv5mxgqSx-1IHahcbUXaSUmmE99m155PsrArelxSl2aaAak3xt0UOcEboBu6WO1ak04hStPHWkItn--u402-hF_YFGHGf4dasvpWYyJcC5jJHDFEW3tg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkZ1qh3kjZnG9UOVUNMCzgfB38laCvSddjMzLrT8-8n1Aq0E7Vkx196RNRzPG6Rj5uNne7udjcFv0w_RrlasO_NUoZnv61bT5EuFdgKm-wF-0uS7vqYTelfSCFXeQCjefjV2tpu=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkmoWQmYtHNAVDgUBQZVj0VnOimwgtktfKH857IIsj_3lSmgkpro4Up4yEtmX7O3F0Sgt1D54raEIbHTLQLTR_uIoQmlbvyzX47OwHtzW7hYcFz9J-l9i08ultXih6XQQbaX8is=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkiShC59m2zpooze503dArk_0EceKDjmfGcXcG_7qB5Hn_BJile9ooM5SQyPHm-2NVkYbveuNKv9vqrNm5pV7cfnlnHqfgBeiXyeK_mGXVC22dCRQbkr9-kPiQXxwtfNsyoKdhr=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "This was an underrated gem of goan preperation.\nPure authentic taste to satisfy you at the core. Even in this scorching noon also I can't hold myself to sprint through the whole thali.\nI had king fish thali nd buttermilk, which closed in 419 to be precise.\n\nPure value of money, highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkRjsjKLzz9IUrqdW7WbXyhdO30cB8ovwafle6yDDcsoy-gYIcc4zgPfy5c0HtsQNlvqNZ1zs6Y5RBvt06zUBO6iA_GUvS8GYJJOKQWMA-bj7CP2OJyAcMYMBxioyzjZa21smhnWQ=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Pathetic food. Synthetic tomato soup. Never visit the restaurant guys. Horrible management. They don't accept their pathetic service and food. Stay away. Sick people.",
+            "photos": []
+        }
+    ]
+}

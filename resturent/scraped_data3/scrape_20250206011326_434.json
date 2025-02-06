@@ -1,0 +1,47 @@
+{
+    "id": "20250206011326_434",
+    "name": "CITY ICE AND FOOD CENTRE",
+    "star": "4.7",
+    "number": "82",
+    "score": "385.4",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/CITY+ICE+AND+FOOD+CENTRE/data=!4m7!3m6!1s0x3bbfc08f41e9be85:0xc5f3d2b5f6988307!8m2!3d15.4980525!4d73.8291123!16s%2Fg%2F11c6tzjpl6!19sChIJhb7pQY_AvzsRB4OY9rXS88U?authuser=0&hl=en&rclk=1",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNpc9qeGiTtwMvDhtpOD5QByqYkJ_Z5QWrjoQQ=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "biryani",
+            "count": "15"
+        },
+        {
+            "tag": "halal food",
+            "count": "8"
+        },
+        {
+            "tag": "fish",
+            "count": "8"
+        },
+        {
+            "tag": "goan food",
+            "count": "5"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great home cooked food. Every dish we ordered tasted great and a very reasonable price.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmdXnIMZqhyPwIvGkrOfJRgKd7UJt12OYtdwCwNDIDWvcsWvA0RdhKmexQxr8uuA38QnvY6232HwIRp1EOr4XE2bgGctDjYA9tlsrKEWAc9R37CtheEUW0uq6OHvVtEXaXUS3Fw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkPTf48VS_u2VrTRGRwfejwi2QWFqHbjP6pLtYdb6wXJjJ4lrjoEOTm_4X1LpRGMtUSCAZi1Kr7-nhtCHqykolDcPY3gXXG_klgwsGHkINzaGwWdNI3sqzYKSgCaEkr2JEjp0_F=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Best halal food and tasty fish available here comparing to entire goa fish food",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm2F-HxSwgS4rpAeYWGSMyMWa_1dUObp3PkwAhCmczhcp2j7O6zmChYrgkZPSwjp88z2DV87lJW6LsQOFXnDfBzROLVPNv09LmlHPr_1A0Es2aZP_frS1g8SkRmkmkV7gSXCc49=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Food is really good and the owner is really friendly and welcoming and this is a home cooked food and highly recommended it is beside immaculate church in panjim\n\nFood : Shami Kabab, King fish fry",
+            "photos": []
+        }
+    ]
+}

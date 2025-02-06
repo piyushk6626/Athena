@@ -1,0 +1,53 @@
+{
+    "id": "20250205231919_156",
+    "name": "Burger Bar&Bakery",
+    "star": "4.2",
+    "number": "755",
+    "score": "3171.0",
+    "area": "Siolim",
+    "url": "https://www.google.com/maps/place/Burger+Bar%26Bakery/@15.627641,73.761458,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfebf058a757fb:0x536b930d4597ca46!8m2!3d15.627641!4d73.761458!16s%2Fg%2F11f1x50ql4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOfQ2NdDHL7CuUJ9q6XNHI-4kE1Vt1hQee8UIpj=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "22"
+        },
+        {
+            "tag": "veg",
+            "count": "8"
+        },
+        {
+            "tag": "breakfast",
+            "count": "6"
+        },
+        {
+            "tag": "chicken burger",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The ambience of the place is truly amazing, with a vibrant and inviting atmosphere that’s enhanced by a great selection of music that sets the perfect mood. The burgers, while good, could use a bit of improvement in terms of flavor and juiciness. However, the Platter is definitely worth trying; it’s well-crafted and offers a variety of delicious options. Additionally, it’s worth noting that you can bring your own booze which adds a nice touch to your dining experience.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnLFclgzjdH_ZyJrg4h_l4BAHtCcw039fUgH0q34bbOTWAcbPSifWKZCevXrN91MFbyjSh4Bcy8OtqjHQbCRo-o_hnp9iyAEtKRu6a-SsSrkGRKcrlLybtNjEUaVCJcC64o0k0P=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmZ06FvHpB1D_8F9-iwSFavsIhvj7E2dLW_seSNoidKIdTNRTAyDXDcFx7tXWfxcjUN66AkOFGyYFZvmzqphj8fTemaYD3SdLho7S0nB0qEvQBOBhuQr1OUlBwqNmJEFSzXB3Q=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Great place to chill and have a snack\nVery polite owner and service too",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm5-UJe6-jSYs_x9SJoLS6K4muGDiNUkmOXbJFzdntjS0qhFw9BNMDvj-RTO6-0ecsPXE6a9NZQbrYgXx34Nabf83fExtGaTI-_A4lJhlrnVF_aaTG4UUxu2R8F9kJh_J-SgK8GhQ=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnRm7ll9Tl0-ZQSaYK0qrE-qVpvB7AzkHSBiS3mNpY3SbGJIkld8jsYbha-70e9japLkmnmCSfvuMQ2aUMy0HllTczuMbKv_pmN9U-zAIsIxb46RpxYnObABxe12tAMj9CUwb_k=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Burger Bar in Siolim, Goa, is a hidden gem that has left a lasting impression on me. From the moment I stepped through its doors, I was greeted with a warm and inviting ambiance. The cozy yet vibrant decor made for a perfect setting to enjoy some delicious burgers.\n\nWhat truly sets Burger Bar apart is the outstanding quality of their burgers. The menu offers a wide variety of options, from classic beef burgers to innovative vegetarian choices. Each burger is crafted with care, using fresh, locally sourced ingredients. The flavors were exceptional, and the generous portion sizes left me thoroughly satisfied.\n\nNot only is the food at Burger Bar exceptional, but the service is also top-notch. The staff is friendly and attentive, ensuring that every customer feels valued and well taken care of. Their knowledge of the menu and willingness to offer recommendations further enhanced the dining experience.\n\nThe creative and well-crafted drinks menu adds another dimension to the experience. The milkshakes and craft beers perfectly complement the burgers and add a delightful twist to the meal.\n\nBurger Bar's location in Siolim, Goa, offers a serene and relaxed atmosphere, making it an ideal spot for a casual lunch or dinner. Whether you're a local looking for a great place to eat or a tourist exploring the flavors of Goa, Burger Bar is a must-visit destination for burger enthusiasts and food lovers alike.\n\nIn summary, Burger Bar is a culinary delight. From the mouthwatering burgers to the friendly staff and inviting ambiance, it's a place I'll be returning to again and again. If you're in Siolim, make sure to experience this burger haven for yourself; you won't be disappointed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmkFeywwUBd4KVvn0OV4rIeQWbmfhIy1ifMaaQb_4f3mTPjZtjTEKMc9F0lsC6bMM7QkDN9hZgdDbz3LFEPHDLh9J4brPMf9MeLvQ9bmdZqb6j512GiLknxXScJVezK7xDAcwYF=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnYxaiodsgDKaFsJHDcuOiXiQWu4GsFGPdB6VxgL4MNOIaJLKM9YCi-FXlvn7ZnJ484RwjVEiWUwvOVI1ATFfYx9a9S8MTrvfyjz2yxFiPyNFw6kXFb2GztjEnSHpmxRuYnrwEz6w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlbI-g09tpRsuHfHO9sL9ml-AW-35fI3s7280vyN6Wxr0DCXdCg9m_IprsFSxm5E-CEJHhPWP107vuXIaelnwwFhMMDxY5sF9D6Dni9zIJbxkMvf7cuzyNrCueBe3XIdmdj5xg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnzhIyIlC8ueGpMY4iSc-Cz-qVLMhhF7hoxUMWvLWvPZhlTqgxW4RaFeehhCkv7_-w-iPYrjyZTluoU54Zjxbgu5cRzky_soyqPRYPbCXOoTD-T7GDGp2bHCnef0he0yjO6lcmt=w375-h281-p"
+            ]
+        }
+    ]
+}

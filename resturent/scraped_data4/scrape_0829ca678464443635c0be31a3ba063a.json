@@ -1,0 +1,52 @@
+{
+    "id": "20250206004957_303",
+    "name": "Kutumbh Multicuisine Restaurant & Bar",
+    "star": "4.3",
+    "number": "700",
+    "score": "3010.0",
+    "area": "Ribandar",
+    "url": "https://www.google.com/maps/place/Kutumbh+Multicuisine+Restaurant+%26+Bar/@15.496558,73.8267776,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1e8fe8e7c45:0x31becbe4e740ccfd!8m2!3d15.496558!4d73.8267776!16s%2Fg%2F11k6th8690?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipP5aews9B_jRPwLXkOuByjcRLPm5CVD1Z_Pg2y_=w408-h510-k-no",
+    "tags": [
+        {
+            "tag": "thali",
+            "count": "126"
+        },
+        {
+            "tag": "goan",
+            "count": "59"
+        },
+        {
+            "tag": "prawns",
+            "count": "21"
+        },
+        {
+            "tag": "quantity",
+            "count": "21"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Awesome food.\nWe had chicken thali and fish thali both were delicious.\nI liked the dried prawn dish too much, picture attached below.\nBest food experience, me and my friends enjoyed the food, it had authentic taste with very fast and nice service.\nLoved it, must visit.\nAlso near the Panaji bus stand.\nMust visit with family and friends for a good authentic fish thali at an affordable rate.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdknuaVrT-TW0WWOIapVogth5DBqFnb-ruXJtvZm3DhKa4P3TZ8wPxZNTtovegadqJP_8ug3tEInHmfTlwR9IngF41htbAYJTvzndfln7nnyQoG80BD2sq7Rz29IFiDVULxhDhrH=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn-JUW83UkRraDX47sp-5cLxy3mtaQu41G-S8o-EDqK2nH7JIMuU3msPYO0viSL9sRCjX0oKsUVbxwXy6KYOy4n8BiXZoU-D_QjUKuh5GEbNccvrqMlXTKzeCt4aHxd_opW1wkQ=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdngBli5tbm6H_QvMCOtNiG1vzEY5e2wx0pLdBI38MkhtymIjUchWFEmS7b_VLIHpupygR6Fe0gcOEPgLyhxgh96NTVO57AEj36Q4pA7Zbq073jtMf3HNC5H2INb9A4G_fnRq12S=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlineijovJmZskhecBi8mcMeYRg1c1RwWdk2eRNksX2NINgsNkVEroI2bwpAxdUjgokvZ8TmsLLql2uZNqEmEv8GMQbuXIonjXye9sCSk5sQAErviAOFFDgFs8H67YnV9K87X4=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "This restaurant is just beside the Kokani Canteen restaurant in Panjim. Its a perfect restaurant to enjoy delicious seafood with your friends and family. We had ordered their Chonak fish thali in which we got a big piece of Chonak fish along with various side dishes included in the thali. Along with it we had ordered their Fish fingers which also tasted very good. All the items were equally delicious. Their sitting place and ambience add to the vibe. The owner and staff were very humble and gave us quick service.\nIts a must visit restaurant in Panjim.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnNukDx0y8TTM0FIzcnu7i80wgugmTMDPm7sUS1_Qp0jJYZ508OPrY7h5gy9cBUmMe31ykxOxNOeoIxKyHqGtYxNxxysiOFzBHrgE6_GDiCxpdM4UZspoVE82_DULOlRj0syBYu=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlrglIWT2YVpJef7gqSca48Jd-7Zh7HrFoR2BhtH-rjhPAoqrZNH_LsKVtar7f00untlDsNspW2-pq68dG8bq67goMnZW9b-qTsMOUYf4jR-NtOtg9mqWym9ST7-lclzctpk-nh=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "If You are Goenkar and looking for authentic fish thali than it's a disappointment for you food is not worth fish curry tastes like SAVRAK...in Name of Kismoor they are Serving fried Coconut...Disappointed",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmYyNsZctxjnoFzksYNQ18eAlYkuFAzrCzhqjjmvETP3MMdpUZHbH9I8SSTt_amepa-PAbPXYxkIXoHeeu0kcsbHlyxOvb91gwRf8VS3aNJE1_NPfbKnneVjbdroS399lOGJ8JU=w750-h563-p"
+            ]
+        }
+    ]
+}

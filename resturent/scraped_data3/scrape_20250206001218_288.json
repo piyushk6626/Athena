@@ -1,0 +1,48 @@
+{
+    "id": "20250206001218_288",
+    "name": "Goan Street Food",
+    "star": "4.7",
+    "number": "223",
+    "score": "1048.1",
+    "area": "Siolim",
+    "url": "https://www.google.com/maps/place/Goan+Street+Food/@15.6240703,73.7673443,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfebda7a8b063f:0xe60fb9ea88772b0d!8m2!3d15.6240703!4d73.7673443!16s%2Fg%2F11frmlcxdl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOAv0BYd9Eg-Nwf_tOVphC1d5C_UKY95biJG8Mq=w408-h260-k-no",
+    "tags": [
+        {
+            "tag": "bread",
+            "count": "17"
+        },
+        {
+            "tag": "goan food",
+            "count": "11"
+        },
+        {
+            "tag": "poi",
+            "count": "11"
+        },
+        {
+            "tag": "fish cutlet",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Michael makes excellent dishes here! And for my vegetarian friends, there’s one of the best veg wrap I have eaten. For non-veg Fish Cutlets are great.\nMust come at least once!\nLocation: Opposite Goa Kaju Dry Fruit\nSpace for few cars.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkquEqdvaINX-USSHnDHr4jtetcDJgpXfZA8BsE0oNhAk725Q3v7w6PjnpaxexoZboDzKzt_Gxhk_1E2yt80QiwOHmbR3hADytbZ4QFSm2mWwznHWfHilSB8unXBl1RiHxtRt8T=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Matthew and Cynthia were total gems and the food they cook and serve is fantastic. If you are around Siolim looking for a quick and tasty bite or even a hearty protein-packed meal, look no further. An absolute must try!",
+            "photos": []
+        },
+        {
+            "review_text": "Very Tasty food & Main thing is they serve with love ❤️\nWe try almost every dish on menu - Our favourite was Chicken Cafearal & Chicken Cutlet.\nDamn sure whenever we visit Goa will surely visit this place & Already share with our friends & Family members. Must Visit Place ❤️\nThank You So Much For Authentic Goan Food.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkdhzeOuLQPOn8nwRbjIzvYaGuVeCWb55kpxQNTmnl0x3kTUSGR4-0Vzf6D-Lw53S15dZ9PGX52eBRD6AAwyGJdV1wOzr6NHG_SIHeNy5UTBwexbo8ZkVdm9Q9hB3OMs3w_2gdeKw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnJs0Lcz_NcDBDuDTW-3STch8a-Fay4XQ124jnPwpYLm2e1f0NEV3Jl5IlDglo-Tf4Vr3uilGQmiEJa8nlzDZNpFBnMLf1YwSbiYZr4m6g2vNg_BDjBdpmKvkL9pXnxu4mwbcSU=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmrtIDCy7n6jNmbDKY3RN4jMRfpN9YmxdJzbJfI2whmiwO4r0el8kYa62Alo4AZAn-ZXwn7oBUSXFY2FGn5PF4VGJF0hOb2vmdn7gySwCxuFEK6ICb7Rh9AtQep0W4wJcpn6ZTl9Q=w375-h281-p"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "20250205235538_243",
+    "name": "The Great E Punjab AC Family Restaurant",
+    "star": "4.4",
+    "number": "337",
+    "score": "1482.8",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/The+Great+E+Punjab+AC+Family+Restaurant/@15.5163356,73.7684384,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1dae4fd92ed:0x6bdf105e14e21bdd!8m2!3d15.5163356!4d73.7684384!16s%2Fg%2F11tnxs1ryv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipNsDCdhl80BPdKMqkWNpCDPsA_nhVBWL6zbSGb8=w408-h544-k-no",
+    "tags": [
+        {
+            "tag": "prices",
+            "count": "12"
+        },
+        {
+            "tag": "fish",
+            "count": "8"
+        },
+        {
+            "tag": "good service",
+            "count": "4"
+        },
+        {
+            "tag": "choice",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Great paneer thali. Mackerel Thai also very good. Fresh lime juice soda. MTV videos of current Indian pop songs on the wall TV screen.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlDRRmQkGFuYNEQ4WeNDmDwEe3gidbmXhuC-VMPexWpEos_c3s2K2cU7GE8U0k-SjXWZA-TfCe3bQ3Qkl0vih0Ymq786gY0EVHtdIXn3A31C6q4evtJ-Dtmnwr0F5ST1Oi7-OFi=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlp_Wnz91w9u0KyjFw_GACEAvCpe5xQUuvue2bspzOI5TanCMAEJAHMtGtsEzIb-gku3xiVN0LHxws8fCxQg7xSegiP6IU3LCAHYnMSaXXl37Q3rKIw4GmqQlaPSj0Oolt6HOM7ng=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "Myself and my family had chicken thali for lunch. This was the worst thali I ever had in Goa so far. The thali includes 2 Roties and rice, a chicken curry, a watery buttermilk and a pickle @ Rs 300+ Tax",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkCRdWM0OTsbq8-_T14woVfK-5q0EU79pb2MUvRLLFwHOwrL5avH0wP4vk384pp7Xo8omNG3qbfYImXrh1arbTSi7TpNguwNv8M6rtDMiERmTt95Q-6yTg-flVKl0qkDDYdBWGpPg=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmL0YWTxuS7aDEIykK7BZDyOESUxWf5XR0bXn8vQ_Z1PKNJ8t9gXc4n-mpMgibNvrQDC0W3XwKWjnU4VJwHnmJ7c-PETjjWk4dGt8-FxsVMnravyQ8dHLCuThQVcN3t_wskJfg=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "The colourful interiors of this restaurant make it even more cheerful.\nThe menu contains multi cuisine and Goan dishes. Ordered Pomfret Platter. The platter came with rice, roti, dal, veg curry, raita and Pomfret fry. The fish turned out to be fresh and well fried. Found it to be palatable as it had the right amount of spices.\nHad a satisfying meal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmRooQ_nW5_krZ30sgwClUVN9Alw3dW2ezRp_W5gHzMIey_mALoNA3hiwKbrcSVDIrG4rtjmUpQgAxJiZG3s0HZRTse3TwUVV0YaReIx4C-yM8imMVkQ-WHC0EADODQOOOQJ_3W=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdk1-EGZeOxcMw1ERg1cx1mTWIGCHe8cjAq5OossoI2gxPNgAbZWnzjFZuovRGHY68Xz2gMVFGUKv9hXCYQl3_dn2K0IMJo_64iYjw950rf2TTDBY-Ta9ve97u2LhVbb4n9Q65qP0w=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmQgT_xU5oRULA6A-idG0Ju0XGZcsANBInmg6LOiwzHZgxYJeD-iaWWqa-aqqzcMyoNLGsaW7aWPTAXOMAo92xXmdyN1_46GANtdzaIRQEZTn5-dPz8SKSqsLO1U-EwEhS_w8mY=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdla85yq5pkhD-hr5FvwfC01ntYlQZueh-0abXEr3uh-o3nkyxX41FmOkS5F59AyNukaiQJqY67d9F01HmMsTuXOcW6SGhtOadNJLOVvEWEED1KZMu5-oBphw4fDP1NkgA4G_uGGSg=w375-h281-p"
+            ]
+        }
+    ]
+}

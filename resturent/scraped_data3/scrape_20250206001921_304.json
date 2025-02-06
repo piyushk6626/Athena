@@ -1,0 +1,49 @@
+{
+    "id": "20250206001921_304",
+    "name": "Somras Family Restaurant & Bar",
+    "star": "4.4",
+    "number": "213",
+    "score": "937.2",
+    "area": "Goa University",
+    "url": "https://www.google.com/maps/place/Somras+Family+Restaurant+%26+Bar/@15.5099458,73.9244227,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbffe7f3938d3:0x60090ad712412481!8m2!3d15.5099458!4d73.9244227!16s%2Fg%2F11h7vj9sv2?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipN6JKiITwyygVAnPm7CWP6s3QP7ZrOoIbFok1e7=w426-h240-k-no",
+    "tags": [
+        {
+            "tag": "service",
+            "count": "13"
+        },
+        {
+            "tag": "goan",
+            "count": "9"
+        },
+        {
+            "tag": "sea food",
+            "count": "7"
+        },
+        {
+            "tag": "experience",
+            "count": "6"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "\"A true culinary gem in dauji old goa! Every dish was bursting with flavor, beautifully presented, and the service was 👌 and friendly. Also the place was beautiful because of it's art work.A must-visit for anyone seeking authentic Goan cuisine.\"",
+            "photos": []
+        },
+        {
+            "review_text": "It's a new hub in the Old Goa area which is still under development. Visited couple of times with friends.\nThe staff led by the owner Mr. Pavan is really friendly. Pavan approached us and asked about our choices and suggested the best choices and freshest seafood. The food was ample and really tasty.\nPlus being the liquor is priced the most affordable prices when compared to most Goan restaurants.\nMuch recommended to visit! ✌️",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmxp1RMuKKvvIXfKOr6Bhl1r7EkNJ458FENt4PWmiaon3-QuOyyoU9noXyjiCqpCygRMTnHspWW1c-SCf1xXBd3v6dB_QlN47H1VdfJRfy-tdj-pSRu_ECdkgF-vwwOVOtmJ5T5=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnvbxOj0wozHuabzzxwsUTLZcikD3hDZQ5tUlwaXSpGu5a4TI-kXFeQsjWp_gt9qHFPjq-bKRmBPYJqYiMTi9oOa_1AKIPqIcilFa6gLqFnP4ukTOLjqlKJzU3rqIw3ehUucBVp-Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkh2p2-Rlat2lvMyl530c-1mITRjjmr0XWvgD5nurSolzKfbwRVfl_1j0AdXjtP4Mt_HY8lOSCqxs7DtBIYZBTyUbdWfZXRqci8S0hIFByzQs4ICjDZh0jffuvrrZNEsTB2MSI=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnVnueGrX8UAusL2Vqp8ulk0MzzgILuOTI7Y4LREvsxz-Z9KzJUnuYAdBCVpWkGd_902kuwElpLk8_UjB6GhWWn47JlhHoMusaEp29RH0jXlwqTc777QPMdhZOwswT_8Ie0r3Ic_g=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "This bar and restaurant is not at all worth going. They have two separate seating areas. We made a mistake of seating in their shack kind of seating area. The other side of the restaurant is fine. We ordered kingfish thali. Its price was 320/- which i felt was on the higher side. They take a minimum of 15mins for service. Curry wasn't good enough. However the rest of the food was tasty. We received a good portion of kingfish. You just need to have patience, rest the food is fine.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn1tB1Dxh7PiLEFqg0SarfXFXLe1IT_trOcreEhqwrbOu9zIARC6Yk-7AeWAcOzCZJ7Jv4tgnEapCWPzRBAjf0CIY26nYHCoSSHf5gOxz4Hp8M4vfzPFy6B8s0-GvXj4-ZysK6h=w750-h563-p"
+            ]
+        }
+    ]
+}

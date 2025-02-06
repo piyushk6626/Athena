@@ -1,0 +1,53 @@
+{
+    "id": "20250205234615_221",
+    "name": "Viva Goa Restaurant and Bar",
+    "star": "4.1",
+    "number": "466",
+    "score": "1910.6",
+    "area": "Candolim",
+    "url": "https://www.google.com/maps/place/Viva+Goa+Restaurant+and+Bar/@15.5249947,73.7663261,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1eb416ad1e7:0x41ff3616321b3771!8m2!3d15.5249947!4d73.7663261!16s%2Fg%2F11r8pr6qn?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D",
+    "restaurant_image": "https://lh3.googleusercontent.com/p/AF1QipPJugJebBCegAqH7hg7wF4zWe68-raxlgdJa8y7=w408-h240-k-no-pi-0-ya4.4399953-ro-0-fo100",
+    "tags": [
+        {
+            "tag": "price",
+            "count": "33"
+        },
+        {
+            "tag": "sea food",
+            "count": "16"
+        },
+        {
+            "tag": "fish thali",
+            "count": "12"
+        },
+        {
+            "tag": "hotel",
+            "count": "9"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Went for Late lunch for a group of 5. This place is good to try goan good. We tried fish thali and it was unique as here usually they served rice, salad, coconut bhendi, fish, fish fried, oysters.\nOur ratings :\n1. fish thali: 4/5\n2. King Fish Curry : 3.5/5\n3. Tandoori roti : 3.5/5\n\nPeace out.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnogiy4_Bj3sFt0bXHnHvoDkv4ff5hOPNsH1N7K7L8XfOoROI4b3u2IAC8iMSHmwTs7ffaSwv3Y2wuGslqTGa2hnIlrR4hStKvd3tbXPLSxE99pZfPSdOh3K1Bvsr1u4iN9rrRKRw=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlo7phcMbS_7kz6J_o7ZGOASBfQ3GFe-Kl0Rz6VigYNUwge9qmT-EUb2QdwtlBFAEk32HWw-8h3PkI_I9REiBHr40ruRT_pHDurX8wlCcwm4iEDkEZo_SAIxi2Pio_lMIOiJjwD=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlutc90rQ4mf0nh3Oe2yMVU-mXixB-g-2Md-EwriOQyfU945BqH5LgS2LSEtzbRLxzVAzFnp7czR8Lx9K3lgwFVrnyvq2t1NH-B8uuAsCV6789FhndSOkJRDIvPzwg4Y9-r891qRw=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Best, Delicious with less price. Must try fish thali.  Budget friendly meals",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdn9dtGhvYyUtKjqu26oyba40nC9OOtIij3aBu4YQ5VSEDPRuIAgsnKcIoKQOaLktJ1PgogngctpnxF0nAfvxqz3rSuMuzSYvVjtV_PG4oxrD4BCYvhZXyc6HLPd5ZB100Wpq9jD=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnMsjGkYg72CH1ygslw7uJPqKhHDpnAFM1PjjPK00qIKVh6kDoR0VGoEXCgkV6wtkF9S2c8N1kij3NfRIN4obPgWB0vOpa3WZhYagkaBewUH76b5TPqtmUrwdngfY1H2Ge9Fit9=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmOLYCnK10HUBueHnejjied_y5Rptyv2L1coUYtcRLEvCQRTAmHtMC5W0ERLiTP8YyQoJ77S-dNbKSGXDRmmbNSrc9hPgsZzzSzLExPOH96i9QNn4uc3wdwnxjasCi4TOgqh58=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmfi0tmp0lNY9DTIUpfHxKAq9XCpUTAVoVjxrjxezZKKuFp9KOkvh9HIALT_JfO64J2LOp66dGffHJhorAlg_pjBD648nZWmdgMdP2jQhYuAN4cmGBu_dRhOb8Jz-Bi1GN1J4eT=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Nice place to hangout with group of friends or family.\nOffers outdoor seating too.\nMenu spread is huge offering goan, north Indian and Chinese options to choose from.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdm8d0SGydQwTT0UwMdcsTUNGG0fcqd2i11ROy1oPxgfeWDhNC0udQOrfnRtIXlmKs3BXWIK0iYa_y8isuZBW9ayRsDFEE59ZWrmH5ObFxvwKscDC4YaTwex_bdef7efWdrt1SSBpQ=w750-h563-p"
+            ]
+        }
+    ]
+}

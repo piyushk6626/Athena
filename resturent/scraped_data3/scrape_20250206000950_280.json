@@ -1,0 +1,47 @@
+{
+    "id": "20250206000950_280",
+    "name": "GO CAFE- PEGS & GRILLS",
+    "star": "4.5",
+    "number": "257",
+    "score": "1156.5",
+    "area": "Chicalim",
+    "url": "https://www.google.com/maps/place/GO+CAFE-+PEGS+%26+GRILLS/@15.3932224,73.8348491,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc7aee5791b95:0x9867a3b7281244a7!8m2!3d15.3932224!4d73.8348491!16s%2Fg%2F11r_x_rx9v?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPVvVo89sYrq5fYFMoAA0dMKrgRsf4xyQDhnpa5=w408-h272-k-no",
+    "tags": [
+        {
+            "tag": "airport",
+            "count": "17"
+        },
+        {
+            "tag": "service",
+            "count": "15"
+        },
+        {
+            "tag": "snacks",
+            "count": "11"
+        },
+        {
+            "tag": "price",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The service at Go Cafe- Pegs and Grill(Resto Bar) is excellent!\" The staff is polite and attentive, going above and beyond to provide a wonderful eating experience. Congratulations to the whole team!",
+            "photos": []
+        },
+        {
+            "review_text": "This place is really having very amazing ambience..🔥 the sitting area of the caffe is really tremendous..☑️ talking about food, it is also as superb as the ambience.\n\nI ordered chicken smoky sandwich,chicken tandoori sandwich ,elachi tea.\n\nAmong these i found smoky sandwich the best,the taste was yum, the other two were ok-ok  in taste.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmL1IHN8aR0iBG2JX810Xq-MJFZ5fDNdChXM1aCPO_He0PS-ZBEnuxBpVhTzj1WsskqiRp-pe99dWXha8B1LfnzgRyMcmhr-tfx2zEr0uU36xokwGBInjPRlduBoa3BcdEVr-Q=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdnclrNnB_hzRlFcxratsrs_4xSochSY6VfgJ15dd-a2-WDxokWXZuQNxxianY-xNvrDBk6WuMQ2NA94WPzlRPOpXtYqSMLXjLhzYPsglYGlG4Fl-eIc9pUAOD4JlATzuWrg2lufzg=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdlG0iQ5PGmXHDPIZNsVgKJBB7WMPAoF1SA_2g5ir4b5liwT8GLY7jusdYUGi_dFQvdajJXUu4QIGASw9cAU-eJFpbvxd-DG2DRbREsXIgwFr0TU4yga_aejEzMs6pIAIMhr-bc5=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkLq0P53NaLAgdWDDYukZW1DkzLtX9w8nuTHYdpdplPSncmcc-rwTiujqAm1lcXaenc9SZP6ApajLn3tHljc8iCYAWkX58pKcAobX01llQaIeIDJf-bO5_yMbYJBrdGQgdyc3MIug=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Very nice and tasty food. To be more precise i can say it was like a home made food and the fish was so fresh and tasty. Also the rates are very very reasonable. Any person who visits once will surely visit again and that too with another 2 people. Keep it up",
+            "photos": []
+        }
+    ]
+}

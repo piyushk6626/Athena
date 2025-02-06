@@ -1,0 +1,49 @@
+{
+    "id": "20250206002642_239",
+    "name": "Cremeux - Navelim",
+    "star": "4.1",
+    "number": "1014",
+    "score": "4157.4",
+    "area": "Navelim",
+    "url": "https://www.google.com/maps/place/Cremeux+-+Navelim/@15.2611252,73.96382,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfb3bc01c5b6a3:0xe445d0f26f185e5c!8m2!3d15.2611252!4d73.96382!16s%2Fg%2F11fzz3z7q2?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPgHpTzhRSdhx-Pr-G0eSpFnmFw0YNlm_PvMEn6=w408-h306-k-no",
+    "tags": [
+        {
+            "tag": "pizza",
+            "count": "66"
+        },
+        {
+            "tag": "pastries",
+            "count": "21"
+        },
+        {
+            "tag": "service",
+            "count": "21"
+        },
+        {
+            "tag": "garlic bread",
+            "count": "7"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "Cremeux is a must have experience whenever in Goa. My family loves it. We have been to Cremeux Panjim as well as Madgao. The choices of food, quality, service, ambience and amenities are excellent. My personal recommendations are - chicken pizza, mini chicken roll, cheese garlic bread and hazelnut pastry. All items are well priced.\n\nI will visit again and recommend it wholeheartedly.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkNGKh23oJQ5isuH_zffraUD0uSajjjkjnwbERMEmTdRVf6j9Kq-olLAbE4kTm9EifUEoLPWt0TLt-rar5NEHfvr_IrPpcQ9maQL9i0ZnYRU8fmv7Pr89mFv4bg3ZQ3t7Ve4HT2CA=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Nice cozy place for snacks, pizza etc.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmD0PvBmtGpxGohH-n9ySXNk3XqfzqWO_bh_YUZAl4GRu2wnJ4XBG7aitrSSKVK2Vwjh-j3yY-xpgy0qJTLhHisoplK5UQ_hB2Zo2-9-UQaFdYnPj0k3qPOUZudeFouy2hr288=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkHr2jMObigMaVCme9cRrZWf7HJPsuOpD6hJSAMmpo4KGVSphfb950MPWwSwESGfTjd3M0JioV2y2Q7r17sMddjp8TPPyWZPWlyzDnHN_7LCWS0C03_BBrSb2mmvgsg0fLqgW2LgA=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmMenPf7Bx1eVjORAk_Q5EZAt25qLLobyAdfbAb7i7iUuC6QEprqj89GTXAQHfP-ZQ3Qf003Lm2dwBHHdMTLFMeyaW5m9UVrSssaZis6LhE_kn3QrDbLQhZ8Jts_IvELrBsOXMT=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkYEM_anV-e0l7tQlJjJQH77VAzAQlTYjMNQxySPpmr_V622o1WpLmvX3RKyQr1LFcDomO8lUlHMEfRiSQPbcNSKUW-Knj41UaEhrtHRXelDzJjmJnf3_H9T3d2hBLXvu6H_f1otg=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Disappointing Experience at Cremeux Navelim, Goa*\n\nI'm a regular customer at Cremeux Navelim, Goa, and I always look forward to their delicious Black Forest Cake. However, my recent visit was a letdown.\n\nI ordered three items, including the Black Forest Cake, but was served an old stock cake that lacked the usual taste and freshness. To make matters worse, the billing counter staff was extremely rude and unhelpful.\n\nWhen we tried to address the issue, the staff member became defensive and attempted to prove us wrong instead of resolving the problem. We had already paid for our order, which included a pizza that we never received.\n\nOverall, this was a terrible experience at Cremeux Navelim, Goa. I hope the management takes steps to improve their customer service and food quality.",
+            "photos": []
+        }
+    ]
+}

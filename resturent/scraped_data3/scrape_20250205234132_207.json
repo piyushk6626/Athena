@@ -1,0 +1,48 @@
+{
+    "id": "20250205234132_207",
+    "name": "Café Ashwini Caranzalem",
+    "star": "4.1",
+    "number": "517",
+    "score": "2119.7",
+    "area": "Complex Altinho",
+    "url": "https://www.google.com/maps/place/Caf%C3%A9+Ashwini+Caranzalem/@15.4758795,73.8119422,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfc1182c51d293:0xd0076bcf7322e857!8m2!3d15.4758795!4d73.8119422!16s%2Fg%2F11nnw8qwlx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipPkrHPIB6_DrelOEzYCp02Z8juuUKWvwXiCY9ER=w520-h240-k-no",
+    "tags": [
+        {
+            "tag": "breakfast",
+            "count": "27"
+        },
+        {
+            "tag": "bhaji",
+            "count": "13"
+        },
+        {
+            "tag": "mushroom samosa",
+            "count": "10"
+        },
+        {
+            "tag": "price",
+            "count": "8"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "New branch of Cafe Ashwini. Pure veg unlike previous branch. More spacious. A/C section available. Takeaway available. Quantity not consistent. (Photos attached). I had to order 2 qty for 1. Breakfast is tasty. Newer items like idli/dosa etc. In menu. But availability a serious issue. Service is slow esp. In AC section. Veg thali is quiet wholesome. One of the best. Evening hard to get anything hot to eat. Wadas, samosas, Mirchies made in the morning served cold. The dosa also served is cold. Would recommend for visiting it for breakfast and veg lunch. Open on sundays (morning half).",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkzWAG0IKBFGwDbvH3HOnMR_V04tC1U9A93CFIrAe2XkG27aZoNDM2f-m8uMEFVWIJ5XAwamqWOfWlSxCv_zu551b1FCb4UDijZAK4udGw2q2seRf2mb5EfSW7KWn2r9GT7KpN1=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmtIVZ9B35BUNNECrfQr6gEj4KrAU02JKVnUjKsyTeEyPH0z9NaqL-I7gJBgz85y-9kHLlxmy0JycGOVPTUqMRPIaRP9wacY0Oe_8pi4yhUQbYoVX64hXKLWnCKjWlWe5QDTLSp=w375-h281-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkbiCCA29LUKJEOwKBiWk59lhx33PT6BSQf3u1kkTPPwAQyEbr8PYRDVgDM-qmf1mmU45MW4rPmpITH-8CcYOAiA4zSdhAW56cyVUIjpOEl4dJ9ETtEVNNv9-p2BkbcmXLTZCoI=w375-h281-p"
+            ]
+        },
+        {
+            "review_text": "Lovely place for quick breakfast or Chinese Indian food. Try their Goan breakfast, you will never regret. Loved everything on the menu. Affordable and quick. They have the main outlet at St. Inez which is small yet dishes out best and yummy food. This is a new one, good enough place to sit and enjoy",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkb__tnKbrrlj6ZhDj5d3AjM5YJb61kQ77Gzd2s_3ZPovFyKC8h-vxMCrDglM7VtPHMWuHDMO295WNMPr5tL9pbbz7q1notbq1qIVvOPlNQmmPA-MySREYKHyAcasPrwSzWPK9k=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Ashwini is one place I've loved a lot ever since I was in my 20s and they do the best mixed bhaji which is called the sangam bhaji and the best way to eat it is with Unde which is the brother of the pao.Also their samosa with the coconut chutney and tomato ketchup is really yummy and not forgetting their fluffy buns.",
+            "photos": []
+        }
+    ]
+}

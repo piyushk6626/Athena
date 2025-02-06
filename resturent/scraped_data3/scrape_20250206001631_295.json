@@ -1,0 +1,47 @@
+{
+    "id": "20250206001631_295",
+    "name": "BAWARCHI the royal chef",
+    "star": "4.8",
+    "number": "205",
+    "score": "984.0",
+    "area": "Anjuna",
+    "url": "https://www.google.com/maps/place/BAWARCHI+the+royal+chef/@15.576372,73.7574463,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfebcfc5c0cfc9:0x3585b17b18b08fdf!8m2!3d15.576372!4d73.7574463!16s%2Fg%2F11p5jh18yt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D",
+    "restaurant_image": "https://lh5.googleusercontent.com/p/AF1QipOcmFyALxaq6VgvvKqELePzY6Hccz2H89Km2e8u=w507-h240-k-no",
+    "tags": [
+        {
+            "tag": "dum biryani",
+            "count": "10"
+        },
+        {
+            "tag": "chilli chicken",
+            "count": "6"
+        },
+        {
+            "tag": "prices",
+            "count": "5"
+        },
+        {
+            "tag": "quality",
+            "count": "4"
+        }
+    ],
+    "reviews": [
+        {
+            "review_text": "The best place with good taste and a positive atmosphere must try Bawarchi chicken dum biryani.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmkL-5Xykk2jXO1nHgMggE3G4W31YynK_VTe9uZ-sXRpltq-PenouvC8de2Cu8bFy79mO93jZCVtc-Yv7ttrIhDEoreGr8XPaBz0uZd0t511qqc5rtlLX9awdHAKd68Sdov5cNt=w375-h563-p",
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdmORNJOBKVlhelMYakTrZL4FY1B5wjb4PS9pjlpfBGqHkqvmCSwGOp8H6PhwXewDqSck6NrveErtKh_1zaea1SLIff1d95oakL4UPnGR8LvHWbqQ10D8ZJaOgE1mgXFEAKImq0Q=w375-h563-p"
+            ]
+        },
+        {
+            "review_text": "This is not a Hydrabadi Biryani.\nPathetic service.\nOwner/workers don’t accept own mistakes.\nIf there is wrong with the food. This is not a Hotel.",
+            "photos": [
+                "https://lh3.googleusercontent.com/geougc-cs/AHRlGdkPpP7pHzvh_8hRqqJ1n2nG7E74jxXbm9CW6nnnY3USSRWivDiq_g3FpAlCa7Cv_sq9xM9Gxn8H6yv7A-2KmtDHz8tLndDfVU0BdmrKIGY62rgD42Z490z5D_E1L8vMY6Y3Qo6E=w750-h563-p"
+            ]
+        },
+        {
+            "review_text": "Worst experience. We ordered chicken dum and tikka biryani. Both were basically chicken bytes with masala rice. Very oily curry and chicken combination basically. Won't recommend to anyone despite the other ratings.",
+            "photos": []
+        }
+    ]
+}
