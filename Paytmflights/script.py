@@ -152,5 +152,7 @@ if __name__ == "__main__":
             booking_url = get_booking_url(driver, first_flight['flight_id'])
             if booking_url:
                 print(f"\nFinal Booking URL: {booking_url}")
+
+    
         
         driver.quit()
