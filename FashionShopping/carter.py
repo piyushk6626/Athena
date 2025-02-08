@@ -1,19 +1,26 @@
 import requests
 
-def call_fashion_search_api(query="Tshirt For Goa Trip", number_of_results=10):        
+def call_fashion_search_api(query="Tshirt For Goa Trip"):        
+    
+
     """
-    Call the fashion search API with a query and number of results to return.
+    Calls the fashion search API with the specified text query.
+
+    Sends a POST request to the Carter API to perform a text-based search
+    for fashion items. The API returns a JSON response containing search results.
 
     Args:
-        query (str): The search query to send to the API. Defaults to "Tshirt For Goa Trip".
-        number_of_results (int): The number of results to retrieve. Defaults to 10.
+        query (str): The search query for fashion items. Defaults to "Tshirt For Goa Trip".
 
     Returns:
-        dict: The JSON response from the API, containing the results of the search.
+        dict: A dictionary containing the JSON response from the API, which includes
+              the search results.
 
     Raises:
-        requests.exceptions.HTTPError: If the API returns an unsuccessful status code.
+        requests.exceptions.HTTPError: If the request to the API fails.
     """
+
+    number_of_results=10
     base_url="https://carterapi.onrender.com"
     endpoint = "/search/text/"
     data = {"query": query, "number_of_results": number_of_results}
