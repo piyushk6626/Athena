@@ -164,6 +164,6 @@ def explain_UserQuery(query: str) -> str :
     
 
 if __name__ == "__main__":
-    Output=find_similar_items("sea food buffet")
+    Output=find_similar_items("Kokani food near me")
 
     print(Output)
