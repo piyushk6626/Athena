@@ -112,3 +112,103 @@ scrape_airbnb_tool={
         }
     }
 }
+
+
+call_fashion_search_api_tool = {
+    "type": "function",
+    "function": {
+        "name": "call_fashion_search_api",
+        "description": "Calls the fashion search API with the specified text query.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "query"
+            ],
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search query for fashion items."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+find_similar_items_tool = {
+    "type": "function",
+    "function": {
+        "name": "find_similar_restaurants",
+        "description": "Find similar restaurants based on a query string.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "query"
+            ],
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The query string to find similar restaurants for."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+scrape_movies_tool = {
+    "type": "function",
+    "function": {
+        "name": "scrape_movies",
+        "description": "Scrapes the list of movies available in the given city. Returns a JSON string with movie details.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "city"
+            ],
+            "properties": {
+                "city": {
+                    "type": "string",
+                    "description": "The city for which to scrape available movies"
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+
+extract_single_movie_show_tool = {
+    "type": "function",
+    "function": {
+        "name": "extract_single_movie_show",
+        "description": "Extracts movie show details from the Paytm page after selecting the specified city and language. Returns a list of dictionaries containing the show details.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "url",
+                "city",
+                "language"
+            ],
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "The URL of the Paytm page to extract movie shows from"
+                },
+                "city": {
+                    "type": "string",
+                    "description": "The city for which to fetch the movie shows"
+                },
+                "language": {
+                    "type": "string",
+                    "description": "The language preference for the movie shows"
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}

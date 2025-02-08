@@ -19,7 +19,7 @@ from restaurant import search as restaurant_search
 
 # print(airbnb_func.scrape_airbnb("goa", "2025-02-09", "2025-02-14", "1", "0")) # working
 
-print(scrapping.scrape_products_from_amazon("laptop")) #working
+# print(scrapping.scrape_products_from_amazon("laptop")) #working
 
 # print(email_automation.send_email('siddhantganesh25@gmail.com', 'Generated Email', 'Hello 1234')) #working
 
@@ -27,7 +27,7 @@ print(scrapping.scrape_products_from_amazon("laptop")) #working
 
 
 # def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_children=0)->list[dict]:
-# print(booking.scrape_hotels("goa","2025-02-09","2025-02-14")) #working but returns only one hotel
+# print(booking.scrape_hotels("goa","2025-02-09","2025-02-14")) #working 
 
 
 

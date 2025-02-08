@@ -89,26 +89,22 @@ def query_index(index, query_vector, number_of_results):
     # Return the results
     return results
 
-def find_similar_items(query: str, number_of_results: int = 5) -> list:
+def find_similar_items(query: str) -> list:
+   
     """
-    Find items in the Pinecone index that are similar to the given query string.
+    Find similar items based on a query string using Pinecone.
 
-    This function takes a query string, converts it into embeddings, and queries the Pinecone index
-    to find and return a list of items that are similar to it. The similarity is measured using the
-    cosine similarity metric.
+    This function takes a query string, generates vector embeddings for it,
+    and queries a Pinecone index to find and return the top similar items.
 
-    Parameters
-    ----------
-    query: str
-        The query string for which similar items are to be found.
-    number_of_results: int, optional
-        The number of similar items to return. Defaults to 30.
+    Args:
+        query (str): The query string to find similar items for.
 
-    Returns
-    -------
-    results: list
-        A list of items similar to the query string, including their metadata.
+    Returns:
+        list: A list of results that are most similar to the query string.
     """
+
+    number_of_results: int = 5
     # Get the Pinecone index using a helper function
     index = get_index()
 
