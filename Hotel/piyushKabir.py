@@ -19,7 +19,7 @@ def scroll_page(driver):
             break
         last_height = new_height
 
-def get_hotel_details(container):
+def get_hotel_details(container)->dict:
     try:
         hotel_data = {
             'title': container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text ,
@@ -35,13 +35,42 @@ def get_hotel_details(container):
             hotel_data['Brakefast included']=True
         except:
             hotel_data['Brakefast included']=False
-        return hotel_data
+        return {"type":"Booking.com","Details":hotel_data}
     
     except NoSuchElementException as e:
         print(f"Missing element: {str(e)}")
         return None
+        
+#checkin and checkout are dates and location is like goa
+def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_children=0)->list[dict]:
+    """
+    Scrape hotel data from booking.com.
 
-def scrape_hotels(location,checkin,checkout,no_adults,no_rooms=1,no_children=0):
+    Parameters:
+    - location (str): Location to search for hotels (e.g. "goa")
+    - checkin (str): Checkin date in the format "yyyy-mm-dd"
+    - checkout (str): Checkout date in the format "yyyy-mm-dd"
+    - no_adults (int): Number of adults (default: 1)
+    - no_rooms (int): Number of rooms (default: 1)
+    - no_children (int): Number of children (default: 0)
+
+    Returns:
+    A list of dictionaries with the following keys:
+    - type (str): "Booking.com"
+    - Details (dict): A dictionary with the following keys:
+        - title (str): The title of the hotel
+        - price (str): The price of the hotel
+        - review count (str): The number of reviews
+        - review comment (str): A sample review comment
+        - rating (str): The rating of the hotel
+        - image_url (str): The URL of the hotel image
+        - hotel url (str): The URL of the hotel page
+        - Brakefast included (bool): Whether breakfast is included or not
+
+    Raises:
+    - TimeoutException: If the page takes too long to load
+    - Exception: If any other error occurs
+    """
     url = f"https://www.booking.com/searchresults.en-gb.html?ss={location}&checkin={checkin}&checkout={checkout}&group_adults={no_adults}&group_children={no_children}&no_rooms={no_rooms}"
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
@@ -65,8 +94,11 @@ def scrape_hotels(location,checkin,checkout,no_adults,no_rooms=1,no_children=0):
             if hotel_data:
                 hotels_data.append(hotel_data)
             
-        
-        return hotels_data
+        Responce={
+            "Type": "Hotels",
+            "data":hotel_data
+        }
+        return Responce
     
     except TimeoutException:
         print("Timeout while waiting for elements to load")
