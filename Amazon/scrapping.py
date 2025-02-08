@@ -47,6 +47,23 @@ def get_product_details(container):
         return None
 
 def scrape_products_from_amazon(product:str)->list[dict]:
+    """
+    Scrapes product details from Amazon for a given product keyword.
+
+    This function uses a Selenium WebDriver to navigate to Amazon's search results
+    page for the specified product keyword. It scrolls through the page to load
+    all the product containers and extracts details such as title, price, rating,
+    review count, Amazon's choice badge, image URL, product URL, and the number of
+    buyers for each product.
+
+    Args:
+        product (str): The product keyword to search for on Amazon.
+
+    Returns:
+        list[dict]: A list of dictionaries, each containing product details. If an
+        error occurs or no products are found, an empty list is returned.
+    """
+
     url = "https://www.amazon.in/s?k="+product
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
@@ -88,7 +105,7 @@ def scrape_products_from_amazon(product:str)->list[dict]:
 if __name__ == "__main__":
     product = "laptop"
     products = scrape_products_from_amazon(product)
-    
-    with open('products_data.json', 'w', encoding='utf-8') as f:
-        json.dump(products, f, ensure_ascii=False, indent=4)
-    print(f"Scraped {len(products)} products successfully!")
+    print(products)
+    # with open('products_data.json', 'w', encoding='utf-8') as f:
+    #     json.dump(products, f, ensure_ascii=False, indent=4)
+    # print(f"Scraped {len(products)} products successfully!")

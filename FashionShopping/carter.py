@@ -1,6 +1,6 @@
 import requests
 
-def call_fashion_search_api(query="Tshirt For Goa Trip"):        
+def fashion_search_api(query="Tshirt For Goa Trip"):        
     
 
     """

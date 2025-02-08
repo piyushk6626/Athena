@@ -6,7 +6,8 @@ from email.mime.text import MIMEText
 # OpenAI API Key
 
 # Function to send emaile
-def send_email(recipient_email, subject, body, sender_email = "soulmortal309@gmail.com", sender_password = "mdrn blsj vrhy mpwc"):
+def send_email(recipient_email, subject, body):
+    
     """
     Send an email to the given recipient with the given subject and body.
 
@@ -18,16 +19,14 @@ def send_email(recipient_email, subject, body, sender_email = "soulmortal309@gma
         The subject of the email.
     body : str
         The contents of the email.
-    sender_email : str, optional
-        The email address of the sender. Defaults to "eventhorizoniiitp@gmail.com".
-    sender_password : str, optional
-        The password of the sender's email account. Defaults to "EventHorizoniiitp!@#".
 
     Raises
     ------
     Exception
         If there is any error while sending the email.
     """
+    sender_password = "mdrn blsj vrhy mpwc"
+    sender_email = "soulmortal309@gmail.com"
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = recipient_email
