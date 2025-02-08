@@ -52,11 +52,22 @@ def callfunction(name,args):
         response = carter.fashion_search_api(**args)
     elif name == "find_similar_restaurants":
         response = restaurant_search.find_similar_items(**args)
-    elif name == "extract_single_movie_show" :
+    elif name == "scrape_movies":
         response = scrape_movies(**args)
-    elif name ==  "find_hotels":
+    elif name == "extract_single_movie_show" :
+        response = extract_movie_shows(**args)
+    elif name == "find_hotels":
         response = booking.scrape_hotels(**args)
-    elif name == 
+    elif name == "find_products_from_amazon":
+        response = scrapping.scrape_products_from_amazon(**args)
+    elif name == "fashion_search_api":
+        response = carter.fashion_search_api(**args)
+    elif name == "send_email_tool":
+        response = email_automation.send_email(**args)
+            
+            
+    return response
+
     
         
         
