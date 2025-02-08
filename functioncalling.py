@@ -40,7 +40,7 @@ tools = [{
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com sa?"}],
+    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com saying Hi?"}],
     tools=tools
 )
 
