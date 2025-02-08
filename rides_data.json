@@ -1,8 +1,18 @@
 [
     {
         "type": "Uber",
-        "data": {
-            "see prices url": "https://m.uber.com/go/product-selection?drop%5B0%5D=%7B%22addressLine1%22%3A%22Central%20Park%22%2C%22addressLine2%22%3A%225%20Av%20to%20Central%20Park%20W%2059%20St%20to%20110%20St%2C%20Manhattan%2C%20NY%22%2C%22id%22%3A%22cb5b94f6-6475-54ab-d90a-c41946c4a1e7%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A40.7822772%2C%22longitude%22%3A-73.9658859%2C%22provider%22%3A%22uber_places%22%7D&effect=&pickup=%7B%22addressLine1%22%3A%22Empire%20State%20Plaza%22%2C%22addressLine2%22%3A%22100%20S%20Mall%20Arterial%2C%20Albany%2C%20NY%22%2C%22id%22%3A%22ChIJ-_q5qTwK3okRTlNIN60_3XI%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A42.6501631%2C%22longitude%22%3A-73.7599034%2C%22provider%22%3A%22google_places%22%7D"
+        "url": "https://m.uber.com/go/product-selection?drop%5B0%5D=%7B%22addressLine1%22%3A%22Marine%20Drive%22%2C%22addressLine2%22%3A%22Kochi%2C%20Kerala%22%2C%22id%22%3A%22ChIJrYrKf1MNCDsR6gNsW6zTGHc%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A9.9771685%2C%22longitude%22%3A76.2773228%2C%22provider%22%3A%22google_places%22%7D&effect=&pickup=%7B%22addressLine1%22%3A%22Siddhi%20Vinayak%20Industry%22%2C%22addressLine2%22%3A%229WFH%2B9VV%2C%20Verna%20Industrial%20Estate%2C%20Kesarvale%2C%20Goa%22%2C%22id%22%3A%22ChIJJzsQfFa3vzsRDFuFEkXAzp8%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A15.3734797%2C%22longitude%22%3A73.9296825%2C%22provider%22%3A%22google_places%22%7D",
+        "pickup": {
+            "name": "Siddhi Vinayak Industry",
+            "address": "9WFH+9VV, Verna Industrial Estate, Kesarvale, Goa",
+            "latitude": 15.3734797,
+            "longitude": 73.9296825
+        },
+        "dropoff": {
+            "name": "Marine Drive",
+            "address": "Kochi, Kerala",
+            "latitude": 9.9771685,
+            "longitude": 76.2773228
         }
     }
 ]

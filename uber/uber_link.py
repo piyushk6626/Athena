@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from urllib.parse import urlparse, parse_qs, unquote
 import json
 import time
 
@@ -120,7 +121,11 @@ def automate_uber_ride(pickup_location, destination):
         
         print("Clicked 'See Prices' button")
         current_url = driver.current_url
-        return {"type":"Uber","data":{"see prices url":current_url}}
+
+
+        # return {"type":"Uber","data":{"see prices url":current_url}}
+        print(f"url {current_url}")
+        return extract_uber_locations(current_url)
         # Keep browser open to view results
         #time.sleep(300)
     
@@ -132,10 +137,44 @@ def automate_uber_ride(pickup_location, destination):
         #time.sleep(300)
         driver.quit()
 
+
+def extract_uber_locations(url):
+    parsed_url = urlparse(url)
+    params = parse_qs(parsed_url.query)
+    
+    # Safely extract pickup and drop-off parameters
+    pickup_json = params.get('pickup', [None])[0]
+    drop_json = params.get('drop[0]', [None])[0]  # Use decoded key 'drop[0]'
+    
+    if not pickup_json or not drop_json:
+        raise ValueError("Missing pickup/drop parameters in the URL")
+    
+    # Parse JSON data
+    pickup_data = json.loads(unquote(pickup_json))
+    drop_data = json.loads(unquote(drop_json))
+    
+    return {
+        'type': 'Uber',
+        'url': url,
+        'pickup': {
+            'name': pickup_data['addressLine1'],
+            'address': pickup_data['addressLine2'],
+            'latitude': pickup_data['latitude'],
+            'longitude': pickup_data['longitude']
+        },
+        'dropoff': {
+            'name': drop_data['addressLine1'],
+            'address': drop_data['addressLine2'],
+            'latitude': drop_data['latitude'],
+            'longitude': drop_data['longitude']
+        }
+    }
+
 if __name__ == "__main__":
     main_data=[]
     try:
-        data = automate_uber_ride("Empire State", "Central Park")
+        data = automate_uber_ride("Siddhi Vinayak", "Marine drive")
+        print(data)
         main_data.append(data)
     except Exception as e:
         print(f"Script failed: {str(e)}")
