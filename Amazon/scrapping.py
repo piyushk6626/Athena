@@ -39,7 +39,7 @@ def get_product_details(container):
             'number of buyers': container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text
         }
         
-        return {"type":"Amazon","Details":product_data}
+        return {"type":"Amazon","data":product_data}
         
     
     except NoSuchElementException as e:
