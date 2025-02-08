@@ -19,7 +19,7 @@ def scroll_page(driver):
             break
         last_height = new_height
 
-def get_hotel_details(container)->dict:
+def get_hotel_details(container):
     try:
         hotel_data = {
             'title': container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text ,
@@ -94,11 +94,7 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
             if hotel_data:
                 hotels_data.append(hotel_data)
             
-        Responce={
-            "Type": "Hotels",
-            "data":hotel_data
-        }
-        return Responce
+        return hotels_data
     
     except TimeoutException:
         print("Timeout while waiting for elements to load")
@@ -111,13 +107,12 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
 
 if __name__ == "__main__":
     location = "Goa"
-    checkin="2025-02-07"
-    checkout="2025-02-10"
+    checkin="2025-02-12"
+    checkout="2025-02-16"
     no_adults=6
-    hotels = scrape_hotels(location,checkin,checkout,no_adults)
+    hotels = scrape_hotels(location,checkin,checkout)
     
     with open('hotels_data.json', 'w', encoding='utf-8') as f:
         json.dump(hotels, f, ensure_ascii=False, indent=4)
-
 
 
