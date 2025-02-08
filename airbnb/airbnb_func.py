@@ -9,6 +9,19 @@ from urllib.parse import urlparse, parse_qs
 
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
+    """
+    Scrape Airbnb for hotels based on destination, check-in date, check-out date, number of adults, and number of children.
+
+    Args:
+        destination (str): Destination for searching hotels.
+        checkinDate (str): Check-in date for booking.
+        checkoutDate (str): Check-out date for booking.
+        adultsNo (str): Number of adults.
+        childrenNo (str): Number of children.
+
+    Returns:
+        dict: Dictionary containing a list of hotel data and a type field with value 'airbnb'.
+    """
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")

@@ -53,6 +53,23 @@ def fill_location_input(driver, input_xpath, location):
 
 def automate_uber_ride(pickup_location, destination):
     # Set up Chrome options
+    """
+    Automates the process of booking an Uber ride using a web browser.
+
+    This function uses Selenium WebDriver to interact with the Uber mobile site. It sets up Chrome browser options,
+    navigates to the Uber site, fills in the pickup and destination locations, and clicks the "See Prices" button.
+
+    Args:
+        pickup_location (str): The address or name of the pickup location.
+        destination (str): The address or name of the destination.
+
+    Returns:
+        dict: A dictionary containing the URL to view ride .
+
+    Raises:
+        Exception: If an error occurs during the process, an exception is raised and a screenshot is saved.
+    """
+
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument("--disable-extensions")
