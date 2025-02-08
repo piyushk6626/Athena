@@ -36,24 +36,17 @@ def get_product_details(container):
             'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
             'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
             'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
-            'number of buyers': container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text,
-            'all_text': container.text  # Get all text content in the container
+            'number of buyers': container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text
         }
         
-        # Extract bullet points if available
-        bullet_points = []
-        for bullet in container.find_elements(By.CSS_SELECTOR, 'ul.a-unordered-list li'):
-            bullet_points.append(bullet.text)
-        if bullet_points:
-            product_data['key_features'] = bullet_points
-            
-        return product_data
+        return {"type":"Amazon","Details":product_data}
+        
     
     except NoSuchElementException as e:
         print(f"Missing element: {str(e)}")
         return None
 
-def scrape_products(product):
+def scrape_products(product:str)->list[dict]:
     url = "https://www.amazon.in/s?k="+product
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
