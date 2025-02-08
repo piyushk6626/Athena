@@ -12,7 +12,7 @@ from Hotel import booking
 
 # print(airbnb_func.scrape_airbnb("goa", "2025-02-09", "2025-02-14", "1", "0")) # working
 
-# print(scrapping.scrape_products_from_amazon("laptop")) #working
+print(scrapping.scrape_products_from_amazon("laptop")) #working
 
 # print(email_automation.send_email('siddhantganesh25@gmail.com', 'Generated Email', 'Hello 1234')) #working
 
