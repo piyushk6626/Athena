@@ -5,6 +5,22 @@ import os
 
 def serach_the_web_for_news(qury:str) -> dict:
     # Load environment variables from .env (e.g., API keys)
+    """
+    Search the web for news using Perplexity AI Sonar API.
+
+    Args:
+        qury (str): The query string to search for.
+
+    Returns:
+        dict: A dictionary with the following keys:
+            - Type (str): The type of response, which is "sonar".
+            - response_content (str): The content of the response.
+            - response_url (list): A list of URLs cited in the response.
+
+    Raises:
+        ValueError: If the query string is empty.
+    """
+    
     load_dotenv()
     PRELEXITY_API_KEY = os.getenv("PRELEXITY_API_KEY")
 
@@ -39,7 +55,3 @@ def serach_the_web_for_news(qury:str) -> dict:
         "response_url":response_url
     }
     return response_dict
-
-r=serach_the_web_for_news("Donald Trump  athleate ban")
-
-print(r)
