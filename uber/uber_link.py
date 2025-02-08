@@ -36,14 +36,78 @@ def fill_location_input(driver, input_xpath, location):
        
         # Wait for autocomplete suggestions
         time.sleep(1)
+        currenturl = driver.current_url
+        print(currenturl)
+        if(currenturl == "https://m.uber.com/go/pickup/set-pin"):
+            time.sleep(1)
+            xpathbutton = "//button[@data-buttonkey = 'confirm']"
+            input_element = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, xpathbutton))
+            )
+            driver.execute_script("arguments[0].scrollIntoView(true);", input_element)
+            input_element.click()
+            time.sleep(0.5)
+
        
         # Use keyboard to select first suggestion
         actions = ActionChains(driver)
-        actions.send_keys(Keys.DOWN)
-        actions.pause(0.5)
+        # actions.send_keys(Keys.DOWN)
+        time.sleep(1.5)
         actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
         actions.perform()
-       
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+        actions.send_keys(Keys.ENTER)
+        time.sleep(0.1)
+        actions.perform()
+
+        currenturl = driver.current_url
+        print(currenturl)
+        if(currenturl == "https://m.uber.com/go/pickup/set-pin" or currenturl == "https://m.uber.com/go/pickup/set-pin?effect="):
+            time.sleep(1)
+            xpathbutton = "//button[@data-buttonkey = 'confirm']"
+            input_element = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, xpathbutton))
+            )
+            driver.execute_script("arguments[0].scrollIntoView(true);", input_element)
+            input_element.click()
+            time.sleep(0.5)
+
         print(f"Successfully entered location: {location}")
         return input_element
    
@@ -173,7 +237,7 @@ def extract_uber_locations(url):
 if __name__ == "__main__":
     main_data=[]
     try:
-        data = automate_uber_ride("Siddhi Vinayak", "Marine drive")
+        data = automate_uber_ride("Tata Rio De goa", "Bits goa")
         print(data)
         main_data.append(data)
     except Exception as e:
