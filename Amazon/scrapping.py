@@ -46,7 +46,7 @@ def get_product_details(container):
         print(f"Missing element: {str(e)}")
         return None
 
-def scrape_products(product:str)->list[dict]:
+def scrape_products_from_amazon(product:str)->list[dict]:
     url = "https://www.amazon.in/s?k="+product
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
@@ -55,7 +55,10 @@ def scrape_products(product:str)->list[dict]:
     products_data = []
     
     try:
+
+        driver.get("https://www.amazon.in/")
         driver.get(url)
+
         scroll_page(driver)
         
         wait = WebDriverWait(driver, 20)
@@ -84,7 +87,7 @@ def scrape_products(product:str)->list[dict]:
 
 if __name__ == "__main__":
     product = "laptop"
-    products = scrape_products(product)
+    products = scrape_products_from_amazon(product)
     
     with open('products_data.json', 'w', encoding='utf-8') as f:
         json.dump(products, f, ensure_ascii=False, indent=4)

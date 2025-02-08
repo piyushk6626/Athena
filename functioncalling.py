@@ -36,11 +36,12 @@ tools = [{
         },
         "strict": True
     }
-}]
+}
+]
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com sa?"}],
+    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com saying "}],
     tools=tools
 )
 
@@ -50,7 +51,7 @@ print(completion.choices[0].message.content)
 # from openai import OpenAI
 # client = OpenAI()
 
-
+ 
 # response = client.chat.completions.create(
 #     model="o1-mini",
     

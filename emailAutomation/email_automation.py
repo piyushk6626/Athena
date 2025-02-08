@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 
 # OpenAI API Key
 
-# Function to send email
+# Function to send emaile
 def send_email(recipient_email, subject, body, sender_email = "soulmortal309@gmail.com", sender_password = "mdrn blsj vrhy mpwc"):
     """
     Send an email to the given recipient with the given subject and body.
@@ -50,4 +50,4 @@ def send_email(recipient_email, subject, body, sender_email = "soulmortal309@gma
 # email_prompt = input("Enter prompt for OpenAI to generate email: ")
 
 # Generate and send email
-send_email('siddhantganesh25@gmail.com', 'Generated Email', 'Hello')
+# send_email('siddhantganesh25@gmail.com', 'Generated Email', 'Hello')

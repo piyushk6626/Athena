@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+import json
 import time
 
 def fill_location_input(driver, input_xpath, location):
@@ -39,14 +40,10 @@ def fill_location_input(driver, input_xpath, location):
         actions = ActionChains(driver)
         actions.send_keys(Keys.DOWN)
         actions.pause(0.5)
-        time.sleep(1)
         actions.send_keys(Keys.ENTER)
-        
         actions.perform()
        
         print(f"Successfully entered location: {location}")
-        actions.send_keys(Keys.ENTER)
-        
         return input_element
    
     except Exception as e:
@@ -105,22 +102,25 @@ def automate_uber_ride(pickup_location, destination):
         see_prices_button.click()
         
         print("Clicked 'See Prices' button")
-        
+        current_url = driver.current_url
+        return {"type":"Uber","data":{"see prices url":current_url}}
         # Keep browser open to view results
-        time.sleep(300)
-        
-        return driver
+        #time.sleep(300)
     
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         driver.save_screenshot("error_screenshot.png")
         raise e
     finally:
-        time.sleep(300)
+        #time.sleep(300)
         driver.quit()
 
 if __name__ == "__main__":
+    main_data=[]
     try:
-        driver = automate_uber_ride("Empire State", "Central Park")
+        data = automate_uber_ride("Empire State", "Central Park")
+        main_data.append(data)
     except Exception as e:
         print(f"Script failed: {str(e)}")
+    with open('rides_data.json', 'w', encoding='utf-8') as f:
+        json.dump(main_data, f, ensure_ascii=False, indent=4)
