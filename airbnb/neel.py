@@ -120,29 +120,32 @@ def extract_hotels():
             print(f"Error extracting data for a hotel: {e}")
 
 # Loop through pages and extract data
-while True:
-    extract_hotels()
+# while True:
+    
+#     extract_hotels()
+#     # Try to find the "Next" page or pagination cursor
+#     next_button = driver.find_elements(By.XPATH, '//a[@aria-label="Next"]')
+#     if next_button:
+#         cursor = next_button[0].get_attribute('href')  # Get next page cursor
+#         cursor = parse_qs(urlparse(cursor).query).get('cursor', [None])[0]  # Extract cursor
+#         if cursor:
+#             # Go to the next page using the cursor (pagination)
+#             driver.get(f"{url}&cursor={cursor}")
+#             time.sleep(8)  # Wait for the page to load
+#         else:
+#             break  # Stop if no cursor is found (end of pages)
+#     else:
+#         break  # No next page, stop the loop
 
-    # Try to find the "Next" page or pagination cursor
-    next_button = driver.find_elements(By.XPATH, '//a[@aria-label="Next"]')
-    if next_button:
-        cursor = next_button[0].get_attribute('href')  # Get next page cursor
-        cursor = parse_qs(urlparse(cursor).query).get('cursor', [None])[0]  # Extract cursor
-        if cursor:
-            # Go to the next page using the cursor (pagination)
-            driver.get(f"{url}&cursor={cursor}")
-            time.sleep(8)  # Wait for the page to load
-        else:
-            break  # Stop if no cursor is found (end of pages)
-    else:
-        break  # No next page, stop the loop
+extract_hotels()
 
 # Close the WebDriver
 driver.quit()
 
 # Save data in JSON format
-output_file =  f'hotel_data_{destination}.json'
-with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(hotels_data, f, ensure_ascii=False, indent=4)
+response_dict = {
+    'type' : 'airbnb',
+    'data' : hotels_data
+}
 
-print(f"Scraped data for {len(hotels_data)} hotels and saved to {output_file}")
+print(f"Scraped data for {len(hotels_data)} hotels and saved to {hotels_data}")
