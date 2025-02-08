@@ -62,11 +62,12 @@ tools = [{
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com saying hello?"}],
+    messages=[{"role": "user", "content": "Send email to abc@example.com about movies available in pune"}],
     tools=TOOLS
 )
 
 A=(completion.choices[0].message.tool_calls)
+
 for i in A:
     print(i)
 
