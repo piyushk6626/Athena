@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 import os
 
 
-def serach_the_web_for_news(qury:str) -> dict:
+def serach_the_web_for_news(query:str) -> dict:
     # Load environment variables from .env (e.g., API keys)
     """
     Search the web for news using Perplexity AI Sonar API.
 
     Args:
-        qury (str): The query string to search for.
+        query (str): The query string to search for.
 
     Returns:
         dict: A dictionary with the following keys:
@@ -35,7 +35,7 @@ def serach_the_web_for_news(qury:str) -> dict:
         {   
             "role": "user",
             "content": (
-                qury
+                query
             ),
         },
     ]
