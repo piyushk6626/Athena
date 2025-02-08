@@ -45,7 +45,9 @@
 
 
 #redirect from checking page  to payment page 
-#//div/button[@data-testid="homes-pdp-cta-btn"]
+#//div/button[@data-testid="homes-pdp-cta-btn"]\
+#xpath for location 
+#//div/span[@class="t6mzqp7 atm_g3_1kw7nm4 atm_ks_15vqwwr atm_sq_1l2sidv atm_9s_cj1kg8 atm_6w_1e54zos atm_fy_kb7nvz atm_7l_1he744i atm_am_qk3dho atm_ks_zryt35__1rgatj2 dir dir-ltr"]
 
 
 from selenium import webdriver
