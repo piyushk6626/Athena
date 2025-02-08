@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+from tools import TOOLS
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -61,8 +62,8 @@ tools = [{
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com sa?"}],
-    tools=tools
+    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com saying hello?"}],
+    tools=TOOLS
 )
 
 A=(completion.choices[0].message.tool_calls)
