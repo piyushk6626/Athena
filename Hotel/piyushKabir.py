@@ -19,7 +19,7 @@ def scroll_page(driver):
             break
         last_height = new_height
 
-def get_hotel_details(container):
+def get_hotel_details(container)->dict:
     try:
         hotel_data = {
             'title': container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text ,
@@ -35,13 +35,14 @@ def get_hotel_details(container):
             hotel_data['Brakefast included']=True
         except:
             hotel_data['Brakefast included']=False
-        return hotel_data
+        return {"type":"Booking.com","Details":hotel_data}
     
     except NoSuchElementException as e:
         print(f"Missing element: {str(e)}")
         return None
-
-def scrape_hotels(location,checkin,checkout,no_adults,no_rooms=1,no_children=0):
+        
+#checkin and checkout are dates and location is like goa
+def scrape_hotels(location:str,checkin:str,checkout:str,no_adults=1:int,no_rooms=1:int,no_children=0:int)->list[dict]:
     url = f"https://www.booking.com/searchresults.en-gb.html?ss={location}&checkin={checkin}&checkout={checkout}&group_adults={no_adults}&group_children={no_children}&no_rooms={no_rooms}"
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
