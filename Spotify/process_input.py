@@ -53,8 +53,17 @@ class SpotifyActions(BaseModel):
     shuffle: Optional[bool] = None
 
 def process_input(command):
+    """
+    Process a command into an SpotifyActions object.
+
+    Args:
+        command (str): The command to process.
+
+    Returns:
+        SpotifyActions: The parsed SpotifyActions object.
+    """
     response = client.beta.chat.completions.parse(
-    model="gpt-4o-mini",
+    model="gpt-4o",
     messages=[
         {"role": "system", "content": f"{prompt.prompt_for_system}"},
         {"role": "user", "content": f"{prompt.prompt_for_user}: {command}"}
