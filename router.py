@@ -41,7 +41,25 @@ from restaurant import search as restaurant_search
 
 # print(restaurant_search.find_similar_items("Fast food near me")) # working
 
-
+def callfunction(name,args):
+    if name == "serach_the_web_for_news":
+        response = sonar.serach_the_web_for_news(**args)
+    elif name == "automate_uber_ride":
+        response = uber_link.automate_uber_ride(**args)
+    elif name == "scrape_airbnb":
+        response = airbnb_func.scrape_airbnb(**args)
+    elif name == "call_fashion_search_api":
+        response = carter.fashion_search_api(**args)
+    elif name == "find_similar_restaurants":
+        response = restaurant_search.find_similar_items(**args)
+    elif name == "extract_single_movie_show" :
+        response = scrape_movies(**args)
+    elif name ==  "find_hotels":
+        response = booking.scrape_hotels(**args)
+    elif name == 
+    
+        
+        
 
 
 
