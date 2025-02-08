@@ -36,17 +36,43 @@ tools = [{
         },
         "strict": True
     }
-}]
+},{
+    "type": "function",
+    "function": {
+        "name": "get_weather",
+        "description": "Get current temperature for a given location.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "location": {
+                    "type": "string",
+                    "description": "City and country e.g. Bogotá, Colombia"
+                }
+            },
+            "required": [
+                "location"
+            ],
+            "additionalProperties": False
+        },
+        "strict": True
+    }
+}
+         ]
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com saying Hi?"}],
+    messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com sending hi also what the wether now in pune"}],
     tools=tools
 )
 
-print(completion.choices[0].message.tool_calls)
+A=(completion.choices[0].message.tool_calls)
+for i in A:
+    print(i)
+
+
 print(completion.choices[0].message.content)
 
+#(id='call_nsGrIHxCvxL2qYSLnp4bf9AG', function=Function(arguments='{"location": "Pune, India"}', name='get_weather'), type='function')
 # from openai import OpenAI
 # client = OpenAI()
 
