@@ -23,7 +23,7 @@ print(scrapping.scrape_products_from_amazon("laptop")) #working
 
 # print(email_automation.send_email('siddhantganesh25@gmail.com', 'Generated Email', 'Hello 1234')) #working
 
-# print(carter.call_fashion_search_api("Clothes for wedding")) #working
+# print(carter.fashion_search_api("Clothes for wedding")) #working
 
 
 # def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_children=0)->list[dict]:
