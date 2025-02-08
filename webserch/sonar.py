@@ -51,7 +51,10 @@ def serach_the_web_for_news(qury:str) -> dict:
     response_url=response.citations
     response_dict= {
         "Type":"sonar",
-        "response_content":response_content,
-        "response_url":response_url
+        "data":{
+            "response_content":response_content,
+            "response_url":response_url
+        }
+        
     }
     return response_dict
