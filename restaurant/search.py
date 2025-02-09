@@ -5,6 +5,31 @@ import os
 import logging
 from dotenv import load_dotenv
 
+
+def normalize_restaurant_data(result):
+    # If the result object has a 'matches' attribute, use it
+    if hasattr(result, 'matches'):
+        data = result.matches
+    # Alternatively, if it's a dict with a "matches" key, use that
+    elif isinstance(result, dict) and "matches" in result:
+        data = result["matches"]
+    else:
+        data = result  # Assume result is already a list
+
+    normalized_data = []
+    for item in data:
+        metadata = item.get("metadata", {})
+        normalized_item = {
+            "name": str(metadata.get("name", "")),
+            "star": str(metadata.get("star", "")),
+            "number_of_reviews": str(metadata.get("number", "")),
+            "image": str(metadata.get("restaurant_image", "")),
+            "url": str(metadata.get("url", "")),
+            "tags": [str(metadata[key]) for key in metadata if key.startswith("tag_")]
+        }
+        normalized_data.append(normalized_item)
+
+    return normalized_data
 # Load environment variables
 load_dotenv()
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
@@ -58,36 +83,24 @@ def get_index():
 
 
 def query_index(index, query_vector, number_of_results):
-    """
-    Query the index and return the top k results that match the query vector.
-
-    Parameters
-    ----------
-    index: pinecone.Index
-        The Pinecone index to query
-    query_vector: list
-        The vector to query the index with
-    number_of_results: int
-        The number of results to return
-
-    Returns
-    -------
-    results: list
-        The top k results that match the query vector, along with their metadata
-    """
-    # Query the index with the query vector and return the top k results
-    results = index.query_namespaces(
+    # Query the index
+    response = index.query_namespaces(
         vector=query_vector,
-        namespaces=[""],  # Search in the default namespace
-        metric="cosine",  # Use cosine similarity as the metric
-        top_k=number_of_results,  # Return the top k results
-        include_values=False,  # Don't include the actual vectors in the results
-        include_metadata=True,  # Include the metadata in the results
-        show_progress=False,  # Don't show the progress bar
+        namespaces=[""],        # Search in the default namespace
+        metric="cosine",        # Use cosine similarity
+        top_k=number_of_results,
+        include_values=False,
+        include_metadata=True,
+        show_progress=False,
     )
 
-    # Return the results
-    return results
+    # Assume the response is a dict or object with a 'matches' key/attribute
+    if hasattr(response, 'matches'):
+        return response.matches
+    elif isinstance(response, dict) and "matches" in response:
+        return response["matches"]
+    else:
+        return response
 
 def find_similar_items(query: str) -> list:
    
@@ -118,10 +131,10 @@ def find_similar_items(query: str) -> list:
     results = query_index(index, vector, number_of_results)
 
     # Return the list of results
-    
+    data= normalize_restaurant_data(results)
     dicto={
         "type": "restaurant",
-        "data": results
+        "data": data
     }
     return dicto
 

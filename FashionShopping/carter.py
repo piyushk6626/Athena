@@ -1,5 +1,22 @@
 import requests
 
+
+def normalize_api_response(data):
+    normalized_data = []
+    
+    for item in data:
+        normalized_item = {}
+        for key, value in item.items():
+            if isinstance(value, list) and value:
+                normalized_item[key] = str(value[0])  # Pick first element and convert to string
+            else:
+                normalized_item[key] = str(value)  # Convert directly to string
+        normalized_data.append(normalized_item)
+    
+    return normalized_data
+
+
+
 def fashion_search_api(query):        
     
 
@@ -29,7 +46,7 @@ def fashion_search_api(query):
     
     # Check response status
     response.raise_for_status()
-    data=response.json()
+    data=normalize_api_response(response.json())
     dicto={
         "type":"fashion",
         "data" : data
@@ -44,5 +61,5 @@ if __name__ == "__main__":
     # Text-based search
     
     # Image-based search
-    print(fashion_search_api())
+    print(fashion_search_api("genz cloths"))
     #print(call_search_api(base_url, "/search/image/", query="fashionable summer wear", image_path="path_to_image.jpg", number_of_results=3))
