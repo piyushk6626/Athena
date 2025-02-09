@@ -1,10 +1,11 @@
-import os, prompt
+import os
+from . import prompt
 from openai import OpenAI
 from enum import Enum
 from typing import Optional
 from pydantic import BaseModel
 from dotenv import load_dotenv
-from process_command import process_command
+from . process_command import process_command
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
