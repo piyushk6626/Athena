@@ -28,15 +28,21 @@ def get_product_details(container):
         except:
             title=container.find_element(By.CSS_SELECTOR, 'h2.a-size-base-plus').text
 
+        
+        amazonchoice=container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None
+        if amazonchoice:
+            amazonchoice=str(amazonchoice)
+        else:
+            amazonchoice=False
         product_data = {
             'title': title ,
-            'price': container.find_element(By.CSS_SELECTOR, 'span.a-price').text,
-            'rating': container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML'),
-            'review_count': container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text,
-            'amazons_choice': container.find_element(By.CSS_SELECTOR, 'span.a-badge-label-inner .a-badge-text').text if container.find_elements(By.CSS_SELECTOR, 'span.a-badge-label-inner') else None,
-            'image_url': container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src'),
-            'product_url': container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href'),
-            'number of buyers': container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text
+            'price': str(container.find_element(By.CSS_SELECTOR, 'span.a-price').text),
+            'rating': str(container.find_element(By.CSS_SELECTOR, 'i.a-icon-star-small span.a-icon-alt').get_attribute('innerHTML')),
+            'review_count': str(container.find_element(By.CSS_SELECTOR, 'a[aria-label*="ratings"] span.a-size-base').text),
+            'amazons_choice': amazonchoice,
+            'image_url': str(container.find_element(By.CSS_SELECTOR, 'img.s-image').get_attribute('src')),
+            'product_url': str(container.find_element(By.CSS_SELECTOR, 'a.a-link-normal.s-link-style').get_attribute('href')),
+            'number of buyers': str(container.find_element(By.XPATH, '//div[contains(@class, "puis-card-container s-card-container")]//div[@class="a-section a-spacing-none a-spacing-top-micro"]//span[contains(@class, "a-size-base a-color-secondary")]').text)
         }
         
         return {"type":"Amazon","data":product_data}
