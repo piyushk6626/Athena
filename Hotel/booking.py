@@ -45,7 +45,8 @@ def get_hotel_details(container):
             hotel_data['Brakefast included']=True
         except:
             hotel_data['Brakefast included']=False
-        return {"type":"Booking.com","Details":hotel_data}
+        return {"type":"booking",
+                "data":hotel_data}
     
     except NoSuchElementException as e:
         print(f"Missing element: {str(e)}")
