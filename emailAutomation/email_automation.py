@@ -39,7 +39,11 @@ def send_email(recipient_email, subject, body):
         server.login(sender_email, sender_password)
         server.send_message(msg)
         server.quit()
-        print("Email sent successfully!")
+        
+        return{
+            "type":"text",
+            "data":"Email sent successfully!"
+        }
     except Exception as e:
         print("Error:", e)
 
