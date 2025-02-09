@@ -335,4 +335,36 @@ Spotify_action_bot_tool={
     }
 }
 
-TOOLS=[Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,call_fashion_search_api_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+get_bus_data_tool = {
+    "type": "function",
+    "function": {
+        "name": "get_bus_data",
+        "description": "Returns the scraped data from online bus booking website",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "source",
+                "destination",
+                "journey_date"
+            ],
+            "properties": {
+                "source": {
+                    "type": "string",
+                    "description": "Source city name. The first letter of the city name is capitalized."
+                },
+                "destination": {
+                    "type": "string",
+                    "description": "Destination city name. The first letter of the city name is capitalized."
+                },
+                "journey_date": {
+                    "type": "string",
+                    "description": "Date of journey in the format YYYY-MM-DD."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+TOOLS=[get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,call_fashion_search_api_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
