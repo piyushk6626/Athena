@@ -1,17 +1,47 @@
+import json
+import time
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
+import functioncalling
+import router
 
-from Movies import (
-    scrape_movies,
-    extract_movie_shows,
-    extract_seat_details,
-    select_given_seat_and_click_book_ticket,
-)
+app = FastAPI()
 
-# Example: Scrape movies in a city.
-movies_json = scrape_movies("pune")
-print(movies_json)
+@app.post("/")
+async def receive_data_async(request: Request):
+    # Get request body
+    data_bytes = await request.body()
+    data = data_bytes.decode('utf-8')
 
-#Example: Extract show details.
-shows = extract_movie_shows("https://paytm.com/movies/interstellar-2014-movie-detail-288?frmtid=zrwlluqk8", "pune", "english")
-print(shows)
+    # Create a structured message
+    message = {
+        "role": "user",
+        "content": data
+    }
 
+    print(f"Received: {data}")
 
+    # Process the query
+    result = process_user_query(message)
+
+    return JSONResponse(content=result, status_code=200)
+
+def process_user_query(query):
+    completion = functioncalling.AGI(messages=query)
+    tool_call = completion.choices[0].message.tool_calls
+
+    if tool_call:
+        name = tool_call.function.name
+        args = json.loads(tool_call.function.arguments)
+        result = router.callfunction(name, args)
+    else:
+        result = {
+            "type": "string",
+            "data": completion.choices[0].message.content
+        }
+    
+    return result
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=3000)

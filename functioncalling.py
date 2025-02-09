@@ -38,26 +38,23 @@ def AGI(messages):
 # print(response.choices[0].message.content)
 # print(response.choices[0].message.content) In order to help you find a movie, could you please provide me with your city and any specific preferences you might have, such as the type of movie you want to watch?
 
-completion=AGI(messages=[
-    {
-        "role": "user", 
-        "content": "i want to wantch a movie tommrow afternoon "
-    },
-    {
-        "role": "assistant", 
-        "content": "In order to help you find a movie, could you please provide me with your city and any specific preferences you might have, such as the type of movie you want to watch?"
-    },
-    {
-        "role": "user", 
-        "content": "ohk show me for pune "
-    },
-    {
-        "role": "assitant", 
-        "content": " "
-    }
-    ]
-               )
-A=(completion.choices[0].message.tool_calls)
-print(completion.choices[0].message.content)
-for i in A:
-    print(i)
+# completion=AGI(messages=[
+#     {
+#         "role": "user", 
+#         "content": "i want to wantch a movie tommrow afternoon "
+#     },
+#     {
+#         "role": "assistant", 
+#         "content": "In order to help you find a movie, could you please provide me with your city and any specific preferences you might have, such as the type of movie you want to watch?"
+#     },
+#     {
+#         "role": "user", 
+#         "content": "ohk show me for pune "
+#     },
+    
+#     ]
+#                )
+# A=(completion.choices[0].message.tool_calls)
+# print(completion.choices[0].message.content)
+# for i in A:
+#     print(i)
