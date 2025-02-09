@@ -122,6 +122,8 @@ def _extract_movie_shows(driver):
                 continue
     except Exception:
         print("Failed to extract movie show details.")
+
+    
     return movie_data
 
 def extract_movie_shows(url, city, language):

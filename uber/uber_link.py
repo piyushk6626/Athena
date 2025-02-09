@@ -25,7 +25,7 @@ def fill_location_input(driver, input_xpath, location):
        
         # Create action chains for keyboard input
         actions = ActionChains(driver)
-        
+
         # Type each character directly via keyboard
         for char in location:
             actions.send_keys(char)
@@ -218,7 +218,7 @@ def extract_uber_locations(url):
     drop_data = json.loads(unquote(drop_json))
     
     return {
-        'type': 'Uber',
+        'type': 'uber',
         'url': url,
         'pickup': {
             'name': pickup_data['addressLine1'],
