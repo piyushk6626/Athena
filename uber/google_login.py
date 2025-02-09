@@ -34,23 +34,21 @@ email_field = wait.until(EC.visibility_of_element_located((By.ID, "identifierId"
 email_field.send_keys("112315132@cse.iiitp.ac.in")
 driver.find_element(By.ID, "identifierNext").click()
 time.sleep(2)
+
 # Step 4. Wait for the password field and enter your password
 if len(driver.window_handles) > 1:
     driver.switch_to.window(driver.window_handles[-1])
+    
 driver.find_element(By.XPATH, "(//input)[2]").click()
 password_field = wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@class='whsOnd zHQkBf']")))
 time.sleep(1)  # slight pause can help stability
 password_field.send_keys("Maa_3696")
 driver.find_element(By.XPATH, "(//button)[2]").click()
 
-# Allow time for Google to process the login and redirect back to Uber
-time.sleep(100)
+time.sleep(10)
 
-# Step 5. (Optional) Switch back to the original window if needed:
+# Step 5.Switch back to the original window if needed:
 if len(driver.window_handles) > 1:
     driver.switch_to.window(driver.window_handles[0])
 
-# At this point, if all goes well, Uber should have recognized your Google login.
 print("Login process completed.")
-
-# Continue with further automation steps as needed...
