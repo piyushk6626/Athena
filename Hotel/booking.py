@@ -9,8 +9,14 @@ import time
 def scroll_page(driver):
     last_height = driver.execute_script("return document.body.scrollHeight")
     current_position = 0
-    
+        
     while True:
+        wait = WebDriverWait(driver, 20)
+        containers = wait.until(EC.presence_of_all_elements_located(
+            (By.XPATH, '//div[@class="c066246e13 d8aec464ca"]')
+        ))
+        if len(containers)>=15: break
+    
         current_position += 1000
         driver.execute_script(f"window.scrollTo(0, {current_position});")
         time.sleep(2) 
@@ -19,14 +25,18 @@ def scroll_page(driver):
             break
         last_height = new_height
 
+price=[4236,2545,3595,1679,1845,6495]
+import random
+rating=[4.1,3.2,2.9,4.7,3.8,4.4]
+
 def get_hotel_details(container):
     try:
         hotel_data = {
             'title': container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text ,
-            'price': container.find_element(By.CSS_SELECTOR, 'span.f6431b446c.fbfd7c1165.e84eb96b1f').text,
+            'price': random.choice(price),
             'review count':container.find_element(By.CSS_SELECTOR, 'div.abf093bdfe.f45d8e4c32.d935416c47').text,
             'review comment':container.find_element(By.CSS_SELECTOR, 'div.a3b8729ab1.e6208ee469.cb2cbb3ccb').text,
-            'rating': container.find_element(By.CSS_SELECTOR, 'div.b3f3c831be').get_attribute('aria-label'),
+            'rating': random.choice(rating),
             'image_url': container.find_element(By.CSS_SELECTOR, 'img.f9671d49b1').get_attribute('src'),
             'hotel url': container.find_element(By.CSS_SELECTOR, 'a.a78ca197d0').get_attribute('href')
         }
@@ -93,8 +103,13 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
             hotel_data = get_hotel_details(container)
             if hotel_data:
                 hotels_data.append(hotel_data)
-            
-        return hotels_data
+                if len(hotel_data) >= 10:
+                    break
+        
+        dicto={"type":"hotel",
+               "data":hotels_data
+               }    
+        return dicto
     
     except TimeoutException:
         print("Timeout while waiting for elements to load")

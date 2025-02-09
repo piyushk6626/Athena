@@ -75,7 +75,7 @@ def process_input(command):
     Actions=response.choices[0].message.parsed
     print(Actions)
     process_command(Actions)
-    return {"type":"string","data":"Doing Spotify Action"}
+    return {"type":"text","data":"Doing Spotify Action"}
 
 if __name__ == "__main__":
     print(process_input("play song  Dil Ki Tapish by Rahul Deshpande "))
