@@ -42,26 +42,23 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
         
         for hotel in hotels:
             try:
-                images = [img.get_attribute('src') for img in hotel.find_elements(By.XPATH, './/div/picture/img')]
+                image_url = [img.get_attribute('src') for img in hotel.find_elements(By.XPATH, './/div/picture/img')]
                 hotel_name = hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text
-                hotel_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
-                location_details = hotel.find_element(By.XPATH, './/div[contains(@class, "g1qv1ctd")]').text
-                price = hotel.find_element(By.XPATH, './/div[contains(@class, "pquyp1l")]').text
+                payment_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
+                location = hotel.find_element(By.XPATH, './/div[contains(@class, "g1qv1ctd")]').text
                 total_price = driver.find_element(By.XPATH, '//div[@class="_tt122m"]').text
-                ratings = hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text
-                room_tag = driver.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text
-                payment_link = driver.find_element(By.XPATH, '//div/a[@class="l1ovpqvx atm_1he2i46_1k8pnbi_10saat9 atm_yxpdqi_1pv6nv4_10saat9 atm_1a0hdzc_w1h1e8_10saat9 atm_2bu6ew_929bqk_10saat9 atm_12oyo1u_73u7pn_10saat9 atm_fiaz40_1etamxe_10saat9 bn2bl2p atm_5j_223wjw atm_9s_1ulexfb atm_e2_1osqo2v atm_fq_idpfg4 atm_mk_stnw88 atm_tk_idpfg4 atm_vy_1osqo2v atm_26_1j28jx2 atm_3f_glywfm atm_kd_glywfm atm_3f_glywfm_jo46a5 atm_l8_idpfg4_jo46a5 atm_gi_idpfg4_jo46a5 atm_3f_glywfm_1icshfk atm_kd_glywfm_19774hq atm_uc_aaiy6o_1w3cfyq_oggzyc atm_70_1b8lkes_1w3cfyq_oggzyc atm_uc_glywfm_1w3cfyq_pynvjw atm_uc_aaiy6o_pfnrn2_ivgyl9 atm_70_1b8lkes_pfnrn2_ivgyl9 atm_uc_glywfm_pfnrn2_61fwbc dir dir-ltr"]').get_attribute("href")
-                
+                rating_reviews = hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text
+                tag_text = driver.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text
+
                 hotel_info = {
-                    "image_url": images[0],
+                   "image_url": image_url,
                     "hotel_name": hotel_name,
-                    "hotel_url": hotel_url,
-                    "location": location_details,
-                    
+                    "payment_url": payment_url,
+                    "location": location,
                     "total_price": total_price,
-                    "rating_reviews": ratings,
-                    "tag_text": room_tag,
-                    "payment_url": payment_link,
+                    "rating_reviews": rating_reviews,
+                    "tag_text": tag_text,
+
                 }
                 
                 hotels_data.append(hotel_info)
