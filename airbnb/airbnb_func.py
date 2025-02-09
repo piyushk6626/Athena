@@ -62,6 +62,7 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
                 }
                 
                 hotels_data.append(hotel_info)
+                
             except Exception as e:
                 print(f"Error extracting data for a hotel: {e}")
     
