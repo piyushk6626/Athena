@@ -23,12 +23,11 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
         dict: Dictionary containing a list of hotel data and a type field with value 'airbnb'.
     """
     chrome_options = Options()
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-gpu")
+    # chrome_options.add_argument("--no-sandbox")
 
     # Automatically manage ChromeDriver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
 
     url = f"https://www.airbnb.co.in/s/{destination}/homes?checkin={checkinDate}&checkout={checkoutDate}&adults={adultsNo}&children={childrenNo}&query={destination}"
     
@@ -40,13 +39,14 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     def extract_hotels():
         hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         
+        
         for hotel in hotels:
             try:
                 image_url = [img.get_attribute('src') for img in hotel.find_elements(By.XPATH, './/div/picture/img')]
                 hotel_name = hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text
                 payment_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
                 location = hotel.find_element(By.XPATH, './/div[contains(@class, "g1qv1ctd")]').text
-                total_price = driver.find_element(By.XPATH, '//div[@class="_tt122m"]').text
+                total_price = driver.find_element(By.XPATH, '//span[@class="_11jcbg2"]').text
                 rating_reviews = hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text
                 tag_text = driver.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text
 
