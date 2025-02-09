@@ -14,6 +14,7 @@ from Movies import (
 from restaurant import search as restaurant_search
 from paytmbus import generate_url
 from Spotify import process_input
+from Paytmflights import script
 # print(sonar.serach_the_web_for_news("What is the weather in Goa?"))  # working
  
 # print(uber_link.automate_uber_ride("Empire State", "Central Park")) # working but needs login
@@ -68,7 +69,8 @@ def callfunction(name,args):
         response = generate_url.generate_paytm_bus_url(**args)
     elif name == "Spotify_action_bot":
         response == process_input.process_input(**args)
-            
+    elif name == "scrape_flights":
+        response = script.scrape_flights(**args)
             
     return response
 

@@ -37,10 +37,10 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     hotels_data = []
     
     def extract_hotels():
-        hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
+        hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')[:10]
         
         
-        for hotel in hotels:
+        for hotel in hotels[:10]:
             try:
                 image_url = [img.get_attribute('src') for img in hotel.find_elements(By.XPATH, './/div/picture/img')]
                 hotel_name = hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text

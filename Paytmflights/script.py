@@ -73,24 +73,33 @@ def get_booking_url(driver, flight_id):
 
 def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home'):
 
+   
+   
     """
-    Scrape flights from given url and save the data to a json file.
+    Scrapes flight details from Paytm for given travel parameters.
 
-    :param url: URL of the page to scrape
-    :param paseenger_count: Passenger count
-    :param origin_code: Origin airport code
-    :param origin_name: Origin airport name
-    :param dest_code: Destination airport code
-    :param dest_name: Destination airport name
-    :param adults: Number of adults
-    :param children: Number of children
-    :param infants: Number of infants
-    :param class_type: Class type (Economy, Premium Economy, Business, First Class)
-    :param departure_date: Departure date
-    :param referer: Referer parameter
-    :return: A WebDriver object if scraping is successful, None otherwise
+    This function generates a Paytm flight search URL using the specified parameters, navigates to the page,
+    and scrapes flight details such as airline, departure and arrival times, price, and more. The function
+    returns a dictionary containing the flight data and saves it to a JSON file.
+
+    Args:
+        paseenger_count (int): The number of passengers.
+        origin_code (str): The airport code for the origin.
+        origin_name (str): The name of the origin city.
+        dest_code (str): The airport code for the destination.
+        dest_name (str): The name of the destination city.
+        adults (int): Number of adults traveling.
+        children (int): Number of children traveling.
+        infants (int): Number of infants traveling.
+        class_type (str): The class type for the flight (e.g., 'E' for economy).
+        departure_date (str): The departure date in the format 'YYYY-MM-DD'.
+        referer (str, optional): The referrer for the URL. Defaults to 'home'.
+
+    Returns:
+        dict or None: A dictionary containing the flight data if successful, None otherwise.
     """
-    url = generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home'):
+
+    url = generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home')
     driver = webdriver.Chrome()
     driver.get(url)
     flights_data = []
@@ -155,8 +164,18 @@ def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_na
                 
         with open('flights_data.json', 'w') as f:
             json.dump(flights_data, f, indent=2)
-            
-        return driver
+
+        result = {
+            "type" : "flights",
+            "data" : flights_data
+        }
+
+
+
+        print(result)
+        driver.quit()
+        return result
+
     except Exception as e:
         driver.quit()
         return None
@@ -165,6 +184,6 @@ def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_na
 if __name__ == "__main__":
     url = generate_paytm_flight_url("BLR", "Bengaluru", "DED", "Dehradun", 1, 1, 0, 'E', departure_date="2025-02-04")
     paseenger_count = 2
-    driver = scrape_flights(url, paseenger_count)
-    
-    driver.quit()
+    driver = scrape_flights(paseenger_count, "BLR", "Bengaluru", "DED", "Dehradun", 1, 1, 0, 'E', departure_date="2025-02-04")
+    if driver:
+        driver.quit()
