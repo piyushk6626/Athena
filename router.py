@@ -12,6 +12,7 @@ from Movies import (
     select_given_seat_and_click_book_ticket,
 )
 from restaurant import search as restaurant_search
+from paytmbus import generate_url
 
 # print(sonar.serach_the_web_for_news("What is the weather in Goa?"))  # working
  
@@ -62,6 +63,8 @@ def callfunction(name,args):
         response = carter.fashion_search_api(**args)
     elif name == "send_email_tool":
         response = email_automation.send_email(**args)
+    elif name == "get_bus_data":
+        response = generate_url.generate_paytm_bus_url(**args)
     elif name == "Spotify_action_bot":
         response ==
             
