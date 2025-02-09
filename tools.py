@@ -1,5 +1,3 @@
-
-
 serach_the_web_for_news_tool={
     "type": "function",
     "function": {
@@ -94,27 +92,7 @@ scrape_airbnb_tool={
 }
 
 
-call_fashion_search_api_tool = {
-    "type": "function",
-    "function": {
-        "name": "call_fashion_search_api",
-        "description": "Calls the fashion search API with the specified text query.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "query"
-            ],
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The search query for fashion items."
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
+
 
 find_similar_restaurants_tool = {
     "type": "function",
@@ -250,7 +228,7 @@ fashion_search_api_tool={
     "type": "function",
     "function": {
         "name": "fashion_search_api",
-        "description": "Calls the fashion search API with the specified text query.",
+        "description": "Calls the fashion shopping search API with the specified text query.",
         "strict": True,
         "parameters": {
             "type": "object",
@@ -260,7 +238,7 @@ fashion_search_api_tool={
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The search query for fashion items. Defaults to 'Tshirt For Goa Trip'."
+                    "description": "The search query for fashion items."
                 }
             },
             "additionalProperties": False
@@ -367,4 +345,4 @@ get_bus_data_tool = {
     }
 }
 
-TOOLS=[get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,call_fashion_search_api_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+TOOLS=[get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]

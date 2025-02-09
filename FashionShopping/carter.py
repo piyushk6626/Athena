@@ -1,6 +1,6 @@
 import requests
 
-def fashion_search_api(query="Tshirt For Goa Trip"):        
+def fashion_search_api(query):        
     
 
     """
@@ -29,10 +29,10 @@ def fashion_search_api(query="Tshirt For Goa Trip"):
     
     # Check response status
     response.raise_for_status()
-    
+    data=response.json()
     dicto={
         "type":"fashion",
-        "data" : response.json()
+        "data" : data
     }
     return dicto
 
