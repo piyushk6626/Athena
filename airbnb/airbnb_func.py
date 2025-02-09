@@ -53,15 +53,15 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
                 payment_link = driver.find_element(By.XPATH, '//div/a[@class="l1ovpqvx atm_1he2i46_1k8pnbi_10saat9 atm_yxpdqi_1pv6nv4_10saat9 atm_1a0hdzc_w1h1e8_10saat9 atm_2bu6ew_929bqk_10saat9 atm_12oyo1u_73u7pn_10saat9 atm_fiaz40_1etamxe_10saat9 bn2bl2p atm_5j_223wjw atm_9s_1ulexfb atm_e2_1osqo2v atm_fq_idpfg4 atm_mk_stnw88 atm_tk_idpfg4 atm_vy_1osqo2v atm_26_1j28jx2 atm_3f_glywfm atm_kd_glywfm atm_3f_glywfm_jo46a5 atm_l8_idpfg4_jo46a5 atm_gi_idpfg4_jo46a5 atm_3f_glywfm_1icshfk atm_kd_glywfm_19774hq atm_uc_aaiy6o_1w3cfyq_oggzyc atm_70_1b8lkes_1w3cfyq_oggzyc atm_uc_glywfm_1w3cfyq_pynvjw atm_uc_aaiy6o_pfnrn2_ivgyl9 atm_70_1b8lkes_pfnrn2_ivgyl9 atm_uc_glywfm_pfnrn2_61fwbc dir dir-ltr"]').get_attribute("href")
                 
                 hotel_info = {
-                    "images": images,
+                    "image_url": images[0],
                     "hotel_name": hotel_name,
                     "hotel_url": hotel_url,
                     "location": location_details,
-                    "price": price,
+                    
                     "total_price": total_price,
-                    "ratings": ratings,
-                    "room_tag": room_tag,
-                    "payment_link": payment_link,
+                    "rating_reviews": ratings,
+                    "tag_text": room_tag,
+                    "payment_url": payment_link,
                 }
                 
                 hotels_data.append(hotel_info)
