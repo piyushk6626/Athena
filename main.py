@@ -12,13 +12,13 @@ async def receive_data_async(request: Request):
     # Get request body
     data_bytes = await request.body()
     data = data_bytes.decode('utf-8')
-    history = data.get("history", [])
+    #history = data.get("history", [])
     # Create a structured message
 
     print(f"Received: {data}")
 
     # Process the query
-    result = process_user_query(history)
+    result = process_user_query(data)
     # result = {
     #     "type": "string",
     #     "data": "Hello, World!"
@@ -33,13 +33,13 @@ async def receive_data_async(request: Request):
     return JSONResponse(content=result, status_code=200)
 
 def process_user_query(query):
-    # message = [{
-    #     "role": "user",
-    #     "content": query    
-    # }]
+    message = [{
+        "role": "user",
+        "content": query    
+    }]
 
     
-    completion = functioncalling.AGI(query)
+    completion = functioncalling.AGI(message)
     tool_call = completion.choices[0].message.tool_calls
     print(tool_call)
     if tool_call:  
