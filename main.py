@@ -47,7 +47,7 @@ def process_user_query(query):
             result = router.callfunction(name, args)
     else:
         result = {
-            "type": "string",
+            "type": "text",
             "data": completion.choices[0].message.content
         }
     

@@ -50,7 +50,7 @@ def serach_the_web_for_news(query:str) -> dict:
     response_content= response.choices[0].message.content
     response_url=response.citations
     response_dict= {
-        "Type":"sonar",
+        "Type":"perplexity",
         "data":{
             "response_content":response_content,
             "response_url":response_url
