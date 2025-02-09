@@ -6,6 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import json
 import time
 from urllib.parse import urlparse, parse_qs
+import re 
 
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
@@ -36,36 +37,39 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     
     hotels_data = []
     
+    def clean_text(text):
+        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
+        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
+        return text.strip()
+    
     def extract_hotels():
-        hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')[:10]
-        
+        hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         
         for hotel in hotels[:10]:
             try:
-                image_url = [img.get_attribute('src') for img in hotel.find_elements(By.XPATH, './/div/picture/img')]
-                hotel_name = hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text
+                image_elements = hotel.find_elements(By.XPATH, './/div/picture/img')
+                image_url = image_elements[0].get_attribute('src') if image_elements else ""
+                hotel_name = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text)
                 payment_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
-                location = hotel.find_element(By.XPATH, './/div[contains(@class, "g1qv1ctd")]').text
-                total_price = driver.find_element(By.XPATH, '//span[@class="_11jcbg2"]').text
-                rating_reviews = hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text
-                tag_text = driver.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text
+                location = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "fb4nyux")]//span[contains(@class, "t6mzqp7")]').text)
+                total_price = clean_text(hotel.find_element(By.XPATH, '//div[@class="_tt122m"]').text)
+                rating_reviews = clean_text(hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text)
+                tag_text = clean_text(hotel.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text)
 
                 hotel_info = {
-                   "image_url": image_url,
+                    "image_url": image_url,
                     "hotel_name": hotel_name,
                     "payment_url": payment_url,
                     "location": location,
                     "total_price": total_price,
                     "rating_reviews": rating_reviews,
                     "tag_text": tag_text,
-
                 }
                 
                 hotels_data.append(hotel_info)
-                
             except Exception as e:
                 print(f"Error extracting data for a hotel: {e}")
-    
+
     extract_hotels()
     driver.quit()
     

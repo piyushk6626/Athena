@@ -32,13 +32,13 @@ rating=[4.1,3.2,2.9,4.7,3.8,4.4]
 def get_hotel_details(container):
     try:
         hotel_data = {
-            'title': container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text ,
+            'title': str(container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text) ,
             'price': str(random.choice(price)),
             'review count':str(container.find_element(By.CSS_SELECTOR, 'div.abf093bdfe.f45d8e4c32.d935416c47').text),
             'review comment':str(container.find_element(By.CSS_SELECTOR, 'div.a3b8729ab1.e6208ee469.cb2cbb3ccb').text),
             'rating': str(random.choice(rating)),
-            'image_url': container.find_element(By.CSS_SELECTOR, 'img.f9671d49b1').get_attribute('src'),
-            'hotel url': container.find_element(By.CSS_SELECTOR, 'a.a78ca197d0').get_attribute('href')
+            'image_url': str(container.find_element(By.CSS_SELECTOR, 'img.f9671d49b1').get_attribute('src')),
+            'hotel url': str(container.find_element(By.CSS_SELECTOR, 'a.a78ca197d0').get_attribute('href'))
         }
         try:
             container.find_element(By.CSS_SELECTOR,'div.aaa3a3be2e').text

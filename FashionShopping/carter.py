@@ -1,6 +1,6 @@
 import requests
 
-def fashion_search_api(query="Tshirt For Goa Trip"):        
+def fashion_search_api(query):        
     
 
     """
@@ -29,14 +29,18 @@ def fashion_search_api(query="Tshirt For Goa Trip"):
     
     # Check response status
     response.raise_for_status()
-    return response.json()
+    data=response.json()
+    dicto={
+        "type":"fashion",
+        "data" : data
+    }
+    return dicto
 
 
 
 
 # Example Usage:
 if __name__ == "__main__":
-    base_url = "http://localhost:8000"  # Replace with your FastAPI server's base URL
     # Text-based search
     
     # Image-based search

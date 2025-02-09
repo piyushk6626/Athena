@@ -1,5 +1,3 @@
-
-
 serach_the_web_for_news_tool={
     "type": "function",
     "function": {
@@ -94,27 +92,7 @@ scrape_airbnb_tool={
 }
 
 
-call_fashion_search_api_tool = {
-    "type": "function",
-    "function": {
-        "name": "call_fashion_search_api",
-        "description": "Calls the fashion search API with the specified text query.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "query"
-            ],
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The search query for fashion items."
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
+
 
 find_similar_restaurants_tool = {
     "type": "function",
@@ -250,7 +228,7 @@ fashion_search_api_tool={
     "type": "function",
     "function": {
         "name": "fashion_search_api",
-        "description": "Calls the fashion search API with the specified text query.",
+        "description": "Calls the fashion shopping search API with the specified text query.",
         "strict": True,
         "parameters": {
             "type": "object",
@@ -260,7 +238,7 @@ fashion_search_api_tool={
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The search query for fashion items. Defaults to 'Tshirt For Goa Trip'."
+                    "description": "The search query for fashion items."
                 }
             },
             "additionalProperties": False
@@ -367,75 +345,4 @@ get_bus_data_tool = {
     }
 }
 
-scrape_flights_tool ={
-    "type": "function",
-    "function": {
-        "name": "scrape_flights",
-        "description": "Scrapes flight details from Paytm for given travel parameters. Defaults to booking for one adult in economy class unless specified otherwise.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "origin_name",
-                "dest_name",
-                "departure_date"
-            ],
-            "properties": {
-                "paseenger_count": {
-                    "type": "number",
-                    "description": "The number of passengers, auto-calculated as the sum of adults, children, and infants.",
-                    "default": 1
-                },
-                "origin_code": {
-                    "type": "string",
-                    "description": "The airport code for the origin, auto-generated based on the origin name."
-                },
-                "origin_name": {
-                    "type": "string",
-                    "description": "The name of the origin city (user input required)."
-                },
-                "dest_code": {
-                    "type": "string",
-                    "description": "The airport code for the destination, auto-generated based on the destination name."
-                },
-                "dest_name": {
-                    "type": "string",
-                    "description": "The name of the destination city (user input required)."
-                },
-                "adults": {
-                    "type": "number",
-                    "description": "Number of adults traveling, defaults to 1.",
-                    "default": 1
-                },
-                "children": {
-                    "type": "number",
-                    "description": "Number of children traveling, defaults to 0.",
-                    "default": 0
-                },
-                "infants": {
-                    "type": "number",
-                    "description": "Number of infants traveling, defaults to 0.",
-                    "default": 0
-                },
-                "class_type": {
-                    "type": "string",
-                    "description": "The class type for the flight (e.g., 'E' for economy), defaults to 'E'.",
-                    "default": "E"
-                },
-                "departure_date": {
-                    "type": "string",
-                    "description": "The departure date in the format 'YYYY-MM-DD' (user input required)."
-                },
-                "referer": {
-                    "type": "string",
-                    "description": "The referrer for the URL, defaults to 'home'.",
-                    "default": "home"
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
-
-
-TOOLS=[scrape_flights_tool,get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,call_fashion_search_api_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+TOOLS=[get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
