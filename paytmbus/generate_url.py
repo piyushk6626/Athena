@@ -98,7 +98,12 @@ def generate_paytm_bus_url(source, destination, journey_date):
         destination = destination.capitalize()
         
         url = f"https://tickets.paytm.com/bus/search/{source}/{destination}/{journey_date}/1"
-        return get_bus_data(url)
+        
+        response_dict = {
+        'type': 'bus',
+        'data': get_bus_data(url)
+        }
+        return response_dict
     except ValueError:
         return "Invalid date format. Use YYYY-MM-DD."
 
@@ -107,5 +112,5 @@ if __name__ == "__main__":
     destination = "Pune"
     journey_date = "2025-03-01"
     
-    url = generate_paytm_bus_url(source, destination, journey_date)
-    print(get_bus_data(url))
+    print(generate_paytm_bus_url(source, destination, journey_date))
+    

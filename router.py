@@ -43,6 +43,7 @@ from Spotify import process_input
 # print(restaurant_search.find_similar_items("Fast food near me")) # working
 
 def callfunction(name,args):
+    response = None
     if name == "serach_the_web_for_news":
         response = sonar.serach_the_web_for_news(**args)
     elif name == "automate_uber_ride":

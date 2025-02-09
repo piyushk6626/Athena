@@ -27,6 +27,13 @@ async def receive_data_async(request: Request):
     #     "type": "string",
     #     "data": "Hello, World!"
     # }
+
+
+    # jsresult = json.dumps(result)
+
+    # print(jsresult)
+
+
     return JSONResponse(content=result, status_code=200)
 
 def process_user_query(query):
