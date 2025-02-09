@@ -64,7 +64,7 @@ def scrape_products_from_amazon(product:str)->list[dict]:
         error occurs or no products are found, an empty list is returned.
     """
 
-    url = "https://www.amazon.in/s?k="+product
+    url = "https://www.amazon.com/s?k="+product
     options = webdriver.ChromeOptions()
     options.add_argument("--window-size=1920,1080")
     
