@@ -40,4 +40,5 @@ if __name__ == "__main__":
     # Text-based search
     
     # Image-based search
+    print(fashion_search_api())
     #print(call_search_api(base_url, "/search/image/", query="fashionable summer wear", image_path="path_to_image.jpg", number_of_results=3))

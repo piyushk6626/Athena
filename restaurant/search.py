@@ -118,7 +118,12 @@ def find_similar_items(query: str) -> list:
     results = query_index(index, vector, number_of_results)
 
     # Return the list of results
-    return results
+    
+    dicto={
+        "type": "restaurant",
+        "data": results
+    }
+    return dicto
 
 SystemPrompt="""Write a concise description to help the user find a restaurant based on their query and the following points:
 
