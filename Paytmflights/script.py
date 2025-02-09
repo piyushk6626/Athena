@@ -71,7 +71,26 @@ def get_booking_url(driver, flight_id):
         driver.save_screenshot('error.png')
         return None
 
-def scrape_flights(url, paseenger_count):
+def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home'):
+
+    """
+    Scrape flights from given url and save the data to a json file.
+
+    :param url: URL of the page to scrape
+    :param paseenger_count: Passenger count
+    :param origin_code: Origin airport code
+    :param origin_name: Origin airport name
+    :param dest_code: Destination airport code
+    :param dest_name: Destination airport name
+    :param adults: Number of adults
+    :param children: Number of children
+    :param infants: Number of infants
+    :param class_type: Class type (Economy, Premium Economy, Business, First Class)
+    :param departure_date: Departure date
+    :param referer: Referer parameter
+    :return: A WebDriver object if scraping is successful, None otherwise
+    """
+    url = generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home'):
     driver = webdriver.Chrome()
     driver.get(url)
     flights_data = []

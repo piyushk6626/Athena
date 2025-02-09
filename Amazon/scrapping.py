@@ -73,7 +73,7 @@ def scrape_products_from_amazon(product:str)->list[dict]:
     
     try:
 
-        driver.get("https://www.amazon.in/")
+        driver.get("https://www.amazon.com/")
         driver.get(url)
 
         scroll_page(driver)

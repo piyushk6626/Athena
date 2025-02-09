@@ -15,6 +15,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
+
+
 def fill_location_input(driver, input_xpath, location):
     try:
         # Wait for input field to be present
@@ -145,14 +147,27 @@ def automate_uber_ride(pickup_location, destination):
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+    # Optionally use your regular user profile to avoid “not secure” errors:
+    # chrome_options.add_argument("user-data-dir=/path/to/your/chrome/profile")
+
+    
+                
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+        # Optionally use your regular user profile to avoid “not secure” errors:
+        # chrome_options.add_argument("user-data-dir=/path/to/your/chrome/profile")
+
     
     # Initialize WebDriver
     driver = webdriver.Chrome(options=chrome_options)
+    wait = WebDriverWait(driver, 20)
     
     try:
 
 
-        driver.get("https://auth.uber.com/login/")  # Adjust the URL if needed
+        driver.get("https://m.uber.com/go/pickup?effect=")  # Adjust the URL if needed
 
         # Step 2. Locate and click the “Continue with Google” button.
         # (You may need to inspect the Uber login page to update the selector below.)
@@ -160,7 +175,7 @@ def automate_uber_ride(pickup_location, destination):
         google_btn.click()
 
         # If Google’s login page opens in a new window, switch to it:
-        time.sleep(2)
+        time.sleep(5)
         if len(driver.window_handles) > 1:
             driver.switch_to.window(driver.window_handles[-1])
 
@@ -168,31 +183,34 @@ def automate_uber_ride(pickup_location, destination):
         email_field = wait.until(EC.visibility_of_element_located((By.ID, "identifierId")))
         email_field.send_keys("112315132@cse.iiitp.ac.in")
         driver.find_element(By.ID, "identifierNext").click()
-        time.sleep(2)
-
+        time.sleep(5)
         # Step 4. Wait for the password field and enter your password
         if len(driver.window_handles) > 1:
             driver.switch_to.window(driver.window_handles[-1])
-            
         driver.find_element(By.XPATH, "(//input)[2]").click()
         password_field = wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@class='whsOnd zHQkBf']")))
         time.sleep(1)  # slight pause can help stability
         password_field.send_keys("Maa_3696")
+    
         driver.find_element(By.XPATH, "(//button)[2]").click()
 
-        time.sleep(10)
+        # Allow time for Google to process the login and redirect back to Uber
+        time.sleep(30)
 
-        # Step 5.Switch back to the original window if needed:
+        # Step 5. (Optional) Switch back to the original window if needed:
         if len(driver.window_handles) > 1:
             driver.switch_to.window(driver.window_handles[0])
 
+        # At this point, if all goes well, Uber should have recognized your Google login.
         print("Login process completed.")
 
-        # Navigate to Uber mobile site
-        
-        driver.get("https://m.uber.com/go/pickup?effect=")
+        # driver.get("https://google.com")
+        # driver.get("https://m.uber.com/go/pickup?effect=")
 
-        
+        driver.execute_script("window.location.href = 'https://m.uber.com/go/pickup?effect=';")
+        driver.switch_to.window(driver.window_handles[0])
+
+        time.sleep(5)
         
         # Wait for page to load completely
         WebDriverWait(driver, 30).until(
