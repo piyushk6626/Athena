@@ -48,8 +48,6 @@ def callfunction(name,args):
         response = uber_link.automate_uber_ride(**args)
     elif name == "scrape_airbnb":
         response = airbnb_func.scrape_airbnb(**args)
-    elif name == "call_fashion_search_api":
-        response = carter.fashion_search_api(**args)
     elif name == "find_similar_restaurants":
         response = restaurant_search.find_similar_items(**args)
     elif name == "scrape_movies":
@@ -64,6 +62,8 @@ def callfunction(name,args):
         response = carter.fashion_search_api(**args)
     elif name == "send_email_tool":
         response = email_automation.send_email(**args)
+    elif name == "Spotify_action_bot":
+        response ==
             
             
     return response

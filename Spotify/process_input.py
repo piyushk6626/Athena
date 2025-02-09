@@ -4,7 +4,7 @@ from enum import Enum
 from typing import Optional
 from pydantic import BaseModel
 from dotenv import load_dotenv
-
+from process_command import process_command
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -70,7 +70,11 @@ def process_input(command):
     ],
     response_format=SpotifyActions,
     )
-    return response.choices[0].message.parsed
+    
+    Actions=response.choices[0].message.parsed
+    print(Actions)
+    process_command(Actions)
+    return {"type":"string","data":"Doing Spotify Action"}
 
 if __name__ == "__main__":
-    print(process_input("play kshama album by sm"))
+    print(process_input("play song  Dil Ki Tapish by Rahul Deshpande "))
