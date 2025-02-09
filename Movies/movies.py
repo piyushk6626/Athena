@@ -36,7 +36,6 @@ def scrape_movies(city):
         print("No 'View More' button found or clickable.")
 
     # Scroll down to load all content
-    scroll_page(driver)
 
     # Extract movie details
     movies = []
@@ -72,7 +71,11 @@ def scrape_movies(city):
             continue
 
     driver.quit()
-    return json.dumps(movies, indent=4)
+    dicto={
+        "type" : "movieslist",
+        "data" : json.dumps(movies)
+    }
+    return dicto
 
 def _extract_movie_shows(driver):
     """
@@ -141,4 +144,9 @@ def extract_movie_shows(url, city, language):
         shows = _extract_movie_shows(driver)
     finally:
         driver.quit()
-    return shows
+    
+    dicto={
+        "type":"showsdetails",
+        "data": shows
+    }
+    return dicto
