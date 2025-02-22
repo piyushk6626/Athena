@@ -4,6 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import functioncalling
 import router
+import base64
 
 app = FastAPI()
 
@@ -24,24 +25,7 @@ def clean_json(input_json):
 
     return data_dict# Return cleaned dictionary
 
-# def unformat_json(data) -> str:
-#     """
-#     Takes a JSON string or dictionary and returns a minified JSON string.
-    
-#     :param data: JSON string or dictionary
-#     :return: Minified JSON string
-#     """
-#     try:
-#         if isinstance(data, str):
-#             parsed = json.loads(data)  # Convert string to dict
-#         elif isinstance(data, dict):
-#             parsed = data  # Already a dict, use it directly
-#         else:
-#             return "Invalid JSON input"
-        
-#         return json.dumps(parsed, separators=(",", ":"))  # Minify JSON
-#     except json.JSONDecodeError:
-#         return "Invalid JSON input"
+
 
 @app.post("/")
 async def receive_data_async(request: Request):
@@ -50,23 +34,27 @@ async def receive_data_async(request: Request):
     data = data_bytes.decode('utf-8')
     #history = data.get("history", [])
     # Create a structured message
-
+    data_dict = None
     print(f"Received: {data}")
+    try:
+        data_dict = json.loads(data)
+    except:
+        pass
+
+    if data_dict:
+        for key in data_dict.keys():
+            # print(key)
+            if key == "image":
+                img_data_dict = base64.b64decode(data_dict["image"])
+
+                with open("receivedimg.jpg", "wb") as file:
+                    file.write(img_data_dict)
+
+                print("Image saved as receivedimg.jpg")
+
 
     # Process the query
     result = process_user_query(data)
-    # result = {
-    #     "type": "string",
-    #     "data": "Hello, World!"
-    # }
-
-
-    # jsresult = json.dumps(result)
-
-    # print(jsresult)
-
-
-    # return JSONResponse(content=result, status_code=200)
     return result
 
 def process_user_query(query):

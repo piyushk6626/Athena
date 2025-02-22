@@ -37,7 +37,7 @@ def fashion_search_api(query):
         requests.exceptions.HTTPError: If the request to the API fails.
     """
 
-    number_of_results=10
+    number_of_results=5
     base_url="https://carterapi.onrender.com"
     endpoint = "/search/text/"
     data = {"query": query, "number_of_results": number_of_results}

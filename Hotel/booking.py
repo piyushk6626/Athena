@@ -42,11 +42,10 @@ def get_hotel_details(container):
         }
         try:
             container.find_element(By.CSS_SELECTOR,'div.aaa3a3be2e').text
-            hotel_data['Brakefast included']=True
+            hotel_data['Brakefast included']="True"
         except:
-            hotel_data['Brakefast included']=False
-        return {"type":"booking",
-                "data":hotel_data}
+            hotel_data['Brakefast included']="False"
+        return hotel_data
     
     except NoSuchElementException as e:
         print(f"Missing element: {str(e)}")
@@ -107,10 +106,12 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
                 if len(hotel_data) >= 10:
                     break
         
-        dicto={"type":"hotel",
-               "data":hotels_data
-               }    
-        return dicto
+        # dicto={"type":"hotel",
+        #        "data":hotels_data
+        #        }    
+        print(hotels_data)
+        return {"type":"booking",
+                "data":hotels_data}
     
     except TimeoutException:
         print("Timeout while waiting for elements to load")
