@@ -7,7 +7,7 @@ import json
 import time
 from urllib.parse import urlparse, parse_qs
 import re 
-
+from xpath import *
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
     """
@@ -38,23 +38,46 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     hotels_data = []
     
     def clean_text(text):
+        """
+        Clean text by replacing newlines with spaces and removing non-ASCII characters.
+
+        Args:
+            text (str): Text to clean
+
+        Returns:
+            str: Cleaned text
+        """
         text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
         text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
         return text.strip()
     
+    def clean_price(text):
+        """
+        Clean price text by replacing newlines with spaces, removing non-ASCII characters, extracting the first number, and stripping whitespace.
+
+        Args:
+            text (str): Price text to clean
+
+        Returns:
+            str: Cleaned price string
+        """
+        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
+        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
+        text= (text.split()[0])[1:]
+        return text.strip()
     def extract_hotels():
         hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         
         for hotel in hotels[:10]:
             try:
-                image_elements = hotel.find_elements(By.XPATH, './/div/picture/img')
+                image_elements = hotel.find_elements(By.XPATH, imgpath)
                 image_url = image_elements[0].get_attribute('src') if image_elements else ""
-                hotel_name = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text)
-                payment_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
-                location = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "fb4nyux")]//span[contains(@class, "t6mzqp7")]').text)
-                total_price = clean_text(hotel.find_element(By.XPATH, '//span[@class="_11jcbg2"]').text)
-                rating_reviews = clean_text(hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text)
-                tag_text = clean_text(hotel.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text)
+                hotel_name = clean_text(hotel.find_element(By.XPATH, hotelnamepath).text)
+                payment_url = hotel.find_element(By.XPATH, paymentpath).get_attribute('href')
+                location = clean_text(hotel.find_element(By.XPATH, locationpath).text)
+                total_price = clean_price(hotel.find_element(By.XPATH, totalpricepath).text)
+                rating_reviews = clean_text(hotel.find_element(By.XPATH, ratingreviews).text)
+                tag_text = clean_text(hotel.find_element(By.XPATH, tagpath).text)
 
                 hotel_info = {
                     "image_url": image_url,
@@ -82,5 +105,5 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
 
 # Example usage
 if __name__ == "__main__":
-    data = scrape_airbnb("goa", "2025-02-09", "2025-02-14", "1", "0")
+    data = scrape_airbnb("pune", "2025-03-09", "2025-03-14", "1", "0")
     print(json.dumps(data, indent=2))
