@@ -25,7 +25,7 @@ def clean_json(input_json):
 
     return data_dict# Return cleaned dictionary
 
-
+# uvicorn main:app --reload --port 3000 
 
 @app.post("/")
 async def receive_data_async(request: Request):

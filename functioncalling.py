@@ -11,7 +11,8 @@ def AGI(messages):
     completion = client.chat.completions.create(
         model="gpt-4o",
         messages=messages,
-        tools=TOOLS
+        #uncomment to make tools work
+        tools=TOOLS 
     )
     return completion
 

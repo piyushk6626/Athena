@@ -378,5 +378,5 @@ scrape_flights_tool = {
 }
 
 
-
+# TOOLS = []
 TOOLS=[ scrape_flights_tool, get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]

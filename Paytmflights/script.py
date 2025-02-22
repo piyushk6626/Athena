@@ -312,17 +312,34 @@ def scrape_flights(origin_name, dest_name, departure_date):
                 fare_type = container.find_element(By.CLASS_NAME, '_25oBA').text
                 offer = container.find_element(By.CLASS_NAME, '_1LjFU').text if container.find_elements(By.CLASS_NAME, '_1LjFU') else ''
 
+                # flights_data.append({
+                #     'airline': airline,
+                #     # 'airline_logo': airline_logo,
+                #     'departure_time': departure_time,
+                #     'arrival_time': arrival_time,
+                #     'duration': duration_text,
+                #     'final_price': int(price),
+                #     # 'fare_type': fare_type,
+                #     # 'offer': offer,
+                #     'layover': str(layover),
+                #     'url': get_booking_url(driver, flight_id)
+                # })
+
+
                 flights_data.append({
+                    # 'flight_id': flight_id,
                     'airline': airline,
-                    # 'airline_logo': airline_logo,
+                    'airline_logo': airline_logo,
                     'departure_time': departure_time,
+                    'departure_city': departure_city,
                     'arrival_time': arrival_time,
-                    'duration': duration_text,
-                    'final_price': int(price),
-                    # 'fare_type': fare_type,
-                    # 'offer': offer,
+                    'arrival_city': arrival_city,
+                    'duration': duration_text.split()[1] + ' ' + duration_text.split()[2],
+                    'price':  str(int(price)),
+                    'fare_type': fare_type,
+                    'offer': offer,
                     'layover': str(layover),
-                    'url': get_booking_url(driver, flight_id)
+                    'url' : get_booking_url(driver, flight_id)
                 })
 
                 if len(flights_data) >= 5:  # Limit to 5 flights
