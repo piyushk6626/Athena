@@ -337,7 +337,7 @@ get_bus_data_tool = {
                 },
                 "journey_date": {
                     "type": "string",
-                    "description": "Date of journey in the format YYYY-MM-DD."
+                    "description": "Date of journey in the format YYYY-MM-DD, current year is 2025"
                 }
             },
             "additionalProperties": False
@@ -345,4 +345,38 @@ get_bus_data_tool = {
     }
 }
 
-TOOLS=[get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+scrape_flights_tool = {
+    "type": "function",
+    "function": {
+        "name": "scrape_flights",
+        "description": "Scrapes flight data from Paytm given origin and destination names, departure date.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "origin_name",
+                "dest_name",
+                "departure_date"
+            ],
+            "properties": {
+                "origin_name": {
+                    "type": "string",
+                    "description": "Name of the departure city."
+                },
+                "dest_name": {
+                    "type": "string",
+                    "description": "Name of the destination city."
+                },
+                "departure_date": {
+                    "type": "string",
+                    "description": "Date of departure in 'YYYY-MM-DD' format."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+
+
+TOOLS=[ scrape_flights_tool, get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]

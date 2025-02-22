@@ -43,38 +43,69 @@ from Paytmflights import script
 
 # print(restaurant_search.find_similar_items("Fast food near me")) # working
 
-def callfunction(name,args):
+# def callfunction(name, args):
+#     response = None
+#     if name == "serach_the_web_for_news":
+#         response = sonar.serach_the_web_for_news(**args)
+#     elif name == "automate_uber_ride":
+#         response = uber_link.automate_uber_ride(**args)
+#     elif name == "scrape_airbnb":
+#         response = airbnb_func.scrape_airbnb(**args)
+#     elif name == "find_similar_restaurants":
+#         response = restaurant_search.find_similar_items(**args)
+#     elif name == "scrape_movies":
+#         response = scrape_movies(**args)
+#     elif name == "extract_single_movie_show" :
+#         response = extract_movie_shows(**args)
+#     elif name == "find_hotels":
+#         response = booking.scrape_hotels(**args)
+#     elif name == "find_products_from_amazon":
+#         response = scrapping.scrape_products_from_amazon(**args)
+#     elif name == "fashion_search_api":
+#         response = carter.fashion_search_api(**args)
+#     elif name == "send_email_tool":
+#         response = email_automation.send_email(**args)
+#     elif name == "get_bus_data":
+#         response = generate_url.generate_paytm_bus_url(**args)
+#     elif name == "Spotify_action_bot":
+#         response == process_input.process_input(**args)
+#     return response
+
+
+def callfunction(name, args):
     response = None
-    if name == "serach_the_web_for_news":
-        response = sonar.serach_the_web_for_news(**args)
-    elif name == "automate_uber_ride":
-        response = uber_link.automate_uber_ride(**args)
-    elif name == "scrape_airbnb":
-        response = airbnb_func.scrape_airbnb(**args)
-    elif name == "find_similar_restaurants":
-        response = restaurant_search.find_similar_items(**args)
-    elif name == "scrape_movies":
-        response = scrape_movies(**args)
-    elif name == "extract_single_movie_show" :
-        response = extract_movie_shows(**args)
-    elif name == "find_hotels":
-        response = booking.scrape_hotels(**args)
-    elif name == "find_products_from_amazon":
-        response = scrapping.scrape_products_from_amazon(**args)
-    elif name == "fashion_search_api":
-        response = carter.fashion_search_api(**args)
-    elif name == "send_email_tool":
-        response = email_automation.send_email(**args)
-    elif name == "get_bus_data":
-        response = generate_url.generate_paytm_bus_url(**args)
-    elif name == "Spotify_action_bot":
-        response == process_input.process_input(**args)
-    elif name == "scrape_flights":
-        response = script.scrape_flights(**args)
-            
+    match name:
+        case "serach_the_web_for_news":
+            response = sonar.serach_the_web_for_news(**args)
+        case "automate_uber_ride":
+            response = uber_link.automate_uber_ride(**args)
+        case "scrape_airbnb":
+            response = airbnb_func.scrape_airbnb(**args)
+        case "find_similar_restaurants":
+            response = restaurant_search.find_similar_items(**args)
+        case "scrape_movies":
+            response = scrape_movies(**args)
+        case "extract_single_movie_show" :
+            response = extract_movie_shows(**args)
+        case "find_hotels":
+            response = booking.scrape_hotels(**args)
+        case "find_products_from_amazon":
+            response = scrapping.scrape_products_from_amazon(**args)
+        case "fashion_search_api":
+            response = carter.fashion_search_api(**args)
+        case "send_email_tool":
+            response = email_automation.send_email(**args)
+        case "get_bus_data":
+            response = generate_url.generate_paytm_bus_url(**args)
+        case "Spotify_action_bot":
+            response == process_input.process_input(**args)
+        case "scrape_flights":
+            response = script.scrape_flights(**args)
+        case _:
+            response = None
     return response
 
-    
+            
         
         
 

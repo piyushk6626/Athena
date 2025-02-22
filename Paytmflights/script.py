@@ -7,11 +7,13 @@ import json
 import time
 import http  # only used in the sendString function below if needed
 
-def generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name, 
-                               adults, children, infants, class_type, 
-                               departure_date, referer='home'):
+# https://tickets.paytm.com/flights/flightSearch/BLR-Bangalore/PNQ-Pune/2025-03-04/1/0/0/2025-02-25
+# https://tickets.paytm.com/flights/flightSearch/DEL-Delhi/BOM-Mumbai/1/0/0/E/2025-02-25?referer=home
+def generate_paytm_flight_url(origin_codeu, origin_nameu, dest_codeu, dest_nameu, 
+                               adultsu, childrenu, infantsu, class_typeu, 
+                               departure_dateu, refereru='home'):
     base_url = "https://tickets.paytm.com/flights/flightSearch"
-    return f"{base_url}/{origin_code}-{origin_name}/{dest_code}-{dest_name}/{adults}/{children}/{infants}/{class_type}/{departure_date}?referer={referer}"
+    return f"{base_url}/{origin_codeu}-{origin_nameu}/{dest_codeu}-{dest_nameu}/{adultsu}/{childrenu}/{infantsu}/{class_typeu}/{departure_dateu}?refereru={refereru}"
 
 def get_booking_url(driver, flight_id):
     try:
@@ -71,74 +73,244 @@ def get_booking_url(driver, flight_id):
         driver.save_screenshot('error.png')
         return None
 
-def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home'):
+# def scrape_flights( origin_code, origin_name, dest_code, dest_name,departure_date):
 
-   
-   
+#     """
+#     Scrapes flights data from Paytm given origin and destination details, departure date, passenger count, class type, and referer. Defaults to one adult in economy class unless specified.
+    
+#     Parameters
+#     ----------
+#     origin_code : str
+#         The origin code of the flight.
+#     origin_name : str
+#         The origin name of the flight.
+#     dest_code : str
+#         The destination code of the flight.
+#     dest_name : str
+#         The destination name of the flight.
+#     departure_date : str
+#         The departure date of the flight in the format 'DD-MM-YYYY'.
+    
+#     Returns
+#     -------
+#     A dictionary with the following keys:
+#         * type: 'flights'
+#         * data: list of flight data, each containing the following keys:
+#             - flight_id: str, the id of the flight
+#             - airline: str, the name of the airline
+#             - airline_logo: str, the URL of the airline logo
+#             - departure_time: str, the departure time of the flight in the format 'HH:MM'
+#             - departure_city: str, the departure city of the flight
+#             - arrival_time: str, the arrival time of the flight in the format 'HH:MM'
+#             - arrival_city: str, the arrival city of the flight
+#             - duration: str, the duration of the flight in the format 'HHh MMm'
+#             - price: int, the price of the flight in INR
+#             - fare_type: str, the type of fare (e.g. 'Economy', 'Premium Economy')
+#             - offer: str, the offer details of the flight (e.g. '20% off on base fare')
+#             - layover: int, the number of layovers in the flight (0 or 1)
+#             - url: str, the URL of the booking page of the flight
+#     """
+#     adults = 1, children = 0, infants = 0, class_type = 'E', referer='home'
+#     url = generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name,departure_date ,adults, children , infants , class_type, referer)
+#     driver = webdriver.Chrome()
+#     driver.get(url)
+#     flights_data = []
+    
+#     try:
+#         wait = WebDriverWait(driver, 5)
+#         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.pIInI')))
+        
+#         for _ in range(3):
+#             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+#             time.sleep(2)
+        
+#         flight_containers = driver.find_elements(By.CSS_SELECTOR, 'div.pIInI')
+        
+#         for container in flight_containers:
+#             try:
+#                 flight_id = container.find_element(By.CSS_SELECTOR, 'div._3VUCr').get_attribute('id')
+#                 airline = container.find_element(By.CLASS_NAME, '_2cP56').text
+#                 airline_logo = container.find_element(By.TAG_NAME, 'img').get_attribute('src')
+                
+#                 time_sections = container.find_elements(By.CLASS_NAME, '_29g4q')
+#                 departure_time = time_sections[0].find_element(By.CLASS_NAME, '_3gpc5').text.replace('\n', '')
+#                 departure_city = time_sections[0].find_element(By.CLASS_NAME, 'TpcIu').text
+#                 arrival_time = time_sections[1].find_element(By.CLASS_NAME, '_3gpc5').text.replace('\n', '')
+#                 arrival_city = time_sections[1].find_element(By.CLASS_NAME, 'TpcIu').text
+                
+#                 duration_element = container.find_element(By.CLASS_NAME, '_1J4f_')
+#                 duration_text = duration_element.text
+#                 layover = 0  
+                
+#                 if '•' in duration_text:
+#                     parts = [part.strip() for part in duration_text.split('•')]
+#                     if len(parts) > 1 and 'Non-Stop' not in parts[1]:
+#                         layover = 1
+                
+#                 price = container.find_element(By.CLASS_NAME, '_2MkSl').text.replace('₹', '').replace(',', '')
+#                 fare_type = container.find_element(By.CLASS_NAME, '_25oBA').text
+#                 offer = container.find_element(By.CLASS_NAME, '_1LjFU').text if container.find_elements(By.CLASS_NAME, '_1LjFU') else ''
+                
+#                 flights_data.append({
+#                     'flight_id': flight_id,
+#                     'airline': airline,
+#                     'airline_logo': airline_logo,
+#                     'departure_time': departure_time,
+#                     'departure_city': departure_city,
+#                     'arrival_time': arrival_time,
+#                     'arrival_city': arrival_city,
+#                     'duration': duration_text,
+#                     'price': paseenger_count * int(price),
+#                     'fare_type': fare_type,
+#                     'offer': offer,
+#                     'layover': layover,
+#                     'url' : get_booking_url(driver, flight_id)
+#                 })
+                
+#                 # Limit to 10 flights
+#                 if len(flights_data) >= 10:
+#                     break
+                
+#             except Exception as e:
+#                 continue
+                
+#         with open('flights_data.json', 'w') as f:
+#             json.dump(flights_data, f, indent=2)
+
+#         result = {
+#             "type" : "flights",
+#             "data" : flights_data
+#         }
+
+
+
+#         print(result)
+#         driver.quit()
+#         return result
+
+#     except Exception as e:
+#         driver.quit()
+#         return None
+
+
+import time
+import json
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# Mapping of major Indian airports (city to IATA code)
+INDIAN_AIRPORT_CODES = {
+    "Delhi": "DEL",
+    "Mumbai": "BOM",
+    "Bangalore": "BLR",
+    "Bengaluru": "BLR",
+    "Chennai": "MAA",
+    "Hyderabad": "HYD",
+    "Kolkata": "CCU",
+    "Pune": "PNQ",
+    "Goa": "GOI",
+    "Ahmedabad": "AMD",
+    "Jaipur": "JAI",
+    "Kochi": "COK",
+    "Lucknow": "LKO",
+    "Thiruvananthapuram": "TRV",
+    "Chandigarh": "IXC",
+    "Bhubaneswar": "BBI",
+    "Coimbatore": "CJB",
+    "Indore": "IDR",
+    "Visakhapatnam": "VTZ",
+    "Nagpur": "NAG",
+    "Patna": "PAT",
+    "Varanasi": "VNS",
+    "Guwahati": "GAU",
+    "Mangalore": "IXE",
+}
+
+def get_airport_code(city_name):
+    """Returns the IATA airport code for a given city name."""
+    return INDIAN_AIRPORT_CODES.get(city_name, None)
+
+def scrape_flights(origin_name, dest_name, departure_date):
     """
-    Scrapes flight details from Paytm for given travel parameters.
-
-    This function generates a Paytm flight search URL using the specified parameters, navigates to the page,
-    and scrapes flight details such as airline, departure and arrival times, price, and more. The function
-    returns a dictionary containing the flight data and saves it to a JSON file.
-
-    Args:
-        paseenger_count (int): The number of passengers.
-        origin_code (str): The airport code for the origin.
-        origin_name (str): The name of the origin city.
-        dest_code (str): The airport code for the destination.
-        dest_name (str): The name of the destination city.
-        adults (int): Number of adults traveling.
-        children (int): Number of children traveling.
-        infants (int): Number of infants traveling.
-        class_type (str): The class type for the flight (e.g., 'E' for economy).
-        departure_date (str): The departure date in the format 'YYYY-MM-DD'.
-        referer (str, optional): The referrer for the URL. Defaults to 'home'.
-
+    Scrapes flight data from Paytm given origin and destination names, departure date.
+    Defaults to one adult in economy class.
+    
+    Parameters:
+    -----------
+    origin_name : str
+        Name of the departure city.
+    dest_name : str
+        Name of the destination city.
+    departure_date : str
+        Date of departure in 'YYYY-MM-DD' format.
+    
     Returns:
-        dict or None: A dictionary containing the flight data if successful, None otherwise.
+    --------
+    Dictionary with flight data.
     """
+    origin_code = INDIAN_AIRPORT_CODES[origin_name]
+    dest_code = INDIAN_AIRPORT_CODES[dest_name]
 
-    url = generate_paytm_flight_url(origin_code, origin_name, dest_code, dest_name, adults, children, infants, class_type,  departure_date, referer='home')
+    if not origin_code or not dest_code:
+        return {"error": "Invalid origin or destination city. Please check the inputs."}
+
+    # Default parameters
+    adults, children, infants = 1, 0, 0
+    class_type, referer = 'E', 'home'
+
+    # origin_code, origin_name, dest_code, dest_name, 
+    #                            adults, children, infants, class_type, 
+    #                            departure_date, referer='home'
+
+    # Generate URL for scraping
+    url = generate_paytm_flight_url(
+        origin_code, origin_name, dest_code, dest_name,
+        adults, children, infants, class_type, departure_date,  referer
+    )
+
     driver = webdriver.Chrome()
+
+    print(f"url ____>>>> {url}" )
     driver.get(url)
     flights_data = []
-    
+
     try:
         wait = WebDriverWait(driver, 5)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.pIInI')))
-        
+
         for _ in range(3):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(2)
-        
+
         flight_containers = driver.find_elements(By.CSS_SELECTOR, 'div.pIInI')
-        
+
         for container in flight_containers:
             try:
                 flight_id = container.find_element(By.CSS_SELECTOR, 'div._3VUCr').get_attribute('id')
                 airline = container.find_element(By.CLASS_NAME, '_2cP56').text
                 airline_logo = container.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                
+
                 time_sections = container.find_elements(By.CLASS_NAME, '_29g4q')
                 departure_time = time_sections[0].find_element(By.CLASS_NAME, '_3gpc5').text.replace('\n', '')
                 departure_city = time_sections[0].find_element(By.CLASS_NAME, 'TpcIu').text
                 arrival_time = time_sections[1].find_element(By.CLASS_NAME, '_3gpc5').text.replace('\n', '')
                 arrival_city = time_sections[1].find_element(By.CLASS_NAME, 'TpcIu').text
-                
+
                 duration_element = container.find_element(By.CLASS_NAME, '_1J4f_')
                 duration_text = duration_element.text
-                layover = 0  
-                
+                layover = 0
+
                 if '•' in duration_text:
                     parts = [part.strip() for part in duration_text.split('•')]
                     if len(parts) > 1 and 'Non-Stop' not in parts[1]:
                         layover = 1
-                
+
                 price = container.find_element(By.CLASS_NAME, '_2MkSl').text.replace('₹', '').replace(',', '')
                 fare_type = container.find_element(By.CLASS_NAME, '_25oBA').text
                 offer = container.find_element(By.CLASS_NAME, '_1LjFU').text if container.find_elements(By.CLASS_NAME, '_1LjFU') else ''
-                
+
                 flights_data.append({
                     'flight_id': flight_id,
                     'airline': airline,
@@ -148,42 +320,33 @@ def scrape_flights(paseenger_count, origin_code, origin_name, dest_code, dest_na
                     'arrival_time': arrival_time,
                     'arrival_city': arrival_city,
                     'duration': duration_text,
-                    'price': paseenger_count * int(price),
+                    'price': int(price),
                     'fare_type': fare_type,
                     'offer': offer,
                     'layover': layover,
-                    'url' : get_booking_url(driver, flight_id)
+                    'url': get_booking_url(driver, flight_id)
                 })
-                
-                # Limit to 10 flights
-                if len(flights_data) >= 10:
+
+                if len(flights_data) >= 10:  # Limit to 10 flights
                     break
-                
-            except Exception as e:
+
+            except Exception:
                 continue
-                
-        with open('flights_data.json', 'w') as f:
-            json.dump(flights_data, f, indent=2)
 
-        result = {
-            "type" : "flights",
-            "data" : flights_data
-        }
-
-
-
-        print(result)
         driver.quit()
-        return result
+
+        return {
+            "type": "flights",
+            "data": flights_data
+        }
 
     except Exception as e:
         driver.quit()
-        return None
+        return {"error": str(e)}
+
 
 
 if __name__ == "__main__":
-    url = generate_paytm_flight_url("BLR", "Bengaluru", "DED", "Dehradun", 1, 1, 0, 'E', departure_date="2025-02-04")
-    paseenger_count = 2
-    driver = scrape_flights(paseenger_count, "BLR", "Bengaluru", "DED", "Dehradun", 1, 1, 0, 'E', departure_date="2025-02-04")
-    if driver:
-        driver.quit()
+
+    driver = scrape_flights( "Bangalore", "Pune", departure_date="2025-03-04")
+    print(driver)
