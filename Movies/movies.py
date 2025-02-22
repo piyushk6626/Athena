@@ -128,13 +128,18 @@ def _extract_movie_shows(driver):
                             "theater": name,
                             "url": driver.current_url
                         })
+
+                        movie_data.append({
+                            "time": time_value,
+                            "special": special,
+                            "format": movie_format,
+                            "theater": name,
+                            "url": driver.current_url
+                        })
                     except Exception:
                         continue
 
-                movie_data.append({
-                    "theater": name,
-                    "shows": showtimes
-                })
+                # movie_data.append(showtimes)
 
 
             except Exception:
@@ -143,7 +148,7 @@ def _extract_movie_shows(driver):
         print("Failed to extract movie show details.")
 
 
-    return showtimes
+    return movie_data
 
 def extract_movie_shows(url, city, language):
     """
