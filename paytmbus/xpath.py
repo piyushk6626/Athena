@@ -1,0 +1,12 @@
+
+cards_xpath = "//div[@class='IHKeM']" 
+bus_name_xpath = ".//div[@class='+iUf5']"
+bus_type_xpath = ".//div[@class='G88l9']"
+departure_time_xpath = ".//div[@class='wYtCy']//div[@class='_4rWgi']"
+departure_date_xpath = ".//div[@class='wYtCy']//div[@class='C3vrs']"
+arrival_time_xpath = ".//div[@class='EjC2U']//div[@class='_4rWgi']"
+arrival_date_xpath = ".//div[@class='EjC2U']//div[@class='C3vrs']"
+duration_xpath = ".//div[@class='_1D2hF']"
+final_price_xpath = ".//span[@class='A2eT9 F+C81']"
+rating_xpath = ".//div[@class='eoyaT']/div"
+seats_available_xpath = ".//div[@class='UxGbP'][1]"

@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import xpath
 import json
 
 
@@ -21,34 +22,34 @@ def get_bus_data(url: str, limit: int = 10):
 
     # Explicit wait for the main container of bus cards to load
     wait = WebDriverWait(driver, 15)
-    wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='IHKeM']")))
+    wait.until(EC.presence_of_element_located((By.XPATH, xpath.cards_xpath)))
 
     buses = []
-    cards = driver.find_elements(By.XPATH, "//div[@class='IHKeM']")[:limit]
+    cards = driver.find_elements(By.XPATH, xpath.cards_xpath)[:limit]
 
     for card in cards:
         try:
-            bus_name = wait.until(EC.presence_of_element_located((By.XPATH, ".//div[@class='+iUf5']"))).text
-            bus_type = card.find_element(By.XPATH, ".//div[@class='G88l9']").text
-            departure_time = card.find_element(By.XPATH, ".//div[@class='wYtCy']//div[@class='_4rWgi']").text
-            departure_date = card.find_element(By.XPATH, ".//div[@class='wYtCy']//div[@class='C3vrs']").text
-            arrival_time = card.find_element(By.XPATH, ".//div[@class='EjC2U']//div[@class='_4rWgi']").text
-            arrival_date = card.find_element(By.XPATH, ".//div[@class='EjC2U']//div[@class='C3vrs']").text
-            duration = card.find_element(By.XPATH, ".//div[@class='_1D2hF']").text
+            bus_name = wait.until(EC.presence_of_element_located((By.XPATH, xpath.bus_name_xpath))).text
+            bus_type = card.find_element(By.XPATH, xpath.bus_type_xpath).text
+            departure_time = card.find_element(By.XPATH, xpath.departure_time_xpath).text
+            departure_date = card.find_element(By.XPATH, xpath.departure_date_xpath).text
+            arrival_time = card.find_element(By.XPATH, xpath.arrival_time_xpath).text
+            arrival_date = card.find_element(By.XPATH, xpath.arrival_date_xpath).text
+            duration = card.find_element(By.XPATH, xpath.duration_xpath).text
 
             try:
-                final_price_element = card.find_element(By.XPATH, ".//span[@class='A2eT9 F+C81']")
+                final_price_element = card.find_element(By.XPATH,xpath.final_price_xpath)
                 final_price = final_price_element.text[1:]
             except:
                 final_price = "N/A"
 
             try:
-                rating = card.find_element(By.XPATH, ".//div[@class='eoyaT']/div").text
+                rating = card.find_element(By.XPATH, xpath.rating_xpath).text
             except:
                 rating = "N/A"
 
             try:
-                seats_available = card.find_element(By.XPATH, ".//div[@class='UxGbP'][1]").text.split()[0]
+                seats_available = card.find_element(By.XPATH, xpath.seats_available_xpath).text.split()[0]
             except:
                 seats_available = "N/A"
 
