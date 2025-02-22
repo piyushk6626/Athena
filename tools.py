@@ -91,6 +91,28 @@ scrape_airbnb_tool={
     }
 }
 
+fashion_search_api_tool={
+    "type": "function",
+    "function": {
+        "name": "fashion_search_api",
+        "description": "Calls the fashion shopping search API with the specified text query.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "query"
+            ],
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search query for fashion items."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
 
 
 
@@ -192,7 +214,7 @@ find_products_from_amazon_tool={
     }
 }
 
-send_email_tool={
+send_email_tool= {
     "type": "function",
     "function": {
         "name": "send_email",
@@ -223,29 +245,6 @@ send_email_tool={
         }
     }
 }
-
-fashion_search_api_tool={
-    "type": "function",
-    "function": {
-        "name": "fashion_search_api",
-        "description": "Calls the fashion shopping search API with the specified text query.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "query"
-            ],
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The search query for fashion items."
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
-
 find_hotels_tool={
     "type": "function",
     "function": {

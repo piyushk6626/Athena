@@ -6,23 +6,19 @@ import os
 
 # Function to send emaile
 def send_email(recipient_email, subject, body):
-    
+ 
     """
     Send an email to the given recipient with the given subject and body.
 
-    Parameters
-    ----------
-    recipient_email : str
-        The email address of the recipient.
-    subject : str
-        The subject of the email.
-    body : str
-        The contents of the email.
+    Args:
+    recipient_email (str): The email address of the recipient.
+    subject (str): The subject of the email.
+    body (str): The contents of the email.
 
-    Raises
-    ------
-    Exception
-        If there is any error while sending the email.
+    Returns:
+    dict: A dictionary with the following keys:
+        - type (str): The type of response, which is "text".
+        - data (list): A list containing a success message if the email is sent successfully.
     """
     load_dotenv()
     sender_password = os.getenv("EMAIL_PASSWORD")
