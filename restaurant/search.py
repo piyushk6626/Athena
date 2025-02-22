@@ -19,13 +19,16 @@ def normalize_restaurant_data(result):
     normalized_data = []
     for item in data:
         metadata = item.get("metadata", {})
+        tagslist=[str(metadata[key]) for key in metadata if key.startswith("tag_")]
+        result = ", ".join(tagslist)
+    
         normalized_item = {
             "name": str(metadata.get("name", "")),
             "star": str(metadata.get("star", "")),
             "number_of_reviews": str(metadata.get("number", "")),
             "image": str(metadata.get("restaurant_image", "")),
             "url": str(metadata.get("url", "")),
-            "tags": [str(metadata[key]) for key in metadata if key.startswith("tag_")]
+            "tags":result
         }
         normalized_data.append(normalized_item)
 

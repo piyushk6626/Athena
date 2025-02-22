@@ -42,7 +42,7 @@ def send_email(recipient_email, subject, body):
         
         return{
             "type":"text",
-            "data":"Email sent successfully!"
+            "data":["Email sent successfully!"]
         }
     except Exception as e:
         print("Error:", e)

@@ -52,7 +52,7 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
                 hotel_name = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "t1jojoys")]').text)
                 payment_url = hotel.find_element(By.XPATH, './/a[contains(@class, "l1ovpqvx")]').get_attribute('href')
                 location = clean_text(hotel.find_element(By.XPATH, './/div[contains(@class, "fb4nyux")]//span[contains(@class, "t6mzqp7")]').text)
-                total_price = clean_text(hotel.find_element(By.XPATH, '//div[@class="_tt122m"]').text)
+                total_price = clean_text(hotel.find_element(By.XPATH, '//span[@class="_11jcbg2"]').text)
                 rating_reviews = clean_text(hotel.find_element(By.XPATH, './/span[contains(@class, "r4a59j5")]/span[@aria-hidden="true"]').text)
                 tag_text = clean_text(hotel.find_element(By.XPATH, '//div[@class="t1qa5xaj dir dir-ltr"]').text)
 
