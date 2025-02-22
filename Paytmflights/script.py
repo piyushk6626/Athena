@@ -233,6 +233,7 @@ def get_airport_code(city_name):
     return INDIAN_AIRPORT_CODES.get(city_name, None)
 
 def scrape_flights(origin_name, dest_name, departure_date):
+    time.sleep(2)
     """
     Scrapes flight data from Paytm given origin and destination names, departure date.
     Defaults to one adult in economy class.
@@ -312,22 +313,19 @@ def scrape_flights(origin_name, dest_name, departure_date):
                 offer = container.find_element(By.CLASS_NAME, '_1LjFU').text if container.find_elements(By.CLASS_NAME, '_1LjFU') else ''
 
                 flights_data.append({
-                    'flight_id': flight_id,
                     'airline': airline,
-                    'airline_logo': airline_logo,
+                    # 'airline_logo': airline_logo,
                     'departure_time': departure_time,
-                    'departure_city': departure_city,
                     'arrival_time': arrival_time,
-                    'arrival_city': arrival_city,
                     'duration': duration_text,
-                    'price': int(price),
-                    'fare_type': fare_type,
-                    'offer': offer,
-                    'layover': layover,
+                    'final_price': int(price),
+                    # 'fare_type': fare_type,
+                    # 'offer': offer,
+                    'layover': str(layover),
                     'url': get_booking_url(driver, flight_id)
                 })
 
-                if len(flights_data) >= 10:  # Limit to 10 flights
+                if len(flights_data) >= 5:  # Limit to 5 flights
                     break
 
             except Exception:
@@ -336,7 +334,7 @@ def scrape_flights(origin_name, dest_name, departure_date):
         driver.quit()
 
         return {
-            "type": "flights",
+            "type": "airplane",
             "data": flights_data
         }
 
@@ -348,5 +346,5 @@ def scrape_flights(origin_name, dest_name, departure_date):
 
 if __name__ == "__main__":
 
-    driver = scrape_flights( "Bangalore", "Pune", departure_date="2025-03-04")
+    driver = scrape_flights( "Delhi", "Jaipur", departure_date="2025-02-23")
     print(driver)

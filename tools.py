@@ -349,7 +349,7 @@ scrape_flights_tool = {
     "type": "function",
     "function": {
         "name": "scrape_flights",
-        "description": "Scrapes flight data from Paytm given origin and destination names, departure date.",
+        "description": "Scrapes flight data from Paytm given origin and destination names, departure date. Current Year is 2025",
         "strict": True,
         "parameters": {
             "type": "object",

@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import xpath
+from .xpath import *
 import json
 
 
@@ -22,34 +22,34 @@ def get_bus_data(url: str, limit: int = 10):
 
     # Explicit wait for the main container of bus cards to load
     wait = WebDriverWait(driver, 15)
-    wait.until(EC.presence_of_element_located((By.XPATH, xpath.cards_xpath)))
+    wait.until(EC.presence_of_element_located((By.XPATH, cards_xpath)))
 
     buses = []
-    cards = driver.find_elements(By.XPATH, xpath.cards_xpath)[:limit]
+    cards = driver.find_elements(By.XPATH, cards_xpath)[:limit]
 
     for card in cards:
         try:
-            bus_name = wait.until(EC.presence_of_element_located((By.XPATH, xpath.bus_name_xpath))).text
-            bus_type = card.find_element(By.XPATH, xpath.bus_type_xpath).text
-            departure_time = card.find_element(By.XPATH, xpath.departure_time_xpath).text
-            departure_date = card.find_element(By.XPATH, xpath.departure_date_xpath).text
-            arrival_time = card.find_element(By.XPATH, xpath.arrival_time_xpath).text
-            arrival_date = card.find_element(By.XPATH, xpath.arrival_date_xpath).text
-            duration = card.find_element(By.XPATH, xpath.duration_xpath).text
+            bus_name = wait.until(EC.presence_of_element_located((By.XPATH, bus_name_xpath))).text
+            bus_type = card.find_element(By.XPATH, bus_type_xpath).text
+            departure_time = card.find_element(By.XPATH, departure_time_xpath).text
+            departure_date = card.find_element(By.XPATH, departure_date_xpath).text
+            arrival_time = card.find_element(By.XPATH, arrival_time_xpath).text
+            arrival_date = card.find_element(By.XPATH, arrival_date_xpath).text
+            duration = card.find_element(By.XPATH, duration_xpath).text
 
             try:
-                final_price_element = card.find_element(By.XPATH,xpath.final_price_xpath)
+                final_price_element = card.find_element(By.XPATH,final_price_xpath)
                 final_price = final_price_element.text[1:]
             except:
                 final_price = "N/A"
 
             try:
-                rating = card.find_element(By.XPATH, xpath.rating_xpath).text
+                rating = card.find_element(By.XPATH, rating_xpath).text
             except:
                 rating = "N/A"
 
             try:
-                seats_available = card.find_element(By.XPATH, xpath.seats_available_xpath).text.split()[0]
+                seats_available = card.find_element(By.XPATH, seats_available_xpath).text.split()[0]
             except:
                 seats_available = "N/A"
 
@@ -99,11 +99,23 @@ def generate_paytm_bus_url(source, destination, journey_date):
         destination = destination.capitalize()
         
         url = f"https://tickets.paytm.com/bus/search/{source}/{destination}/{journey_date}/1"
+
+        try:
+            data = get_bus_data(url)
+        except:
+            data = None
         
-        response_dict = {
-        'type': 'bus',
-        'data': get_bus_data(url)
-        }
+        if data:
+            response_dict = {
+            'type': 'bus',
+            'data': data
+            }
+        else:
+            response_dict = {
+            'type': 'text',
+            'data': "No buses found."
+            }
+
         return response_dict
     except ValueError:
         return "Invalid date format. Use YYYY-MM-DD."
