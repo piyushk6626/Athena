@@ -1,9 +1,8 @@
 import smtplib
-import openai
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
-# OpenAI API Key
+from dotenv import load_dotenv
+import os
 
 # Function to send emaile
 def send_email(recipient_email, subject, body):
@@ -25,8 +24,9 @@ def send_email(recipient_email, subject, body):
     Exception
         If there is any error while sending the email.
     """
-    sender_password = "mdrn blsj vrhy mpwc"
-    sender_email = "soulmortal309@gmail.com"
+    load_dotenv()
+    sender_password = os.getenv("EMAIL_PASSWORD")
+    sender_email = "team.event.horizon.iiitp@gmail.com"
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = recipient_email

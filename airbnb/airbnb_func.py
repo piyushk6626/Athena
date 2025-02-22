@@ -7,7 +7,7 @@ import json
 import time
 from urllib.parse import urlparse, parse_qs
 import re 
-from xpath import *
+from .xpath import *
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
     """
