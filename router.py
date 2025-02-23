@@ -13,10 +13,10 @@ from Movies import (
 )
 from restaurant import search as restaurant_search
 from paytmbus import generate_url
-from Spotify import process_input
 from Paytmflights import script
 from zepto.order import scrape_zepto
 from emailAutomation.email_automation import read_emails, send_email
+from spotify.function import *
 # print(sonar.serach_the_web_for_news("What is the weather in Goa?"))  # working
  
 # print(uber_link.automate_uber_ride("Empire State", "Central Park")) # working but needs login
@@ -32,7 +32,6 @@ from emailAutomation.email_automation import read_emails, send_email
 
 # def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_children=0)->list[dict]:
 # print(booking.scrape_hotels("goa","2025-02-09","2025-02-14")) #working 
-
 
 
 # # Example: Scrape movies in a city.
@@ -99,8 +98,11 @@ def callfunction(name, args):
             response = email_automation.send_email(**args)
         case "get_bus_data":
             response = generate_url.generate_paytm_bus_url(**args)
-        case "Spotify_action_bot":
-            response == process_input.process_input(**args)
+        case "play_song":
+            response = play_song(**args)
+        case "pause_playback":
+            response = pause_playback(**args)
+        
         case "scrape_flights":
             response = script.scrape_flights(**args)
         case "scrape_zepto":
