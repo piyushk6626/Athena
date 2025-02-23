@@ -290,27 +290,6 @@ find_hotels_tool={
     }
 }
 
-Spotify_action_bot_tool={
-    "type": "function",
-    "function": {
-        "name": "Spotify_action_bot",
-        "description": "Process a command into an Spotify Actions object.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "command"
-            ],
-            "properties": {
-                "command": {
-                    "type": "string",
-                    "description": "The command to process."
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
 
 get_bus_data_tool = {
     "type": "function",
@@ -378,4 +357,4 @@ scrape_flights_tool = {
 
 
 # TOOLS = []
-TOOLS=[ scrape_flights_tool, get_bus_data_tool, Spotify_action_bot_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+TOOLS=[ scrape_flights_tool, get_bus_data_tool, send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
