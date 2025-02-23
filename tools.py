@@ -413,43 +413,43 @@ send_email_tool= {
         }
     }
 }
-play_song={
-    {
-    "type": "function",
-    "function": {
-        "name": "play_song",
-        "description": "Plays a song based on the given query",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "query"
-            ],
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The search query for the song title or artist"
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
-}
+# play_song_tool={
+#     {
+#     "type": "function",
+#     "function": {
+#         "name": "play_song",
+#         "description": "Plays a song based on the given query",
+#         "strict": True,
+#         "parameters": {
+#             "type": "object",
+#             "required": [
+#                 "query"
+#             ],
+#             "properties": {
+#                 "query": {
+#                     "type": "string",
+#                     "description": "The search query for the song title or artist"
+#                 }
+#             },
+#             "additionalProperties": False
+#         }
+#     }
+# }
+# }
 
-pause_playback= {
-    "type": "function",
-    "function": {
-        "name": "pause_playback",
-        "description": "Pauses the current playback",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "properties": {},
-            "additionalProperties": False
-        }
-    }
-}
+# pause_playback= {
+#     "type": "function",
+#     "function": {
+#         "name": "pause_playback",
+#         "description": "Pauses the current playback",
+#         "strict": True,
+#         "parameters": {
+#             "type": "object",
+#             "properties": {},
+#             "additionalProperties": False
+#         }
+#     }
+# }
 
-# TOOLS = [] find_products_from_amazon_tool
-TOOLS=[send_email_tool, scrape_zepto_tool,scrape_flights_tool, get_bus_data_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,fashion_search_api_tool,find_hotels_tool,play_song,pause_playback]
+# TOOLS = [] find_products_from_amazon_tool play_song_tool,pause_playback
+TOOLS=[send_email_tool, scrape_zepto_tool,scrape_flights_tool, get_bus_data_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,fashion_search_api_tool,find_hotels_tool]

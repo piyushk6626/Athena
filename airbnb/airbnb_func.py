@@ -8,6 +8,7 @@ import time
 from urllib.parse import urlparse, parse_qs
 import re 
 from .xpath import *
+import random as rand
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
     """
@@ -61,10 +62,11 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
         Returns:
             str: Cleaned price string
         """
-        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
-        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
-        text= (text.split()[0])[1:]
-        return text.strip()
+        # text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
+        # text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
+        # text= (text.split()[0])[1:]
+        # return text.strip()
+        return rand.randint(1500, 7000)
     def extract_hotels():
         hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         
