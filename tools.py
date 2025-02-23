@@ -192,27 +192,29 @@ extract_single_movie_show_tool = {
         }
     }
 }
-find_products_from_amazon_tool={
-    "type": "function",
-    "function": {
-        "name": "find_products_from_amazon",
-        "description": "Find product details from Amazon for a given product keyword.",
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "required": [
-                "product"
-            ],
-            "properties": {
-                "product": {
-                    "type": "string",
-                    "description": "The product keyword to search for on Amazon."
-                }
-            },
-            "additionalProperties": False
-        }
-    }
-}
+
+
+# find_products_from_amazon_tool={
+#     "type": "function",
+#     "function": {
+#         "name": "find_products_from_amazon",
+#         "description": "Find product details from Amazon for a given product keyword.",
+#         "strict": True,
+#         "parameters": {
+#             "type": "object",
+#             "required": [
+#                 "product"
+#             ],
+#             "properties": {
+#                 "product": {
+#                     "type": "string",
+#                     "description": "The product keyword to search for on Amazon."
+#                 }
+#             },
+#             "additionalProperties": False
+#         }
+#     }
+# }
 
 send_email_tool= {
     "type": "function",
@@ -356,5 +358,62 @@ scrape_flights_tool = {
 }
 
 
-# TOOLS = []
-TOOLS=[ scrape_flights_tool, get_bus_data_tool, send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,find_products_from_amazon_tool,fashion_search_api_tool,find_hotels_tool]
+
+scrape_zepto_tool ={
+    "type": "function",
+    "function": {
+        "name": "scrape_zepto",
+        "description": "Scrapes Zepto search results for the given query and returns a list of dictionaries containing product details. Zepto is a market for buying and delivering groceries and electronics in 10 minutes.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "query"
+            ],
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search query to scrape results for."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+
+send_email_tool= {
+    "type": "function",
+    "function": {
+        "name": "send_email",
+        "description": "Send an email to the given recipient with the given subject and body.",
+        "strict": True,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "recipient_email",
+                "subject",
+                "body"
+            ],
+            "properties": {
+                "recipient_email": {
+                    "type": "string",
+                    "description": "The email address of the recipient."
+                },
+                "subject": {
+                    "type": "string",
+                    "description": "The subject of the email."
+                },
+                "body": {
+                    "type": "string",
+                    "description": "The contents of the email."
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+
+
+# TOOLS = [] find_products_from_amazon_tool
+TOOLS=[send_email_tool, scrape_zepto_tool,scrape_flights_tool, get_bus_data_tool,send_email_tool,serach_the_web_for_news_tool,automate_uber_ride,scrape_airbnb_tool,find_similar_restaurants_tool,scrape_movies_tool,extract_single_movie_show_tool,find_hotels_tool,fashion_search_api_tool,find_hotels_tool]

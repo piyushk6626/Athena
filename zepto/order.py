@@ -6,10 +6,33 @@ import time
 
 from .cookies import cook
 
-def scrape_website(query):
-    # Set up WebDriver
+def scrape_zepto(query):
+    
+    
+    """
+    Scrapes Zepto search results for the given query and returns a list of dictionaries containing product details.
+
+    Args:
+        query (str): The search query to scrape results for.
+
+    Returns:
+        dict: A dictionary with the following structure:
+            {
+                "type": "zepto",
+                "data": [
+                    {
+                        "url": str,  # URL of the product page
+                        "img": str,  # URL of the product image
+                        "name": str,  # Name of the product
+                        "subtitle": str,  # Subtitle of the product
+                        "price": str  # Price of the product
+                    },
+                    ...
+                ]
+            }
+    """
     options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')  # Run in headless mode (optional)
+    options.add_argument('--headless')  # Run in headless mode (optional)
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     
     try:
@@ -65,12 +88,23 @@ def scrape_website(query):
                 item['price'] = None
             
             data.append(item)
-        time.sleep(15)
-        final = {
+
+            if(len(data) == 10):
+                break
+        # time.sleep(15)
+        if data == []:
+            final = {
+            "type": "text",
+            "data": "No Item found."
+            }
+        else:
+             final = {
             "type": "zepto",
             "data": data
-        }
+            }
         
+
+       
         return final
     finally:
         driver.quit()
