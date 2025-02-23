@@ -38,14 +38,15 @@ def scrape_zepto(query):
     try:
         url = f"https://www.zeptonow.com/search?query={query}"
         
-        driver.get(url)
+        # driver.get(url)
         
-        # Add cookies (Modify as needed)
-        for key, value in cook.items():
-            driver.add_cookie({'name': key, 'value': value})
+        # # Add cookies (Modify as needed)
+        # for key, value in cook.items():
+        #     driver.add_cookie({'name': key, 'value': value})
         
 
         driver.get(url)  # Refresh after adding cookies
+        time.sleep(2)
         
         elements = driver.find_elements(By.XPATH, "//a[@class='!my-0 relative z-0 my-3 rounded-t-xl rounded-b-md group']")
         

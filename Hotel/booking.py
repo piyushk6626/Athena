@@ -34,7 +34,7 @@ def get_hotel_details(container):
         hotel_data = {
             'title': str(container.find_element(By.CSS_SELECTOR, 'div.f6431b446c').text) ,
             'price': str(random.choice(price)),
-            'review count':str(container.find_element(By.CSS_SELECTOR, 'div.abf093bdfe.f45d8e4c32.d935416c47').text),
+            'review count':str(container.find_element(By.CSS_SELECTOR, 'div.abf093bdfe.f45d8e4c32.d935416c47').text).split()[0],
             'review comment':str(container.find_element(By.CSS_SELECTOR, 'div.a3b8729ab1.e6208ee469.cb2cbb3ccb').text),
             'rating': str(random.choice(rating)),
             'image_url': str(container.find_element(By.CSS_SELECTOR, 'img.f9671d49b1').get_attribute('src')),

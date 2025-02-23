@@ -16,7 +16,7 @@ from paytmbus import generate_url
 from Paytmflights import script
 from zepto.order import scrape_zepto
 from emailAutomation.email_automation import read_emails, send_email
-from spotify.function import *
+from Spotify.function import *
 # print(sonar.serach_the_web_for_news("What is the weather in Goa?"))  # working
  
 # print(uber_link.automate_uber_ride("Empire State", "Central Park")) # working but needs login

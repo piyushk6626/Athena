@@ -29,7 +29,7 @@ def get_bus_data(url: str, limit: int = 10):
 
     for card in cards:
         try:
-            bus_name = wait.until(EC.presence_of_element_located((By.XPATH, bus_name_xpath))).text
+            bus_name = card.find_element((By.XPATH, bus_name_xpath)).text
             bus_type = card.find_element(By.XPATH, bus_type_xpath).text
             departure_time = card.find_element(By.XPATH, departure_time_xpath).text
             departure_date = card.find_element(By.XPATH, departure_date_xpath).text
