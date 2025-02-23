@@ -65,7 +65,14 @@ def process_user_query(query):
         "content": query    
     }]
 
-    
+    # message = []
+
+    # for i in query:
+    #     message.append({
+    #         i   
+    #     })
+
+    print(message)
     completion = functioncalling.AGI(message)
     tool_call = completion.choices[0].message.tool_calls
     print(tool_call)

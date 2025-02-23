@@ -56,7 +56,7 @@ def create_embeddings(content):
     """Generate embeddings using OpenAI API."""
     try:
         response = client.embeddings.create(
-            model="text-embedding-3-small",
+            model="text-embedding-3-large",
             input=content
         )
         return response.data[0].embedding
@@ -181,6 +181,6 @@ def explain_UserQuery(query: str) -> str :
     
 
 if __name__ == "__main__":
-    Output=find_similar_items("Kokani food near me")
+    Output=find_similar_items("Kokani food in pune")
 
     print(Output)
