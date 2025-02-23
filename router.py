@@ -15,6 +15,8 @@ from restaurant import search as restaurant_search
 from paytmbus import generate_url
 from Spotify import process_input
 from Paytmflights import script
+from zepto.order import scrape_zepto
+from emailAutomation.email_automation import read_emails, send_email
 # print(sonar.serach_the_web_for_news("What is the weather in Goa?"))  # working
  
 # print(uber_link.automate_uber_ride("Empire State", "Central Park")) # working but needs login
@@ -101,6 +103,10 @@ def callfunction(name, args):
             response == process_input.process_input(**args)
         case "scrape_flights":
             response = script.scrape_flights(**args)
+        case "scrape_zepto":
+            response = scrape_zepto(**args)
+        case "send_email":
+            response = send_email(**args)
         case _:
             response = None
     return response 

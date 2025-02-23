@@ -42,9 +42,9 @@ def get_hotel_details(container):
         }
         try:
             container.find_element(By.CSS_SELECTOR,'div.aaa3a3be2e').text
-            hotel_data['Brakefast included']="True"
+            hotel_data['Breakfast included']="True"
         except:
-            hotel_data['Brakefast included']="False"
+            hotel_data['Breakfast included']="False"
         return hotel_data
     
     except NoSuchElementException as e:
@@ -75,7 +75,7 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
         - rating (str): The rating of the hotel
         - image_url (str): The URL of the hotel image
         - hotel url (str): The URL of the hotel page
-        - Brakefast included (bool): Whether breakfast is included or not
+        - Breakfast included (bool): Whether breakfast is included or not
 
     Raises:
     - TimeoutException: If the page takes too long to load
@@ -102,6 +102,8 @@ def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_ch
         for container in containers:
             hotel_data = get_hotel_details(container)
             if hotel_data:
+                if hotel_data['title'] == "":
+                    continue
                 hotels_data.append(hotel_data)
                 if len(hotel_data) >= 10:
                     break
