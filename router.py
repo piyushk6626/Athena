@@ -33,7 +33,6 @@ from spotify.function import *
 # def scrape_hotels(location,checkin:str,checkout:str,no_adults=1,no_rooms=1,no_children=0)->list[dict]:
 # print(booking.scrape_hotels("goa","2025-02-09","2025-02-14")) #working 
 
-play_song("kandaraja pandharichacha by Sudhir Phadke")
 
 # # Example: Scrape movies in a city.
 # movies_json = scrape_movies("pune")
@@ -99,8 +98,11 @@ def callfunction(name, args):
             response = email_automation.send_email(**args)
         case "get_bus_data":
             response = generate_url.generate_paytm_bus_url(**args)
-        case "Spotify_action_bot":
-            response == process_input.process_input(**args)
+        case "play_song":
+            response = play_song(**args)
+        case "pause_playback":
+            response = pause_playback(**args)
+        
         case "scrape_flights":
             response = script.scrape_flights(**args)
         case "scrape_zepto":
