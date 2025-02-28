@@ -32,30 +32,6 @@ async def receive_data_async(request: Request):
     # Get request body
     data_bytes = await request.body()
     data = data_bytes.decode('utf-8')
-
-
-    #history = data.get("history", [])
-    # Create a structured message
-    # data_dict = None
-    # print(f"Received: {data}")
-    # try:
-    #     data_dict = json.loads(data)
-    # except:
-    #     pass
-
-    # if data_dict:
-    #     for key in data_dict.keys():
-    #         # print(key)
-    #         if key == "image":
-    #             img_data_dict = base64.b64decode(data_dict["image"])
-
-    #             with open("receivedimg.jpg", "wb") as file:
-    #                 file.write(img_data_dict)
-
-    #             print("Image saved as receivedimg.jpg")
-
-
-    # Process the query
     result = process_user_query(data)
     return result
 
@@ -64,13 +40,6 @@ def process_user_query(query):
         "role": "user",
         "content": query    
     }]
-
-    # message = []
-
-    # for i in query:
-    #     message.append({
-    #         i   
-    #     })
 
     print(message)
     completion = functioncalling.AGI(message)
