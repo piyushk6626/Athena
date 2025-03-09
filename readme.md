@@ -1,4 +1,4 @@
-# Athena: The Free Open-Source Alternative to Alexa+ and Perplexity
+# Athena(Mauli): The Free Open-Source Alternative to Alexa+ and Perplexity
 
 Athena is an open-source AI assistant designed to execute complex tasks across multiple services with natural language understanding—something Alexa+ and Perplexity can’t fully deliver. While Alexa+ focuses on premium voice-command experiences and Perplexity excels at answering queries with AI, Athena bridges the gap by combining deep context awareness with full-service integration for real-world tasks.
 
