@@ -1,14 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 import json
 import time
-from urllib.parse import urlparse, parse_qs
 import re 
 from .xpath import *
-import random as rand
+
 def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
     # Initialize Chrome options
     """
@@ -25,9 +22,7 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
         dict: Dictionary containing a list of hotel data and a type field with value 'airbnb'.
     """
     chrome_options = Options()
-    # chrome_options.add_argument("--disable-gpu")
-    # chrome_options.add_argument("--no-sandbox")
-
+    
     # Automatically manage ChromeDriver
     driver = webdriver.Chrome(options=chrome_options)
 
@@ -62,11 +57,11 @@ def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
         Returns:
             str: Cleaned price string
         """
-        # text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
-        # text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
-        # text= (text.split()[0])[1:]
-        # return text.strip()
-        return rand.randint(1500, 7000)
+        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
+        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
+        text= (text.split()[0])[1:]
+        return text.strip()
+        
     def extract_hotels():
         hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         

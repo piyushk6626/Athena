@@ -110,8 +110,3 @@ def scrape_zepto(query):
     finally:
         driver.quit()
 
-# Example usage
-# if __name__ == "__main__":
-#     query = "Coke diet"  # Replace with the actual search query
-#     data = scrape_website(query)
-#     print(data)

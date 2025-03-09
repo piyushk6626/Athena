@@ -67,6 +67,7 @@ def search_tracks(query: str) -> None:
             "type": "text",
             "data": "No results found."
         }
+
 def pause_playback() -> None:
     
     controller.pause_playback()
