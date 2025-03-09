@@ -129,6 +129,10 @@ Athena is powered by a robust, modular architecture comprising four core compone
    uvicorn main:app --reload --port 3000
    ```
 
+4. **Get The Flutter App from Frontend Repo:**
+
+    [Flutter](https://github.com/h4636oh/athena-the-assistant)
+
 ---
 
 ## How It Works
