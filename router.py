@@ -1,7 +1,6 @@
 from webserch import sonar
 from uber import uber_link
 from airbnb import airbnb_func
-from Amazon import scrapping 
 from emailAutomation import email_automation  
 from FashionShopping import carter
 from Hotel import booking
@@ -36,8 +35,6 @@ def callfunction(name, args):
             response = extract_movie_shows(**args)
         case "find_hotels":
             response = booking.scrape_hotels(**args)
-        case "find_products_from_amazon":
-            response = scrapping.scrape_products_from_amazon(**args)
         case "fashion_search_api":
             response = carter.fashion_search_api(**args)
         case "send_email_tool":

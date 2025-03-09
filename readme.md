@@ -2,7 +2,11 @@
 
 Athena is an open-source AI assistant designed to execute complex tasks across multiple services with natural language understanding—something Alexa+ and Perplexity can’t fully deliver. While Alexa+ focuses on premium voice-command experiences and Perplexity excels at answering queries with AI, Athena bridges the gap by combining deep context awareness with full-service integration for real-world tasks.
 
----
+![Athena](Img/demo.png)
+
+
+![Athena](Img/demo2.png)
+
 
 ## Beyond Voice Commands: A Truly Intelligent Assistant
 
@@ -51,6 +55,8 @@ Instead of simply suggesting you open different apps or search online, Athena wi
 
 Athena is powered by a robust, modular architecture comprising four core components:
 
+![Architecture](Img/Architecture.jpg)
+
 
 1. **User Query Processing**
    - The mobile app (built with Flutter) sends natural language queries to the backend via FastAPI.
@@ -66,9 +72,13 @@ Athena is powered by a robust, modular architecture comprising four core compone
 4. **Dynamic UI Generation**
    - The Flutter frontend renders a clean, intuitive UI—displaying results as cards complete with images, reviews, and prices.
 
+![Technical Approach](Img/TechnicalApproach.png)
+
 ---
 
 ## Tech Stack
+
+![Tech Stack](Img/TechStack.png)
 
 **Backend:**
 - **OpenAI (GPT-4):** For advanced reasoning and function calling.
@@ -101,9 +111,17 @@ Athena is powered by a robust, modular architecture comprising four core compone
    ```
 
 3. **Set up environment variables:**
+   
    Create a `.env` file and add:
    ```env
    OPENAI_API_KEY=your_openai_api_key
+   PINECONE_API_KEY=your_PINECONE_API_KEY
+   PINECONE_HOST_URL=your_PINECONE_HOST_URL
+   PRELEXITY_API_KEY=your_PRELEXITY_API_KEY
+   SPOTIFY_CLIENT_ID=your_SPOTIFY_CLIENT_ID
+   SPOTIFY_CLIENT_SECRET=your_SPOTIFY_CLIENT_SECRET
+   SPOTIFY_REDIRECT_URI=http://localhost:8888/callback
+
    ```
 
 4. **Run the FastAPI server:**
@@ -114,6 +132,8 @@ Athena is powered by a robust, modular architecture comprising four core compone
 ---
 
 ## How It Works
+
+![Tech Stack](Img/application.png)
 
 1. **Natural Language Input:** The user sends a query through the mobile app.
 2. **Backend Processing:** The backend uses OpenAI’s capabilities to interpret the query.
