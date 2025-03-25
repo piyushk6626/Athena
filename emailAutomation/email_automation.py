@@ -6,9 +6,16 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 import os
 
-# Function to send emaile
+# Load environment variables once at module level
+load_dotenv()
+
+# Constants
+SMTP_SERVER = 'smtp.gmail.com'
+SMTP_PORT = 587
+IMAP_SERVER = 'imap.gmail.com'
+DEFAULT_EMAIL = "team.event.horizon.iiitp@gmail.com"
+
 def send_email(recipient_email, subject, body):
-    
     """
     Send an email to the given recipient with the given subject and body.
 
@@ -21,14 +28,21 @@ def send_email(recipient_email, subject, body):
     body : str
         The contents of the email.
 
+    Returns
+    -------
+    dict
+        Dictionary with status information about the email operation.
+
     Raises
     ------
     Exception
         If there is any error while sending the email.
     """
-    load_dotenv()
+    # Get credentials from environment variables
     sender_password = os.getenv("EMAIL_PASSWORD")
-    sender_email = "team.event.horizon.iiitp@gmail.com"
+    sender_email = DEFAULT_EMAIL
+    
+    # Create email message
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = recipient_email
@@ -36,24 +50,27 @@ def send_email(recipient_email, subject, body):
     msg.attach(MIMEText(body, 'plain'))
 
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
+        # Connect to SMTP server
+        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+        server.starttls()  # Enable TLS encryption
+        
+        # Login and send the email
         server.login(sender_email, sender_password)
         server.send_message(msg)
         server.quit()
-        dicto = {
-            "type":"text",
-            "data":"Email sent successfully!"
+        
+        # Return success status
+        return {
+            "type": "text",
+            "data": "Email sent successfully!"
         }
-        return dicto
     except Exception as e:
-
-        dicto = {
+        # Handle errors and return failure status
+        print("Error:", e)
+        return {
             "type": "text",
             "data": "Email Failed!"
         }
-        print("Error:", e)
-        return dicto
         
 
 def read_emails(number_of_emails=5, unread_only=True):
@@ -72,13 +89,13 @@ def read_emails(number_of_emails=5, unread_only=True):
     dict
         Dictionary containing email data
     """
-    load_dotenv()
+    # Get credentials from environment variables
     email_password = os.getenv("EMAIL_PASSWORD")
-    email_address = "team.event.horizon.iiitp@gmail.com"
+    email_address = DEFAULT_EMAIL
 
     try:
         # Connect to Gmail's IMAP server
-        imap_server = imaplib.IMAP4_SSL("imap.gmail.com")
+        imap_server = imaplib.IMAP4_SSL(IMAP_SERVER)
         imap_server.login(email_address, email_password)
         
         # Select the inbox
@@ -92,27 +109,23 @@ def read_emails(number_of_emails=5, unread_only=True):
         # Get the last n email IDs
         latest_email_ids = email_ids[-number_of_emails:] if email_ids else []
 
+        # Process each email
         emails_data = []
         for email_id in latest_email_ids:
+            # Fetch email data
             _, msg_data = imap_server.fetch(email_id, "(RFC822)")
             email_body = msg_data[0][1]
             email_message = email.message_from_bytes(email_body)
 
             # Extract email content
-            content = ""
-            if email_message.is_multipart():
-                for part in email_message.walk():
-                    if part.get_content_type() == "text/plain":
-                        content = part.get_payload(decode=True).decode()
-                        break
-            else:
-                content = email_message.get_payload(decode=True).decode()
+            content = _extract_email_content(email_message)
 
-            # Extract email information
+            # Extract email metadata
             subject = email_message["subject"]
             from_address = email_message["from"]
             date = email_message["date"]
 
+            # Add email to results
             emails_data.append({
                 "from": from_address,
                 "subject": subject,
@@ -120,6 +133,7 @@ def read_emails(number_of_emails=5, unread_only=True):
                 "content": content
             })
 
+        # Close connection
         imap_server.close()
         imap_server.logout()
 
@@ -135,5 +149,33 @@ def read_emails(number_of_emails=5, unread_only=True):
             "data": [f"Error reading emails: {str(e)}"]
         }
 
+def _extract_email_content(email_message):
+    """
+    Helper function to extract content from email message.
+    
+    Parameters
+    ----------
+    email_message : email.message.Message
+        The email message object to extract content from
+        
+    Returns
+    -------
+    str
+        The plain text content of the email
+    """
+    content = ""
+    if email_message.is_multipart():
+        # If email has multiple parts, find the text/plain part
+        for part in email_message.walk():
+            if part.get_content_type() == "text/plain":
+                content = part.get_payload(decode=True).decode()
+                break
+    else:
+        # If email is not multipart, just get the payload
+        content = email_message.get_payload(decode=True).decode()
+    
+    return content
+
 if __name__ == "__main__":
+    # Example usage
     print(send_email("siddhantganesh25@gmail.com", "HELLO", "HELLO"))
