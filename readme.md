@@ -1,6 +1,6 @@
 # Athena(Mauli): The Free Open-Source Alternative to Alexa+ and Perplexity
 
-Athena is an open-source AI assistant designed to execute complex tasks across multiple services with natural language understanding—something Alexa+ and Perplexity can’t fully deliver. While Alexa+ focuses on premium voice-command experiences and Perplexity excels at answering queries with AI, Athena bridges the gap by combining deep context awareness with full-service integration for real-world tasks.
+Athena is an open-source AI assistant designed to execute complex tasks across multiple services with natural language understanding—something Alexa+ and Perplexity can't fully deliver. While Alexa+ focuses on premium voice-command experiences and Perplexity excels at answering queries with AI, Athena bridges the gap by combining deep context awareness with full-service integration for real-world tasks.
 
 ![Athena](Img/demo.png)
 
@@ -25,14 +25,14 @@ Athena is built to be what modern digital assistants should have been. Unlike Al
 
 | **Feature**                | **Alexa+**                                               | **Perplexity**                                  | **Athena**                                                       |
 |----------------------------|----------------------------------------------------------|-------------------------------------------------|------------------------------------------------------------------|
-| **Natural Language**       | Handles basic commands with limited contextual support   | Excels at answering questions but isn’t built for action execution | Understands and processes complex, multi-step commands             |
+| **Natural Language**       | Handles basic commands with limited contextual support   | Excels at answering questions but isn't built for action execution | Understands and processes complex, multi-step commands             |
 | **Context Awareness**      | Limited conversation memory                              | Provides query-specific context only            | Maintains full conversation context across multi-step tasks       |
 | **Task Execution**         | Generally supports single, isolated tasks                | Not designed for integrated task execution      | Executes complex, multi-step tasks that span multiple services      |
 | **Service Integration**    | Primarily tied to the Amazon ecosystem                   | Lacks direct integration with external services | Open integration with popular services (Airbnb, Spotify, etc.)      |
 | **Cost**                   | Subscription-based premium features                      | Free but limited to search/QA functions           | Completely free and open-source, with no premium tier                |
 | **Customizability**        | Limited by proprietary ecosystem                         | Minimal customization available                 | Fully customizable and independent from proprietary constraints     |
 
-Athena’s holistic design ensures that whether you need to plan a trip, book tickets, or manage your daily tasks, the assistant is equipped to handle it all—without the limitations found in other platforms.
+Athena's holistic design ensures that whether you need to plan a trip, book tickets, or manage your daily tasks, the assistant is equipped to handle it all—without the limitations found in other platforms.
 
 ---
 
@@ -63,7 +63,7 @@ Athena is powered by a robust, modular architecture comprising four core compone
    - *Example:* "Find an Airbnb near AISSMS Pune."
 
 2. **AI Reasoning**
-   - Utilizes OpenAI’s GPT-4 for advanced reasoning and function calling, determining which actions to take based on the query.
+   - Utilizes OpenAI's GPT-4 for advanced reasoning and function calling, determining which actions to take based on the query.
 
 3. **Function Calling**
    - Executes specific functions by fetching data from integrated services (e.g., Airbnb for accommodations).
@@ -140,7 +140,7 @@ Athena is powered by a robust, modular architecture comprising four core compone
 ![Tech Stack](Img/application.png)
 
 1. **Natural Language Input:** The user sends a query through the mobile app.
-2. **Backend Processing:** The backend uses OpenAI’s capabilities to interpret the query.
+2. **Backend Processing:** The backend uses OpenAI's capabilities to interpret the query.
 3. **Function Execution:** Based on the reasoning, the appropriate function is called to interact with the necessary service.
 4. **Data Retrieval:** Information is fetched in a structured format.
 5. **UI Rendering:** The app dynamically creates UI elements (cards, lists, etc.) to display the results.
@@ -194,6 +194,40 @@ This project is licensed under the MIT License – see the [LICENSE](./LICENSE) 
 
 ---
 
-Athena is more than just another AI assistant—it’s a complete reimagination of what digital assistance can be. By integrating complex task execution with seamless service connectivity and deep natural language understanding, Athena not only outperforms Alexa+ and Perplexity but also paves the way for the future of AI-powered digital assistance.
+## Code Structure
+
+Athena follows a modular, maintainable code architecture focused on separation of concerns:
+
+```
+athena/
+├── config.py                # Centralized configuration settings
+├── functioncalling.py       # OpenAI API integration for function calling
+├── main.py                  # FastAPI server and request handling
+├── router.py                # Function routing and dispatch system
+├── tools.json               # Tool definitions for LLM function calling
+├── utils.py                 # Shared utility functions
+├── requirements.txt         # Project dependencies
+├── Movies/                  # Entertainment service integrations
+├── webserch/                # Web search capabilities
+├── restaurant/              # Restaurant-related services
+├── Hotel/                   # Hotel booking services
+├── flightCompare/           # Flight search and booking
+├── zepto/                   # Grocery delivery integration
+├── emailAutomation/         # Email services
+└── ...                      # Other service integrations
+```
+
+The code is organized with the following principles:
+
+1. **Modular Design**: Each service has its own module with clear responsibilities
+2. **Consistent Error Handling**: Standardized error responses throughout the application
+3. **Centralized Configuration**: All settings managed in one place for easier updates
+4. **Comprehensive Logging**: Detailed logging for better debugging and monitoring
+5. **Type Hints**: Python type annotations for improved code quality and IDE support
+6. **Clear Documentation**: Docstrings and comments explaining functionality
+
+This architecture makes the codebase more maintainable, testable, and easier to extend with new capabilities.
+
+Athena is more than just another AI assistant—it's a complete reimagination of what digital assistance can be. By integrating complex task execution with seamless service connectivity and deep natural language understanding, Athena not only outperforms Alexa+ and Perplexity but also paves the way for the future of AI-powered digital assistance.
 
 Feel free to explore, contribute, and help shape the future of Athena!

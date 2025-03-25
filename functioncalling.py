@@ -1,61 +1,83 @@
-from openai import OpenAI
+"""
+Function Calling Module for Athena Virtual Assistant
+
+This module handles communication with OpenAI's API for function calling capabilities.
+It loads tools from a JSON file and provides functionality to interact with language models.
+"""
+
+import json
 import os
-from dotenv import load_dotenv
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-from tools import TOOLS
+import logging
+from typing import List, Dict, Any, Optional
 
-client = OpenAI(api_key=OPENAI_API_KEY)
+from openai import OpenAI
 
-def AGI(messages):
-    completion = client.chat.completions.create(
-        model="gpt-4o",
-        messages=messages,
-        #uncomment to make tools work
-        tools=TOOLS 
-    )
-    return completion
+# Import centralized configuration
+import config
 
-# A=(completion.choices[0].message.tool_calls)
-# print(completion.choices[0].message.content)
-# for i in A:
-#     print(i)
+# Configure logging
+logger = logging.getLogger(__name__)
 
 
-# print(completion.choices[0].message.content)
-
-#(id='call_nsGrIHxCvxL2qYSLnp4bf9AG', function=Function(arguments='{"location": "Pune, India"}', name='get_weather'), type='function')
-# from openai import OpenAI
-# client = OpenAI()
-
- 
-# response = client.chat.completions.create(
-#     model="o1-mini",
+def load_tools_from_json(filename: str = config.APP_SETTINGS["TOOLS_FILE"]) -> List[Dict[str, Any]]:
+    """
+    Load tool definitions from a JSON file.
     
-#     messages=[{"role": "user", "content": "Can you send an email to ilan@example.com and katia@example.com ?"}],
-#     tools=tools
-# )
+    Args:
+        filename: Path to the JSON file containing tool definitions
+        
+    Returns:
+        List of tool definitions, each containing type and function specifications
+        
+    Raises:
+        FileNotFoundError: If the tools file doesn't exist
+        json.JSONDecodeError: If the file contains invalid JSON
+    """
+    if not os.path.exists(filename):
+        logger.warning(f"Tools file {filename} not found")
+        return []
 
-# print(response.choices[0].message.content)
-# print(response.choices[0].message.content) In order to help you find a movie, could you please provide me with your city and any specific preferences you might have, such as the type of movie you want to watch?
+    try:
+        with open(filename, 'r') as f:
+            tools = json.load(f)
+        logger.info(f"Successfully loaded {len(tools)} tools from {filename}")
+        return tools
+    except json.JSONDecodeError as e:
+        logger.error(f"Error parsing tools file {filename}: {e}")
+        raise
 
-# completion=AGI(messages=[
-#     {
-#         "role": "user", 
-#         "content": "i want to wantch a movie tommrow afternoon "
-#     },
-#     {
-#         "role": "assistant", 
-#         "content": "In order to help you find a movie, could you please provide me with your city and any specific preferences you might have, such as the type of movie you want to watch?"
-#     },
-#     {
-#         "role": "user", 
-#         "content": "ohk show me for pune "
-#     },
+
+# Load tool definitions
+TOOLS = load_tools_from_json()
+logger.info(f"Loaded {len(TOOLS)} tools")
+
+# Initialize OpenAI client
+client = OpenAI(api_key=config.API_KEYS["OPENAI_API_KEY"])
+
+
+def AGI(messages: List[Dict[str, str]], model: str = config.APP_SETTINGS["DEFAULT_LLM_MODEL"]) -> Any:
+    """
+    Send messages to the language model and get completions with potential tool calls.
     
-#     ]
-#                )
-# A=(completion.choices[0].message.tool_calls)
-# print(completion.choices[0].message.content)
-# for i in A:
-#     print(i)
+    Args:
+        messages: List of message objects with role and content keys
+        model: The OpenAI model to use (defaults to value from config)
+        
+    Returns:
+        OpenAI completion object containing the model's response and any tool calls
+        
+    Raises:
+        Exception: If there's an error communicating with the OpenAI API
+    """
+    try:
+        logger.info(f"Sending request to {model} with {len(messages)} messages")
+        completion = client.chat.completions.create(
+            model=model,
+            messages=messages,        
+            tools=TOOLS,
+            tool_choice="auto"
+        )
+        return completion
+    except Exception as e:
+        logger.error(f"Error in OpenAI API call: {e}")
+        raise

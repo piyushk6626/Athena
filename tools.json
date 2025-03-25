@@ -1,0 +1,415 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "send_email",
+            "description": "Send an email to the given recipient with the given subject and body.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "recipient_email",
+                    "subject",
+                    "body"
+                ],
+                "properties": {
+                    "recipient_email": {
+                        "type": "string",
+                        "description": "The email address of the recipient."
+                    },
+                    "subject": {
+                        "type": "string",
+                        "description": "The subject of the email."
+                    },
+                    "body": {
+                        "type": "string",
+                        "description": "The contents of the email."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "scrape_zepto",
+            "description": "Scrapes Zepto search results for the given query and returns a list of dictionaries containing product details. Zepto is a market for buying and delivering groceries and electronics in 10 minutes.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "query"
+                ],
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query to scrape results for."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "scrape_flights",
+            "description": "Scrapes flight data from Paytm given origin and destination names, departure date. Current Year is 2025",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "origin_name",
+                    "dest_name",
+                    "departure_date"
+                ],
+                "properties": {
+                    "origin_name": {
+                        "type": "string",
+                        "description": "Name of the departure city."
+                    },
+                    "dest_name": {
+                        "type": "string",
+                        "description": "Name of the destination city."
+                    },
+                    "departure_date": {
+                        "type": "string",
+                        "description": "Date of departure in 'YYYY-MM-DD' format."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_bus_data",
+            "description": "Returns the scraped data from online bus booking website",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "source",
+                    "destination",
+                    "journey_date"
+                ],
+                "properties": {
+                    "source": {
+                        "type": "string",
+                        "description": "Source city name. The first letter of the city name is capitalized."
+                    },
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination city name. The first letter of the city name is capitalized."
+                    },
+                    "journey_date": {
+                        "type": "string",
+                        "description": "Date of journey in the format YYYY-MM-DD, current year is 2025"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "send_email",
+            "description": "Send an email to the given recipient with the given subject and body.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "recipient_email",
+                    "subject",
+                    "body"
+                ],
+                "properties": {
+                    "recipient_email": {
+                        "type": "string",
+                        "description": "The email address of the recipient."
+                    },
+                    "subject": {
+                        "type": "string",
+                        "description": "The subject of the email."
+                    },
+                    "body": {
+                        "type": "string",
+                        "description": "The contents of the email."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "serach_the_web_for_news",
+            "description": "Search the web for letest news And return summerized answer using LLM .",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The query user Send to Find Letest news about it"
+                    }
+                },
+                "required": [
+                    "query"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "automate_uber_ride",
+            "description": "Automates the process of booking an Uber ride using a web browser.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "pickup_location",
+                    "destination"
+                ],
+                "properties": {
+                    "pickup_location": {
+                        "type": "string",
+                        "description": "The address or name of the pickup location."
+                    },
+                    "destination": {
+                        "type": "string",
+                        "description": "The address or name of the destination."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "scrape_airbnb",
+            "description": "Scrape Airbnb for hotels based on destination, check-in date, check-out date, number of adults, and number of children.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "destination",
+                    "checkinDate",
+                    "checkoutDate",
+                    "adultsNo",
+                    "childrenNo"
+                ],
+                "properties": {
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination for searching hotels."
+                    },
+                    "checkinDate": {
+                        "type": "string",
+                        "description": "Check-in date for booking."
+                    },
+                    "checkoutDate": {
+                        "type": "string",
+                        "description": "Check-out date for booking."
+                    },
+                    "adultsNo": {
+                        "type": "string",
+                        "description": "Number of adults."
+                    },
+                    "childrenNo": {
+                        "type": "string",
+                        "description": "Number of children."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_similar_restaurants",
+            "description": "Find similar restaurants based on a query string.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "query"
+                ],
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The query string to find similar restaurants for."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "scrape_movies",
+            "description": "Scrapes the list of movies available in the given city. Returns a JSON string with movie details.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "city"
+                ],
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The city for which to scrape available movies"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "extract_single_movie_show",
+            "description": "Extracts movie show details from the Paytm page after selecting the specified city and language. Returns a list of dictionaries containing the show details.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "url",
+                    "city",
+                    "language"
+                ],
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "description": "The URL of the Paytm page to extract movie shows from"
+                    },
+                    "city": {
+                        "type": "string",
+                        "description": "The city for which to fetch the movie shows"
+                    },
+                    "language": {
+                        "type": "string",
+                        "description": "The language preference for the movie shows"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_hotels",
+            "description": "find hotels data from booking.com.",
+            "strict": false,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "location",
+                    "checkin",
+                    "checkout"
+                ],
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "Location to search for hotels (e.g. 'goa')"
+                    },
+                    "checkin": {
+                        "type": "string",
+                        "description": "Checkin date in the format 'yyyy-mm-dd'"
+                    },
+                    "checkout": {
+                        "type": "string",
+                        "description": "Checkout date in the format 'yyyy-mm-dd'"
+                    },
+                    "no_adults": {
+                        "type": "number",
+                        "description": "Number of adults (default: 1)"
+                    },
+                    "no_rooms": {
+                        "type": "number",
+                        "description": "Number of rooms (default: 1)"
+                    },
+                    "no_children": {
+                        "type": "number",
+                        "description": "Number of children (default: 0)"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "fashion_search_api",
+            "description": "Calls the fashion shopping search API with the specified text query.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "query"
+                ],
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query for fashion items."
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "find_hotels",
+            "description": "find hotels data from booking.com.",
+            "strict": false,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "location",
+                    "checkin",
+                    "checkout"
+                ],
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "Location to search for hotels (e.g. 'goa')"
+                    },
+                    "checkin": {
+                        "type": "string",
+                        "description": "Checkin date in the format 'yyyy-mm-dd'"
+                    },
+                    "checkout": {
+                        "type": "string",
+                        "description": "Checkout date in the format 'yyyy-mm-dd'"
+                    },
+                    "no_adults": {
+                        "type": "number",
+                        "description": "Number of adults (default: 1)"
+                    },
+                    "no_rooms": {
+                        "type": "number",
+                        "description": "Number of rooms (default: 1)"
+                    },
+                    "no_children": {
+                        "type": "number",
+                        "description": "Number of children (default: 0)"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    }
+]
