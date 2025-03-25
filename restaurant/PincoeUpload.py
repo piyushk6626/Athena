@@ -24,43 +24,102 @@ logging.basicConfig(
     ]
 )
 
-def create_embeddings(content):
-    """Generate embeddings using OpenAI API."""
+def create_embeddings(content: str) -> list:
+    """
+    Generate embeddings using the OpenAI API.
+
+    This function takes a content string as input and generates embeddings 
+    using the specified OpenAI model. It handles exceptions and logs any 
+    errors encountered during the process.
+
+    Args:
+        content (str): The input text for which embeddings are to be generated.
+
+    Returns:
+        list: A list representing the generated embeddings, or None if an error occurs.
+    """
     try:
+        # Call the OpenAI API to create embeddings
         response = client.embeddings.create(
             model="text-embedding-3-small",
             input=content
         )
+        # Return the generated embedding from the response
         return response.data[0].embedding
     except Exception as e:
+        # Log any error that occurs during the embedding generation process
         logging.error(f"Error generating embeddings: {e}")
         return None
 
-def read_json_file(file_path):
-    """Reads a JSON file and returns its content."""
+def read_json_file(file_path: str) -> dict:
+    """
+    Reads the contents of a JSON file and returns the parsed result.
+
+    This function takes a file path as input and attempts to read the contents
+    of the file as JSON. If the file does not contain valid JSON, a JSONDecodeError
+    is raised and logged. Any other exceptions encountered are also logged.
+
+    Args:
+        file_path (str): The path to the JSON file to read.
+
+    Returns:
+        dict: The parsed JSON content of the file, or None if an error occurs.
+    """
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             return json.load(file)
     except json.JSONDecodeError as e:
-        logging.error(f"Error decoding JSON from file {file_path}: {e}")
+        logging.error(
+            f"Error decoding JSON from file {file_path}: {e}. "
+            "Please verify that the file contains valid JSON."
+        )
     except Exception as e:
         logging.error(f"An error occurred while reading file {file_path}: {e}")
     return None
 
-def prepare_content_for_embedding(data):
-    """Prepare restaurant content for embedding generation."""
-    content = f"""
-    Restaurant: {data['name']}
-    Area: {data['area']}
-    Rating: {data['star']} stars from {data['number']} reviews
-    Tags: {', '.join(tag['tag'] for tag in data['tags'])}
-    Reviews: {' '.join(review['review_text'] for review in data['reviews'])}
-    Description: {data['description']}
+def prepare_content_for_embedding(data: dict) -> str:
     """
-    return content.strip()
+    Prepare restaurant content for embedding generation.
 
-def index_restaurant_upsert(index, json_file_path):
-    """Upserts a restaurant JSON file's content into the index."""
+    This function takes a restaurant dictionary as input and prepares the content
+    that will be used for generating embeddings. The prepared content includes
+    the restaurant name, area, rating, tags, reviews, and description. The content
+    is formatted as a string, with each field on a separate line.
+
+    Args:
+        data: A dictionary containing the restaurant content to be prepared.
+
+    Returns:
+        str: The prepared content string, or None if an error occurs.
+    """
+    try:
+        content = f"""
+        Restaurant: {data['name']}
+        Area: {data['area']}
+        Rating: {data['star']} stars from {data['number']} reviews
+        Tags: {', '.join(tag['tag'] for tag in data['tags'])}
+        Reviews: {' '.join(review['review_text'] for review in data['reviews'])}
+        Description: {data['description']}
+        """
+        return content.strip()
+    except Exception as e:
+        logging.error(f"An error occurred while preparing content for {data['name']}: {e}")
+        return None
+
+def index_restaurant_upsert(
+    index: Pinecone.Index, json_file_path: str
+) -> None:
+    """Upserts a restaurant JSON file's content into the index.
+
+    This function reads a restaurant JSON file, generates embeddings for the
+    content if they do not already exist, extracts tags and review texts, and
+    upserts the content into the Pinecone index. If the embeddings were generated
+    in this call, they are saved back to the file.
+
+    Args:
+        index: The Pinecone index to upsert the content into.
+        json_file_path: The path to the restaurant JSON file to be upserted.
+    """
     data = read_json_file(json_file_path)
     if not data:
         return
@@ -117,8 +176,22 @@ def index_restaurant_upsert(index, json_file_path):
     except Exception as e:
         logging.error(f"Failed to upsert file {json_file_path}: {e}")
 
-def upload_restaurant_folder(index, folder_path):
-    """Uploads all restaurant JSON files from a folder to the index."""
+def upload_restaurant_folder(
+    index: Pinecone.Index, folder_path: str
+) -> None:
+    """Uploads all restaurant JSON files from a folder to the index.
+
+    This function loops over all files in the specified folder, checks if they
+    are JSON files, and if so, calls index_restaurant_upsert to upsert the
+    content from the file into the index.
+
+    Args:
+        index (Pinecone.Index): The Pinecone index to upsert the content into.
+        folder_path (str): The path to the folder containing the restaurant JSON files.
+
+    Returns:
+        None
+    """
     for filename in os.listdir(folder_path):
         if filename.endswith('.json'):
             file_path = os.path.join(folder_path, filename)
@@ -129,7 +202,7 @@ if __name__ == "__main__":
     logging.info("Starting Restaurant Data Indexing")
     
     # Initialize the index
-    index = pc.Index("bits")
+    index = pc.Index("restro")
     
     # Example usage:
     upload_restaurant_folder(index, "restaurant_data")

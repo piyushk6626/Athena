@@ -3,44 +3,32 @@ import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from openai import OpenAI
 from dotenv import load_dotenv
-
+from .prompts import SystemPrompt
 # Load environment variables from .env (e.g., API keys)
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 print(f"API Key: {OPENAI_API_KEY}")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-# Define your system prompt for the narrative
-SystemPrompt = """You are a highly experienced restaurant review writer tasked with generating a detailed, engaging, and well-structured description of a restaurant based on structured input data. The input includes an overall rating, the total number of reviews, tags extracted from customer feedback (each with its frequency count), and a collection of customer reviews—each containing review text and associated photos. Your output should be an integrated narrative that reflects both quantitative data and qualitative experiences. Follow these guidelines:
-
-1. **Introduction & Overview**: Highlight the restaurant’s rating, review count, and integrate relevant tags (e.g., "seafood", "fish thali", etc.) to emphasize key specialties or recurring themes from customer feedback.
-
-2. **Ambiance & Design**: 
-   - Describe décor, lighting, and standout features from the photos.
-   - Mention any insights on music or atmosphere if provided in the reviews.
-
-3. **Menu & Culinary Experience**:
-   - Identify signature dishes and specialties.
-   - Describe the presentation of the food and note dietary options if available.
-
-4. **Customer Experience & Service**:
-   - Comment on staff friendliness and service efficiency.
-   - Include any information about reservation or walk-in policies if mentioned.
-
-5. **Popularity & Reviews**:
-   - Summarize customer sentiment and social media buzz.
-   - Mention any critic ratings, awards, or notable visits if applicable.
-
-6. **Utilizing Visual Content**:
-   - Refer to the customer-provided photos to support descriptions of the ambiance, décor, and food presentation. Mention any specific visual highlights evident in these images.
-
-Create a seamless narrative in a lively, professional tone that captures the overall dining experience. Ensure clarity and cohesion throughout the text.
-"""
 
 # The folder containing the JSON files
 data_folder = "restaurant_data"  # Ensure this folder exists and contains your JSON files
 
 def emmbedings(content):
+    """
+    Generate embeddings for the given content using the OpenAI API.
+
+    This function takes a content string as input and generates embeddings 
+    using a specified OpenAI model. It returns the generated embeddings 
+    from the response.
+
+    Args:
+        content (str): The input text for which embeddings are to be generated.
+
+    Returns:
+        list: A list representing the generated embeddings.
+    """
+
     response = client.embeddings.create(
         model="text-embedding-3-small",
         input=content
@@ -48,6 +36,13 @@ def emmbedings(content):
     return response.data[0].embedding
 
 def process_file(filename):
+    """
+    Process a single JSON file containing restaurant data.
+
+    :param filename: The name of the JSON file to process.
+    :return: None
+    """
+    
     file_path = os.path.join(data_folder, filename)
     
     # Load the JSON data
