@@ -66,7 +66,19 @@ class AirbnbScraper:
     """Main scraper class for Airbnb listings."""
     
     def __init__(self):
-        """Initialize the scraper with necessary components."""
+        """
+        Initialize the AirbnbScraper with required components.
+
+        The scraper is initialized with:
+        - A TextCleaner instance for sanitizing scraped text
+        - A WebDriver placeholder (initialized during scraping)
+        - An empty list to store hotel data
+
+        Attributes:
+            text_cleaner (TextCleaner): Utility for cleaning scraped text
+            driver (webdriver.Chrome): WebDriver instance, None until scraping starts
+            hotels_data (list): List to store dictionaries of hotel information
+        """
         self.text_cleaner = TextCleaner()  # Initialize text cleaner utility
         self.driver = None  # WebDriver will be initialized during scraping
         self.hotels_data = []  # List to store scraped hotel information
