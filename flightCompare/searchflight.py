@@ -1,86 +1,119 @@
-# https://www.in.cheapflights.com/flight-search/BOM-BLR/2025-03-11?ucs=12mksjb
-
-
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from .airportCode import INDIAN_AIRPORT_CODES
-
-
+import json
+from .xpaths import *
+# Load airport codes from JSON file
+def load_airport_codes():
+    """Loads airport codes from a JSON file. If the file does not exist, prints
+    a FileNotFoundError message and returns an empty dictionary. If the JSON
+    file is malformed, prints a JSONDecodeError message and returns an empty
+    dictionary. Otherwise returns a dictionary mapping airport names to their
+    respective IATA codes."""
+    try:
+        with open('flightCompare/airport_codes.json', 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print("Airport codes JSON file not found")
+        return {}
+    except json.JSONDecodeError:
+        print("Error decoding JSON file")
+        return {}
 
 def search_flight_url(source, destination, date):
-    url = f"https://www.in.cheapflights.com/flight-search/{INDIAN_AIRPORT_CODES[source]}-{INDIAN_AIRPORT_CODES[destination]}/{date}?ucs=12mksjb"
-    print(url)
-    return scrape_flights(url,source,destination)
+    # Load airport codes from JSON file
+    """
+    Constructs a search URL for flights and initiates scraping.
+
+    Args:
+        source (str): The departure city name.
+        destination (str): The arrival city name.
+        date (str): The date of travel in 'YYYY-MM-DD' format.
+
+    Returns:
+        dict: A dictionary with scraped flight data.
+    """
+
+    airport_codes = load_airport_codes()
+    
+    url = f"https://www.in.cheapflights.com/flight-search/{airport_codes.get(source)}-{airport_codes.get(destination)}/{date}?ucs=12mksjb"
+    
+    return scrape_flights(url, source, destination)
     
 
 
 
-def scrape_flights(url, origin, destination):
-    # Set up Chrome options
+def scrape_flights(url: str, origin: str, destination: str) -> dict:
+    """
+    Scrapes flights from a given URL, origin and destination.
+
+    Args:
+        url (str): The URL to scrape.
+        origin (str): The origin city.
+        destination (str): The destination city.
+
+    Returns:
+        dict: A dictionary with the scraped flight data.
+    """
+    # Set up Chrome options for browser
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
 
     # Initialize the Chrome driver
     driver = webdriver.Chrome(options=chrome_options)
 
-    # Open the URL
+    # Open the URL in browser
     driver.get(url)
 
     try:
-        # Wait for the flight results to load
+        # Wait for the flight results to load (max 20 seconds)
         wait = WebDriverWait(driver, 20)
         flight_containers = wait.until(EC.presence_of_all_elements_located(
-            (By.XPATH, '//div[@class="Fxw9-result-item-container"]/div[@class="nrc6 nrc6-mod-pres-default nrc6-mod-desktop-responsive"]')
+            (By.XPATH, FLIGHT_CONTAINER)  # Using XPath constant from xpaths.py
         ))
 
         flights_data = []
 
+        # Iterate through each flight container to extract details
         for container in flight_containers:
             try:
-                # Extract flight details
-                departure_info = container.find_element(By.XPATH, '(.//div[@class="vmXl vmXl-mod-variant-large"]/span)[1]').text
-                arrival_info = container.find_element(By.XPATH, '(.//div[@class="vmXl vmXl-mod-variant-large"]/span)[3]').text
-                price_text = container.find_element(By.XPATH, './/div[@class="f8F1-price-text-container"]/div[@class="f8F1-price-text"]').text
-                duration = container.find_element(By.XPATH, './/div[@class="xdW8 xdW8-mod-full-airport"]/div[@class="vmXl vmXl-mod-variant-default"]').text
-                stops = container.find_element(By.XPATH, './/span[@class="JWEO-stops-text"]').text
-                img_element = container.find_element(By.XPATH, './/img')
-                booking_link = container.find_element(By.XPATH, './/a[@role="link" and contains(@class, "Iqt3")]')
+                # Extract basic flight information using XPath constants
+                departure_info = container.find_element(By.XPATH, DEPARTURE_INFO).text
+                arrival_info = container.find_element(By.XPATH, ARRIVAL_INFO).text
+                price_text = container.find_element(By.XPATH, PRICE_TEXT).text
+                duration = container.find_element(By.XPATH, DURATION).text
+                stops = container.find_element(By.XPATH, STOPS).text
+                img_element = container.find_element(By.XPATH, IMG_ELEMENT)
+                booking_link = container.find_element(By.XPATH, BOOKING_LINK)
 
-                # Extract the first two provider links and flatten the data
-                provider_links = container.find_elements(By.XPATH, './/a[@class="oVHK-fclink"]')
+                # Extract provider details (usually shows different booking options)
+                provider_links = container.find_elements(By.XPATH, PROVIDER_LINKS)
                 provider1_name = provider1_price = provider1_url = ""
                 provider2_name = provider2_price = provider2_url = ""
 
+                # Extract first provider details if available
                 if len(provider_links) >= 1:
                     try:
                         provider1 = provider_links[0]
                         provider1_url = provider1.get_attribute('href')
-                        provider1_price = provider1.find_element(
-                            By.XPATH, './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-price"]/span'
-                        ).text
-                        provider1_name = provider1.find_element(
-                            By.XPATH, './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-provider"]'
-                        ).text
+                        provider1_price = provider1.find_element(By.XPATH, PROVIDER_PRICE).text
+                        provider1_name = provider1.find_element(By.XPATH, PROVIDER_NAME).text
                     except Exception as e:
                         print(f"Error scraping provider1 details: {str(e)}")
+
+                # Extract second provider details if available
                 if len(provider_links) >= 2:
                     try:
                         provider2 = provider_links[1]
                         provider2_url = provider2.get_attribute('href')
-                        provider2_price = provider2.find_element(
-                            By.XPATH, './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-price"]/span'
-                        ).text
-                        provider2_name = provider2.find_element(
-                            By.XPATH, './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-provider"]'
-                        ).text
+                        provider2_price = provider2.find_element(By.XPATH, PROVIDER_PRICE).text
+                        provider2_name = provider2.find_element(By.XPATH, PROVIDER_NAME).text
                     except Exception as e:
                         print(f"Error scraping provider2 details: {str(e)}")
 
-                # Build a flattened flight data dictionary with provider details at the top level
+                # Create a dictionary with all flight information
                 flight_data = {
                     'provider': 'Cheapflights',
                     'airline': img_element.get_attribute('alt'),
@@ -91,8 +124,8 @@ def scrape_flights(url, origin, destination):
                     'arrival_city': destination,
                     'duration': duration,
                     'price': price_text,
-                    'fare_type': 'Economy',  # Default as not provided
-                    'offer': '',             # Empty as not provided
+                    'fare_type': 'Economy',  # Default value as website doesn't provide this info
+                    'offer': '',             # Empty as website doesn't provide offers
                     'layover': stops,
                     'url': booking_link.get_attribute('href'),
                     'provider1_name': provider1_name,
@@ -109,6 +142,7 @@ def scrape_flights(url, origin, destination):
                 print(f"Error scraping flight details: {str(e)}")
                 continue
 
+        # Return the final results
         result = {
             "type": "flightCompare",
             "data": flights_data
@@ -118,9 +152,6 @@ def scrape_flights(url, origin, destination):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         return {"type": "text", "data": ["No flights found"]}
-
-    finally:
-        driver.quit()
 
 if __name__ == "__main__":
     results = search_flight_url("Bangalore", "Mumbai", "2025-03-03")

@@ -1,0 +1,12 @@
+# XPath expressions for flight details
+FLIGHT_CONTAINER = '//div[@class="Fxw9-result-item-container"]/div[@class="nrc6 nrc6-mod-pres-default nrc6-mod-desktop-responsive"]'
+DEPARTURE_INFO = '(.//div[@class="vmXl vmXl-mod-variant-large"]/span)[1]'
+ARRIVAL_INFO = '(.//div[@class="vmXl vmXl-mod-variant-large"]/span)[3]'
+PRICE_TEXT = './/div[@class="f8F1-price-text-container"]/div[@class="f8F1-price-text"]'
+DURATION = './/div[@class="xdW8 xdW8-mod-full-airport"]/div[@class="vmXl vmXl-mod-variant-default"]'
+STOPS = './/span[@class="JWEO-stops-text"]'
+IMG_ELEMENT = './/img'
+BOOKING_LINK = './/a[@role="link" and contains(@class, "Iqt3")]'
+PROVIDER_LINKS = './/a[@class="oVHK-fclink"]'
+PROVIDER_PRICE = './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-price"]/span'
+PROVIDER_NAME = './/div[@class="c_f8N-link-wrapper"]/span[@class="c_f8N-provider"]' 
