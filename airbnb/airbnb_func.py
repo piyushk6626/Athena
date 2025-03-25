@@ -1,106 +1,205 @@
+# Import required libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import json
 import time
 import re 
-from .xpath import *
+from .xpath import *  # Import XPath constants from xpath module
 
-def scrape_airbnb(destination, checkinDate, checkoutDate, adultsNo, childrenNo):
-    # Initialize Chrome options
-    """
-    Scrape Airbnb for hotels based on destination, check-in date, check-out date, number of adults, and number of children.
-
-    Args:
-        destination (str): Destination for searching hotels.
-        checkinDate (str): Check-in date for booking.
-        checkoutDate (str): Check-out date for booking.
-        adultsNo (str): Number of adults.
-        childrenNo (str): Number of children.
-
-    Returns:
-        dict: Dictionary containing a list of hotel data and a type field with value 'airbnb'.
-    """
-    chrome_options = Options()
+class TextCleaner:
+    """Utility class for cleaning and formatting text data."""
     
-    # Automatically manage ChromeDriver
-    driver = webdriver.Chrome(options=chrome_options)
-
-    url = f"https://www.airbnb.co.in/s/{destination}/homes?checkin={checkinDate}&checkout={checkoutDate}&adults={adultsNo}&children={childrenNo}&query={destination}"
-    
-    driver.get(url)
-    time.sleep(5)  # Wait for the page to load
-    
-    hotels_data = []
-    
+    @staticmethod
     def clean_text(text):
         """
-        Clean text by replacing newlines with spaces and removing non-ASCII characters.
+        Sanitize text by removing unwanted characters and formatting.
 
         Args:
-            text (str): Text to clean
+            text (str): Raw text to be cleaned
 
         Returns:
-            str: Cleaned text
+            str: Cleaned and formatted text string
         """
-        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
-        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
+        # Replace multiple newlines with single space
+        text = re.sub(r'\n+', ' ', text)
+        # Remove non-ASCII characters
+        text = re.sub(r'[^\x20-\x7E]', '', text)
         return text.strip()
     
+    @staticmethod
     def clean_price(text):
         """
-        Clean price text by replacing newlines with spaces, removing non-ASCII characters, extracting the first number, and stripping whitespace.
+        Extract and format price from raw text.
 
         Args:
-            text (str): Price text to clean
+            text (str): Raw price text (e.g., "₹1,234 night")
 
         Returns:
-            str: Cleaned price string
+            str: Cleaned price value without currency symbol
         """
-        text = re.sub(r'\n+', ' ', text)  # Replace newlines with spaces
-        text = re.sub(r'[^\x20-\x7E]', '', text)  # Remove non-ASCII characters
-        text= (text.split()[0])[1:]
+        # Replace newlines with spaces
+        text = re.sub(r'\n+', ' ', text)
+        # Remove non-ASCII characters
+        text = re.sub(r'[^\x20-\x7E]', '', text)
+        # Extract first word (price) and remove currency symbol
+        text = (text.split()[0])[1:]
         return text.strip()
+
+class WebDriverManager:
+    """Manages WebDriver initialization and cleanup."""
+    
+    @staticmethod
+    def get_driver():
+        """
+        Initialize and return a Chrome WebDriver instance.
+
+        Returns:
+            webdriver.Chrome: Configured Chrome WebDriver instance
+        """
+        # Configure Chrome options
+        chrome_options = Options()
+        # Return initialized Chrome WebDriver
+        return webdriver.Chrome(options=chrome_options)
+
+class AirbnbScraper:
+    """Main scraper class for Airbnb listings."""
+    
+    def __init__(self):
+        """Initialize the scraper with necessary components."""
+        self.text_cleaner = TextCleaner()  # Initialize text cleaner utility
+        self.driver = None  # WebDriver will be initialized during scraping
+        self.hotels_data = []  # List to store scraped hotel information
+
+    def build_url(self, destination, checkin_date, checkout_date, adults_no, children_no):
+        """
+        Construct the Airbnb search URL.
+
+        Args:
+            destination (str): Location to search
+            checkin_date (str): Check-in date
+            checkout_date (str): Check-out date
+            adults_no (str): Number of adults
+            children_no (str): Number of children
+
+        Returns:
+            str: Complete Airbnb search URL
+        """
+        # Construct and return formatted URL with search parameters
+        return (f"https://www.airbnb.co.in/s/{destination}/homes"
+                f"?checkin={checkin_date}&checkout={checkout_date}"
+                f"&adults={adults_no}&children={children_no}"
+                f"&query={destination}")
+
+    def extract_hotel_info(self, hotel):
+        """
+        Extract information from a single hotel card.
+
+        Args:
+            hotel: WebElement representing the hotel card
+
+        Returns:
+            dict: Hotel information dictionary
+        """
+        try:
+            # Find and extract image URL
+            image_elements = hotel.find_elements(By.XPATH, imgpath)
+            image_url = image_elements[0].get_attribute('src') if image_elements else ""
+            
+            # Return dictionary with all hotel details
+            return {
+                "image_url": image_url,
+                "hotel_name": self.text_cleaner.clean_text(
+                    hotel.find_element(By.XPATH, hotelnamepath).text),
+                "payment_url": hotel.find_element(By.XPATH, paymentpath).get_attribute('href'),
+                "location": self.text_cleaner.clean_text(
+                    hotel.find_element(By.XPATH, locationpath).text),
+                "total_price": self.text_cleaner.clean_price(
+                    hotel.find_element(By.XPATH, totalpricepath).text),
+                "rating_reviews": self.text_cleaner.clean_text(
+                    hotel.find_element(By.XPATH, ratingreviews).text),
+                "tag_text": self.text_cleaner.clean_text(
+                    hotel.find_element(By.XPATH, tagpath).text)
+            }
+        except Exception as e:
+            # Log error and return None if extraction fails
+            print(f"Error extracting data for a hotel: {e}")
+            return None
+
+    def extract_hotels(self):
+        """
+        Extract information from all hotel listing cards on the page.
         
-    def extract_hotels():
-        hotels = driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
+        Finds all hotel card containers on the page and extracts 
+        detailed information for each of them (limited to first 10).
+        """
+        # Find all hotel card containers
+        hotels = self.driver.find_elements(By.XPATH, '//div[@data-testid="card-container"]')
         
+        # Process only the first 10 hotels
         for hotel in hotels[:10]:
-            try:
-                image_elements = hotel.find_elements(By.XPATH, imgpath)
-                image_url = image_elements[0].get_attribute('src') if image_elements else ""
-                hotel_name = clean_text(hotel.find_element(By.XPATH, hotelnamepath).text)
-                payment_url = hotel.find_element(By.XPATH, paymentpath).get_attribute('href')
-                location = clean_text(hotel.find_element(By.XPATH, locationpath).text)
-                total_price = clean_price(hotel.find_element(By.XPATH, totalpricepath).text)
-                rating_reviews = clean_text(hotel.find_element(By.XPATH, ratingreviews).text)
-                tag_text = clean_text(hotel.find_element(By.XPATH, tagpath).text)
+            hotel_info = self.extract_hotel_info(hotel)
+            if hotel_info:
+                self.hotels_data.append(hotel_info)
 
-                hotel_info = {
-                    "image_url": image_url,
-                    "hotel_name": hotel_name,
-                    "payment_url": payment_url,
-                    "location": location,
-                    "total_price": total_price,
-                    "rating_reviews": rating_reviews,
-                    "tag_text": tag_text,
-                }
-                
-                hotels_data.append(hotel_info)
-            except Exception as e:
-                print(f"Error extracting data for a hotel: {e}")
+    def scrape(self, destination, checkin_date, checkout_date, adults_no, children_no):
+        """
+        Main scraping method to extract Airbnb listings.
 
-    extract_hotels()
-    driver.quit()
-    
-    response_dict = {
-        'type': 'airbnb',
-        'data': hotels_data
-    }
-    
-    return response_dict
+        Args:
+            destination (str): Location to search for listings
+            checkin_date (str): Check-in date in YYYY-MM-DD format
+            checkout_date (str): Check-out date in YYYY-MM-DD format
+            adults_no (str): Number of adult guests
+            children_no (str): Number of child guests
+
+        Returns:
+            dict: Contains scraped data and type identifier
+        """
+        try:
+            # Initialize WebDriver
+            self.driver = WebDriverManager.get_driver()
+            # Build URL with search parameters
+            url = self.build_url(destination, checkin_date, checkout_date, adults_no, children_no)
+            
+            # Navigate to the URL
+            self.driver.get(url)
+            time.sleep(5)  # Wait for page to load completely
+            
+            # Extract hotel information
+            self.extract_hotels()
+            
+            # Return structured data
+            return {
+                'type': 'airbnb',
+                'data': self.hotels_data
+            }
+        finally:
+            # Ensure WebDriver is closed properly
+            if self.driver:
+                self.driver.quit()
+
+def scrape_airbnb(destination, checkin_date, checkout_date, adults_no, children_no):
+    """
+    Convenience function to perform Airbnb scraping.
+
+    Args:
+        destination (str): Location to search for listings
+        checkin_date (str): Check-in date in YYYY-MM-DD format
+        checkout_date (str): Check-out date in YYYY-MM-DD format
+        adults_no (str): Number of adult guests
+        children_no (str): Number of child guests
+
+    Returns:
+        dict: Contains scraped data and type identifier
+    """
+    # Create and use scraper instance
+    scraper = AirbnbScraper()
+    return scraper.scrape(destination, checkin_date, checkout_date, adults_no, children_no)
 
 # Example usage
 if __name__ == "__main__":
+    # Test the scraper with sample data
     data = scrape_airbnb("pune", "2025-03-09", "2025-03-14", "1", "0")
+    # Pretty print the results
     print(json.dumps(data, indent=2))
