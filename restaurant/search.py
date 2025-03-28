@@ -123,7 +123,7 @@ def get_index():
         Pinecone.Index: Initialized Pinecone index for vector search operations
     """
     # Load environment variables
-    load_dotenv()
+    load_dotenv(override=True)
 
     # Get Pinecone configuration from environment
     pinecone_api_key = os.getenv("PINECONE_API_KEY")

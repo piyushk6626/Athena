@@ -13,7 +13,7 @@ def load_airport_codes():
     dictionary. Otherwise returns a dictionary mapping airport names to their
     respective IATA codes."""
     try:
-        with open('flightCompare/airport_codes.json', 'r') as file:
+        with open('flightCompare/airportCode.json', 'r') as file:
             return json.load(file)
     except FileNotFoundError:
         print("Airport codes JSON file not found")
@@ -22,7 +22,7 @@ def load_airport_codes():
         print("Error decoding JSON file")
         return {}
 
-def search_flight_url(source, destination, date):
+def search_flight_url(origin_name, dest_name, departure_date):
     # Load airport codes from JSON file
     """
     Constructs a search URL for flights and initiates scraping.
@@ -38,9 +38,9 @@ def search_flight_url(source, destination, date):
 
     airport_codes = load_airport_codes()
     
-    url = f"https://www.in.cheapflights.com/flight-search/{airport_codes.get(source)}-{airport_codes.get(destination)}/{date}?ucs=12mksjb"
+    url = f"https://www.in.cheapflights.com/flight-search/{airport_codes.get(origin_name)}-{airport_codes.get(dest_name)}/{departure_date}?ucs=12mksjb"
     
-    return scrape_flights(url, source, destination)
+    return scrape_flights(url, origin_name, dest_name)
     
 
 
@@ -154,7 +154,7 @@ def scrape_flights(url: str, origin: str, destination: str) -> dict:
         return {"type": "text", "data": ["No flights found"]}
 
 if __name__ == "__main__":
-    results = search_flight_url("Bangalore", "Mumbai", "2025-03-03")
+    results = search_flight_url("Bangalore", "Mumbai", "2025-04-09")
     
     print(results)
 

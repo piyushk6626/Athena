@@ -201,29 +201,29 @@
                 "type": "object",
                 "required": [
                     "destination",
-                    "checkinDate",
-                    "checkoutDate",
-                    "adultsNo",
-                    "childrenNo"
+                    "checkin_date",
+                    "checkout_date",
+                    "adults_no",
+                    "children_no"
                 ],
                 "properties": {
                     "destination": {
                         "type": "string",
                         "description": "Destination for searching hotels."
                     },
-                    "checkinDate": {
+                    "checkin_date": {
                         "type": "string",
                         "description": "Check-in date for booking."
                     },
-                    "checkoutDate": {
+                    "checkout_date": {
                         "type": "string",
                         "description": "Check-out date for booking."
                     },
-                    "adultsNo": {
+                    "adults_no": {
                         "type": "string",
                         "description": "Number of adults."
                     },
-                    "childrenNo": {
+                    "children_no": {
                         "type": "string",
                         "description": "Number of children."
                     }

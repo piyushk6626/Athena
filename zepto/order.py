@@ -24,8 +24,7 @@ Example:
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import time
 from .xpath import (
     PRODUCT_CARD,
     PRODUCT_IMAGE,
@@ -76,9 +75,9 @@ def scrape_zepto(query):
     """
     # Initialize Chrome options for headless browsing
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Run in headless mode for better performance
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    
+    #options.add_argument('--headless')  # Run in headless mode for better performance
+    driver = webdriver.Chrome(options=options)
+    time.sleep(5)
     try:
         # Construct the search URL with the provided query
         url = f"https://www.zeptonow.com/search?query={query}"

@@ -231,3 +231,33 @@ This architecture makes the codebase more maintainable, testable, and easier to 
 Athena is more than just another AI assistant—it's a complete reimagination of what digital assistance can be. By integrating complex task execution with seamless service connectivity and deep natural language understanding, Athena not only outperforms Alexa+ and Perplexity but also paves the way for the future of AI-powered digital assistance.
 
 Feel free to explore, contribute, and help shape the future of Athena!
+
+## Demo Applications
+
+### Streamlit Web Interface
+
+Athena includes a Streamlit-based web interface for easy interaction with the virtual assistant. To run the demo:
+
+1. Install the additional requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Start the FastAPI backend server:
+   ```bash
+   uvicorn main:app --reload --port 3000
+   ```
+
+3. In a new terminal, start the Streamlit interface:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+The Streamlit interface provides:
+- A clean, modern chat interface
+- Example queries and capabilities
+- Real-time responses from Athena
+- Chat history management
+- Easy-to-use input system
+
+This demo makes it easy to test and showcase Athena's capabilities without needing to use the mobile app.

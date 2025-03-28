@@ -5,7 +5,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from .prompts import SystemPrompt
 # Load environment variables from .env (e.g., API keys)
-load_dotenv()
+load_dotenv(override=True)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 print(f"API Key: {OPENAI_API_KEY}")
 client = OpenAI(api_key=OPENAI_API_KEY)

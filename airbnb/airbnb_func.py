@@ -212,6 +212,6 @@ def scrape_airbnb(destination, checkin_date, checkout_date, adults_no, children_
 # Example usage
 if __name__ == "__main__":
     # Test the scraper with sample data
-    data = scrape_airbnb("pune", "2025-03-09", "2025-03-14", "1", "0")
+    data = scrape_airbnb(destination="pune", checkin_date="2025-04-09", checkout_date="2025-04-14", adults_no="1", children_no="0")
     # Pretty print the results
     print(json.dumps(data, indent=2))

@@ -49,7 +49,7 @@ def serach_the_web_for_news(query: str) -> dict:
     """
     
     # Load environment variables from .env file
-    load_dotenv()
+    load_dotenv(override=True)
     PRELEXITY_API_KEY = os.getenv("PRELEXITY_API_KEY")
 
     # Define the conversation messages for the API

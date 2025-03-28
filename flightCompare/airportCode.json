@@ -3,6 +3,7 @@
     "Delhi": "DEL",
     "Bangalore": "BLR",
     "Bengaluru": "BLR",
+    "bangalore": "BLR",
     "Hyderabad": "HYD",
     "Chennai": "MAA",
     "Kolkata": "CCU",
@@ -127,5 +128,14 @@
     "Dholpur": "DHL",
     "Ganganagar": "GGR",
     "Jhunjhunu": "JHJ",
-    "Karauli": "KAR"
+    "Karauli": "KAR",
+    "Kurukshetra": "KUH",
+    "Ladakh": "IXL",
+    "Ladnun": "LNI",
+    "Ludhiana": "LUD",
+    "Mandsaur": "IXM",
+    "Mhow": "IXM",
+    "Mhow Cantonment": "IXM",
+    "Morena": "IXM",
+    "Murwara": "IXM"        
 }

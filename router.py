@@ -52,7 +52,7 @@ FUNCTION_REGISTRY = {
     "scrape_airbnb": scrape_airbnb,
     "find_hotels": scrape_hotels,
     "search_flight_url": search_flight_url,
-    "scrape_flights": scrape_flights,
+    "scrape_flights": search_flight_url,
     "get_bus_data": generate_paytm_bus_url,
     
     # Entertainment functions
@@ -116,7 +116,9 @@ def callfunction(name: str, args: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             f"Error executing function {name}", 
             details=str(e)
         )
-
+    
+if __name__ == "__main__":
+    print(callfunction("scrape_airbnb", {"destination": "pune", "checkin_date": "2025-04-09", "checkout_date": "2025-04-14", "adults_no": "1", "children_no": "0"}))
             
         
         

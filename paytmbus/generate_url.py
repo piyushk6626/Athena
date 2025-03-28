@@ -48,9 +48,8 @@ def get_bus_data(url: str, limit: int = 10) -> str:
         It includes error handling for cases where certain information might not be available.
     """
     # Configure Chrome options for headless operation
-    options = Options()
-    options.add_argument("--headless")
-    driver = webdriver.Chrome(options=options)
+ 
+    driver = webdriver.Chrome()
     driver.get(url)
 
     # Wait for the main container of bus cards to load (timeout: 15 seconds)
@@ -177,7 +176,7 @@ if __name__ == "__main__":
     # Example usage
     source = "Bangalore"
     destination = "Pune"
-    journey_date = "2025-03-01"
+    journey_date = "2025-04-05"
     
     print(generate_paytm_bus_url(source, destination, journey_date))
     
