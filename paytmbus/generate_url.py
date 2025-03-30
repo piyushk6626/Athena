@@ -26,7 +26,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from .xpath import *
 import json
-
+import time
 
 def get_bus_data(url: str, limit: int = 10) -> str:
     """
@@ -51,7 +51,7 @@ def get_bus_data(url: str, limit: int = 10) -> str:
  
     driver = webdriver.Chrome()
     driver.get(url)
-
+    time.sleep(10)
     # Wait for the main container of bus cards to load (timeout: 15 seconds)
     wait = WebDriverWait(driver, 15)
     wait.until(EC.presence_of_element_located((By.XPATH, cards_xpath)))
@@ -63,7 +63,7 @@ def get_bus_data(url: str, limit: int = 10) -> str:
     for card in cards:
         try:
             # Extract basic bus information
-            bus_name = card.find_element((By.XPATH, bus_name_xpath)).text
+            bus_name = card.find_element(By.XPATH, bus_name_xpath).text
             bus_type = card.find_element(By.XPATH, bus_type_xpath).text
             departure_time = card.find_element(By.XPATH, departure_time_xpath).text
             departure_date = card.find_element(By.XPATH, departure_date_xpath).text
@@ -152,6 +152,7 @@ def generate_paytm_bus_url(source: str, destination: str, journey_date: str) -> 
         try:
             # Attempt to scrape bus data
             data = get_bus_data(url)
+            
         except:
             data = None
         

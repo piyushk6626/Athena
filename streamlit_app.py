@@ -158,7 +158,7 @@ if submit_button and user_input:
     })
     
     # Get response from Athena
-    response = send_to_athena(user_input)
+    response = send_to_athena(st.session_state.chat_history)
     
     # Add Athena's response to chat history
     st.session_state.chat_history.append({

@@ -38,6 +38,10 @@ def search_flight_url(origin_name, dest_name, departure_date):
 
     airport_codes = load_airport_codes()
     
+    # Convert city names to title case (first letter capitalized)
+    origin_name = origin_name.title()
+    dest_name = dest_name.title()
+    
     url = f"https://www.in.cheapflights.com/flight-search/{airport_codes.get(origin_name)}-{airport_codes.get(dest_name)}/{departure_date}?ucs=12mksjb"
     
     return scrape_flights(url, origin_name, dest_name)
@@ -154,7 +158,7 @@ def scrape_flights(url: str, origin: str, destination: str) -> dict:
         return {"type": "text", "data": ["No flights found"]}
 
 if __name__ == "__main__":
-    results = search_flight_url("Bangalore", "Mumbai", "2025-04-09")
+    results = search_flight_url("Bangalore", "mumbai", "2025-04-09")
     
     print(results)
 

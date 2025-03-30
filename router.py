@@ -7,7 +7,7 @@ into logical groups and handles the dispatching of requests to the correct handl
 """
 
 import logging
-from typing import Dict, Any, Optional, Union
+from typing import Dict, Any, Optional, Union, List, Tuple
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -116,9 +116,63 @@ def callfunction(name: str, args: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             f"Error executing function {name}", 
             details=str(e)
         )
+
+
+def call_multiple_functions(function_calls: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Execute multiple function calls and return all their responses.
+    
+    Args:
+        function_calls: A list of dictionaries, each containing:
+                       - 'name': The name of the function to call
+                       - 'args': A dictionary of arguments to pass to the function
+    
+    Returns:
+        A dictionary containing all function responses keyed by function name.
+        For multiple calls to the same function, responses will be numbered.
+    """
+    all_responses = {}
+    function_counts = {}
+    
+    for call in function_calls:
+        if 'name' not in call or 'args' not in call:
+            logger.warning("Invalid function call format. Each call must include 'name' and 'args'")
+            continue
+        
+        name = call['name']
+        args = call['args']
+        
+        # Track how many times this function has been called
+        if name in function_counts:
+            function_counts[name] += 1
+            response_key = f"{name}_{function_counts[name]}"
+        else:
+            function_counts[name] = 1
+            response_key = name
+            
+        # Execute the function call
+        response = callfunction(name, args)
+        
+        # Store the response
+        all_responses[response_key] = response
+    
+    return utils.format_success_response(all_responses, "Multiple function calls executed")
     
 if __name__ == "__main__":
     print(callfunction("scrape_airbnb", {"destination": "pune", "checkin_date": "2025-04-09", "checkout_date": "2025-04-14", "adults_no": "1", "children_no": "0"}))
+    
+    # Example of multiple function calls
+    test_multiple_calls = [
+        {
+            "name": "serach_the_web_for_news",
+            "args": {"query": "latest tech news"}
+        },
+        {
+            "name": "scrape_airbnb",
+            "args": {"destination": "pune", "checkin_date": "2025-04-09", "checkout_date": "2025-04-14", "adults_no": "1", "children_no": "0"}
+        }
+    ]
+    print(call_multiple_functions(test_multiple_calls))
             
         
         

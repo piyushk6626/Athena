@@ -411,5 +411,56 @@
                 "additionalProperties": false
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "play_song",
+            "description": "Search for and play a song on Spotify.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "required": [
+                    "query"
+                ],
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Search query for the song"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": 
+        {
+            "name": "pause_playback",
+            "description": "Pause the current Spotify playback.",
+            "strict": true,
+            "parameters": 
+            {
+
+                "type": "object",
+                "properties": {},
+                "additionalProperties": false
+            }
+        } 
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "resume_playback",
+            "description": "Resume the paused Spotify playback.",
+            "strict": true,
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "additionalProperties": false
+            }
+        }
     }
+    
 ]

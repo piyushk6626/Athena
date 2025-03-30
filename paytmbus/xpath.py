@@ -26,19 +26,19 @@ Variables:
 cards_xpath = "//div[@class='IHKeM']" 
 
 # Bus information selectors (relative to each card)
-bus_name_xpath = ".//div[@class='+iUf5']"  # Bus operator name
-bus_type_xpath = ".//div[@class='G88l9']"  # Bus type/class
+bus_name_xpath = "//div[@class='+iUf5']"  # Bus operator name
+bus_type_xpath = "//div[@class='G88l9']"  # Bus type/class
 
 # Departure information selectors
-departure_time_xpath = ".//div[@class='wYtCy']//div[@class='_4rWgi']"  # Departure time
-departure_date_xpath = ".//div[@class='wYtCy']//div[@class='C3vrs']"   # Departure date
+departure_time_xpath = "//div[@class='wYtCy']//div[@class='_4rWgi']"  # Departure time
+departure_date_xpath = "//div[@class='wYtCy']//div[@class='C3vrs']"   # Departure date
 
 # Arrival information selectors
-arrival_time_xpath = ".//div[@class='EjC2U']//div[@class='_4rWgi']"    # Arrival time
-arrival_date_xpath = ".//div[@class='EjC2U']//div[@class='C3vrs']"     # Arrival date
+arrival_time_xpath = "//div[@class='EjC2U']//div[@class='_4rWgi']"    # Arrival time
+arrival_date_xpath = "//div[@class='EjC2U']//div[@class='C3vrs']"     # Arrival date
 
 # Additional information selectors
-duration_xpath = ".//div[@class='_1D2hF']"           # Journey duration
-final_price_xpath = ".//span[@class='A2eT9 F+C81']"  # Final price
-rating_xpath = ".//div[@class='eoyaT']/div"          # Bus rating
-seats_available_xpath = ".//div[@class='UxGbP'][1]"  # Available seats
+duration_xpath = "//div[@class='_1D2hF']"           # Journey duration
+final_price_xpath = "//span[@class='A2eT9 F+C81']"  # Final price
+rating_xpath = "//div[@class='eoyaT']/div"          # Bus rating
+seats_available_xpath = "//div[@class='UxGbP'][1]"  # Available seats
