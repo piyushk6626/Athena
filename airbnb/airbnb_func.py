@@ -2,10 +2,17 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 import json
 import time
 import re 
-from .xpath import *  # Import XPath constants from xpath module
+from xpath import *  # Import XPath constants from xpath module
+import os
+import tempfile
+import subprocess
+import platform
+import yaml
+from pathlib import Path
 
 class TextCleaner:
     """Utility class for cleaning and formatting text data."""
@@ -50,6 +57,29 @@ class WebDriverManager:
     """Manages WebDriver initialization and cleanup."""
     
     @staticmethod
+    def load_config():
+        """
+        Load configuration from YAML file.
+        
+        Returns:
+            dict: Configuration dictionary
+        """
+        # Try to load from root directory first
+        root_config_path = Path(__file__).parent.parent / 'config.yaml'
+        if root_config_path.exists():
+            with open(root_config_path, 'r') as file:
+                return yaml.safe_load(file)
+        
+        # Fallback to local config if root config doesn't exist
+        local_config_path = Path(__file__).parent / 'config.yaml'
+        if local_config_path.exists():
+            with open(local_config_path, 'r') as file:
+                return yaml.safe_load(file)
+        
+        print(f"Warning: Configuration file not found at {root_config_path} or {local_config_path}")
+        return {}
+    
+    @staticmethod
     def get_driver():
         """
         Initialize and return a Chrome WebDriver instance.
@@ -57,10 +87,92 @@ class WebDriverManager:
         Returns:
             webdriver.Chrome: Configured Chrome WebDriver instance
         """
+        # Kill any existing Chrome processes to avoid conflicts
+        try:
+            if platform.system() == "Windows":
+                subprocess.run("taskkill /f /im chrome.exe", shell=True)
+            elif platform.system() == "Linux":
+                subprocess.run(["pkill", "-f", "chrome"])
+            elif platform.system() == "Darwin":  # macOS
+                subprocess.run(["pkill", "-f", "Chrome"])
+            # Wait for processes to fully terminate
+            time.sleep(2)
+        except Exception as e:
+            print(f"Warning: Could not kill existing Chrome processes: {e}")
+            
         # Configure Chrome options
         chrome_options = Options()
-        # Return initialized Chrome WebDriver
-        return webdriver.Chrome(options=chrome_options)
+        
+        # Add stability options first
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--disable-popup-blocking")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_argument("--window-size=1920,1080")
+        
+        # Load configuration
+        config = WebDriverManager.load_config()
+        chrome_config = config.get('chrome', {})
+        
+        # Get platform-specific configuration
+        platform_config = None
+        if platform.system() == "Windows":
+            platform_config = chrome_config.get('windows', {})
+        elif platform.system() == "Linux":
+            platform_config = chrome_config.get('linux', {})
+        elif platform.system() == "Darwin":  # macOS
+            platform_config = chrome_config.get('macos', {})
+            
+        # Set platform-specific Chrome profile paths
+        user_data_dir = None
+        if platform_config:
+            user_data_dir = os.path.expanduser(platform_config.get('user_data_dir', ''))
+            profile_dir = platform_config.get('profile_dir', 'Default')
+            driver_path = os.path.expanduser(platform_config.get('driver_path', ''))
+        else:
+            # Fallback to default paths if no configuration found
+            if platform.system() == "Windows":
+                user_data_dir = r"C:\Users\username\AppData\Local\Google\Chrome\User Data"
+                profile_dir = "Profile"
+                driver_path = r"chromedriverpath"
+            elif platform.system() == "Linux":
+                home_dir = os.path.expanduser("~")
+                user_data_dir = os.path.join(home_dir, ".config", "google-chrome")
+                profile_dir = "Default"
+                driver_path = "/usr/local/bin/chromedriver"
+            elif platform.system() == "Darwin":  # macOS
+                home_dir = os.path.expanduser("~")
+                user_data_dir = os.path.join(home_dir, "Library", "Application Support", "Google", "Chrome")
+                profile_dir = "Default"
+                driver_path = "/usr/local/bin/chromedriver"
+            
+        # If we have a valid profile path, use it
+        if user_data_dir and os.path.exists(user_data_dir):
+            chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
+            chrome_options.add_argument(f"--profile-directory={profile_dir}")
+        else:
+            print(f"Warning: Chrome profile directory {user_data_dir} not found. Using temporary profile.")
+            # Use a temporary profile if the specified one doesn't exist
+            temp_dir = os.path.join(tempfile.gettempdir(), f"chrome_profile_{int(time.time())}")
+            chrome_options.add_argument(f"--user-data-dir={temp_dir}")
+        
+        # Add anti-detection options
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option("useAutomationExtension", False)
+            
+        # Create service with appropriate driver path
+        service = None
+        if driver_path and os.path.exists(driver_path):
+            service = Service(driver_path)
+        else:
+            # Let Selenium find the driver itself if our specified path doesn't exist
+            print(f"Warning: ChromeDriver not found at {driver_path}. Letting Selenium find it.")
+            service = Service()
+            
+        # Return initialized Chrome WebDriver with service and options
+        return webdriver.Chrome(service=service, options=chrome_options)
 
 class AirbnbScraper:
     """Main scraper class for Airbnb listings."""
